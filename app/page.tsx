@@ -79,20 +79,12 @@ const sampleEvents = [
   }
 ];
 
-const venues = [
-  { name: "SFJAZZ Center", neighborhood: "Hayes Valley" },
-  { name: "Yoshi's Oakland", neighborhood: "Oakland" },
-  { name: "The Black Cat", neighborhood: "Tenderloin" },
-  { name: "Bird & Beckett", neighborhood: "Glen Park" },
-  { name: "The Chapel", neighborhood: "Mission" }
-];
-
 export default function SFJazzCity() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedDate, setSelectedDate] = useState('2025-11-26');
   const [selectedStyle, setSelectedStyle] = useState('all');
 
-  const styles = ['all', ...new Set(sampleEvents.map(e => e.style))];
+  const styles = ['all', ...Array.from(new Set(sampleEvents.map(e => e.style)))];
 
   const filteredEvents = useMemo(() => {
     return sampleEvents.filter(event => {
@@ -104,9 +96,9 @@ export default function SFJazzCity() {
     });
   }, [searchTerm, selectedDate, selectedStyle]);
 
-  const uniqueDates = ['all', ...new Set(sampleEvents.map(e => e.date))];
+  const uniqueDates = ['all', ...Array.from(new Set(sampleEvents.map(e => e.date)))];
 
-  const formatDate = (dateStr) => {
+  const formatDate = (dateStr: string) => {
     if (dateStr === 'all') return 'All Dates';
     const date = new Date(dateStr + 'T00:00:00');
     return date.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
@@ -213,7 +205,7 @@ export default function SFJazzCity() {
 
             {/* Date Filter */}
             <div className="relative">
-              <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-white/50" />
+              <Calendar className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-white/50 pointer-events-none" />
               <select
                 value={selectedDate}
                 onChange={(e) => setSelectedDate(e.target.value)}
@@ -229,7 +221,7 @@ export default function SFJazzCity() {
 
             {/* Style Filter */}
             <div className="relative">
-              <Filter className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-white/50" />
+              <Filter className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-white/50 pointer-events-none" />
               <select
                 value={selectedStyle}
                 onChange={(e) => setSelectedStyle(e.target.value)}
