@@ -5,7 +5,11 @@ export const metadata = {
   description: 'Your guide to live jazz in San Francisco',
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
       <body>{children}</body>
