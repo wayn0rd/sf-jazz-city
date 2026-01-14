@@ -1,0 +1,5 @@
+
+# Scraper generated files
+scraper/events.db
+scraper/events.json
+scraper/__pycache__/
