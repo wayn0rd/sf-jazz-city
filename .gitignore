@@ -3,3 +3,4 @@
 scraper/events.db
 scraper/events.json
 scraper/__pycache__/
+scraper/images/

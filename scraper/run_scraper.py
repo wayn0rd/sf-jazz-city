@@ -18,11 +18,18 @@ from pathlib import Path
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from scraper import SFJazzScraper, BlackCatScraper, EventDatabase
+from scraper import (
+    SFJazzScraper, BlackCatScraper, DawnClubScraper,
+    KeysJazzScraper, MrTipplesScraper, EventDatabase
+)
+from scraper.image_downloader import ImageDownloader
 
 VENUES = {
     "sfjazz": ("SFJAZZ Center", SFJazzScraper),
     "blackcat": ("Black Cat SF", BlackCatScraper),
+    "dawnclub": ("Dawn Club", DawnClubScraper),
+    "keysjazz": ("Keys Jazz Bistro", KeysJazzScraper),
+    "mrtipples": ("Mr. Tipple's", MrTipplesScraper),
 }
 
 
@@ -43,7 +50,7 @@ async def scrape_venue(venue_key: str, months: int = 3) -> dict:
     return stats
 
 
-async def scrape_all(venues: list[str], months: int = 3, export: bool = False):
+async def scrape_all(venues: list[str], months: int = 3, export: bool = False, images: bool = False):
     """Scrape specified venues."""
     print("=" * 55)
     print("SF Jazz Event Aggregator")
@@ -76,6 +83,14 @@ async def scrape_all(venues: list[str], months: int = 3, export: bool = False):
         db = EventDatabase("scraper/events.db")
         count = db.export_to_json("scraper/events.json")
         print(f"  Exported:     scraper/events.json ({count} events)")
+
+    if images:
+        print(f"\nDownloading images...")
+        downloader = ImageDownloader(db_path="scraper/events.db")
+        img_stats = await downloader.download_all_images()
+        downloader.export_image_manifest()
+        print(f"  Downloaded:   {img_stats['downloaded']}/{img_stats['total_urls']} images")
+        print(f"  Saved to:     scraper/images/")
 
 
 def list_events(venue_filter: str = None):
@@ -155,16 +170,19 @@ if __name__ == "__main__":
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Supported venues:
-  sfjazz   - SFJAZZ Center (sfjazz.org)
-  blackcat - Black Cat SF (blackcatsf.turntabletickets.com)
+  sfjazz    - SFJAZZ Center (sfjazz.org)
+  blackcat  - Black Cat SF (blackcatsf.turntabletickets.com)
+  dawnclub  - Dawn Club (dawnclub.com)
+  keysjazz  - Keys Jazz Bistro (keysjazzbistro.com)
+  mrtipples - Mr. Tipple's (mrtipplessf.com)
 
 Examples:
   python run_scraper.py                      # Scrape all venues
   python run_scraper.py --venue sfjazz       # Scrape SFJAZZ only
-  python run_scraper.py --venue blackcat     # Scrape Black Cat only
   python run_scraper.py --export             # Scrape all and export JSON
+  python run_scraper.py --images             # Scrape all and download images
+  python run_scraper.py --export --images    # Scrape, export, and download images
   python run_scraper.py --list               # Show all events
-  python run_scraper.py --list --venue blackcat  # Show Black Cat events
   python run_scraper.py --search "Coltrane"  # Search events
   python run_scraper.py --stats              # Show statistics
         """,
@@ -180,6 +198,9 @@ Examples:
     )
     parser.add_argument(
         "--export", action="store_true", help="Export to JSON after scraping"
+    )
+    parser.add_argument(
+        "--images", action="store_true", help="Download event images after scraping"
     )
     parser.add_argument(
         "--list", action="store_true", help="List all saved events"
@@ -201,4 +222,4 @@ Examples:
         show_stats()
     else:
         venues = [args.venue] if args.venue else list(VENUES.keys())
-        asyncio.run(scrape_all(venues, months=args.months, export=args.export))
+        asyncio.run(scrape_all(venues, months=args.months, export=args.export, images=args.images))

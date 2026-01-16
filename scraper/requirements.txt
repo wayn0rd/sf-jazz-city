@@ -1,7 +1,10 @@
-# SFJAZZ Event Scraper Dependencies
+# SF Jazz Event Scraper Dependencies
 
 # Browser automation for JavaScript rendering
 playwright>=1.40.0
 
-# Async support (included with Python 3.7+, but explicitly listed)
+# Async HTTP for image downloads
+aiohttp>=3.9.0
+
+# Async support
 asyncio-throttle>=1.0.0
