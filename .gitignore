@@ -4,3 +4,5 @@ scraper/events.db
 scraper/events.json
 scraper/__pycache__/
 scraper/images/
+node_modules
+.next/
