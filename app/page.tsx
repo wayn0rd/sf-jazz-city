@@ -79,7 +79,7 @@ export default function SFJazzCity() {
               <Music className="w-8 h-8 text-amber-400" />
               <div>
                 <h1 className="text-2xl font-bold text-white">SF Jazz City</h1>
-                <p className="text-xs text-amber-400">Your Guide to San Francisco Jazz</p>
+                <p className="text-sm sm:text-base text-amber-400">Your Guide to San Francisco Jazz</p>
               </div>
             </div>
             <nav className="hidden md:flex space-x-6 text-sm">
