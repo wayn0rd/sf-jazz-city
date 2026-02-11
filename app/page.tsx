@@ -95,7 +95,7 @@ export default function SFJazzCity() {
       <section className="relative py-20 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-4">
-            Tonight&apos;s Jazz Scene
+            Tonight&apos;s SF Jazz
           </h2>
           <p className="text-xl text-amber-200 mb-8">
             Discover live jazz happening right now in San Francisco
