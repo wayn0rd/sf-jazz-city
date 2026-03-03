@@ -7,8 +7,9 @@ from .blackcat_scraper import BlackCatScraper
 from .dawnclub_scraper import DawnClubScraper
 from .keysjazz_scraper import KeysJazzScraper
 from .mrtipples_scraper import MrTipplesScraper
+from .yoshis_scraper import YoshisScraper
 
 __all__ = [
     "Event", "EventDatabase", "SFJazzScraper", "BlackCatScraper",
-    "DawnClubScraper", "KeysJazzScraper", "MrTipplesScraper"
+    "DawnClubScraper", "KeysJazzScraper", "MrTipplesScraper", "YoshisScraper"
 ]

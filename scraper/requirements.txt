@@ -3,6 +3,9 @@
 # Browser automation for JavaScript rendering
 playwright>=1.40.0
 
+# Stealth mode to bypass Cloudflare bot detection
+playwright-stealth>=2.0.0
+
 # Async HTTP for image downloads
 aiohttp>=3.9.0
 

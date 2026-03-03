@@ -20,7 +20,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scraper import (
     SFJazzScraper, BlackCatScraper, DawnClubScraper,
-    KeysJazzScraper, MrTipplesScraper, EventDatabase
+    KeysJazzScraper, MrTipplesScraper, YoshisScraper, EventDatabase
 )
 from scraper.image_downloader import ImageDownloader
 
@@ -30,6 +30,7 @@ VENUES = {
     "dawnclub": ("Dawn Club", DawnClubScraper),
     "keysjazz": ("Keys Jazz Bistro", KeysJazzScraper),
     "mrtipples": ("Mr. Tipple's", MrTipplesScraper),
+    "yoshis": ("Yoshi's", YoshisScraper),
 }
 
 
@@ -175,6 +176,7 @@ Supported venues:
   dawnclub  - Dawn Club (dawnclub.com)
   keysjazz  - Keys Jazz Bistro (keysjazzbistro.com)
   mrtipples - Mr. Tipple's (mrtipplessf.com)
+  yoshis    - Yoshi's Oakland (yoshis.com)
 
 Examples:
   python run_scraper.py                      # Scrape all venues

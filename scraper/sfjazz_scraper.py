@@ -8,6 +8,7 @@ from typing import Optional
 from urllib.parse import urljoin
 
 from playwright.async_api import async_playwright, Page, TimeoutError as PlaywrightTimeout
+from playwright_stealth import Stealth
 
 from .models import Event
 from .database import EventDatabase
@@ -89,25 +90,18 @@ class SFJazzScraper:
 
     async def _wait_for_events_loaded(self, page: Page):
         """Wait for event cards to load on the page."""
-        await page.wait_for_load_state("networkidle", timeout=30000)
-        # Wait longer for Angular to finish rendering
-        await asyncio.sleep(3)
-        # Try to wait for actual content (not Angular templates)
+        # Third-party scripts (chat widgets, etc.) prevent networkidle from ever firing,
+        # so use a short timeout and proceed regardless.
         try:
-            await page.wait_for_function(
-                """() => {
-                    // Check that Angular templates have been rendered (no {{ }} visible)
-                    const body = document.body.innerText;
-                    const hasUnrenderedTemplates = body.includes('{{') && body.includes('}}');
-                    // Look for any event-like links
-                    const eventLinks = document.querySelectorAll('a[href*="/tickets/"]');
-                    return !hasUnrenderedTemplates && eventLinks.length > 0;
-                }""",
-                timeout=10000,
-            )
+            await page.wait_for_load_state("networkidle", timeout=8000)
         except PlaywrightTimeout:
-            logger.warning("Timeout waiting for Angular rendering, proceeding anyway")
-        await asyncio.sleep(1)
+            pass
+        await asyncio.sleep(3)
+        # Wait for actual event content to appear
+        try:
+            await page.wait_for_selector(".ace-cal-list-event", timeout=10000)
+        except PlaywrightTimeout:
+            logger.warning("Timeout waiting for event cards, proceeding anyway")
 
     async def _extract_events_from_page(self, page: Page) -> list[Event]:
         """Extract event data from loaded page."""
@@ -121,6 +115,7 @@ class SFJazzScraper:
 
         # Try multiple selectors that SFJAZZ might use
         selectors = [
+            ".ace-cal-list-event",  # Current SFJAZZ site (as of 2026)
             ".calendar-list-item",
             ".event-card",
             ".calendar-event",
@@ -340,9 +335,11 @@ class SFJazzScraper:
             if not title:
                 return None
 
-            # Extract date
+            # Extract date — current site uses .ace-cal-list-event-content-inner-date
             date_text = None
             date_selectors = [
+                ".ace-cal-list-event-content-inner-date",
+                ".ace-cal-list-day-of-month",
                 ".date", ".event-date", "[class*='date']",
                 "time", "[datetime]",
             ]
@@ -355,9 +352,12 @@ class SFJazzScraper:
                     if date_text:
                         break
 
-            # Extract time
+            # Extract time — current site uses .ace-cal-list-event-time
             time_text = None
-            time_selectors = [".time", ".event-time", "[class*='time']"]
+            time_selectors = [
+                ".ace-cal-list-event-time",
+                ".time", ".event-time", "[class*='time']",
+            ]
             for sel in time_selectors:
                 time_el = await element.query_selector(sel)
                 if time_el:
@@ -370,30 +370,35 @@ class SFJazzScraper:
             if not parsed_date:
                 parsed_date = datetime.now().strftime("%Y-%m-%d")
 
-            # Extract URL
+            # Extract URL — prefer production page, fall back to smartseat/buy link
             ticket_url = None
-            link = await element.query_selector("a[href*='ticket'], a[href*='event'], a[href*='show']")
+            link = await element.query_selector(
+                "a[href*='/tickets/productions/'], a[href*='/smartseat/'], "
+                "a[href*='ticket'], a[href*='event'], a[href*='show']"
+            )
             if link:
                 href = await link.get_attribute("href")
                 if href:
                     ticket_url = urljoin(BASE_URL, href)
             else:
-                # Element itself might be a link
                 href = await element.get_attribute("href")
                 if href:
                     ticket_url = urljoin(BASE_URL, href)
 
-            # Extract image
+            # Extract image — current site uses .ace-cal-list-event-image-img
             image_url = None
-            img = await element.query_selector("img")
+            img = await element.query_selector(".ace-cal-list-event-image-img, img")
             if img:
                 image_url = await img.get_attribute("src")
                 if image_url and not image_url.startswith("http"):
                     image_url = urljoin(BASE_URL, image_url)
 
-            # Extract status (Sold Out, etc.)
+            # Extract status — current site uses .ace-pdp-ticket-tags p
             status = None
-            status_selectors = [".status", ".badge", "[class*='sold-out']", "[class*='status']"]
+            status_selectors = [
+                ".ace-pdp-ticket-tags p",
+                ".status", ".badge", "[class*='sold-out']", "[class*='status']",
+            ]
             for sel in status_selectors:
                 status_el = await element.query_selector(sel)
                 if status_el:
@@ -529,8 +534,9 @@ class SFJazzScraper:
             page = await self._context.new_page()
 
             logger.info(f"Navigating to {CALENDAR_URL}")
+            await Stealth().apply_stealth_async(page)
             await self._retry_operation(
-                page.goto, CALENDAR_URL, wait_until="domcontentloaded", timeout=30000
+                page.goto, CALENDAR_URL, wait_until="load", timeout=60000
             )
 
             await self._wait_for_events_loaded(page)
@@ -540,21 +546,23 @@ class SFJazzScraper:
             all_events.extend(events)
             logger.info(f"Scraped {len(events)} events from main calendar")
 
-            # Try to navigate through months
-            for _ in range(months_ahead - 1):
+            # Navigate through additional months using the ?month=M.YYYY URL parameter
+            now = datetime.now()
+            for offset in range(1, months_ahead):
+                month = (now.month + offset - 1) % 12 + 1
+                year = now.year + (now.month + offset - 1) // 12
+                month_url = f"{CALENDAR_URL}?month={month}.{year}"
                 try:
-                    next_button = await page.query_selector(
-                        "button[class*='next'], .next-month, [aria-label*='next']"
+                    logger.info(f"Navigating to {month_url}")
+                    await self._retry_operation(
+                        page.goto, month_url, wait_until="load", timeout=60000
                     )
-                    if next_button:
-                        await next_button.click()
-                        await asyncio.sleep(2)
-                        await self._wait_for_events_loaded(page)
-                        month_events = await self._extract_events_from_page(page)
-                        all_events.extend(month_events)
-                        logger.info(f"Scraped {len(month_events)} events from next month")
+                    await self._wait_for_events_loaded(page)
+                    month_events = await self._extract_events_from_page(page)
+                    all_events.extend(month_events)
+                    logger.info(f"Scraped {len(month_events)} events from month {month}/{year}")
                 except Exception as e:
-                    logger.warning(f"Could not navigate to next month: {e}")
+                    logger.warning(f"Could not scrape month {month}/{year}: {e}")
                     break
 
             await page.close()
