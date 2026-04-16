@@ -82,8 +82,8 @@ async def scrape_all(venues: list[str], months: int = 3, export: bool = False, i
 
     if export:
         db = EventDatabase("scraper/events.db")
-        count = db.export_to_json("scraper/events.json")
-        print(f"  Exported:     scraper/events.json ({count} events)")
+        count = db.export_to_json("data/events.json")
+        print(f"  Exported:     data/events.json ({count} events)")
 
     if images:
         print(f"\nDownloading images...")
