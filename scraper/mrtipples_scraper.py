@@ -41,7 +41,7 @@ class MrTipplesScraper:
     async def _init_browser(self):
         """Initialize Playwright browser."""
         self._playwright = await async_playwright().start()
-        self._browser = await self._playwright.chromium.launch(headless=self.headless)
+        self._browser = await self._playwright.chromium.launch(headless=self.headless, executable_path="/usr/bin/google-chrome", args=["--no-sandbox"])
         self._context = await self._browser.new_context()
         logger.info("Browser initialized")
 
