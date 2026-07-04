@@ -75,13 +75,40 @@ class BlackCatScraper:
         raise last_error
 
     async def _extract_preload_data(self, page) -> Optional[dict]:
-        """Extract the __tt_preload JSON data from the page."""
+        """Extract the __pinia SSR JSON data from the page script tag.
+
+        The site switched from window.__tt_preload to window.__pinia for SSR
+        state. By the time page.evaluate() runs, Vue has hydrated and cleared
+        the performances array. We parse the raw script tag text instead.
+        """
         try:
             data = await page.evaluate("""() => {
-                if (window.__tt_preload) {
-                    return window.__tt_preload;
+                const scripts = Array.from(document.querySelectorAll('script'));
+                const piniaScript = scripts.find(
+                    s => s.textContent.includes('performancePaginate')
+                );
+                if (!piniaScript) return null;
+                const text = piniaScript.textContent;
+                const prefix = 'window.__pinia=';
+                const start = text.indexOf(prefix);
+                if (start === -1) return null;
+                // Walk forward to find the balanced closing brace of the JSON object
+                let depth = 0, i = start + prefix.length, inStr = false, escaped = false;
+                for (; i < text.length; i++) {
+                    const ch = text[i];
+                    if (escaped) { escaped = false; continue; }
+                    if (ch === '\\\\' && inStr) { escaped = true; continue; }
+                    if (ch === '"' && !escaped) { inStr = !inStr; continue; }
+                    if (inStr) continue;
+                    if (ch === '{') depth++;
+                    else if (ch === '}') { depth--; if (depth === 0) break; }
                 }
-                return null;
+                const jsonStr = text.slice(start + prefix.length, i + 1);
+                try {
+                    return JSON.parse(jsonStr);
+                } catch(e) {
+                    return null;
+                }
             }""")
             return data
         except Exception as e:
@@ -198,13 +225,15 @@ class BlackCatScraper:
                 logger.error("Could not extract preload data")
                 return events
 
-            # Get performances from pagination data
-            pagination = preload_data.get("pagination", {})
-            performances = pagination.get("performances", [])
+            # New structure: __pinia.performancePaginate.performances
+            # (site migrated from __tt_preload to __pinia SSR state)
+            perf_paginate = preload_data.get("performancePaginate", {})
+            performances = perf_paginate.get("performances", [])
 
             if not performances:
-                # Try alternate location
-                performances = preload_data.get("performances", [])
+                # Legacy fallback: __tt_preload.pagination.performances
+                pagination = preload_data.get("pagination", {})
+                performances = pagination.get("performances") or preload_data.get("performances", [])
 
             logger.info(f"Found {len(performances)} performances in preload data")
 
