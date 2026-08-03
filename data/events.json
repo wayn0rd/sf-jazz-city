@@ -23,13 +23,13 @@
     "artists": [
       "Tony Lindsay"
     ],
-    "description": "Friday, July 17, 2026 @ 9pm",
-    "ticket_url": "https://keysjazzbistro.com/event/tony-lindsay-16/",
+    "description": "Friday, August 21, 2026 @ 9pm",
+    "ticket_url": "https://keysjazzbistro.com/event/tony-lindsay-17/",
     "price": "$40",
     "status": null,
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2024/06/Screenshot-2024-06-15-at-10.14.34%E2%80%AFPM.png?resize=650%2C504&ssl=1",
-    "scraped_at": "2026-07-04T02:30:18.770868"
+    "scraped_at": "2026-08-02T18:38:21.589165"
   },
   {
     "title": "Attakid",
@@ -72,12 +72,28 @@
       "Kenny Washington Quartet"
     ],
     "description": null,
-    "ticket_url": "https://keysjazzbistro.com/event/kenny-washington-quartet-9/",
+    "ticket_url": "https://keysjazzbistro.com/event/kenny-washington-quartet-10/",
     "price": "$40",
     "status": null,
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2022/10/event-kenny.jpg?resize=650%2C650&ssl=1",
-    "scraped_at": "2026-07-04T02:30:18.748761"
+    "scraped_at": "2026-08-02T18:38:21.568278"
+  },
+  {
+    "title": "Marcus Shelby",
+    "date": "2018-03-19",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Marcus Shelby"
+    ],
+    "description": "Saturday, August 15, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/marcus-shelby/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/05/Marcus-Shelby.jpg?resize=195%2C183&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.446108"
   },
   {
     "title": "Tammy Hall \u201cThe Songs I Love\u201d",
@@ -112,6 +128,22 @@
     "scraped_at": "2026-07-04T02:30:19.152372"
   },
   {
+    "title": "Dani & Debora Gurgel Quarteto feat. Sandy Cressman & Natalie Cressman",
+    "date": "2024-12-04",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Dani & Debora Gurgel Quarteto feat. Sandy Cressman & Natalie Cressman"
+    ],
+    "description": "Samba Jazz from Sao Paulo Brazil",
+    "ticket_url": "https://keysjazzbistro.com/event/samba-jazz-from-sao-paulo-brazil/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/07/DDG4-Cressmans_photo-by-Dani-Gurgel_2026-2293-05708-300dpi.jpeg?resize=481%2C484&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.271063"
+  },
+  {
     "title": "Jules Broussard",
     "date": "2025-07-20",
     "time": null,
@@ -119,13 +151,13 @@
     "artists": [
       "Jules Broussard"
     ],
-    "description": "Thursday, July 9, 2026 @ 7pm",
-    "ticket_url": "https://keysjazzbistro.com/event/jules-broussard-3/",
-    "price": "$30",
+    "description": "Thursday, August 6, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/jules-broussard-4/",
+    "price": "$40",
     "status": null,
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/Screenshot-2026-01-21-at-8.23.13-PM.png?resize=650%2C659&ssl=1",
-    "scraped_at": "2026-07-04T02:30:18.589689"
+    "scraped_at": "2026-08-02T18:38:21.225661"
   },
   {
     "title": "Noel Jewkes",
@@ -5949,7 +5981,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1710915942612-QA3C5BPIYJRKZQTK0K22/Fault+Line+promo.JPEG",
-    "scraped_at": "2026-07-04T02:30:08.975999"
+    "scraped_at": "2026-08-02T18:38:13.097525"
   },
   {
     "title": "LAZY LESTER BENEFIT FEAT. ELVIN BISHOP, RICK ESTRIN, KYLE ROWLAND, MARK HUMMEL, STEVE FREUND & MORE",
@@ -5997,7 +6029,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1782330521975-62VUMED8BL4JWWJWVIKG/Jeff+Denson+Promo.jpeg",
-    "scraped_at": "2026-07-04T02:30:09.016689"
+    "scraped_at": "2026-08-02T18:38:13.065211"
   },
   {
     "title": "Midori Ono feat.Bruce Forman and Akira Tana",
@@ -6077,7 +6109,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1776365015649-TCQMUT5JNE51ZVKO3WMT/Daniel+Herrera+Promo.png",
-    "scraped_at": "2026-07-04T02:30:09.054491"
+    "scraped_at": "2026-08-02T18:38:13.027850"
   },
   {
     "title": "Jules Broussard",
@@ -6173,7 +6205,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709252267393-G47OWRPKCJXTVAWDHO0V/DSC_5066-1+%281%29.jpg",
-    "scraped_at": "2026-07-04T02:30:09.091631"
+    "scraped_at": "2026-08-02T18:38:12.991612"
   },
   {
     "title": "Marcus Shelby Sextet",
@@ -6240,6 +6272,22 @@
     "scraped_at": "2026-07-04T02:30:03.998455"
   },
   {
+    "title": "LATE NIGHT: JACK RIORDAN TRIO",
+    "date": "2026-07-10",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT: JACK RIORDAN TRIO"
+    ],
+    "description": "Jack grew up in the small Northern California town of Sutter Creek. His dad got him started on the guitar around the age of 12 and as soon as he turned 16 began making the hour drive to Sacramento once a week to take lessons with jazz guitarist Henry Robinette. After graduating high school in 1999, Jack moved to San Francisco to attend SF State University where he studied under the late alto saxophonist Andrew Speight (Nat Adderley band) and artists in residence Branford Marsalis and John Handy.",
+    "ticket_url": "https://www.dawnclub.com/music/late-night-set-jack-riordan-trio",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1783550438372-Y6OJ7UCY8FTA5L62NP1G/Jack+Riordan+Promo.JPG",
+    "scraped_at": "2026-08-02T18:38:12.956029"
+  },
+  {
     "title": "PETE ESCOVEDO ORCHESTRA: 91ST BIRTHDAY CELEBRATION!",
     "date": "2026-07-11",
     "time": "9:30 PM",
@@ -6285,7 +6333,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1710915755401-M13Y1HH6YXW87JO55DSJ/NTB+BSIDE+5.png",
-    "scraped_at": "2026-07-04T02:30:09.135845"
+    "scraped_at": "2026-08-02T18:38:12.912177"
   },
   {
     "title": "Jazz Mafia: Low End Theory",
@@ -6350,6 +6398,22 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-07-04T02:30:26.746369"
+  },
+  {
+    "title": "LATE NIGHT: MATT KESECKER",
+    "date": "2026-07-11",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT: MATT KESECKER"
+    ],
+    "description": "Matthew Kesecker is a San Francisco born drummer who draws inspiration from jazz greats such as Philly Joe Jones, Art Taylor, Roy Haynes, and many others. He started out as a rock musician but got into jazz at the age of 18 after hearing a recording of Miles Davis\u2019 second great quintet. Since then, he has been on a journey to find his own voice on the instrument while upholding the tradition of jazz music.",
+    "ticket_url": "https://www.dawnclub.com/music/matt-kesecker-36l88",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1781988824783-8OJWMYLJL25JWVXYQNEB/Matt+Kesecker+Promo.jpg",
+    "scraped_at": "2026-08-02T18:38:12.881240"
   },
   {
     "title": "PETE ESCOVEDO ORCHESTRA: 91ST BIRTHDAY CELEBRATION!",
@@ -6445,7 +6509,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1758594491014-PXK6P5I7XE40UEFJM7XN/Silver+Bell+Jazz+Band.jpg",
-    "scraped_at": "2026-07-04T02:30:09.175685"
+    "scraped_at": "2026-08-02T18:38:12.840145"
   },
   {
     "title": "THE CHI-LITES FEAT. MARSHALL THOMPSON",
@@ -6493,7 +6557,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1688151988670-GWZ3ZHMERPRUXE4POXGB/Smith+Dobson+Promo+pic.jpg",
-    "scraped_at": "2026-07-04T02:30:09.216122"
+    "scraped_at": "2026-08-02T18:38:12.810350"
   },
   {
     "title": "NZURI SOUL: A TRIBUTE TO THE MEN OF R&B",
@@ -6557,7 +6621,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1746395242400-1VSR2YA7MF7WL7FJBYBT/Max+Ehrhardt+Promo+%281%29.JPG",
-    "scraped_at": "2026-07-04T02:30:09.255160"
+    "scraped_at": "2026-08-02T18:38:12.759527"
   },
   {
     "title": "The Guitar Hang",
@@ -6653,7 +6717,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1721006169545-ZA887CC91562O15VXXAM/Mike+Olmos+promo+pic+%282%29.png",
-    "scraped_at": "2026-07-04T02:30:09.294294"
+    "scraped_at": "2026-08-02T18:38:12.726676"
   },
   {
     "title": "Fog City Swing",
@@ -6749,7 +6813,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1711229128664-JMO49RTN3GFP53P5EC06/DSC_6238-1+%282%29.jpeg",
-    "scraped_at": "2026-07-04T02:30:09.330047"
+    "scraped_at": "2026-08-02T18:38:12.695182"
   },
   {
     "title": "Kenny Washington Quartet",
@@ -6798,6 +6862,22 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-07-04T02:30:26.858750"
+  },
+  {
+    "title": "LATE NIGHT: ALAN JONES BAND",
+    "date": "2026-07-17",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT: ALAN JONES BAND"
+    ],
+    "description": "12AM - 1:30AM",
+    "ticket_url": "https://www.dawnclub.com/music/sheldon-alexander-trio-1-dnxr3-3cdf4-j7jn3-g95ex-l7jwa-wkwb7-zr8wx-t2dty-zxk2w-78hny-eec2x-8lyme-l7xxc-h87sx",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1749326894054-3052F21RZEM3NUUVYAV6/Alan+Jones+promo.JPG",
+    "scraped_at": "2026-08-02T18:38:12.663847"
   },
   {
     "title": "GREG ADAMS & EAST BAY SOUL",
@@ -6861,7 +6941,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1747869828200-3337SMX34GHF2Q6XGFOO/Collectivity+Promo+Shot+2019.jpg",
-    "scraped_at": "2026-07-04T02:30:09.368947"
+    "scraped_at": "2026-08-02T18:38:12.626081"
   },
   {
     "title": "Clairdee",
@@ -6976,6 +7056,22 @@
     "scraped_at": "2026-07-04T02:30:26.914510"
   },
   {
+    "title": "LATE NIGHT: JACK RIORDAN TRIO",
+    "date": "2026-07-18",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT: JACK RIORDAN TRIO"
+    ],
+    "description": "Jack grew up in the small Northern California town of Sutter Creek. His dad got him started on the guitar around the age of 12 and as soon as he turned 16 began making the hour drive to Sacramento once a week to take lessons with jazz guitarist Henry Robinette. After graduating high school in 1999, Jack moved to San Francisco to attend SF State University where he studied under the late alto saxophonist Andrew Speight (Nat Adderley band) and artists in residence Branford Marsalis and John Handy.",
+    "ticket_url": "https://www.dawnclub.com/music/late-night-set-jack-riordan-trio-fbjgx",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1783550438372-Y6OJ7UCY8FTA5L62NP1G/Jack+Riordan+Promo.JPG",
+    "scraped_at": "2026-08-02T18:38:12.596046"
+  },
+  {
     "title": "GREG ADAMS & EAST BAY SOUL",
     "date": "2026-07-19",
     "time": "7:00 PM",
@@ -7085,7 +7181,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1782330149508-LDWQRQF43VURESVU0XJ8/Midnight+Blue+3000X2400.jpg",
-    "scraped_at": "2026-07-04T02:30:09.405850"
+    "scraped_at": "2026-08-02T18:38:12.555228"
   },
   {
     "title": "RIC ALEXANDER",
@@ -7117,7 +7213,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1713749676210-0VAV56A7B9TXZW7661FF/DSC04504%281%29.jpg",
-    "scraped_at": "2026-07-04T02:30:09.442273"
+    "scraped_at": "2026-08-02T18:38:12.523361"
   },
   {
     "title": "CARL VERHEYEN",
@@ -7149,7 +7245,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1747869473440-UBR9GPMXWXSN02M3QVQN/Luke+Westbrook+Promo.JPEG",
-    "scraped_at": "2026-07-04T02:30:09.480970"
+    "scraped_at": "2026-08-02T18:38:12.488357"
   },
   {
     "title": "Noel Jewkes",
@@ -7229,7 +7325,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1745545969809-7DUXQPYB4MOHXA2CHHYH/Adam+Klipple+Promo.JPG",
-    "scraped_at": "2026-07-04T02:30:09.520143"
+    "scraped_at": "2026-08-02T18:38:12.452326"
   },
   {
     "title": "Bruce Forman Trio",
@@ -7392,6 +7488,38 @@
     "scraped_at": "2026-07-04T02:30:27.056598"
   },
   {
+    "title": "LATE NIGHT: ARMEN KRAKIRIAN",
+    "date": "2026-07-24",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT: ARMEN KRAKIRIAN"
+    ],
+    "description": "Armen Krakirian is an accomplished trumpeter and private teacher based in the Bay Area, California. Holding a degree in Jazz Trumpet Performance from Oberlin Conservatory (2023), Armen's musical journey has been enriched under the mentorship of the renowned jazz virtuoso, Dr. Eddie Henderson. Passionate about both performance and education, Armen has shared the stage with renowned artists such as Gerald Cannon, Gary Bartz, Billy Hart, Jay Ashby, Jake Silverman, and many others.",
+    "ticket_url": "https://www.dawnclub.com/music/armen-krakirian-cz68s-y5ats-ml5mz-t4ytx-kdbne-pl4z6-dz4m6-scd45-gkm76-r3xfx-zys95-3gpwl-h3y3k",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1746395328354-ET6VXFX5WUDASD37L6RN/Armen+Krakirian+Promo+%281%29.jpg",
+    "scraped_at": "2026-08-02T18:38:12.379615"
+  },
+  {
+    "title": "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY",
+    "date": "2026-07-24",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY"
+    ],
+    "description": "Ladies and Gentlemen, introducing Fog City! The bay area's newest and hottest swing band featuring an electrifying three horn front line, stellar crooning vocals, and a swing till you drop rhythm section. This seven piece ensemble will transport you to the 1940\u2019s, it is truly the world\u2019s smallest big band!",
+    "ticket_url": "https://www.dawnclub.com/music/2ctyct385mnhy39-tg9wh-66t2b-5jsrn-ybz7p-btef8-l3cer-ynsl3-jjzrz-hp743-wybnk-z9nak-t6pph-eacgd-dsnc4",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709252267393-G47OWRPKCJXTVAWDHO0V/DSC_5066-1+%281%29.jpg",
+    "scraped_at": "2026-08-02T18:38:12.417302"
+  },
+  {
     "title": "THE SPINNERS",
     "date": "2026-07-25",
     "time": "9:30 PM",
@@ -7453,7 +7581,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709233568113-ELWATVCET2F8DQMAODO5/Sondango+promo+%281%29.jpg",
-    "scraped_at": "2026-07-04T02:30:09.593899"
+    "scraped_at": "2026-08-02T18:38:12.335636"
   },
   {
     "title": "Lavay Smith & Her Red Hot Skillet Lickers",
@@ -7536,6 +7664,22 @@
     "scraped_at": "2026-07-04T02:30:27.114130"
   },
   {
+    "title": "LATE NIGHT: MATT KESECKER TRIO",
+    "date": "2026-07-25",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT: MATT KESECKER TRIO"
+    ],
+    "description": "Matthew Kesecker is a San Francisco born drummer who draws inspiration from jazz greats such as Philly Joe Jones, Art Taylor, Roy Haynes, and many others. He started out as a rock musician but got into jazz at the age of 18 after hearing a recording of Miles Davis\u2019 second great quintet. Since then, he has been on a journey to find his own voice on the instrument while upholding the tradition of jazz music.",
+    "ticket_url": "https://www.dawnclub.com/music/matt-kesecker-36l88-6s8me",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1781988824783-8OJWMYLJL25JWVXYQNEB/Matt+Kesecker+Promo.jpg",
+    "scraped_at": "2026-08-02T18:38:12.300574"
+  },
+  {
     "title": "THE SPINNERS",
     "date": "2026-07-26",
     "time": "9:00 PM",
@@ -7613,7 +7757,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1737157217249-WVGHM1ZQ8YMAJ3K4HAZ9/Joe+Warner+Promo.JPG",
-    "scraped_at": "2026-07-04T02:30:09.629240"
+    "scraped_at": "2026-08-02T18:38:12.231675"
   },
   {
     "title": "MIKO MARKS RESIDENCY W/ SPECIAL GUEST TIFFANI MARIE (OF ARTELIA GREEN)",
@@ -7645,7 +7789,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1695335564733-N26J7OMVTHLM1E0AOLB7/Jinx%2BJones%2BJazz%2BPromo%2B1.jpg",
-    "scraped_at": "2026-07-04T02:30:09.667002"
+    "scraped_at": "2026-08-02T18:38:12.194100"
   },
   {
     "title": "JEFF KASHIWA WITH STEVE OLIVER",
@@ -7677,7 +7821,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1694150846728-TY0YHQCOLZ8U7H0K9V5A/Tomoko%2BFunaki%2B1%2B-%2Bbass.jpg",
-    "scraped_at": "2026-07-04T02:30:09.707265"
+    "scraped_at": "2026-08-02T18:38:12.152009"
   },
   {
     "title": "Pamela Rose & Wayne De La Cruz: Hammond Organ Party!",
@@ -7725,7 +7869,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.167155"
+    "scraped_at": "2026-08-02T18:38:28.913041"
   },
   {
     "title": "MUSIC MEDICINE: BENEFIT FOR OAKLAND'S CHILDREN'S HOSPITAL",
@@ -7773,7 +7917,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1714532584406-TWHKRLVEMK73E3G70XX1/Graham+Messer+promo.jpg",
-    "scraped_at": "2026-07-04T02:30:09.745649"
+    "scraped_at": "2026-08-02T18:38:12.118790"
   },
   {
     "title": "The Peter Horvath Trio",
@@ -7805,7 +7949,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.195067"
+    "scraped_at": "2026-08-02T18:38:28.943952"
   },
   {
     "title": "RICHIE RICH W/ LIVE BAND",
@@ -7917,7 +8061,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.222458"
+    "scraped_at": "2026-08-02T18:38:28.981137"
   },
   {
     "title": "David K Mathews",
@@ -7933,7 +8077,39 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.250314"
+    "scraped_at": "2026-08-02T18:38:29.019970"
+  },
+  {
+    "title": "LATE NIGHT: ROBERT PAPACICA TRIO",
+    "date": "2026-07-31",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT: ROBERT PAPACICA TRIO"
+    ],
+    "description": "Robert Papacica is an award winning composer, educator, and musician originally from Toronto, Canada and now based in New York City where he is an active part of the vibrant jazz community. Robert has appeared as a sideman and leader in jazz clubs in Miami, San Francisco, Los Angeles, Vancouver, Seattle, and New York.",
+    "ticket_url": "https://www.dawnclub.com/music/late-night-robert-papacica-trio",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1783551718248-L8HTKCE91CNUX765DUWP/image-2.png",
+    "scraped_at": "2026-08-02T18:38:12.055656"
+  },
+  {
+    "title": "CLOSED FOR PRIVATE EVENT",
+    "date": "2026-07-31",
+    "time": "5:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CLOSED FOR PRIVATE EVENT"
+    ],
+    "description": null,
+    "ticket_url": "https://www.dawnclub.com/music/closed-for-a-private-event-35f2f-wzyan-s55l9-p28gf",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1774118149426-8QYNPKNAXUC7BM135UCU/230527-WJA-DawnClub-013.jpg",
+    "scraped_at": "2026-08-02T18:38:12.086469"
   },
   {
     "title": "Jules Broussard",
@@ -7943,13 +8119,13 @@
     "artists": [
       "Jules Broussard"
     ],
-    "description": "Thursday, July 9, 2026 @ 7pm",
-    "ticket_url": "https://keysjazzbistro.com/event/jules-broussard-3/",
-    "price": "$30",
+    "description": "Thursday, August 6, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/jules-broussard-4/",
+    "price": "$40",
     "status": null,
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/Screenshot-2026-01-21-at-8.23.13-PM.png?resize=650%2C659&ssl=1",
-    "scraped_at": "2026-07-04T02:30:18.589687"
+    "scraped_at": "2026-08-02T18:38:21.225660"
   },
   {
     "title": "RICHIE RICH W/ LIVE BAND",
@@ -8045,7 +8221,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.278116"
+    "scraped_at": "2026-08-02T18:38:29.056100"
   },
   {
     "title": "Arnie Sainz Quintet",
@@ -8061,7 +8237,39 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.305542"
+    "scraped_at": "2026-08-02T18:38:29.090998"
+  },
+  {
+    "title": "Daniel Winshall \u201cDenim Dream\u201d Release ft. PHER: Reimagined\u00a0Sly and the Family Stone",
+    "date": "2026-08-01",
+    "time": "9:30 PM",
+    "venue": "Black Cat SF",
+    "artists": [
+      "Daniel Winshall \u201cDenim Dream\u201d Release ft. PHER: Reimagined\u00a0Sly and the Family Stone"
+    ],
+    "description": "<p>Tickets: $20 , $40 , $50 , $60 </p><p>(price includes $5.50 processing and ticketing fee)</p><p>  </p><p>7:00 show: Doors @ 6:00</p><p>9:30 show: Bar @ 6:00, Doors @ 8:45</p><p>  </p><p>A Bay area legend, Sly has been a huge influence on both Daniel and Pher. They are excited to reimagine and reconstruct some classics from Family Stone songbook into a modern setting. The band will also be performing music from Daniel\u2019s recently released album \u201cDenim Dream\u201d as well as original music written...",
+    "ticket_url": "https://blackcatsf.turntabletickets.com/shows/11929/?date=2026-08-01",
+    "price": "$19.50 - $54.50",
+    "status": null,
+    "series": null,
+    "image_url": "https://assets-prod.turntabletickets.com/media/blackcatsf/show-11929/IMG_0021.jpg-rectSm.webp?version=4015fb2a",
+    "scraped_at": "2026-08-02T18:38:06.408313"
+  },
+  {
+    "title": "AZURE MCCALL",
+    "date": "2026-08-01",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "AZURE MCCALL"
+    ],
+    "description": "McCall, Hawaii\u2019s first lady of jazz is a multi-award winning vocalist. She is heir to the vocal tradition of Sarah Vaughan, Carmen McRae and Ella Fitzgerald. Her warmth and sense of humor fuel every interpretation. After releasing her first CD \u2018Body and Soul\u2019 she was asked by the great bassist Ray Brown to be his vocalist on tour. Of course, she accepted, beginning an incredible jazz journey \u2013 school was in! Soon after, Azure became the first singer to work with Freddie Hubbard\u2019s band. Additiona",
+    "ticket_url": "https://www.dawnclub.com/music/1onhhsjq53k5uofqbb1g8sslma85s8-2h3mk-rjgry-xaype-sww2t-tcmx3-74f4w-lcnsj-m8whx-az7gp-ya2m7-f9p73-ngxac",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1775072503309-YFLCDFYXT9JPSM9UI0LP/azure-mccall-copy-2.jpeg",
+    "scraped_at": "2026-08-02T18:38:12.007778"
   },
   {
     "title": "RICHIE RICH W/ LIVE BAND",
@@ -8077,7 +8285,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869628"
+    "scraped_at": "2026-08-02T18:38:30.616921"
   },
   {
     "title": "RICHIE RICH: BACKSTAGE MEET & GREET + PHOTO OPPORTUNITY (SHOW TICKET NOT INCLUDED)",
@@ -8093,7 +8301,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869647"
+    "scraped_at": "2026-08-02T18:38:30.616973"
   },
   {
     "title": "Dena Derose",
@@ -8109,7 +8317,7 @@
     "status": null,
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/06/Dena-Rose.jpg?resize=500%2C288&ssl=1",
-    "scraped_at": "2026-07-04T02:30:19.253109"
+    "scraped_at": "2026-08-02T18:38:21.176017"
   },
   {
     "title": "Zach Adleman Quartet",
@@ -8125,7 +8333,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.331439"
+    "scraped_at": "2026-08-02T18:38:29.130831"
+  },
+  {
+    "title": "Daniel Winshall \u201cDenim Dream\u201d Release",
+    "date": "2026-08-02",
+    "time": "9:15 PM",
+    "venue": "Black Cat SF",
+    "artists": [
+      "Daniel Winshall \u201cDenim Dream\u201d Release"
+    ],
+    "description": "<p>Tickets: $20 , $30 , $40 , $50</p><p>(price includes $5.50 processing and ticketing fee)</p><p>  </p><p>7:00 show: Doors @ 6:00</p><p>9:15 show: Bar @ 6:00, Doors @ 8:30</p><p>   </p><p>A Bay area legend, Sly has been a huge influence on both Daniel and Pher. They are excited to reimagine and reconstruct some classics from Family Stone songbook into a modern setting. The band will also be performing music from Daniel\u2019s recently released album \u201cDenim Dream\u201d as well as original music written...",
+    "ticket_url": "https://blackcatsf.turntabletickets.com/shows/11930/?date=2026-08-02",
+    "price": "$14.50 - $54.50",
+    "status": null,
+    "series": null,
+    "image_url": "https://assets-prod.turntabletickets.com/media/blackcatsf/show-11929/IMG_0021.jpg-rectSm.webp?version=4015fb2a",
+    "scraped_at": "2026-08-02T18:38:06.408346"
   },
   {
     "title": "REBEL ROSE",
@@ -8141,7 +8365,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869667"
+    "scraped_at": "2026-08-02T18:38:30.617007"
+  },
+  {
+    "title": "LE JAZZ HOT",
+    "date": "2026-08-03",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LE JAZZ HOT"
+    ],
+    "description": "Le Jazz Hot (the Quartet/Trio of the Hot Club of San Francisco) \u00a0is an ensemble of accomplished and versatile musicians celebrating the music of Django Reinhardt and Stephane Grappelli\u2019s pioneering Hot Club de France. The ensemble borrows the all-string instrumentation of violin, bass and guitars from the original Hot Club, but breathes new life into the music with innovative arrangements of classic tunes and original compositions from the group\u2019s superb lead guitarist Paul Mehling. Hearing the ",
+    "ticket_url": "https://www.dawnclub.com/music/le-jazz-hot-3-ljnbh-d2tw9-jcx7m",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1762194488514-AZMOHYCV4XF9TZLRIRHF/Le%2BJazz%2BHotQuartet.jpeg",
+    "scraped_at": "2026-08-02T18:38:11.103848"
   },
   {
     "title": "KD THE POET & FRIENDS W/ THE FULL HOUSE BAND",
@@ -8157,7 +8397,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869686"
+    "scraped_at": "2026-08-02T18:38:30.617034"
   },
   {
     "title": "INTERACTIVE OPEN SOUNDCHECK W/ NYO JAZZ & DEE DEE BRIDGEWATER",
@@ -8173,7 +8413,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/3fnnyqs4/s26_hero_nyo_jazz.jpg?rxy=0.5008990228402592,0.09630419760244682&v=1dd03237fdf6b30&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.458353"
+    "scraped_at": "2026-08-02T18:37:49.348041"
   },
   {
     "title": "NYO JAZZ",
@@ -8189,7 +8429,23 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/3fnnyqs4/s26_hero_nyo_jazz.jpg?rxy=0.5008990228402592,0.09630419760244682&v=1dd03237fdf6b30&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.501925"
+    "scraped_at": "2026-08-02T18:37:49.392611"
+  },
+  {
+    "title": "FAULT LINE TRIO",
+    "date": "2026-08-04",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "FAULT LINE TRIO"
+    ],
+    "description": "Fault Line Trio is one of the Bay Area\u2019s most dynamic and innovative crossover jazz projects! Swing, R&B, and sophisticated grooves. Featuring Jay Sanders - piano and keys, Lukas Vesely - bass, and Brian Fishler - drums.",
+    "ticket_url": "https://www.dawnclub.com/music/fault-line-trio-2-6n78a-5ahn3-f9mtk-6j3g4-ffwlm-a44l6-82gjh-yj9t8-zea6k-w5ch2-ta6x8-36wkr-ys5kd-fmb6g-ml3rc-p7wjc-9hjmx",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1710915942612-QA3C5BPIYJRKZQTK0K22/Fault+Line+promo.JPEG",
+    "scraped_at": "2026-08-02T18:38:11.143617"
   },
   {
     "title": "MELBA MOORE",
@@ -8205,7 +8461,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869705"
+    "scraped_at": "2026-08-02T18:38:30.617060"
   },
   {
     "title": "MELBA MOORE PRE SHOW VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)",
@@ -8221,7 +8477,135 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869725"
+    "scraped_at": "2026-08-02T18:38:30.617084"
+  },
+  {
+    "title": "CURRENTS",
+    "date": "2026-08-05",
+    "time": "7:00 PM",
+    "venue": "Black Cat SF",
+    "artists": [
+      "CURRENTS"
+    ],
+    "description": "<p><em>Tickets: $20 , $30 , $40 , $50</em></p><p><em>(price includes $5.50 processing and ticketing fee)</em></p><p><em>  </em></p><p><em>7:00 show: Doors @ 6:00</em></p><p>    </p><p><strong>Currents</strong> is a Bay Area\u2013based modern jazz collective rooted in post-bop tradition and contemporary improvisation, with a focus on original composition and evolving ensemble interplay. Featuring internationally active performers and recording artists, the group draws on extensive experience across...",
+    "ticket_url": "https://blackcatsf.turntabletickets.com/shows/12029/?date=2026-08-05",
+    "price": "$14.50 - $44.50",
+    "status": null,
+    "series": null,
+    "image_url": "https://assets-prod.turntabletickets.com/media/blackcatsf/show-12029/27.jpg-rectSm.webp?version=4228b1ca",
+    "scraped_at": "2026-08-02T18:38:06.408360"
+  },
+  {
+    "title": "ROBERT PAPACICA",
+    "date": "2026-08-05",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "ROBERT PAPACICA"
+    ],
+    "description": "Robert Papacica is an award winning composer, educator, and musician originally from Toronto, Canada and now based in New York City where he is an active part of the vibrant jazz community. Robert has appeared as a sideman and leader in jazz clubs in Miami, San Francisco, Los Angeles, Vancouver, Seattle, and New York.",
+    "ticket_url": "https://www.dawnclub.com/music/late-night-robert-papacica-trio-kmysx",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1783551718248-L8HTKCE91CNUX765DUWP/image-2.png",
+    "scraped_at": "2026-08-02T18:38:11.180853"
+  },
+  {
+    "title": "Smith Dobson Quartet",
+    "date": "2026-08-05",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Smith Dobson Quartet"
+    ],
+    "description": "Wednesday, August 5, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/smith-dobson-quartet-7/",
+    "price": "$30",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2023/10/Screenshot-2023-10-20-at-4.23.04-PM.png?resize=650%2C554&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.203047"
+  },
+  {
+    "title": "Billy Edwards Quartet",
+    "date": "2026-08-05",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Billy Edwards Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.165681"
+  },
+  {
+    "title": "INSTANT ALTER feat. Emilio Modeste & vocalist Natasha Agrama",
+    "date": "2026-08-06",
+    "time": "9:15 PM",
+    "venue": "Black Cat SF",
+    "artists": [
+      "INSTANT ALTER feat. Emilio Modeste & vocalist Natasha Agrama"
+    ],
+    "description": "<p><em>Tickets: $20 , $30 , $40 , $50</em></p><p><em>(price includes $5.50 processing and ticketing fee)</em></p><p><em>  </em></p><p><em>7:00 show: Doors @ 6:00</em></p><p><em>9:15 show: Bar @ 6:00, Doors @ 8:30</em></p><p>  </p><p>INSTANT ALTER is a new Future Fusion group led by saxophonist Emilio Modeste (Stanley Clarke, Julius Rodriguez, Kassa Overall) and vocalist Natasha Agrama (S.Clarke, Kamasi Washington, Thundercat, Austin Peralta). </p><p>   </p><p>In a world full of one-dimensiona...",
+    "ticket_url": "https://blackcatsf.turntabletickets.com/shows/11943/?date=2026-08-06",
+    "price": "$14.50 - $44.50",
+    "status": null,
+    "series": null,
+    "image_url": "https://assets-prod.turntabletickets.com/media/blackcatsf/show-11943/IA-lay_50_Large.jpg-rectSm.webp?version=612eecbf",
+    "scraped_at": "2026-08-02T18:38:06.408382"
+  },
+  {
+    "title": "CHRIS GAMPER",
+    "date": "2026-08-06",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CHRIS GAMPER"
+    ],
+    "description": "Christopher Gamper, an immensely versatile, dynamic, and talented drummer who goes way beyond genres and stylistic boundaries.\u00a0About his performance:Gamper\u2019s versatility, dynamics, passion, and precision were on full display. He is clearly a formidable collaborator, a chameleon who ingeniously adapts and shapes the music and mood of the song in symbiotic relationship to the other musicians. The audience was wooed.",
+    "ticket_url": "https://www.dawnclub.com/music/chris-gamper-1-rx7ff-zck2w",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1771362425151-AIW1VGRACV36RSPR15FS/Chris+Gamnper+Promo.jpeg",
+    "scraped_at": "2026-08-02T18:38:11.212881"
+  },
+  {
+    "title": "Jules Broussard",
+    "date": "2026-08-06",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Jules Broussard"
+    ],
+    "description": "Thursday, August 6, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/jules-broussard-4/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/Screenshot-2026-01-21-at-8.23.13-PM.png?resize=650%2C659&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.225654"
+  },
+  {
+    "title": "Ami Molinelli and Cati\u00e1 Lund",
+    "date": "2026-08-06",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Ami Molinelli and Cati\u00e1 Lund"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.197522"
   },
   {
     "title": "TEDDY RILEY",
@@ -8237,7 +8621,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869764"
+    "scraped_at": "2026-08-02T18:38:30.617132"
   },
   {
     "title": "TEDDY RILEY PRE SHOW VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)",
@@ -8253,7 +8637,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869783"
+    "scraped_at": "2026-08-02T18:38:30.617155"
   },
   {
     "title": "NYO JAZZ W/ DEE DEE BRIDGEWATER",
@@ -8269,7 +8653,87 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/3fnnyqs4/s26_hero_nyo_jazz.jpg?rxy=0.5008990228402592,0.09630419760244682&v=1dd03237fdf6b30&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.538754"
+    "scraped_at": "2026-08-02T18:37:49.428992"
+  },
+  {
+    "title": "INSTANT ALTER feat. Emilio Modeste & vocalist Natasha Agrama",
+    "date": "2026-08-07",
+    "time": "7:00 PM",
+    "venue": "Black Cat SF",
+    "artists": [
+      "INSTANT ALTER feat. Emilio Modeste & vocalist Natasha Agrama"
+    ],
+    "description": "<p><em>Tickets: $20 , $40 , $50 , $60 </em></p><p><em>(price includes $5.50 processing and ticketing fee)</em></p><p><em>  </em></p><p><em>7:00 show: Doors @ 6:00</em></p><p><em>9:30 show: Bar @ 6:00, Doors @ 8:45</em></p><p>  </p><p>INSTANT ALTER is a new Future Fusion group led by saxophonist Emilio Modeste (Stanley Clarke, Julius Rodriguez, Kassa Overall) and vocalist Natasha Agrama (S.Clarke, Kamasi Washington, Thundercat, Austin Peralta). </p><p>   </p><p>In a world full of one-dimension...",
+    "ticket_url": "https://blackcatsf.turntabletickets.com/shows/11944/?date=2026-08-07",
+    "price": "$14.50 - $54.50",
+    "status": null,
+    "series": null,
+    "image_url": "https://assets-prod.turntabletickets.com/media/blackcatsf/show-11944/IA-lay_50_Large.jpg-rectSm.webp?version=ca655623",
+    "scraped_at": "2026-08-02T18:38:06.408391"
+  },
+  {
+    "title": "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY",
+    "date": "2026-08-07",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY"
+    ],
+    "description": "Ladies and Gentlemen, introducing Fog City! The bay area's newest and hottest swing band featuring an electrifying three horn front line, stellar crooning vocals, and a swing till you drop rhythm section. This seven piece ensemble will transport you to the 1940\u2019s, it is truly the world\u2019s smallest big band!",
+    "ticket_url": "https://www.dawnclub.com/music/2ctyct385mnhy39-tg9wh-66t2b-5jsrn-ybz7p-btef8-l3cer-ynsl3-jjzrz-hp743-wybnk-z9nak-t6pph-eacgd-dsnc4-7azxb",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709252267393-G47OWRPKCJXTVAWDHO0V/DSC_5066-1+%281%29.jpg",
+    "scraped_at": "2026-08-02T18:38:11.249398"
+  },
+  {
+    "title": "Paula West",
+    "date": "2026-08-07",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Paula West"
+    ],
+    "description": "Friday, August 7, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/paula-west-14/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/02/PaulaWest.webp?resize=650%2C554&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.248845"
+  },
+  {
+    "title": "Akira Tana Trio with guest Javon Jackson",
+    "date": "2026-08-07",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Akira Tana Trio with guest Javon Jackson"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.229236"
+  },
+  {
+    "title": "Dayramir Gonz\u00e1lez Quartet",
+    "date": "2026-08-07",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Dayramir Gonz\u00e1lez Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.259536"
   },
   {
     "title": "TEDDY RILEY",
@@ -8280,12 +8744,12 @@
       "TEDDY RILEY"
     ],
     "description": null,
-    "ticket_url": "https://www.etix.com/ticket/p/77223765/teddy-riley-sat8826-oakland-yoshis",
+    "ticket_url": "https://yoshis.com/events/sold-out/teddy-riley/detail",
     "price": null,
-    "status": null,
+    "status": "Sold Out",
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869835"
+    "scraped_at": "2026-08-02T18:38:30.617198"
   },
   {
     "title": "TEDDY RILEY PRE SHOW VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)",
@@ -8301,7 +8765,7 @@
     "status": "Sold Out",
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869856"
+    "scraped_at": "2026-08-02T18:38:30.617218"
   },
   {
     "title": "NYO JAZZ W/ DEE DEE BRIDGEWATER",
@@ -8317,7 +8781,103 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/3fnnyqs4/s26_hero_nyo_jazz.jpg?rxy=0.5008990228402592,0.09630419760244682&v=1dd03237fdf6b30&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.575991"
+    "scraped_at": "2026-08-02T18:37:49.465342"
+  },
+  {
+    "title": "OAKLANDO",
+    "date": "2026-08-08",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "OAKLANDO"
+    ],
+    "description": "What do you get when you fuse the spicy grooves of Afro-Peru with that funky sound of Oaktown? A ground-breaking, new, energetic genre with distinctive rhythms and innovative melodies that will inspire you to hit the dance floor. Oaklando is the brainchild of SF native Patrick Morehead, the composer and keyboardist who\u2019s played with such talents as Karl Perazzo, Steve Turre, Jerry Gonzalez, and Benny Valarde. Conceived at the Patio de Ochun Studios, with drummer Josh Jones (of Omar Sosa) bassist",
+    "ticket_url": "https://www.dawnclub.com/music/oaklando-latin-wednesdays-6k4cm-dm8gp-e8kzc-slen5-w6zr9-zt9hj-nkzfm-8e3gw-65a6g-3thg3-dm8ef-hacrf",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1708127155823-PAUUT8OOSPKVCJHQXAO7/Oaklando+Promo.JPG",
+    "scraped_at": "2026-08-02T18:38:11.284375"
+  },
+  {
+    "title": "Dani & Debora Gurgel Quarteto feat. Sandy Cressman & Natalie Cressman",
+    "date": "2026-08-08",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Dani & Debora Gurgel Quarteto feat. Sandy Cressman & Natalie Cressman"
+    ],
+    "description": "Samba Jazz from Sao Paulo Brazil",
+    "ticket_url": "https://keysjazzbistro.com/event/samba-jazz-from-sao-paulo-brazil/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/07/DDG4-Cressmans_photo-by-Dani-Gurgel_2026-2293-05708-300dpi.jpeg?resize=481%2C484&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.271055"
+  },
+  {
+    "title": "The Anthony Paule Soul Orchestra",
+    "date": "2026-08-08",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "The Anthony Paule Soul Orchestra"
+    ],
+    "description": "Saturday, August 8, 2026 @ 9pm",
+    "ticket_url": "https://keysjazzbistro.com/event/the-anthony-paule-soul-orchestra-3/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/apso.jpg?resize=512%2C341&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.292600"
+  },
+  {
+    "title": "Late Set: Simon Rowe Organ Trio",
+    "date": "2026-08-08",
+    "time": "10:30 PM",
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Late Set: Simon Rowe Organ Trio"
+    ],
+    "description": "Saturday, August 8, 2026 @ 10:30pm",
+    "ticket_url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-59/",
+    "price": "$20",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2024/12/IMG_4773.jpeg?resize=650%2C978&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.313432"
+  },
+  {
+    "title": "Kay Kostopoulos Album Release",
+    "date": "2026-08-08",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Kay Kostopoulos Album Release"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.291414"
+  },
+  {
+    "title": "Mike Zilber Quartet",
+    "date": "2026-08-08",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Mike Zilber Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.323218"
   },
   {
     "title": "CASE PRE SHOW VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)",
@@ -8333,7 +8893,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869876"
+    "scraped_at": "2026-08-02T18:38:30.617240"
   },
   {
     "title": "CASE W/ LIVE BAND",
@@ -8349,7 +8909,39 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869917"
+    "scraped_at": "2026-08-02T18:38:30.617282"
+  },
+  {
+    "title": "Rhonda Benin-\u201cJazz on The Soul Side\u201d",
+    "date": "2026-08-09",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Rhonda Benin-\u201cJazz on The Soul Side\u201d"
+    ],
+    "description": "Sunday, August 9, 2026 @ 5pm",
+    "ticket_url": "https://keysjazzbistro.com/event/rhonda-benin-jazz-on-the-soul-side/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/06/FB_IMG_1744216599735.jpg?resize=650%2C975&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.335818"
+  },
+  {
+    "title": "John Santos Quartet with special guest: MJ Santos",
+    "date": "2026-08-09",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "John Santos Quartet with special guest: MJ Santos"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.354981"
   },
   {
     "title": "THE ROBERT CRAY BAND",
@@ -8365,7 +8957,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869937"
+    "scraped_at": "2026-08-02T18:38:30.617303"
+  },
+  {
+    "title": "N.T.B. COLLECTIVE",
+    "date": "2026-08-10",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "N.T.B. COLLECTIVE"
+    ],
+    "description": "The N. T. B. Collective is a Bay Area based jazz fusion group merging sounds and styles from all over the world.",
+    "ticket_url": "https://www.dawnclub.com/music/ntb-2-tg8l8-8z5ns-x5cc8-hr275-w85cj-ka8fh-jglw9-me2wk-hen78-j35pb-tb2p9-6h6tn-chf7a-ll85s-j622n",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1710915755401-M13Y1HH6YXW87JO55DSJ/NTB+BSIDE+5.png",
+    "scraped_at": "2026-08-02T18:38:11.318531"
   },
   {
     "title": "THE BLUES PROJECT",
@@ -8381,7 +8989,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869957"
+    "scraped_at": "2026-08-02T18:38:30.617324"
+  },
+  {
+    "title": "PATRICK WOLFF QUARTET",
+    "date": "2026-08-11",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "PATRICK WOLFF QUARTET"
+    ],
+    "description": "Patrick Wolff is a saxophone and clarinet player with a long history in the jazz scenes of New York City and San Francisco. He has performed or recorded with Albert \"Tootie\" Heath, Matt Wilson, Grant Stewart, Louis Moholo-Moholo, Dena Derose, and many other jazz greats. Since moving to San Francisco in 2009, Wolff has played and recorded regularly in the bands of Marcus Shelby, Richard Sears, Graham Connah, Adam Shulman, and Diana Gameros. Outside of the jazz world, he has had an eclectic mix of",
+    "ticket_url": "https://www.dawnclub.com/music/patrick-wolff-quartet-3-sbbl3-6t87h-zcwfr-n682d-dyl4j-rlcc4-hc4cs-2384d-gnhw5-zzp37-f24re-cg29c-47zsr-hyx7d-rkhb4-ksbt9-mtp5n-2243g-p7w29-web5j",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1713749676210-0VAV56A7B9TXZW7661FF/DSC04504%281%29.jpg",
+    "scraped_at": "2026-08-02T18:38:11.354599"
   },
   {
     "title": "ROTIMI WITH RED LOTUS & HOST PHOENYX ROSE",
@@ -8397,7 +9021,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869977"
+    "scraped_at": "2026-08-02T18:38:30.617370"
   },
   {
     "title": "STUDIO PRODUCTION INTENSIVE",
@@ -8413,7 +9037,55 @@
     "status": "Member Discount",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/hbugvfit/s12_edu_meganav_introtoaudioproduction.jpg?v=1dc4f24aef74590&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.613596"
+    "scraped_at": "2026-08-02T18:37:49.505657"
+  },
+  {
+    "title": "JINX JONES",
+    "date": "2026-08-12",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "JINX JONES"
+    ],
+    "description": "\"Jinx is a guitar virtuoso who seamlessly moves from rockabilly to jazz to twang and back again, sometimes in the same song. Those with a liner note obsession will remember Jinx\u2019s playing on En Vogue\u2019s \u201cFree Your Mind.\u201d",
+    "ticket_url": "https://www.dawnclub.com/music/jinx-jones-nbljb-e66tl-c2r2h-pceah-p6mej-msdc8-9gsjz-zc7m8-75x7f-m3yej-wjfs5-8zl7w-nwjdf-apr99-h258b-wehpw-mgwsa-m76ts-mwhtn-nzpgb-3ekdm-t9mdz",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1695335564733-N26J7OMVTHLM1E0AOLB7/Jinx%2BJones%2BJazz%2BPromo%2B1.jpg",
+    "scraped_at": "2026-08-02T18:38:11.391885"
+  },
+  {
+    "title": "Ron Vincent Quintet",
+    "date": "2026-08-12",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Ron Vincent Quintet"
+    ],
+    "description": "Wednesday, August 12, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/ron-vincent-quintet/",
+    "price": "$30",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/07/Ron-vincent-1.jpg?resize=512%2C288&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.357065"
+  },
+  {
+    "title": "Jeff Denson\u2019s Modern Songbook",
+    "date": "2026-08-12",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Jeff Denson\u2019s Modern Songbook"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.387302"
   },
   {
     "title": "TRACIE SPENCER PRE SHOW VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)",
@@ -8429,7 +9101,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.869997"
+    "scraped_at": "2026-08-02T18:38:30.617406"
   },
   {
     "title": "TRACIE SPENCER",
@@ -8445,7 +9117,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870017"
+    "scraped_at": "2026-08-02T18:38:30.617440"
   },
   {
     "title": "TAKE 6",
@@ -8461,7 +9133,55 @@
     "status": "Member Discount",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/pwmlpecf/ss2026_hero_take6.jpg?rxy=0.5506665609227257,0.1516336530941246&v=1dca02b63ad1e40&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.657897"
+    "scraped_at": "2026-08-02T18:37:49.549674"
+  },
+  {
+    "title": "CHRIS ASCHMAN VOLCANIC BAND",
+    "date": "2026-08-13",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CHRIS ASCHMAN VOLCANIC BAND"
+    ],
+    "description": "Jazz trumpeter/steelpan musician Chris Aschman enjoys a multi-faceted career as a performer, educator, studio musician, and arranger. A Baltimore native, Chris segued to Philadelphia to study jazz trumpet at the University of the Arts in 2004 and became a mainstay in the Philly scene. Since this time he has enjoyed a diverse career, having shared the stage with artist such as Paquito D\u2019Rivera, Stanley Clarke, Dionne Warwick, Bakithi Kumalo, Chaka Khan, Kool and the Gang, Andy Narell, Ray Holman,",
+    "ticket_url": "https://www.dawnclub.com/music/chris-aschman-and-sky-daddy-lkp7c",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1769997726921-ANMZ3CJ2E641BM1ILX1I/Sky%2BDaddy%2BPromo%2B%281%29.webp",
+    "scraped_at": "2026-08-02T18:38:11.428460"
+  },
+  {
+    "title": "Fog City Swing",
+    "date": "2026-08-13",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Fog City Swing"
+    ],
+    "description": "Thursday, August 13, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/fog-city-swing-10/",
+    "price": "$30",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/11/Screenshot-2025-12-02-at-3.17.01-PM.png?resize=650%2C428&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.377448"
+  },
+  {
+    "title": "Motoko Honda Quartet",
+    "date": "2026-08-13",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Motoko Honda Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.420344"
   },
   {
     "title": "TAKE 6",
@@ -8477,7 +9197,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/pwmlpecf/ss2026_hero_take6.jpg?rxy=0.5506665609227257,0.1516336530941246&v=1dca02b63ad1e40&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.699591"
+    "scraped_at": "2026-08-02T18:37:49.592346"
   },
   {
     "title": "MARY STALLINGS & BILL CHARLAP TRIO",
@@ -8493,7 +9213,119 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/z5wat3qv/faf20_homepage_marystallings.jpg?v=1dd049f97486c40&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.737501"
+    "scraped_at": "2026-08-02T18:37:49.630718"
+  },
+  {
+    "title": "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY",
+    "date": "2026-08-14",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY"
+    ],
+    "description": "Ladies and Gentlemen, introducing Fog City! The bay area's newest and hottest swing band featuring an electrifying three horn front line, stellar crooning vocals, and a swing till you drop rhythm section. This seven piece ensemble will transport you to the 1940\u2019s, it is truly the world\u2019s smallest big band!",
+    "ticket_url": "https://www.dawnclub.com/music/2ctyct385mnhy39-tg9wh-66t2b-5jsrn-ybz7p-btef8-l3cer-ynsl3-jjzrz-hp743-wybnk-z9nak-t6pph-eacgd-dsnc4-7azxb-p6za4",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709252267393-G47OWRPKCJXTVAWDHO0V/DSC_5066-1+%281%29.jpg",
+    "scraped_at": "2026-08-02T18:38:11.484636"
+  },
+  {
+    "title": "\u201cEmily Day & Cosmo Alleycats\u201d",
+    "date": "2026-08-14",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "\u201cEmily Day & Cosmo Alleycats\u201d"
+    ],
+    "description": "Friday, August 14, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/emily-day-cosmo-alleycats-6/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/06/Promo-1-Emily-Day-DRC-2026-HIRES.jpeg?resize=650%2C910&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.405681"
+  },
+  {
+    "title": "Janice Maxie Reid- A Birthday Celebration",
+    "date": "2026-08-14",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Janice Maxie Reid- A Birthday Celebration"
+    ],
+    "description": "Friday, August 14, 2026 @ 9pm",
+    "ticket_url": "https://keysjazzbistro.com/event/janice-maxie-reid-a-birthday-celebration/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/Screenshot-2026-01-27-at-7.27.22-PM.png?resize=650%2C553&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.425347"
+  },
+  {
+    "title": "Essiet Okon Essiet Quartet",
+    "date": "2026-08-14",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Essiet Okon Essiet Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.452250"
+  },
+  {
+    "title": "John Brothers Piano Company",
+    "date": "2026-08-14",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "John Brothers Piano Company"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.482042"
+  },
+  {
+    "title": "GLENN JONES W/ A SPECIAL DEDICATION TO PEABO BRYSON",
+    "date": "2026-08-14",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "GLENN JONES W/ A SPECIAL DEDICATION TO PEABO BRYSON"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/86096652/glenn-jones-fri81426-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.617461"
+  },
+  {
+    "title": "RBL POSSE VS RAPPIN' 4-TAY W/ LIVE BAND",
+    "date": "2026-08-14",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "RBL POSSE VS RAPPIN' 4-TAY W/ LIVE BAND"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/82830487/rappin4tay-vsblack-c-rbl-posse-wlive-band-fri81426-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.617482"
   },
   {
     "title": "J. HOLIDAY",
@@ -8509,7 +9341,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870055"
+    "scraped_at": "2026-08-02T18:38:30.617521"
   },
   {
     "title": "MARY STALLINGS & BILL CHARLAP TRIO",
@@ -8525,7 +9357,7 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/z5wat3qv/faf20_homepage_marystallings.jpg?v=1dd049f97486c40&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.773914"
+    "scraped_at": "2026-08-02T18:37:49.667716"
   },
   {
     "title": "TAKE 6",
@@ -8541,7 +9373,87 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/pwmlpecf/ss2026_hero_take6.jpg?rxy=0.5506665609227257,0.1516336530941246&v=1dca02b63ad1e40&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.813241"
+    "scraped_at": "2026-08-02T18:37:49.709583"
+  },
+  {
+    "title": "ADAM KLIPPLE SOUL JAZZ QUINTET",
+    "date": "2026-08-15",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "ADAM KLIPPLE SOUL JAZZ QUINTET"
+    ],
+    "description": "Adam Klipple, who has been described as \"a standout pianist who has gone to school on McCoy Tyner and Cecil Taylor and earned his degree,\" plays piano, Hammond organ, sampler, and a variety of vintage keyboards. He currently is a member of the legendary jazz rock band Blood, Sweat & Tears. He also currently performs and records with jazz phenom Veronica Swift.",
+    "ticket_url": "https://www.dawnclub.com/music/adam-klipple-quartet-1-swwlf-2redx-gwtbp-9ak3n-p8442-jxlfs-nckgz-ykzks-tgb8m-rttcz-jbwpt-3bnnk-kw3np-mhbk9-2p9h4-ccrkp-tzpjk-cejr9-ln2wg-5pe6f-d22sw-whsmj-9rk74-663re-3pm9w-sral3-hw2tm-ddp36",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1745545969809-7DUXQPYB4MOHXA2CHHYH/Adam+Klipple+Promo.JPG",
+    "scraped_at": "2026-08-02T18:38:11.517404"
+  },
+  {
+    "title": "Marcus Shelby",
+    "date": "2026-08-15",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Marcus Shelby"
+    ],
+    "description": "Saturday, August 15, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/marcus-shelby/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/05/Marcus-Shelby.jpg?resize=195%2C183&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.446106"
+  },
+  {
+    "title": "Late Set: Simon Rowe Organ Trio",
+    "date": "2026-08-15",
+    "time": "10:30 PM",
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Late Set: Simon Rowe Organ Trio"
+    ],
+    "description": "Saturday, August 15, 2026 @ 10:30pm",
+    "ticket_url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-60/",
+    "price": "$20",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2024/12/IMG_4773.jpeg?resize=650%2C978&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.464667"
+  },
+  {
+    "title": "Dann Zinn Quartet",
+    "date": "2026-08-15",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Dann Zinn Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.513985"
+  },
+  {
+    "title": "The Ray Obiedo Group",
+    "date": "2026-08-15",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "The Ray Obiedo Group"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.546109"
   },
   {
     "title": "CHRIS MITCHELL: BEGGIN FOR SAX",
@@ -8573,7 +9485,55 @@
     "status": "Member Discount",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/pwmlpecf/ss2026_hero_take6.jpg?rxy=0.5506665609227257,0.1516336530941246&v=1dca02b63ad1e40&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.849096"
+    "scraped_at": "2026-08-02T18:37:49.746966"
+  },
+  {
+    "title": "Lara Louise",
+    "date": "2026-08-16",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Lara Louise"
+    ],
+    "description": "Sunday, August 16, 2026 @ 5pm",
+    "ticket_url": "https://keysjazzbistro.com/event/lara-louise-5/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/Screenshot-2026-01-21-at-8.03.09-PM.png?resize=650%2C824&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.487156"
+  },
+  {
+    "title": "Vicki Burns",
+    "date": "2026-08-16",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Vicki Burns"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.574099"
+  },
+  {
+    "title": "WORSHIP & HIP-HOP feat. LARRY AUSTIN, ANTHONY WASHINGTON, BROOKLYN FIELD, BENNY BLESSED & HOST PASTER MU",
+    "date": "2026-08-16",
+    "time": "7:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "WORSHIP & HIP-HOP feat. LARRY AUSTIN, ANTHONY WASHINGTON, BROOKLYN FIELD, BENNY BLESSED & HOST PASTER MU"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/94993226/worship-hiphop-featlarry-austinanthony-washingtonjacoree-prothrobenny-blessed-sun81626-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.617542"
   },
   {
     "title": "AZURE MCCALL",
@@ -8589,7 +9549,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870127"
+    "scraped_at": "2026-08-02T18:38:30.617562"
+  },
+  {
+    "title": "CHARGED PARTICLES",
+    "date": "2026-08-17",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CHARGED PARTICLES"
+    ],
+    "description": "Bay Area-based Charged Particles (www.chargedparticles.com) features pianist Greg Sankovich, bassist Aaron Germain, and drummer Jon Krosnick, and is celebrating their 32nd year of playing funky Latin jazz.\u00a0 They have toured Indonesia, the U.K., Canada, Germany, Switzerland, and Italy, and have performed at famed jazz clubs including Ronnie Scott\u2019s, Birdland, Blues Alley, the Dakota, Yoshi\u2019s, the Deer Head Inn, the Falcon, Nighttown, as well as the Musical Instrument Museum, the Scarborough Jazz ",
+    "ticket_url": "https://www.dawnclub.com/music/charged-particles-1-7fmwa-gebg6-axkg8-3wegw-knpe9-nzhtt-z3cas-mfhpk",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1776377026559-3OSA5G78ERIP101LSEIA/Screenshot+2026-04-16+at+3.03.07%E2%80%AFPM.png",
+    "scraped_at": "2026-08-02T18:38:11.550060"
   },
   {
     "title": "THE STYLISTICS",
@@ -8605,7 +9581,39 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870147"
+    "scraped_at": "2026-08-02T18:38:30.617581"
+  },
+  {
+    "title": "CHARGED PARTICLES",
+    "date": "2026-08-18",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CHARGED PARTICLES"
+    ],
+    "description": "Bay Area-based Charged Particles (www.chargedparticles.com) features pianist Greg Sankovich, bassist Aaron Germain, and drummer Jon Krosnick, and is celebrating their 32nd year of playing funky Latin jazz.\u00a0 They have toured Indonesia, the U.K., Canada, Germany, Switzerland, and Italy, and have performed at famed jazz clubs including Ronnie Scott\u2019s, Birdland, Blues Alley, the Dakota, Yoshi\u2019s, the Deer Head Inn, the Falcon, Nighttown, as well as the Musical Instrument Museum, the Scarborough Jazz ",
+    "ticket_url": "https://www.dawnclub.com/music/charged-particles-1-7fmwa-gebg6-axkg8-3wegw-knpe9-nzhtt-z3cas-mfhpk-2hjyd",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1776377026559-3OSA5G78ERIP101LSEIA/Screenshot+2026-04-16+at+3.03.07%E2%80%AFPM.png",
+    "scraped_at": "2026-08-02T18:38:11.583995"
+  },
+  {
+    "title": "New York Pianist Bill O\u2019Connell\u2019s Trio Featuring Bassist Lincoln Goines",
+    "date": "2026-08-18",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "New York Pianist Bill O\u2019Connell\u2019s Trio Featuring Bassist Lincoln Goines"
+    ],
+    "description": "Thursday, August 20, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/new-york-pianist-bill-oconnells-trio-featuring-bassist-lincoln-goines/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/07/Bill-OConnell-Photo.jpeg?resize=650%2C433&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.544300"
   },
   {
     "title": "THE STYLISTICS",
@@ -8621,7 +9629,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870168"
+    "scraped_at": "2026-08-02T18:38:30.617600"
   },
   {
     "title": "Simon Rowe: \u201cA Dave Brubeck Conversation\u201d",
@@ -8633,11 +9641,43 @@
     ],
     "description": "Wednesday, August 19, 2026 @ 7pm",
     "ticket_url": "https://keysjazzbistro.com/event/simon-rowe-a-dave-brubeck-conversation-3/",
-    "price": "$40",
+    "price": "$30",
     "status": null,
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/02/Screenshot-2025-02-19-at-7.13.35%E2%80%AFPM.png?resize=650%2C340&ssl=1",
-    "scraped_at": "2026-07-04T02:30:19.272374"
+    "scraped_at": "2026-08-02T18:38:21.517644"
+  },
+  {
+    "title": "EMILY DAY SWINGTET",
+    "date": "2026-08-19",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "EMILY DAY SWINGTET"
+    ],
+    "description": "Jazz vocalist, arranger and songwriter Emily Day has been performing jazz since the age of 16. As \u201cone of the major singers in her field\u201d (Scott Yanow, Syncopated Times), Emily's voice carries the history of American music. On stage, she combines her deep knowledge of jazz with her whiskey-tinged timber and vocal acrobatics \u2014 simultaneously wild and precise.",
+    "ticket_url": "https://www.dawnclub.com/music/emily-day-ww28p-rky3a",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1776296065824-NLSF4D5Z2YDQY1MVKL95/Screenshot+2026-04-15+at+4.34.17%E2%80%AFPM.png",
+    "scraped_at": "2026-08-02T18:38:11.623200"
+  },
+  {
+    "title": "Sam Rudin Quartet",
+    "date": "2026-08-19",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Sam Rudin Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.599018"
   },
   {
     "title": "THE STYLISTICS",
@@ -8653,7 +9693,71 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870188"
+    "scraped_at": "2026-08-02T18:38:30.617620"
+  },
+  {
+    "title": "TOMOKO FUNAKI",
+    "date": "2026-08-20",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "TOMOKO FUNAKI"
+    ],
+    "description": "Tomoko Funaki was born in Japan into a musical family. Following in the footsteps of her parents, both musicians, she studied classical violin and flute. A move to New York exposed her to a broad range of musical genres but she found herself increasingly drawn towards jazz. After moving to San Francisco in 2002, she began studying upright bass and quickly immersed herself into the San Francisco jazz scene, studying and performing with luminaries including Ray Drummond, Rodney Whitaker, Rufus Rei",
+    "ticket_url": "https://www.dawnclub.com/music/tomoko-funaki-tfm3a-k6hec-ph4cy-st8jb-a7h55-fd235-xtmbz-4f9s7-t43y6-dzxcy-mjbhm-cxc7y-rhna8-2yghs-rk33y-z9w5r-jtmpx",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1694150846728-TY0YHQCOLZ8U7H0K9V5A/Tomoko%2BFunaki%2B1%2B-%2Bbass.jpg",
+    "scraped_at": "2026-08-02T18:38:11.657131"
+  },
+  {
+    "title": "New York Pianist Bill O\u2019Connell\u2019s Trio Featuring Bassist Lincoln Goines",
+    "date": "2026-08-20",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "New York Pianist Bill O\u2019Connell\u2019s Trio Featuring Bassist Lincoln Goines"
+    ],
+    "description": "Thursday, August 20, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/new-york-pianist-bill-oconnells-trio-featuring-bassist-lincoln-goines/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/07/Bill-OConnell-Photo.jpeg?resize=650%2C433&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.544296"
+  },
+  {
+    "title": "Paul Mehling&#8217;s Le Jazz Hot",
+    "date": "2026-08-20",
+    "time": "8:45 PM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Paul Mehling&#8217;s Le Jazz Hot"
+    ],
+    "description": "&lt;p&gt;Paul Mehling | Guitar &amp; Vocals Evan Price | Violin Dexter Williams | Bass Jordan Samuels | Rhythm Guitar &nbsp;&lt;/p&gt;\\n",
+    "ticket_url": "https://mrtipplessf.com/calendar/paul-mehlings-le-jazz-hot-2/",
+    "price": "$15 \u2013 20",
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/Le-Hot-Jazz.jpg",
+    "scraped_at": "2026-08-02T18:38:28.146351"
+  },
+  {
+    "title": "Paul Mehling\u2019s Le Jazz Hot",
+    "date": "2026-08-20",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Paul Mehling\u2019s Le Jazz Hot"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.623724"
   },
   {
     "title": "NORMAN BROWN",
@@ -8669,7 +9773,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870227"
+    "scraped_at": "2026-08-02T18:38:30.617660"
   },
   {
     "title": "'KIND OF BLUE' BIRTHDAY CELEBRATION (MILES DAVIS CENTENNIAL)",
@@ -8685,7 +9789,87 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/fpopquri/s10_web_mileskindofblue_hero.jpg?v=1dd04a1cbfa30c0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.882492"
+    "scraped_at": "2026-08-02T18:37:49.782163"
+  },
+  {
+    "title": "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY",
+    "date": "2026-08-21",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY"
+    ],
+    "description": "Ladies and Gentlemen, introducing Fog City! The bay area's newest and hottest swing band featuring an electrifying three horn front line, stellar crooning vocals, and a swing till you drop rhythm section. This seven piece ensemble will transport you to the 1940\u2019s, it is truly the world\u2019s smallest big band!",
+    "ticket_url": "https://www.dawnclub.com/music/2ctyct385mnhy39-tg9wh-66t2b-5jsrn-ybz7p-btef8-l3cer-ynsl3-jjzrz-hp743-wybnk-z9nak-t6pph-eacgd-dsnc4-7azxb-p6za4-9hznt",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709252267393-G47OWRPKCJXTVAWDHO0V/DSC_5066-1+%281%29.jpg",
+    "scraped_at": "2026-08-02T18:38:11.690327"
+  },
+  {
+    "title": "Kenny Washington Quartet",
+    "date": "2026-08-21",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Kenny Washington Quartet"
+    ],
+    "description": null,
+    "ticket_url": "https://keysjazzbistro.com/event/kenny-washington-quartet-10/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2022/10/event-kenny.jpg?resize=650%2C650&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.568270"
+  },
+  {
+    "title": "Tony Lindsay",
+    "date": "2026-08-21",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Tony Lindsay"
+    ],
+    "description": "Friday, August 21, 2026 @ 9pm",
+    "ticket_url": "https://keysjazzbistro.com/event/tony-lindsay-17/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2024/06/Screenshot-2024-06-15-at-10.14.34%E2%80%AFPM.png?resize=650%2C504&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.589158"
+  },
+  {
+    "title": "Ron Vincent Quartet",
+    "date": "2026-08-21",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Ron Vincent Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.648661"
+  },
+  {
+    "title": "Kutting Korners",
+    "date": "2026-08-21",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Kutting Korners"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.674199"
   },
   {
     "title": "NORMAN BROWN",
@@ -8701,7 +9885,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870284"
+    "scraped_at": "2026-08-02T18:38:30.617700"
   },
   {
     "title": "'KIND OF BLUE' BIRTHDAY CELEBRATION (MILES DAVIS CENTENNIAL)",
@@ -8717,7 +9901,87 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/fpopquri/s10_web_mileskindofblue_hero.jpg?v=1dd04a1cbfa30c0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.922055"
+    "scraped_at": "2026-08-02T18:37:49.825331"
+  },
+  {
+    "title": "VICTOR LITTLE'S BIG HIT",
+    "date": "2026-08-22",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "VICTOR LITTLE'S BIG HIT"
+    ],
+    "description": "In a career that has spanned over 20 years, Victor Little has established himself as a consummate professional electric bassist, displaying impeccable time, taste, technique, and tone while playing in a wide spectrum of styles-from blues and jazz to Indian and flamenco music-with a long list of luminaries that includes Patti Austin, Billy Preston, Angela Bofill, James Carter, Charlie Musselwhite, and Booker T. Jones.",
+    "ticket_url": "https://www.dawnclub.com/music/victor-littles-big-hit-2-ngtpg-deed7-ayf54-sjsjx-mr49d-3whe2-7aa4m",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1737156811011-PO6VAJKXQG572K5R06EL/victorlittle+%281%29.jpeg",
+    "scraped_at": "2026-08-02T18:38:11.724307"
+  },
+  {
+    "title": "Jazz Mafia Retrospective: 25+ Years of Music",
+    "date": "2026-08-22",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Jazz Mafia Retrospective: 25+ Years of Music"
+    ],
+    "description": "Saturday, August 22, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/jazz-mafia-retrospective-25-years-of-music/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/07/1-1-JM-retro.png?resize=650%2C366&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.613162"
+  },
+  {
+    "title": "Late Set: Simon Rowe Organ Trio",
+    "date": "2026-08-22",
+    "time": "10:30 PM",
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Late Set: Simon Rowe Organ Trio"
+    ],
+    "description": "Saturday, August 22, 2026 @ 10:30pm",
+    "ticket_url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-61/",
+    "price": "$20",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2024/12/IMG_4773.jpeg?resize=650%2C978&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.633989"
+  },
+  {
+    "title": "Tim Lin Quartet",
+    "date": "2026-08-22",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Tim Lin Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.697785"
+  },
+  {
+    "title": "Ohana Collective",
+    "date": "2026-08-22",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Ohana Collective"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.720952"
   },
   {
     "title": "KEYON HARROLD",
@@ -8733,7 +9997,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870304"
+    "scraped_at": "2026-08-02T18:38:30.617721"
   },
   {
     "title": "Ami Molinelli feat. Alexandre Ribeiro and Roberta Valente",
@@ -8752,6 +10016,38 @@
     "scraped_at": "2026-07-04T02:30:19.293913"
   },
   {
+    "title": "Grupo Falso Baiano",
+    "date": "2026-08-23",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Grupo Falso Baiano"
+    ],
+    "description": "feat. Ami Molinelli and special guests",
+    "ticket_url": "https://keysjazzbistro.com/event/ami-molinelli-feat-alexandre-ribeiro-and-roberta-valente/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/07/Ami-DSC6661-768x512-1.jpeg?resize=650%2C433&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.657529"
+  },
+  {
+    "title": "Jessica King and her Quartet",
+    "date": "2026-08-23",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Jessica King and her Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.778217"
+  },
+  {
     "title": "BERKELEY MT ZION 80TH ANNIVERSARY CELEBRATION",
     "date": "2026-08-24",
     "time": "7:30 PM",
@@ -8765,7 +10061,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870324"
+    "scraped_at": "2026-08-02T18:38:30.617741"
+  },
+  {
+    "title": "SILVER BELL JAZZ BAND",
+    "date": "2026-08-24",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "SILVER BELL JAZZ BAND"
+    ],
+    "description": "Silver Bell Jazz Band inspires dancers and listeners all over the Bay Area. The band specializes in ragtime, blues, swing, and dixieland from the early 20th century. They\u2019re known for their authenticity and dedication to the craft as well as their foot-tapping energy.",
+    "ticket_url": "https://www.dawnclub.com/music/silver-bell-jazz-band-k238gj-49-rmt9a-62p4y-nxrh8-eybhp-xf3sd",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1758594491014-PXK6P5I7XE40UEFJM7XN/Silver+Bell+Jazz+Band.jpg",
+    "scraped_at": "2026-08-02T18:38:11.755947"
   },
   {
     "title": "KEIKO MATSUI",
@@ -8781,7 +10093,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870344"
+    "scraped_at": "2026-08-02T18:38:30.617769"
+  },
+  {
+    "title": "SMITH DOBSON QUARTET",
+    "date": "2026-08-25",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "SMITH DOBSON QUARTET"
+    ],
+    "description": "Drummer/Vibraphonist/Saxophonist Smith Dobson V has been performing in the Bay Area for nearly twenty years. Originally from Santa Cruz, Ca., Dobson is a member of an important Jazz family. His father, the late Smith Dobson IV, was a world renown Pianist and director of the Jazz series at the Garden City in San Jose for over twenty years, where he accompanied artists\u2019 like Art Pepper, Stan Getz, Bobby Hutcherson, Harold Land, Chet Baker, Red Norvo, Tal Farlow, and Lee Konitz, to name a few.",
+    "ticket_url": "https://www.dawnclub.com/music/smith-dobson-quartet-1-3fh4k-8ld8n-tr9pa-snsnd-jg8w7-44zfe-et9aw-msy26-cn6nw-hjsp2-xfapm-lzk6r-mpptl-p9kk3-xmppt-f2cs5-ncl9c-2jb5h",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1688151988670-GWZ3ZHMERPRUXE4POXGB/Smith+Dobson+Promo+pic.jpg",
+    "scraped_at": "2026-08-02T18:38:11.788006"
   },
   {
     "title": "KEIKO MATSUI",
@@ -8797,7 +10125,55 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870384"
+    "scraped_at": "2026-08-02T18:38:30.617811"
+  },
+  {
+    "title": "AARON GERMAIN BAND",
+    "date": "2026-08-26",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "AARON GERMAIN BAND"
+    ],
+    "description": "Aaron Germain began his musical career in Massachusetts, but has lived in the San Francisco bay area since the year 2000. He has always struck a balance between being a consummate sideman and a composer/bandleader. Playing both upright and electric basses, he is adept at diverse genres of music, which reflects in his eclectic compositions.",
+    "ticket_url": "https://www.dawnclub.com/music/aaron-germain-band",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1784668887651-AA4GYW5YUTEK8W13EL4U/Aaron+Germain+Promo.jpeg",
+    "scraped_at": "2026-08-02T18:38:11.828473"
+  },
+  {
+    "title": "The Guitar Hang",
+    "date": "2026-08-26",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "The Guitar Hang"
+    ],
+    "description": "Wednesday, August 26, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/the-guitar-hang-4/",
+    "price": "$30",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/03/The-guitar-Hang-copy.jpeg?resize=650%2C813&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.683756"
+  },
+  {
+    "title": "Gage and Gold",
+    "date": "2026-08-26",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Gage and Gold"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.809082"
   },
   {
     "title": "MIKO MARKS RESIDENCY W/ SPECIAL GUEST KIAZI MALONGA",
@@ -8813,7 +10189,39 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870405"
+    "scraped_at": "2026-08-02T18:38:30.617830"
+  },
+  {
+    "title": "MIKE OLMOS QUINTET",
+    "date": "2026-08-27",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "MIKE OLMOS QUINTET"
+    ],
+    "description": "Mike Olmos has become one the most in demand jazz musicians in the San Francisco Bay Area while maintaining a frequent national and international performance/touring schedule. In the Bay, Mike has been performing with various bands such as the Marcus Shelby Jazz Orchestra, Lavay Smith and her Red Hot Skillet Lickers, Pete Escovedo, Wil Blades, Eddie Roberts, Jubu and Legally Blynd. \u200b",
+    "ticket_url": "https://www.dawnclub.com/music/mike-olmos-quintet-1-tmadk-jz535-cwpmt-52csh-8cllg-zj9h4-bbrtp-bh4nk-55rrn-xsnhp",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1721006169545-ZA887CC91562O15VXXAM/Mike+Olmos+promo+pic+%282%29.png",
+    "scraped_at": "2026-08-02T18:38:11.884096"
+  },
+  {
+    "title": "Adam Shulman Organ Trio",
+    "date": "2026-08-27",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Adam Shulman Organ Trio"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.840115"
   },
   {
     "title": "RICHARD ELLIOT",
@@ -8829,7 +10237,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870446"
+    "scraped_at": "2026-08-02T18:38:30.617867"
   },
   {
     "title": "KENNY GARRETT: SOUNDS FROM THE ANCESTORS (5-YEAR ANNIVERSARY)",
@@ -8845,7 +10253,55 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/03offkpn/sfjf41_meganav_kennygarrett.jpg?v=1dcffc8e1fd7ae0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.957944"
+    "scraped_at": "2026-08-02T18:37:49.864202"
+  },
+  {
+    "title": "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY",
+    "date": "2026-08-28",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY"
+    ],
+    "description": "Ladies and Gentlemen, introducing Fog City! The bay area's newest and hottest swing band featuring an electrifying three horn front line, stellar crooning vocals, and a swing till you drop rhythm section. This seven piece ensemble will transport you to the 1940\u2019s, it is truly the world\u2019s smallest big band!",
+    "ticket_url": "https://www.dawnclub.com/music/2ctyct385mnhy39-tg9wh-66t2b-5jsrn-ybz7p-btef8-l3cer-ynsl3-jjzrz-hp743-wybnk-z9nak-t6pph-eacgd-dsnc4-7azxb-p6za4-9hznt-c3xrl",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709252267393-G47OWRPKCJXTVAWDHO0V/DSC_5066-1+%281%29.jpg",
+    "scraped_at": "2026-08-02T18:38:11.929025"
+  },
+  {
+    "title": "Patrick Wolff&#8217;s &#8220;Swinging Organ&#8221; Quartet",
+    "date": "2026-08-28",
+    "time": "7:30 PM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Patrick Wolff&#8217;s &#8220;Swinging Organ&#8221; Quartet"
+    ],
+    "description": "&lt;p&gt;Adam Shulman- Hammond b3 organ Jack Tone Riordan- guitar Miles Turk- drums Bio: Patrick Wolff\\'s newest band is a swinging organ quartet that draws from the styles of the late 50s/early 60s collaborations of Shirley Scott/ \u201cLockjaw&quot; Davis and Lou Donaldson/ Big John Patton. Featuring two of the Bay\\'s experts in this idiom, pianist/organist Adam [&hellip;]&lt;/p&gt;\\n",
+    "ticket_url": "https://mrtipplessf.com/calendar/patrick-wolffs-swinging-organ-quartet-2/",
+    "price": "$15 \u2013 30",
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/Patrick-Wolff-scaled.jpg",
+    "scraped_at": "2026-08-02T18:38:28.146445"
+  },
+  {
+    "title": "Patrick Wolff\u2019s \u201cSwinging Organ\u201d Quartet",
+    "date": "2026-08-28",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Patrick Wolff\u2019s \u201cSwinging Organ\u201d Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.868032"
   },
   {
     "title": "SIMON PHILLIPS & PROTOCOL 6",
@@ -8861,7 +10317,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870467"
+    "scraped_at": "2026-08-02T18:38:30.617886"
   },
   {
     "title": "KENNY GARRETT: SOUNDS FROM THE ANCESTORS (5-YEAR ANNIVERSARY)",
@@ -8877,7 +10333,7 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/03offkpn/sfjf41_meganav_kennygarrett.jpg?v=1dcffc8e1fd7ae0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:05.990831"
+    "scraped_at": "2026-08-02T18:37:49.899437"
   },
   {
     "title": "BRAD MEHLDAU: RIDE INTO THE SUN",
@@ -8893,7 +10349,55 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/hnhltko4/ss26_hero_bradmehldau.jpg?rxy=0.5326972887802878,0.24739701101847764&v=1dcafb670336f80&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-02T18:34:06.029625"
+    "scraped_at": "2026-08-02T18:37:49.940066"
+  },
+  {
+    "title": "N.T.B. COLLECTIVE",
+    "date": "2026-08-29",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "N.T.B. COLLECTIVE"
+    ],
+    "description": "The N. T. B. Collective is a Bay Area based jazz fusion group merging sounds and styles from all over the world.",
+    "ticket_url": "https://www.dawnclub.com/music/ntb-2-tg8l8-8z5ns-x5cc8-hr275-w85cj-ka8fh-jglw9-me2wk-hen78-j35pb-tb2p9-6h6tn-chf7a-l83g5-s2wh9",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1710915755401-M13Y1HH6YXW87JO55DSJ/NTB+BSIDE+5.png",
+    "scraped_at": "2026-08-02T18:38:11.971274"
+  },
+  {
+    "title": "LJ Holoman Trio",
+    "date": "2026-08-29",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "LJ Holoman Trio"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.898700"
+  },
+  {
+    "title": "Sundra Manning Organ",
+    "date": "2026-08-29",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Sundra Manning Organ"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.929858"
   },
   {
     "title": "SIMON PHILLIPS & PROTOCOL 6",
@@ -8909,7 +10413,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870488"
+    "scraped_at": "2026-08-02T18:38:30.617905"
+  },
+  {
+    "title": "Roger Glenn Organ Trio",
+    "date": "2026-08-30",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Roger Glenn Organ Trio"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.966908"
   },
   {
     "title": "MARK HUMMEL'S BLUES ALL STARS W/ ANSON FUNDERBURGH & JUNIOR WATSON",
@@ -8925,7 +10445,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870508"
+    "scraped_at": "2026-08-02T18:38:30.617924"
   },
   {
     "title": "HALEY REINHART",
@@ -8941,7 +10461,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870529"
+    "scraped_at": "2026-08-02T18:38:30.617943"
   },
   {
     "title": "AVERY WILSON",
@@ -8957,7 +10477,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870550"
+    "scraped_at": "2026-08-02T18:38:30.617963"
   },
   {
     "title": "AVERY WILSON PRE SHOW VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)",
@@ -8973,7 +10493,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870570"
+    "scraped_at": "2026-08-02T18:38:30.617981"
   },
   {
     "title": "SHEENA EASTON",
@@ -8989,7 +10509,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870611"
+    "scraped_at": "2026-08-02T18:38:30.618018"
+  },
+  {
+    "title": "Closed For Private Event",
+    "date": "2026-09-03",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Closed For Private Event"
+    ],
+    "description": null,
+    "ticket_url": "https://mrtipplessf.com/series/closed-for-private-event/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:29.981617"
   },
   {
     "title": "KIRK WHALUM",
@@ -9005,7 +10541,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870651"
+    "scraped_at": "2026-08-02T18:38:30.618055"
+  },
+  {
+    "title": "The Muse Jazz Collective",
+    "date": "2026-09-04",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "The Muse Jazz Collective"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.005805"
   },
   {
     "title": "KIRK WHALUM",
@@ -9021,7 +10573,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870691"
+    "scraped_at": "2026-08-02T18:38:30.618092"
   },
   {
     "title": "SONS OF CHAMPLIN W/ BILL CHAMPLIN",
@@ -9037,7 +10589,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870711"
+    "scraped_at": "2026-08-02T18:38:30.618112"
+  },
+  {
+    "title": "Mose Def : The Music of Mose Allison",
+    "date": "2026-09-06",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Mose Def : The Music of Mose Allison"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.031301"
   },
   {
     "title": "AIMEE NOLTE",
@@ -9053,7 +10621,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870730"
+    "scraped_at": "2026-08-02T18:38:30.618131"
   },
   {
     "title": "MATT SCHOFIELD TRIO",
@@ -9069,7 +10637,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870750"
+    "scraped_at": "2026-08-02T18:38:30.618150"
   },
   {
     "title": "LISA FISCHER & ORRIN EVANS TRIO",
@@ -9085,7 +10653,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870788"
+    "scraped_at": "2026-08-02T18:38:30.618189"
   },
   {
     "title": "DOMINIQUE FILS-AIM\u00c9",
@@ -9101,7 +10669,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870808"
+    "scraped_at": "2026-08-02T18:38:30.618209"
   },
   {
     "title": "ANEESA STRINGS",
@@ -9117,7 +10685,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870848"
+    "scraped_at": "2026-08-02T18:38:30.618247"
   },
   {
     "title": "ROSE ROYCE",
@@ -9133,7 +10701,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870887"
+    "scraped_at": "2026-08-02T18:38:30.618285"
   },
   {
     "title": "KAMASI WASHINGTON",
@@ -9149,7 +10717,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870926"
+    "scraped_at": "2026-08-02T18:38:30.618326"
   },
   {
     "title": "KAMASI WASHINGTON",
@@ -9165,7 +10733,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870967"
+    "scraped_at": "2026-08-02T18:38:30.618377"
   },
   {
     "title": "JOHN PIZZARELLI PRESENTS \"DEAR MR. BENNETT\u201d",
@@ -9181,7 +10749,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.870993"
+    "scraped_at": "2026-08-02T18:38:30.618403"
   },
   {
     "title": "JOHN PIZZARELLI PRESENTS \"DEAR MR. BENNETT\u201d",
@@ -9197,7 +10765,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871017"
+    "scraped_at": "2026-08-02T18:38:30.618426"
   },
   {
     "title": "BIG DADDY KANE",
@@ -9213,7 +10781,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871061"
+    "scraped_at": "2026-08-02T18:38:30.618469"
   },
   {
     "title": "MOHINI DEY",
@@ -9229,7 +10797,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871104"
+    "scraped_at": "2026-08-02T18:38:30.618508"
   },
   {
     "title": "Marco de Carvalho Brazilian Trio ft. Neal Chin & Ami Molinelli",
@@ -9245,7 +10813,7 @@
     "status": null,
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/04/Marco-de-Carvalho-Brazilian-trio.jpg?resize=512%2C445&ssl=1",
-    "scraped_at": "2026-07-04T02:30:19.315543"
+    "scraped_at": "2026-08-02T18:38:21.709657"
   },
   {
     "title": "MOHINI DEY",
@@ -9261,7 +10829,23 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871125"
+    "scraped_at": "2026-08-02T18:38:30.618528"
+  },
+  {
+    "title": "MUSIC MONDAY: THE THROWBACK SERIES",
+    "date": "2026-09-21",
+    "time": "8:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "MUSIC MONDAY: THE THROWBACK SERIES"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/47571655/music-mondaythe-throwback-series-mon92126-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.618547"
   },
   {
     "title": "LYDIA PENSE & COLD BLOOD",
@@ -9277,7 +10861,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871146"
+    "scraped_at": "2026-08-02T18:38:30.618567"
   },
   {
     "title": "WILD NIGHT: A VAN MORRISON TRIBUTE",
@@ -9293,7 +10877,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871166"
+    "scraped_at": "2026-08-02T18:38:30.618586"
   },
   {
     "title": "SYLEENA JOHNSON",
@@ -9309,7 +10893,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871185"
+    "scraped_at": "2026-08-02T18:38:30.618606"
   },
   {
     "title": "MARY JANE GIRLS",
@@ -9325,7 +10909,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871205"
+    "scraped_at": "2026-08-02T18:38:30.618625"
   },
   {
     "title": "ISAIAH COLLIER",
@@ -9341,7 +10925,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871225"
+    "scraped_at": "2026-08-02T18:38:30.618645"
   },
   {
     "title": "FRED WESLEY'S NEW JBS W/ MARTHA HIGH'S FUNKY DIVAS",
@@ -9357,7 +10941,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871276"
+    "scraped_at": "2026-08-02T18:38:30.618664"
   },
   {
     "title": "SPYRO GYRA",
@@ -9373,7 +10957,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871303"
+    "scraped_at": "2026-08-02T18:38:30.618683"
   },
   {
     "title": "SPYRO GYRA",
@@ -9389,7 +10973,7 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871346"
+    "scraped_at": "2026-08-02T18:38:30.618721"
   },
   {
     "title": "VINCENT INGALA",
@@ -9405,7 +10989,471 @@
     "status": null,
     "series": null,
     "image_url": null,
-    "scraped_at": "2026-07-04T02:30:27.871367"
+    "scraped_at": "2026-08-02T18:38:30.618741"
+  },
+  {
+    "title": "THE CURTIS FAMILY C-NOTES",
+    "date": "2026-10-02",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "THE CURTIS FAMILY C-NOTES"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/32530174/the-curtis-family-cnotes-fri10226-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.618779"
+  },
+  {
+    "title": "EUGE GROOVE",
+    "date": "2026-10-05",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "EUGE GROOVE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/41449361/euge-groove-mon10526-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.618798"
+  },
+  {
+    "title": "EUGE GROOVE",
+    "date": "2026-10-06",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "EUGE GROOVE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/61709767/euge-groove-tue10626-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.618816"
+  },
+  {
+    "title": "WILL DOWNING",
+    "date": "2026-10-07",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "WILL DOWNING"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/43851142/will-downing-wed10726-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.618835"
+  },
+  {
+    "title": "WILL DOWNING",
+    "date": "2026-10-08",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "WILL DOWNING"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/66408354/will-downing-thu10826-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.618854"
+  },
+  {
+    "title": "MUSIQ SOULCHILD",
+    "date": "2026-10-09",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "MUSIQ SOULCHILD"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/81145062/musiq-soulchild-fri10926-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.618892"
+  },
+  {
+    "title": "MUSIQ SOULCHILD",
+    "date": "2026-10-10",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "MUSIQ SOULCHILD"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/89994345/musiq-soulchild-sat101026-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.618930"
+  },
+  {
+    "title": "MUSIQ SOULCHILD",
+    "date": "2026-10-11",
+    "time": "9:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "MUSIQ SOULCHILD"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/81138729/musiq-soulchild-sun101126-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.618969"
+  },
+  {
+    "title": "ACOUSTIC ALCHEMY",
+    "date": "2026-10-13",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "ACOUSTIC ALCHEMY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/78737011/acoustic-alchemy-tue101326-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.618987"
+  },
+  {
+    "title": "DOS SANTOS",
+    "date": "2026-10-14",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "DOS SANTOS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/40609260/dos-santos-wed101426-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619020"
+  },
+  {
+    "title": "MUSIQ SOULCHILD",
+    "date": "2026-10-15",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "MUSIQ SOULCHILD"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/39511425/musiq-soulchild-thu101526-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619058"
+  },
+  {
+    "title": "MUSIQ SOULCHILD",
+    "date": "2026-10-16",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "MUSIQ SOULCHILD"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/85756806/musiq-soulchild-fri101626-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619101"
+  },
+  {
+    "title": "DAMIEN ESCOBAR",
+    "date": "2026-10-17",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "DAMIEN ESCOBAR"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/86964024/damien-escobar-sat101726-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619143"
+  },
+  {
+    "title": "DAMIEN ESCOBAR",
+    "date": "2026-10-18",
+    "time": "7:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "DAMIEN ESCOBAR"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/57047477/damien-escobar-sun101826-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619161"
+  },
+  {
+    "title": "SHOSHANA BEAN",
+    "date": "2026-10-19",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "SHOSHANA BEAN"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/63984618/shoshana-bean-mon101926-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619199"
+  },
+  {
+    "title": "TWIN PEAKS: CONVERSATION WITH THE STARS",
+    "date": "2026-10-20",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TWIN PEAKS: CONVERSATION WITH THE STARS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/62025389/twin-peaksconversation-with-the-stars-tue102026-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619227"
+  },
+  {
+    "title": "TWIN PEAKS PRE SHOW VIP PLATINUM EXPERIENCE (SHOW TICKET NOT INCLUDED)",
+    "date": "2026-10-20",
+    "time": "4:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TWIN PEAKS PRE SHOW VIP PLATINUM EXPERIENCE (SHOW TICKET NOT INCLUDED)"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/55819830/twin-peaks-vip-platinum-experience-show-ticket-not-includedtue102026-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619248"
+  },
+  {
+    "title": "TWIN PEAKS AFTER SHOW DIAMOND VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)",
+    "date": "2026-10-20",
+    "time": "9:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TWIN PEAKS AFTER SHOW DIAMOND VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/66140510/twin-peaks-after-show-vip-diamond-experience-show-ticket-not-includedtue102026-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619268"
+  },
+  {
+    "title": "RAKIM",
+    "date": "2026-10-22",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "RAKIM"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/80141532/rakim-thu102226-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619306"
+  },
+  {
+    "title": "MAYSA",
+    "date": "2026-10-23",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "MAYSA"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/68353715/maysa-fri102326-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619353"
+  },
+  {
+    "title": "CHRISTIAN SANDS TRIO",
+    "date": "2026-10-24",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "CHRISTIAN SANDS TRIO"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/30409429/christian-sands-trio-sat102426-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619375"
+  },
+  {
+    "title": "BUTTAH'S JOOK JOINT",
+    "date": "2026-10-24",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "BUTTAH'S JOOK JOINT"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/73956152/buttahs-jook-joint-sat102426-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619396"
+  },
+  {
+    "title": "MARION MEADOWS",
+    "date": "2026-10-25",
+    "time": "7:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "MARION MEADOWS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/62375920/marion-meadows-sun102526-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619415"
+  },
+  {
+    "title": "DIRECT FROM SWEDEN: THE MUSIC OF ABBA",
+    "date": "2026-10-27",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "DIRECT FROM SWEDEN: THE MUSIC OF ABBA"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/87188390/direct-from-swedenthe-music-of-abba-tues102726-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619435"
+  },
+  {
+    "title": "DALEY",
+    "date": "2026-10-28",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "DALEY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/61158065/daley-wed102826-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619454"
+  },
+  {
+    "title": "DALEY - PRESHOW VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)",
+    "date": "2026-10-28",
+    "time": "5:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "DALEY - PRESHOW VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/68256678/daley-preshow-vip-experience-show-ticket-not-includedwed102826-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619474"
+  },
+  {
+    "title": "GRACE KELLY",
+    "date": "2026-10-29",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "GRACE KELLY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/65442725/grace-kelly-thu102926-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619493"
+  },
+  {
+    "title": "RICK BRAUN",
+    "date": "2026-10-30",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "RICK BRAUN"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/47748686/rick-braun-fri103026-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-08-02T18:38:30.619531"
+  },
+  {
+    "title": "Dani & Debora Gurgel Quarteto feat. Sandy Cressman & Natalie Cressman",
+    "date": "2026-12-04",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Dani & Debora Gurgel Quarteto feat. Sandy Cressman & Natalie Cressman"
+    ],
+    "description": "Samba Jazz from Sao Paulo Brazil",
+    "ticket_url": "https://keysjazzbistro.com/event/samba-jazz-from-sao-paulo-brazil/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/07/DDG4-Cressmans_photo-by-Dani-Gurgel_2026-2293-05708-300dpi.jpeg?resize=481%2C484&ssl=1",
+    "scraped_at": "2026-08-02T18:38:21.271066"
   },
   {
     "title": "Patrick Wolff\u2019s \u201cSwinging Organ\u201d Quartet",
@@ -9437,7 +11485,7 @@
     "status": null,
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/04/Marco-de-Carvalho-Brazilian-trio.jpg?resize=512%2C445&ssl=1",
-    "scraped_at": "2026-07-04T02:30:19.315545"
+    "scraped_at": "2026-08-02T18:38:21.709660"
   },
   {
     "title": "SMOKEHOUSE",
