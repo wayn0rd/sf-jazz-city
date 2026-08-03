@@ -8160,6 +8160,38 @@
     "scraped_at": "2026-07-04T02:30:27.869686"
   },
   {
+    "title": "INTERACTIVE OPEN SOUNDCHECK W/ NYO JAZZ & DEE DEE BRIDGEWATER",
+    "date": "2026-08-04",
+    "time": "5:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "INTERACTIVE OPEN SOUNDCHECK W/ NYO JAZZ & DEE DEE BRIDGEWATER"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/summer-2026/open-soundcheck-nyo-jazz-dee-dee-bridgewater/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/3fnnyqs4/s26_hero_nyo_jazz.jpg?rxy=0.5008990228402592,0.09630419760244682&v=1dd03237fdf6b30&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.458353"
+  },
+  {
+    "title": "NYO JAZZ",
+    "date": "2026-08-04",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "NYO JAZZ"
+    ],
+    "description": "Kris Johnson, Bandleader & Trumpet,\nw/ special guest Dee Dee Bridgewater",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/summer-2026/nyo-jazz-dee-dee-bridgewater/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/3fnnyqs4/s26_hero_nyo_jazz.jpg?rxy=0.5008990228402592,0.09630419760244682&v=1dd03237fdf6b30&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.501925"
+  },
+  {
     "title": "MELBA MOORE",
     "date": "2026-08-05",
     "time": "7:30 PM",
@@ -8224,6 +8256,22 @@
     "scraped_at": "2026-07-04T02:30:27.869783"
   },
   {
+    "title": "NYO JAZZ W/ DEE DEE BRIDGEWATER",
+    "date": "2026-08-07",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "NYO JAZZ W/ DEE DEE BRIDGEWATER"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/3fnnyqs4/s26_hero_nyo_jazz.jpg?rxy=0.5008990228402592,0.09630419760244682&v=1dd03237fdf6b30&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.538754"
+  },
+  {
     "title": "TEDDY RILEY",
     "date": "2026-08-08",
     "time": "9:30 PM",
@@ -8254,6 +8302,22 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-07-04T02:30:27.869856"
+  },
+  {
+    "title": "NYO JAZZ W/ DEE DEE BRIDGEWATER",
+    "date": "2026-08-08",
+    "time": "11:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "NYO JAZZ W/ DEE DEE BRIDGEWATER"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/3fnnyqs4/s26_hero_nyo_jazz.jpg?rxy=0.5008990228402592,0.09630419760244682&v=1dd03237fdf6b30&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.575991"
   },
   {
     "title": "CASE PRE SHOW VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)",
@@ -8336,6 +8400,22 @@
     "scraped_at": "2026-07-04T02:30:27.869977"
   },
   {
+    "title": "STUDIO PRODUCTION INTENSIVE",
+    "date": "2026-08-12",
+    "time": "10:30 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "STUDIO PRODUCTION INTENSIVE"
+    ],
+    "description": "3-day Course | Wed-Fri, August 12-14 | 10:30AM-1:30PM",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/summer-2026/education/digital-labs/studio-production-intensive/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/hbugvfit/s12_edu_meganav_introtoaudioproduction.jpg?v=1dc4f24aef74590&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.613596"
+  },
+  {
     "title": "TRACIE SPENCER PRE SHOW VIP EXPERIENCE (SHOW TICKET NOT INCLUDED)",
     "date": "2026-08-13",
     "time": "5:30 PM",
@@ -8368,6 +8448,54 @@
     "scraped_at": "2026-07-04T02:30:27.870017"
   },
   {
+    "title": "TAKE 6",
+    "date": "2026-08-13",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "TAKE 6"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/summer-2026/take-6/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/pwmlpecf/ss2026_hero_take6.jpg?rxy=0.5506665609227257,0.1516336530941246&v=1dca02b63ad1e40&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.657897"
+  },
+  {
+    "title": "TAKE 6",
+    "date": "2026-08-14",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "TAKE 6"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/summer-2026/take-6/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/pwmlpecf/ss2026_hero_take6.jpg?rxy=0.5506665609227257,0.1516336530941246&v=1dca02b63ad1e40&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.699591"
+  },
+  {
+    "title": "MARY STALLINGS & BILL CHARLAP TRIO",
+    "date": "2026-08-14",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MARY STALLINGS & BILL CHARLAP TRIO"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/z5wat3qv/faf20_homepage_marystallings.jpg?v=1dd049f97486c40&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.737501"
+  },
+  {
     "title": "J. HOLIDAY",
     "date": "2026-08-15",
     "time": "9:30 PM",
@@ -8384,6 +8512,38 @@
     "scraped_at": "2026-07-04T02:30:27.870055"
   },
   {
+    "title": "MARY STALLINGS & BILL CHARLAP TRIO",
+    "date": "2026-08-15",
+    "time": "11:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MARY STALLINGS & BILL CHARLAP TRIO"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/z5wat3qv/faf20_homepage_marystallings.jpg?v=1dd049f97486c40&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.773914"
+  },
+  {
+    "title": "TAKE 6",
+    "date": "2026-08-15",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "TAKE 6"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/summer-2026/take-6/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/pwmlpecf/ss2026_hero_take6.jpg?rxy=0.5506665609227257,0.1516336530941246&v=1dca02b63ad1e40&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.813241"
+  },
+  {
     "title": "CHRIS MITCHELL: BEGGIN FOR SAX",
     "date": "2026-08-16",
     "time": "9:00 PM",
@@ -8398,6 +8558,22 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-07-04T02:30:27.870108"
+  },
+  {
+    "title": "TAKE 6",
+    "date": "2026-08-16",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "TAKE 6"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/summer-2026/take-6/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/pwmlpecf/ss2026_hero_take6.jpg?rxy=0.5506665609227257,0.1516336530941246&v=1dca02b63ad1e40&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.849096"
   },
   {
     "title": "AZURE MCCALL",
@@ -8496,6 +8672,22 @@
     "scraped_at": "2026-07-04T02:30:27.870227"
   },
   {
+    "title": "'KIND OF BLUE' BIRTHDAY CELEBRATION (MILES DAVIS CENTENNIAL)",
+    "date": "2026-08-21",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "'KIND OF BLUE' BIRTHDAY CELEBRATION (MILES DAVIS CENTENNIAL)"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/fpopquri/s10_web_mileskindofblue_hero.jpg?v=1dd04a1cbfa30c0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.882492"
+  },
+  {
     "title": "NORMAN BROWN",
     "date": "2026-08-22",
     "time": "9:30 PM",
@@ -8510,6 +8702,22 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-07-04T02:30:27.870284"
+  },
+  {
+    "title": "'KIND OF BLUE' BIRTHDAY CELEBRATION (MILES DAVIS CENTENNIAL)",
+    "date": "2026-08-22",
+    "time": "11:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "'KIND OF BLUE' BIRTHDAY CELEBRATION (MILES DAVIS CENTENNIAL)"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/fpopquri/s10_web_mileskindofblue_hero.jpg?v=1dd04a1cbfa30c0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.922055"
   },
   {
     "title": "KEYON HARROLD",
@@ -8624,6 +8832,22 @@
     "scraped_at": "2026-07-04T02:30:27.870446"
   },
   {
+    "title": "KENNY GARRETT: SOUNDS FROM THE ANCESTORS (5-YEAR ANNIVERSARY)",
+    "date": "2026-08-28",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "KENNY GARRETT: SOUNDS FROM THE ANCESTORS (5-YEAR ANNIVERSARY)"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/03offkpn/sfjf41_meganav_kennygarrett.jpg?v=1dcffc8e1fd7ae0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.957944"
+  },
+  {
     "title": "SIMON PHILLIPS & PROTOCOL 6",
     "date": "2026-08-29",
     "time": "7:30 PM",
@@ -8638,6 +8862,38 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-07-04T02:30:27.870467"
+  },
+  {
+    "title": "KENNY GARRETT: SOUNDS FROM THE ANCESTORS (5-YEAR ANNIVERSARY)",
+    "date": "2026-08-29",
+    "time": "11:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "KENNY GARRETT: SOUNDS FROM THE ANCESTORS (5-YEAR ANNIVERSARY)"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/03offkpn/sfjf41_meganav_kennygarrett.jpg?v=1dcffc8e1fd7ae0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:05.990831"
+  },
+  {
+    "title": "BRAD MEHLDAU: RIDE INTO THE SUN",
+    "date": "2026-08-29",
+    "time": "8:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "BRAD MEHLDAU: RIDE INTO THE SUN"
+    ],
+    "description": "featuring Chris Thile, Blake Mills, Matt Chamberlain & John Davis\nwith USC Thornton Chamber Virtuosi, Dan Coleman conductor",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/25-26/brad-mehldau-ride-into-the-sun/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/hnhltko4/ss26_hero_bradmehldau.jpg?rxy=0.5326972887802878,0.24739701101847764&v=1dcafb670336f80&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-02T18:34:06.029625"
   },
   {
     "title": "SIMON PHILLIPS & PROTOCOL 6",
