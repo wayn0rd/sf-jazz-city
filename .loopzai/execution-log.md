@@ -76,3 +76,14 @@ commitSha: "6492cc98e41e256c29a1a5ab172288afa19fcf45"
 filesTouched: [".loopzai/execution-log.md"]
 ```
 Running the scope-integrity sweep for spec.md C24-C26 and finalising the checkpoint log. The sweep changed no code; commitSha above is the commit that carries this entry, and this entry's own sha correction is carried by the trailing commit that follows it.
+
+### entry-0008
+```yaml
+timestamp: 2026-08-27T08:12:40Z
+phase: execution
+cycle: 2
+status: in_progress
+commitSha: null
+filesTouched: []
+```
+Re-running Execution for cycle 2 under spec-amendments.md amendment-0001: auditing every commitment C1-C26 against the committed tree to confirm the amendment's "no code changes required" holds, and closing the cycle without touching the frozen verification suite.
