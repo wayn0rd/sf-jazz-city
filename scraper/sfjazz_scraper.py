@@ -546,12 +546,13 @@ class SFJazzScraper:
             all_events.extend(events)
             logger.info(f"Scraped {len(events)} events from main calendar")
 
-            # Navigate through additional months using the ?month=M.YYYY URL parameter
+            # Navigate through additional months using the ?date=YYYY-MM-DD&layout=A
+            # URL parameter (the old ?month=M.YYYY param is now ignored by the server)
             now = datetime.now()
             for offset in range(1, months_ahead):
                 month = (now.month + offset - 1) % 12 + 1
                 year = now.year + (now.month + offset - 1) // 12
-                month_url = f"{CALENDAR_URL}?month={month}.{year}"
+                month_url = f"{CALENDAR_URL}?date={year}-{month:02d}-01&layout=A"
                 try:
                     logger.info(f"Navigating to {month_url}")
                     await self._retry_operation(
