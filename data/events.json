@@ -10461,7 +10461,7 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/03offkpn/sfjf41_meganav_kennygarrett.jpg?v=1dcffc8e1fd7ae0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-26T20:59:33.136605"
+    "scraped_at": "2026-08-26T22:08:58.460512"
   },
   {
     "title": "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY",
@@ -10621,7 +10621,7 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/03offkpn/sfjf41_meganav_kennygarrett.jpg?v=1dcffc8e1fd7ae0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-26T20:59:33.176433"
+    "scraped_at": "2026-08-26T22:08:58.500183"
   },
   {
     "title": "BRAD MEHLDAU: RIDE INTO THE SUN",
@@ -10637,7 +10637,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/hnhltko4/ss26_hero_bradmehldau.jpg?rxy=0.5326972887802878,0.24739701101847764&v=1dcafb670336f80&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-08-26T20:59:33.220633"
+    "scraped_at": "2026-08-26T22:08:58.545130"
   },
   {
     "title": "N.T.B. COLLECTIVE",
@@ -11136,6 +11136,22 @@
     "scraped_at": "2026-08-26T21:00:11.516105"
   },
   {
+    "title": "EMMET COHEN QUINTET: MILES & COLTRANE AT 100",
+    "date": "2026-09-04",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "EMMET COHEN QUINTET: MILES & COLTRANE AT 100"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/ybefd3df/hero_emmetcohen.jpg?rxy=0.48107737648523385,0.35961401429132733&v=1dd259218b85750&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.363384"
+  },
+  {
     "title": "KIRK WHALUM",
     "date": "2026-09-05",
     "time": "9:30 PM",
@@ -11246,6 +11262,22 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:11.568919"
+  },
+  {
+    "title": "EMMET COHEN QUINTET: MILES & COLTRANE AT 100",
+    "date": "2026-09-05",
+    "time": "11:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "EMMET COHEN QUINTET: MILES & COLTRANE AT 100"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/ybefd3df/hero_emmetcohen.jpg?rxy=0.48107737648523385,0.35961401429132733&v=1dd259218b85750&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.397777"
   },
   {
     "title": "SONS OF CHAMPLIN W/ BILL CHAMPLIN",
@@ -11456,6 +11488,38 @@
     "scraped_at": "2026-08-26T21:00:01.838096"
   },
   {
+    "title": "PAUL CORNISH TRIO",
+    "date": "2026-09-10",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "PAUL CORNISH TRIO"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/paul-cornish-trio/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/h0yn2smx/s2627_hero_paulcornish.jpg?rxy=0.5251978504943017,0.35333972082181486&v=1dced2bd1a26610&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.433027"
+  },
+  {
+    "title": "CHRISTIAN MCBRIDE",
+    "date": "2026-09-10",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRISTIAN MCBRIDE"
+    ],
+    "description": "w/ Benny Green & Gregory Hutchinson",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/christian-mcbride-ray-brown-centennial-celebration/",
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1bclkdeg/s2627_hero_christianmcbride_9_10-11.jpg?rxy=0.48337260381628744,0.23618072857355107&v=1dced1e75b5e910&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.468847"
+  },
+  {
     "title": "ANEESA STRINGS",
     "date": "2026-09-11",
     "time": "9:30 PM",
@@ -11518,6 +11582,38 @@
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/03/kai.jpg?resize=512%2C512&ssl=1",
     "scraped_at": "2026-08-26T21:00:01.879727"
+  },
+  {
+    "title": "CHRISTIAN MCBRIDE",
+    "date": "2026-09-11",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRISTIAN MCBRIDE"
+    ],
+    "description": "w/ Benny Green & Gregory Hutchinson",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/christian-mcbride-ray-brown-centennial-celebration/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1bclkdeg/s2627_hero_christianmcbride_9_10-11.jpg?rxy=0.48337260381628744,0.23618072857355107&v=1dced1e75b5e910&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.581170"
+  },
+  {
+    "title": "PAUL CORNISH TRIO",
+    "date": "2026-09-11",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "PAUL CORNISH TRIO"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/paul-cornish-trio/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/h0yn2smx/s2627_hero_paulcornish.jpg?rxy=0.5251978504943017,0.35333972082181486&v=1dced2bd1a26610&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.544215"
   },
   {
     "title": "ROSE ROYCE",
@@ -11600,6 +11696,38 @@
     "scraped_at": "2026-08-26T21:00:01.938495"
   },
   {
+    "title": "CHRISTIAN MCBRIDE'S URSA MAJOR",
+    "date": "2026-09-12",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRISTIAN MCBRIDE'S URSA MAJOR"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/christian-mcbride-ursa-major/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/25djlfd1/s2627_hero_christianmcbride_9_12-13.jpg?rxy=0.5282062039095413,0.2654058121971426&v=1dced1f8d0311f0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.699599"
+  },
+  {
+    "title": "NDUDUZO MAKHATHINI TRIO",
+    "date": "2026-09-12",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "NDUDUZO MAKHATHINI TRIO"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/nduduzo-makhathini-trio/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/fozd1wsp/s2627_hero_nduduzomakhathini.jpg?rxy=0.5237010864980616,0.36930570263656154&v=1dced2bdedffc70&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.660721"
+  },
+  {
     "title": "KAMASI WASHINGTON",
     "date": "2026-09-13",
     "time": "9:00 PM",
@@ -11632,6 +11760,38 @@
     "scraped_at": "2026-08-26T21:00:01.961086"
   },
   {
+    "title": "CHRISTIAN MCBRIDE'S URSA MAJOR",
+    "date": "2026-09-13",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRISTIAN MCBRIDE'S URSA MAJOR"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/christian-mcbride-ursa-major/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/25djlfd1/s2627_hero_christianmcbride_9_12-13.jpg?rxy=0.5282062039095413,0.2654058121971426&v=1dced1f8d0311f0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.817233"
+  },
+  {
+    "title": "NDUDUZO MAKHATHINI TRIO",
+    "date": "2026-09-13",
+    "time": "6:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "NDUDUZO MAKHATHINI TRIO"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/nduduzo-makhathini-trio/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/fozd1wsp/s2627_hero_nduduzomakhathini.jpg?rxy=0.5237010864980616,0.36930570263656154&v=1dced2bdedffc70&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.778415"
+  },
+  {
     "title": "KAMASI WASHINGTON",
     "date": "2026-09-14",
     "time": "9:30 PM",
@@ -11662,6 +11822,22 @@
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1782330149508-LDWQRQF43VURESVU0XJ8/Midnight+Blue+3000X2400.jpg",
     "scraped_at": "2026-08-26T20:59:55.043261"
+  },
+  {
+    "title": "SFJAM: FREE COMMUNITY JAM SESSION: 100 YEARS OF COLTRANE",
+    "date": "2026-09-14",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "SFJAM: FREE COMMUNITY JAM SESSION: 100 YEARS OF COLTRANE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/education/sfjam/100-years-of-coltrane-terrence-brewer/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/lorfghpu/s12_edu_meganav_sfjam.jpg?v=1dc4f2407b21300&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.892815"
   },
   {
     "title": "JOHN PIZZARELLI PRESENTS \"DEAR MR. BENNETT\u201d",
@@ -11744,6 +11920,22 @@
     "scraped_at": "2026-08-26T21:00:01.980736"
   },
   {
+    "title": "BRIAN SIMPSON FEATURING GRACE KELLY",
+    "date": "2026-09-16",
+    "time": "1:15 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "BRIAN SIMPSON FEATURING GRACE KELLY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/brian-simpson-featuring-grace-kelly/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/5jzl4hzc/s2627_hero_briansimpson-gracekelly.jpg?rxy=0.49825609856197933,0.2495608390259612&v=1dce158a6423240&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.933884"
+  },
+  {
     "title": "MIKE OLMOS",
     "date": "2026-09-17",
     "time": "8:00\u202fPM",
@@ -11774,6 +11966,22 @@
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/11/Screenshot-2025-12-02-at-3.17.01-PM.png?resize=650%2C428&ssl=1",
     "scraped_at": "2026-08-26T21:00:02.001816"
+  },
+  {
+    "title": "BRANFORD MARSALIS & DIANNE REEVES CELEBRATE JOHN COLTRANE",
+    "date": "2026-09-17",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "BRANFORD MARSALIS & DIANNE REEVES CELEBRATE JOHN COLTRANE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/branford-marsalis-and-dianne-reeves-celebrate-john-coltrane/",
+    "price": null,
+    "status": "Almost Sold Out",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/ac0hok5l/s2627_hero_branfordmarsalis-diannereeves_v2.jpg?rxy=0.5015077984421276,0.3089645326625054&v=1dcf9b30c5a9f00&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:04.968545"
   },
   {
     "title": "BIG DADDY KANE",
@@ -11840,6 +12048,54 @@
     "scraped_at": "2026-08-26T21:00:02.042069"
   },
   {
+    "title": "CAMILLE KERANI",
+    "date": "2026-09-18",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CAMILLE KERANI"
+    ],
+    "description": "plays John Coltrane\u2019s A Love Supreme",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/hotplate-camille-kerani-a-love-supreme/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/0vanlauy/s2627_hero_camillekerani.jpg?v=1dce3a947c3e170&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.004614"
+  },
+  {
+    "title": "BRANFORD MARSALIS & DIANNE REEVES CELEBRATE JOHN COLTRANE",
+    "date": "2026-09-18",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "BRANFORD MARSALIS & DIANNE REEVES CELEBRATE JOHN COLTRANE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/branford-marsalis-and-dianne-reeves-celebrate-john-coltrane/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/ac0hok5l/s2627_hero_branfordmarsalis-diannereeves_v2.jpg?rxy=0.5015077984421276,0.3089645326625054&v=1dcf9b30c5a9f00&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.045287"
+  },
+  {
+    "title": "NDUDUZO MAKHATHINI TRIO",
+    "date": "2026-09-18",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "NDUDUZO MAKHATHINI TRIO"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/fozd1wsp/s2627_hero_nduduzomakhathini.jpg?rxy=0.5237010864980616,0.36930570263656154&v=1dced2bdedffc70&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.077593"
+  },
+  {
     "title": "MOHINI DEY",
     "date": "2026-09-19",
     "time": "9:30 PM",
@@ -11904,6 +12160,102 @@
     "scraped_at": "2026-08-26T21:00:02.083906"
   },
   {
+    "title": "RAVI COLTRANE: COLTRANE CENTENNIAL CELEBRATION",
+    "date": "2026-09-19",
+    "time": "8:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "RAVI COLTRANE: COLTRANE CENTENNIAL CELEBRATION"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/ravi-coltrane-coltrane-centennial-celebration/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/4o3jnyag/s2627_hero_ravicoltrane.jpg?rxy=0.5252172972366578,0.30260137317262276&v=1dced1fbf465960&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.332251"
+  },
+  {
+    "title": "BRANFORD MARSALIS & DIANNE REEVES CELEBRATE JOHN COLTRANE",
+    "date": "2026-09-19",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "BRANFORD MARSALIS & DIANNE REEVES CELEBRATE JOHN COLTRANE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/branford-marsalis-and-dianne-reeves-celebrate-john-coltrane/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/ac0hok5l/s2627_hero_branfordmarsalis-diannereeves_v2.jpg?rxy=0.5015077984421276,0.3089645326625054&v=1dcf9b30c5a9f00&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.294189"
+  },
+  {
+    "title": "FAMILY MATINEE W/ DESTINY MUHAMMAD",
+    "date": "2026-09-19",
+    "time": "11:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "FAMILY MATINEE W/ DESTINY MUHAMMAD"
+    ],
+    "description": "feat. James Mahone",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/education/family-matinees/destiny-muhammad-james-mahone-in-the-spirit-of-coltrane/",
+    "price": null,
+    "status": "Family Matinee",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/oz4hf5jj/s2627_hero_fm_destinymuhammad.jpg?rxy=0.784138021843844,0.3214077571923214&v=1dcf7f935bdf0b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.184811"
+  },
+  {
+    "title": "NDUDUZO MAKHATHINI TRIO",
+    "date": "2026-09-19",
+    "time": "11:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "NDUDUZO MAKHATHINI TRIO"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/fozd1wsp/s2627_hero_nduduzomakhathini.jpg?rxy=0.5237010864980616,0.36930570263656154&v=1dced2bdedffc70&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.218767"
+  },
+  {
+    "title": "WEBOP AT SFJAZZ: STOMPERS",
+    "date": "2026-09-19",
+    "time": "10:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "WEBOP AT SFJAZZ: STOMPERS"
+    ],
+    "description": "Ages 2 - 3.5",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/education/webop-at-sfjazz/stompers/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/iplgbvkc/s2627_hero_edu_webop-1.jpg?rxy=0.4802949306070978,0.2442388450877123&v=1dcf8096b9d3050&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.149464"
+  },
+  {
+    "title": "MYRA MELFORD SPLASH TRIO",
+    "date": "2026-09-19",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MYRA MELFORD SPLASH TRIO"
+    ],
+    "description": "w/ Ches Smith & Michael Formanek",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/myra-melford-splash-trio/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1adkmzod/s2627_hero_myramelford.jpg?rxy=0.5566298944153444,0.33205174506881924&v=1dced2bfecfa530&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.256028"
+  },
+  {
     "title": "Marco de Carvalho Brazilian Trio ft. Neal Chin & Ami Molinelli",
     "date": "2026-09-20",
     "time": null,
@@ -11936,6 +12288,38 @@
     "scraped_at": "2026-08-26T21:00:12.257724"
   },
   {
+    "title": "BRANFORD MARSALIS & DIANNE REEVES CELEBRATE JOHN COLTRANE",
+    "date": "2026-09-20",
+    "time": "3:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "BRANFORD MARSALIS & DIANNE REEVES CELEBRATE JOHN COLTRANE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/branford-marsalis-and-dianne-reeves-celebrate-john-coltrane/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/ac0hok5l/s2627_hero_branfordmarsalis-diannereeves_v2.jpg?rxy=0.5015077984421276,0.3089645326625054&v=1dcf9b30c5a9f00&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.410672"
+  },
+  {
+    "title": "MYRA MELFORD SPLASH TRIO",
+    "date": "2026-09-20",
+    "time": "6:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MYRA MELFORD SPLASH TRIO"
+    ],
+    "description": "w/ Ches Smith & Michael Formanek",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/myra-melford-splash-trio/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1adkmzod/s2627_hero_myramelford.jpg?rxy=0.5566298944153444,0.33205174506881924&v=1dced2bfecfa530&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.451257"
+  },
+  {
     "title": "MUSIC MONDAY: THE THROWBACK SERIES",
     "date": "2026-09-21",
     "time": "8:00 PM",
@@ -11950,6 +12334,22 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.257749"
+  },
+  {
+    "title": "BRANFORD MARSALIS QUARTET",
+    "date": "2026-09-21",
+    "time": "1:15 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "BRANFORD MARSALIS QUARTET"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/branford-marsalis-jazz-cruise/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/azrlhn1g/s2627_hero_branfordmarsalis.jpg?rxy=0.38623313694757067,0.15381912927070215&v=1dced1d1f947610&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.526197"
   },
   {
     "title": "LUKE WESTBROOK BAND",
@@ -11982,6 +12382,38 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.257770"
+  },
+  {
+    "title": "JAZZ AT LINCOLN CENTER ORCHESTRA W/ WYNTON MARSALIS",
+    "date": "2026-09-22",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JAZZ AT LINCOLN CENTER ORCHESTRA W/ WYNTON MARSALIS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/jazz-at-lincoln-center-orchestra-wynton-marsalis/",
+    "price": null,
+    "status": "Sold Out",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1wbj2l0x/s2627_hero_jalcowwyntonmarsalis.jpg?rxy=0.3234660968170152,0.31322867630847423&v=1dce3b3de0198d0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.594454"
+  },
+  {
+    "title": "JAZZ AT LINCOLN CENTER ORCHESTRA",
+    "date": "2026-09-22",
+    "time": "11:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JAZZ AT LINCOLN CENTER ORCHESTRA"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/jazz-at-lincoln-center-orchestra/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1can5f13/s2627_hero_jalco-nowynton.jpg?v=1dd33dc450610b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.560992"
   },
   {
     "title": "LYDIA PENSE & COLD BLOOD",
@@ -12048,6 +12480,38 @@
     "scraped_at": "2026-08-26T20:59:55.333331"
   },
   {
+    "title": "JAHARI STAMPLEY FAMILY SOUL TRIO",
+    "date": "2026-09-24",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JAHARI STAMPLEY FAMILY SOUL TRIO"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/jahari-stampley-family-soul-trio/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/orlamri3/s2627_hero_jaharistampley.jpg?rxy=0.4758046386183774,0.3799496905130594&v=1dced2c495a4970&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.632656"
+  },
+  {
+    "title": "MARCUS MILLER: \u201cWE WANT MILES\u201d CENTENNIAL CELEBRATION",
+    "date": "2026-09-24",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MARCUS MILLER: \u201cWE WANT MILES\u201d CENTENNIAL CELEBRATION"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/marcus-miller-we-want-miles-centennial-celebration/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/zy3hqe2h/s2627_hero_marcusmiller.jpg?rxy=0.5939621507129804,0.32119915366036283&v=1dced206bdf3980&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.671331"
+  },
+  {
     "title": "SYLEENA JOHNSON",
     "date": "2026-09-25",
     "time": "7:30 PM",
@@ -12096,6 +12560,54 @@
     "scraped_at": "2026-08-26T20:59:55.367620"
   },
   {
+    "title": "JAZZ AT LINCOLN CENTER ORCHESTRA W/ WYNTON MARSALIS",
+    "date": "2026-09-25",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JAZZ AT LINCOLN CENTER ORCHESTRA W/ WYNTON MARSALIS"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1wbj2l0x/s2627_hero_jalcowwyntonmarsalis.jpg?rxy=0.3234660968170152,0.31322867630847423&v=1dce3b3de0198d0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.815763"
+  },
+  {
+    "title": "MARCUS MILLER: \u201cWE WANT MILES\u201d CENTENNIAL CELEBRATION",
+    "date": "2026-09-25",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MARCUS MILLER: \u201cWE WANT MILES\u201d CENTENNIAL CELEBRATION"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/marcus-miller-we-want-miles-centennial-celebration/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/zy3hqe2h/s2627_hero_marcusmiller.jpg?rxy=0.5939621507129804,0.32119915366036283&v=1dced206bdf3980&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.782154"
+  },
+  {
+    "title": "JAHARI STAMPLEY FAMILY SOUL TRIO",
+    "date": "2026-09-25",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JAHARI STAMPLEY FAMILY SOUL TRIO"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/jahari-stampley-family-soul-trio/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/orlamri3/s2627_hero_jaharistampley.jpg?rxy=0.4758046386183774,0.3799496905130594&v=1dced2c495a4970&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.745669"
+  },
+  {
     "title": "SONDANGO",
     "date": "2026-09-26",
     "time": "8:00\u202fPM",
@@ -12110,6 +12622,54 @@
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709233568113-ELWATVCET2F8DQMAODO5/Sondango+promo+%281%29.jpg",
     "scraped_at": "2026-08-26T20:59:55.401567"
+  },
+  {
+    "title": "JAZZ AT LINCOLN CENTER ORCHESTRA W/ WYNTON MARSALIS",
+    "date": "2026-09-26",
+    "time": "11:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JAZZ AT LINCOLN CENTER ORCHESTRA W/ WYNTON MARSALIS"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1wbj2l0x/s2627_hero_jalcowwyntonmarsalis.jpg?rxy=0.3234660968170152,0.31322867630847423&v=1dce3b3de0198d0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.883375"
+  },
+  {
+    "title": "MARCUS MILLER: \u201cWE WANT MILES\u201d CENTENNIAL CELEBRATION",
+    "date": "2026-09-26",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MARCUS MILLER: \u201cWE WANT MILES\u201d CENTENNIAL CELEBRATION"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/marcus-miller-we-want-miles-centennial-celebration/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/zy3hqe2h/s2627_hero_marcusmiller.jpg?rxy=0.5939621507129804,0.32119915366036283&v=1dced206bdf3980&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.955424"
+  },
+  {
+    "title": "THE ALAYA PROJECT",
+    "date": "2026-09-26",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "THE ALAYA PROJECT"
+    ],
+    "description": "feat. Roopa Mahadevan on vocals and Cory Combs",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/the-alaya-project/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1amdspzx/s2627_hero_thealayaproject.jpg?rxy=0.49675933456573923,0.260204826902459&v=1dced2c5b9249d0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:05.920107"
   },
   {
     "title": "ISAIAH COLLIER",
@@ -12142,6 +12702,38 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.257897"
+  },
+  {
+    "title": "THE ALAYA PROJECT",
+    "date": "2026-09-27",
+    "time": "6:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "THE ALAYA PROJECT"
+    ],
+    "description": "feat. Roopa Mahadevan on vocals and Cory Combs",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/the-alaya-project/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1amdspzx/s2627_hero_thealayaproject.jpg?rxy=0.49675933456573923,0.260204826902459&v=1dced2c5b9249d0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:06.028804"
+  },
+  {
+    "title": "MARCUS MILLER: \u201cWE WANT MILES\u201d CENTENNIAL CELEBRATION",
+    "date": "2026-09-27",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MARCUS MILLER: \u201cWE WANT MILES\u201d CENTENNIAL CELEBRATION"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/marcus-miller-we-want-miles-centennial-celebration/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/zy3hqe2h/s2627_hero_marcusmiller.jpg?rxy=0.5939621507129804,0.32119915366036283&v=1dced206bdf3980&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:06.065995"
   },
   {
     "title": "FRED WESLEY'S NEW JBS W/ MARTHA HIGH'S FUNKY DIVAS",
@@ -12272,6 +12864,38 @@
     "scraped_at": "2026-08-26T21:00:02.126979"
   },
   {
+    "title": "CYRILLE AIM\u00c9E",
+    "date": "2026-10-01",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CYRILLE AIM\u00c9E"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/cyrille-aimee/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/qzhcjhnz/s2627_hero_cyrilleaime-e.jpg?rxy=0.5551331304191043,0.32939074809969476&v=1dced2c6df292b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.249986"
+  },
+  {
+    "title": "HIROMI & KAZUNORI KUMAGAI",
+    "date": "2026-10-01",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "HIROMI & KAZUNORI KUMAGAI"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/hiromi-kazunori-kumagai/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/sgxpwpcg/s2627_hero_hiromi.jpg?v=1dce3aa9bddebb0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.286046"
+  },
+  {
     "title": "THE CURTIS FAMILY C-NOTES",
     "date": "2026-10-02",
     "time": "9:30 PM",
@@ -12286,6 +12910,70 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.258033"
+  },
+  {
+    "title": "HIROMI",
+    "date": "2026-10-02",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "HIROMI"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/hiromi/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/sgxpwpcg/s2627_hero_hiromi.jpg?v=1dce3aa9bddebb0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.407794"
+  },
+  {
+    "title": "SNARKY PUPPY",
+    "date": "2026-10-02",
+    "time": "8:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "SNARKY PUPPY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/snarky-puppy/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/uaqbt0pk/s14_hero_snarkypuppy.jpg?rxy=0.5039605548711648,0.13183667319572095&v=1dce3aab34d3800&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.505966"
+  },
+  {
+    "title": "JAHARI STAMPLEY FAMILY SOUL TRIO",
+    "date": "2026-10-02",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JAHARI STAMPLEY FAMILY SOUL TRIO"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/orlamri3/s2627_hero_jaharistampley.jpg?rxy=0.4758046386183774,0.3799496905130594&v=1dced2c495a4970&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.444514"
+  },
+  {
+    "title": "CYRILLE AIM\u00c9E",
+    "date": "2026-10-02",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CYRILLE AIM\u00c9E"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/cyrille-aimee/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/qzhcjhnz/s2627_hero_cyrilleaime-e.jpg?rxy=0.5551331304191043,0.32939074809969476&v=1dced2c6df292b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.368041"
   },
   {
     "title": "MILES ELECTRIC BAND",
@@ -12304,6 +12992,70 @@
     "scraped_at": "2026-08-26T21:00:12.258098"
   },
   {
+    "title": "JAHARI STAMPLEY FAMILY SOUL TRIO",
+    "date": "2026-10-03",
+    "time": "11:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JAHARI STAMPLEY FAMILY SOUL TRIO"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": "Members Only",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/orlamri3/s2627_hero_jaharistampley.jpg?rxy=0.4758046386183774,0.3799496905130594&v=1dced2c495a4970&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.581642"
+  },
+  {
+    "title": "HIROMI & KAZUNORI KUMAGAI",
+    "date": "2026-10-03",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "HIROMI & KAZUNORI KUMAGAI"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/hiromi-kazunori-kumagai/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/sgxpwpcg/s2627_hero_hiromi.jpg?v=1dce3aa9bddebb0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.690538"
+  },
+  {
+    "title": "HIROMI: THE TRIO PROJECT",
+    "date": "2026-10-03",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "HIROMI: THE TRIO PROJECT"
+    ],
+    "description": "with James Genus and Simon Phillips",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/hiromi-the-trio-project/",
+    "price": null,
+    "status": "Sold Out",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/sgxpwpcg/s2627_hero_hiromi.jpg?v=1dce3aa9bddebb0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.652763"
+  },
+  {
+    "title": "CYRILLE AIM\u00c9E",
+    "date": "2026-10-03",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CYRILLE AIM\u00c9E"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/cyrille-aimee/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/qzhcjhnz/s2627_hero_cyrilleaime-e.jpg?rxy=0.5551331304191043,0.32939074809969476&v=1dced2c6df292b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.618403"
+  },
+  {
     "title": "MILES ELECTRIC BAND",
     "date": "2026-10-04",
     "time": "7:00 PM",
@@ -12318,6 +13070,38 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.258125"
+  },
+  {
+    "title": "BLAQUE DYNAMITE",
+    "date": "2026-10-04",
+    "time": "6:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "BLAQUE DYNAMITE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/blaque-dynamite/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/qaansaij/s2627_hero_blaquedynamite.jpg?rxy=0.5281913784867819,0.3613227117291882&v=1dced2c8b0aff90&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.769943"
+  },
+  {
+    "title": "HIROMI: THE TRIO PROJECT",
+    "date": "2026-10-04",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "HIROMI: THE TRIO PROJECT"
+    ],
+    "description": "with James Genus and Simon Phillips",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/hiromi-the-trio-project/",
+    "price": null,
+    "status": "Sold Out",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/sgxpwpcg/s2627_hero_hiromi.jpg?v=1dce3aa9bddebb0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.806389"
   },
   {
     "title": "EUGE GROOVE",
@@ -12384,6 +13168,38 @@
     "scraped_at": "2026-08-26T21:00:12.258207"
   },
   {
+    "title": "TIFFANY AUSTIN",
+    "date": "2026-10-08",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "TIFFANY AUSTIN"
+    ],
+    "description": "sings Carmen McRae\u2019s Carmen Sings Monk",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/hotplate-tiffany-austin-carmen-sings-monk/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/x1mp5b1p/s2627_hero_tiffanyaustin.jpg?rxy=0.46233376265221626,0.24157784811858785&v=1dced2c9943bed0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.881117"
+  },
+  {
+    "title": "KURT ELLING & THE YELLOWJACKETS",
+    "date": "2026-10-08",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "KURT ELLING & THE YELLOWJACKETS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/kurt-elling-yellowjackets-weather-report/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/i1vk5rn5/s2627_hero_kurtellingtheyellowjackets.jpg?rxy=0.2582340628602566,0.15654944531945306&v=1dcfa60410d5730&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.919561"
+  },
+  {
     "title": "MUSIQ SOULCHILD",
     "date": "2026-10-09",
     "time": "9:30 PM",
@@ -12398,6 +13214,38 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.258262"
+  },
+  {
+    "title": "KURT ELLING & THE YELLOWJACKETS",
+    "date": "2026-10-09",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "KURT ELLING & THE YELLOWJACKETS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/kurt-elling-yellowjackets-weather-report/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/i1vk5rn5/s2627_hero_kurtellingtheyellowjackets.jpg?rxy=0.2582340628602566,0.15654944531945306&v=1dcfa60410d5730&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.033602"
+  },
+  {
+    "title": "TIFFANY AUSTIN",
+    "date": "2026-10-09",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "TIFFANY AUSTIN"
+    ],
+    "description": "sings Carmen McRae\u2019s Carmen Sings Monk",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/hotplate-tiffany-austin-carmen-sings-monk/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/x1mp5b1p/s2627_hero_tiffanyaustin.jpg?rxy=0.46233376265221626,0.24157784811858785&v=1dced2c9943bed0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:12.992409"
   },
   {
     "title": "MUSIQ SOULCHILD",
@@ -12416,6 +13264,22 @@
     "scraped_at": "2026-08-26T21:00:12.258311"
   },
   {
+    "title": "MARCUS SHELBY NEW ORCHESTRA",
+    "date": "2026-10-10",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MARCUS SHELBY NEW ORCHESTRA"
+    ],
+    "description": "w/ Cyrus Chestnut, Sarah Hanahan, & Warren Wolf",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/marcus-shelby-new-orchestra-thelonious-monk-birthday-celebration/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/trshw0cg/s2627_hero_marcusshelbyneworchestra.jpg?rxy=0.6985738842639061,0.20695564494995952&v=1dced20a978b9b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.104366"
+  },
+  {
     "title": "MUSIQ SOULCHILD",
     "date": "2026-10-11",
     "time": "9:00 PM",
@@ -12430,6 +13294,22 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.258360"
+  },
+  {
+    "title": "SOMI",
+    "date": "2026-10-11",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "SOMI"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/somi/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/zwyfw5yl/s2627_hero_somi.jpg?rxy=0.5222283905637741,0.3929334498273603&v=1dced20b8795cd0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.143553"
   },
   {
     "title": "ACOUSTIC ALCHEMY",
@@ -12480,6 +13360,38 @@
     "scraped_at": "2026-08-26T21:00:12.258441"
   },
   {
+    "title": "MATHIS PICARD TRIO",
+    "date": "2026-10-15",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MATHIS PICARD TRIO"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/mathis-picard-trio/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/lhdpazar/s2627_hero_mathispicardtrio.jpg?rxy=0.6688871941333541,0.3506787238526904&v=1dced2cb76a8e70&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.184741"
+  },
+  {
+    "title": "LILA DOWNS",
+    "date": "2026-10-15",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "LILA DOWNS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/lila-downs/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/kvxbgsys/s2627_hero_liladowns.jpg?rxy=0.5057894038629144,0.18570103867825657&v=1dced20d4dc8370&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.221741"
+  },
+  {
     "title": "MUSIQ SOULCHILD",
     "date": "2026-10-16",
     "time": "9:30 PM",
@@ -12494,6 +13406,38 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.258481"
+  },
+  {
+    "title": "LILA DOWNS",
+    "date": "2026-10-16",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "LILA DOWNS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/lila-downs/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/kvxbgsys/s2627_hero_liladowns.jpg?rxy=0.5057894038629144,0.18570103867825657&v=1dced20d4dc8370&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.365526"
+  },
+  {
+    "title": "ZACCAI CURTIS SEXTET",
+    "date": "2026-10-16",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "ZACCAI CURTIS SEXTET"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/zaccai-curtis-sextet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/3i4lqc1h/s2627_hero_zaccaicurtis.jpg?rxy=0.43988230270861434,0.41986464504992616&v=1dced2cc6d516f0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.324176"
   },
   {
     "title": "DAMIEN ESCOBAR",
@@ -12512,6 +13456,38 @@
     "scraped_at": "2026-08-26T21:00:12.258536"
   },
   {
+    "title": "ZACCAI CURTIS SEXTET",
+    "date": "2026-10-17",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "ZACCAI CURTIS SEXTET"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/zaccai-curtis-sextet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/3i4lqc1h/s2627_hero_zaccaicurtis.jpg?rxy=0.43988230270861434,0.41986464504992616&v=1dced2cc6d516f0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.442424"
+  },
+  {
+    "title": "LILA DOWNS",
+    "date": "2026-10-17",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "LILA DOWNS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/lila-downs/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/kvxbgsys/s2627_hero_liladowns.jpg?rxy=0.5057894038629144,0.18570103867825657&v=1dced20d4dc8370&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.480457"
+  },
+  {
     "title": "DAMIEN ESCOBAR",
     "date": "2026-10-18",
     "time": "7:00 PM",
@@ -12528,6 +13504,38 @@
     "scraped_at": "2026-08-26T21:00:12.258558"
   },
   {
+    "title": "LILA DOWNS",
+    "date": "2026-10-18",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "LILA DOWNS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/lila-downs/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/kvxbgsys/s2627_hero_liladowns.jpg?rxy=0.5057894038629144,0.18570103867825657&v=1dced20d4dc8370&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.596041"
+  },
+  {
+    "title": "MARINA CROUSE",
+    "date": "2026-10-18",
+    "time": "6:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MARINA CROUSE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/marina-crouse/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/j3jh35ts/s2627_hero_marinacrouse.jpg?rxy=0.7392351019566401,0.38793268142043275&v=1dced2ce58bf190&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.556361"
+  },
+  {
     "title": "SHOSHANA BEAN",
     "date": "2026-10-19",
     "time": "9:30 PM",
@@ -12542,6 +13550,38 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.258597"
+  },
+  {
+    "title": "SFJAM: FREE COMMUNITY JAM SESSION: ALL MONK",
+    "date": "2026-10-19",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "SFJAM: FREE COMMUNITY JAM SESSION: ALL MONK"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/education/sfjam/all-monk-marcus-shelby/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/lorfghpu/s12_edu_meganav_sfjam.jpg?v=1dc4f2407b21300&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.675058"
+  },
+  {
+    "title": "JULIAN LAGE QUARTET",
+    "date": "2026-10-19",
+    "time": "8:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JULIAN LAGE QUARTET"
+    ],
+    "description": "Feat. John Medeski, Jorge Roeder, & Kenny Wollesen | Opening Act: Laura Itandehui",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/julian-lage-quartet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/s54jsoaa/s2627_hero_julianlagequartet.jpg?rxy=0.47141697712475306,0.19367151603014518&v=1dced2103bd8d10&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.712232"
   },
   {
     "title": "TWIN PEAKS: CONVERSATION WITH THE STARS",
@@ -12624,6 +13664,22 @@
     "scraped_at": "2026-08-26T21:00:12.258773"
   },
   {
+    "title": "RJAM SIDE-BY-SIDE: CELEBRATING JOHN COLTRANE",
+    "date": "2026-10-22",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "RJAM SIDE-BY-SIDE: CELEBRATING JOHN COLTRANE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/education/rjam/side-by-side-celebrating-john-coltrane/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/nz1kwols/s2526_edu_meganav_sfcm-rjam.jpg?v=1dc6aca7ab088c0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.751535"
+  },
+  {
     "title": "MAYSA",
     "date": "2026-10-23",
     "time": "9:30 PM",
@@ -12638,6 +13694,38 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.258820"
+  },
+  {
+    "title": "TROY ROBERTS NU-JIVE",
+    "date": "2026-10-23",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "TROY ROBERTS NU-JIVE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/troy-roberts-nu-jive/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/bmfdo0ga/s2627_hero_troyrobertsnu-jive.jpg?rxy=0.6479324981859923,0.14045996329185864&v=1dced2d05504490&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.790747"
+  },
+  {
+    "title": "EDWARD SIMON: FEMENINAS",
+    "date": "2026-10-23",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "EDWARD SIMON: FEMENINAS"
+    ],
+    "description": "w/ Magos Herrera, Luis Quintero, Matt Brewer, & Rafael Barata",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/edward-simon-femeninas/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/2ptldeyz/s2627_hero_edwardsimonfemeninas.jpg?rxy=0.46842807045186946,0.23883755435751391&v=1dced21206b9f60&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.831549"
   },
   {
     "title": "CHRISTIAN SANDS TRIO",
@@ -12672,6 +13760,54 @@
     "scraped_at": "2026-08-26T21:00:12.258860"
   },
   {
+    "title": "FAMILY MATINEE W/ MARCUS SHELBY & FRIENDS",
+    "date": "2026-10-24",
+    "time": "11:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "FAMILY MATINEE W/ MARCUS SHELBY & FRIENDS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/education/family-matinees/marcus-shelby-friends/",
+    "price": null,
+    "status": "Family Matinee",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/j2sn0vyg/s2627_hero_fm_marcusshelbyfriends.jpg?rxy=0.39041130470471563,0.19061978608873947&v=1dcf9b4a99f6f60&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.956046"
+  },
+  {
+    "title": "CONNECTED",
+    "date": "2026-10-24",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CONNECTED"
+    ],
+    "description": "Featuring Richie Goods & Chien\u00a0Chien\u00a0Lu",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/connected/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/xgynv1yf/s2627_hero_connected.jpg?rxy=0.517714030513101,0.318746760223197&v=1dced2d1d6bfd80&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:14.020851"
+  },
+  {
+    "title": "WEBOP AT SFJAZZ: STOMPERS",
+    "date": "2026-10-24",
+    "time": "10:00 AM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "WEBOP AT SFJAZZ: STOMPERS"
+    ],
+    "description": "Ages 2 - 3.5",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/education/webop-at-sfjazz/stompers/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/iplgbvkc/s2627_hero_edu_webop-1.jpg?rxy=0.4802949306070978,0.2442388450877123&v=1dcf8096b9d3050&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:13.920760"
+  },
+  {
     "title": "MARION MEADOWS",
     "date": "2026-10-25",
     "time": "7:00 PM",
@@ -12686,6 +13822,38 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.258880"
+  },
+  {
+    "title": "CONNECTED",
+    "date": "2026-10-25",
+    "time": "6:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CONNECTED"
+    ],
+    "description": "Featuring Richie Goods & Chien\u00a0Chien\u00a0Lu",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/connected/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/xgynv1yf/s2627_hero_connected.jpg?rxy=0.517714030513101,0.318746760223197&v=1dced2d1d6bfd80&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:14.102536"
+  },
+  {
+    "title": "CHARLES TOLLIVER",
+    "date": "2026-10-25",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHARLES TOLLIVER"
+    ],
+    "description": "Presents Africa/Brass: Trane Forever",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/charles-tolliver-africa-brass/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/f4znfp3u/s2627_hero_charlestolliver.jpg?rxy=0.5610841773112608,0.31854232787639997&v=1dced21469cff30&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:14.137211"
   },
   {
     "title": "LAURA ANGLADE",
@@ -12768,6 +13936,38 @@
     "scraped_at": "2026-08-26T21:00:12.258976"
   },
   {
+    "title": "DAVID S\u00c1NCHEZ\u2019S CARIB PRESENTS TAMB\u00d3",
+    "date": "2026-10-29",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "DAVID S\u00c1NCHEZ\u2019S CARIB PRESENTS TAMB\u00d3"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/david-sanchez-tambo/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/hdtlkog1/s2627_hero_davidsanchez.jpg?rxy=0.5386673772646339,0.3052581989565856&v=1dced2173ae2ad0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:14.242962"
+  },
+  {
+    "title": "DISCOVER JAZZ: IMPRESSIONS OF JOHN COLTRANE",
+    "date": "2026-10-29",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "DISCOVER JAZZ: IMPRESSIONS OF JOHN COLTRANE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/education/discover-jazz/impressions-of-john-coltrane/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/iicjrtko/s2627_hero_edu_dj_coltrane.jpg?rxy=0.484055633931457,0.2511114001746162&v=1dcf8297cc3da30&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:14.208601"
+  },
+  {
     "title": "RICK BRAUN",
     "date": "2026-10-30",
     "time": "9:30 PM",
@@ -12784,6 +13984,54 @@
     "scraped_at": "2026-08-26T21:00:12.259015"
   },
   {
+    "title": "JOHN SCOFIELD\u2019S ELECTROSPECTIVE",
+    "date": "2026-10-30",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JOHN SCOFIELD\u2019S ELECTROSPECTIVE"
+    ],
+    "description": "Featuring Oteil Burbridge, Larry Goldings, Adam Deitch",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/john-scofield-electrospective/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/dabmlpqr/s2627_hero_johnscofield.jpg?rxy=0.5042949505264726,0.36370836620376873&v=1dced21b342b7b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:14.333200"
+  },
+  {
+    "title": "DR. JEKYLL & MR. HYDE",
+    "date": "2026-10-30",
+    "time": "8:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "DR. JEKYLL & MR. HYDE"
+    ],
+    "description": "with Dorothy Papadakos, organ",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/dr-jekyll-mr-hyde-dorothy-papadakos/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/3cca4fdq/s2627_hero_jekyllhyde-dorothypapadakos.jpg?rxy=0.5566008173019354,0.26806263798110547&v=1dced215d943550&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:14.370593"
+  },
+  {
+    "title": "EL DAVID AGUILAR",
+    "date": "2026-10-30",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "EL DAVID AGUILAR"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/el-david-aguilar/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/0vlhw2dk/s2627_hero_eldavidaguilar.jpg?rxy=0.5192107945093412,0.29745878447020135&v=1dced2d2daa77d0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:14.281782"
+  },
+  {
     "title": "HOUSE OF VELVET: HALLOWEEN (MUST BE 18+)",
     "date": "2026-10-31",
     "time": "7:30 PM",
@@ -12798,6 +14046,22 @@
     "series": null,
     "image_url": null,
     "scraped_at": "2026-08-26T21:00:12.259034"
+  },
+  {
+    "title": "JOHN SCOFIELD\u2019S ELECTROSPECTIVE",
+    "date": "2026-10-31",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JOHN SCOFIELD\u2019S ELECTROSPECTIVE"
+    ],
+    "description": "Featuring Oteil Burbridge, Larry Goldings, Adam Deitch",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/john-scofield-electrospective/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/dabmlpqr/s2627_hero_johnscofield.jpg?rxy=0.5042949505264726,0.36370836620376873&v=1dced21b342b7b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-08-26T22:09:14.449068"
   },
   {
     "title": "JA RONN & FLOW: THAT 80s FLOW",
