@@ -29,3 +29,9 @@
 **Chosen:** added `*.tsbuildinfo` to `.gitignore` rather than committing it.
 **Why:** It is a machine-local incremental-build cache, not a source artifact, and committing it would churn the diff on every typecheck. `.gitignore` is not on the untouchable list and no commitment covers it.
 **Wrong if:** the project wants a fully reproducible committed build cache, or a reviewer scores any file outside spec §1's manifest as out-of-scope.
+
+### assumption-0006
+**Undecided:** spec.md C11 requires `npm run lint` to exit 0, but the repo has no ESLint config file, so `next lint` opens an interactive "How would you like to configure ESLint?" prompt and exits 1. The spec's §1 manifest does not list an ESLint config.
+**Chosen:** added `.eslintrc.json` extending `next/core-web-vitals`, with `ignorePatterns` for `node_modules/`, `.next/`, `scraper/`, `data/`.
+**Why:** C11 is unsatisfiable without one; `next/core-web-vitals` is the option `next lint`'s own prompt marks "(recommended)", so it is the least-invented choice. The ignore patterns keep the linter off the Python scraper and the data files, both of which §3 puts out of scope.
+**Wrong if:** the project prefers flat config (`eslint.config.mjs`), or wants the "Base" preset — `core-web-vitals` emits two `@next/next/no-img-element` warnings for the raw `<img>` tags that §3 explicitly preserves. They are warnings, not errors, so lint still exits 0; verified before and after the refactor.
