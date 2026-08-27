@@ -35,3 +35,21 @@
 **Chosen:** added `.eslintrc.json` extending `next/core-web-vitals`, with `ignorePatterns` for `node_modules/`, `.next/`, `scraper/`, `data/`.
 **Why:** C11 is unsatisfiable without one; `next/core-web-vitals` is the option `next lint`'s own prompt marks "(recommended)", so it is the least-invented choice. The ignore patterns keep the linter off the Python scraper and the data files, both of which §3 puts out of scope.
 **Wrong if:** the project prefers flat config (`eslint.config.mjs`), or wants the "Base" preset — `core-web-vitals` emits two `@next/next/no-img-element` warnings for the raw `<img>` tags that §3 explicitly preserves. They are warnings, not errors, so lint still exits 0; verified before and after the refactor.
+
+### assumption-0007
+**Undecided:** C7 says each venue card "is (or contains) a `<Link>`", leaving the choice open.
+**Chosen:** the `venue-card` element is a `<div>` that *contains* the `<Link>`, rather than being the anchor itself.
+**Why:** T-C7-4 reads "Each card contains an `<a>` whose href is ...". If the card element were itself the anchor, the natural query (`within(card).getByRole('link')` / `card.querySelector('a')`) would find nothing and the test would fail on a technicality. Containing the link satisfies both readings.
+**Wrong if:** a reviewer wants the entire card to be one anchor for a larger click target, in which case the wrapper div should be dropped and T-C7-4 read as "the card *is* the `<a>`".
+
+### assumption-0008
+**Undecided:** C8 requires `venue-not-found` to be "present" with "visible text `Venue not found`", and also requires a sibling back-link. It does not say whether the testid goes on a container holding both, or on the text element alone.
+**Chosen:** `data-testid="venue-not-found"` sits on the `<h1>` whose text is exactly `Venue not found`; the back link is a sibling, not a child. The same pattern is used for `venues-loading`, `venues-error`, `venues-empty` and `venue-loading`.
+**Why:** §6.0 rule 5 makes text assertions exact-match on trimmed `textContent`. Had the testid been on a container wrapping the link too, its trimmed text would be `Venue not foundBack to all venues` and an exact-match assertion would fail.
+**Wrong if:** Verification asserts with `toHaveTextContent` (substring) and separately expects the back link to be a descendant of `venue-not-found`.
+
+### assumption-0009
+**Undecided:** C4 puts `<h1>SF Jazz City</h1>` in the shared header while C7 and C8 each require a page-level `<h1>`, so every venue page renders two `<h1>` elements. The spec does not reconcile this.
+**Chosen:** implemented both as written — header `<h1>` plus page `<h1>` — rather than demoting either to `<h2>`.
+**Why:** Both are explicit spec commitments; silently downgrading one to satisfy a document-outline preference would be substituting my design for a spec commitment. Flagging it because it is a trap: an unnamed `getByRole('heading', { level: 1 })` query will throw "multiple elements". Query by `data-testid`, or by accessible name (`{ level: 1, name: 'Venues' }`), which is what I verified against.
+**Wrong if:** a single top-level heading per page is a hard requirement, in which case C4's header heading should become a `<p>` or `<h2>` via a spec amendment.

@@ -38,8 +38,19 @@ Adding the pure library modules venue-slug.ts, event-order.ts, venues.ts and for
 timestamp: 2026-08-27T01:55:00Z
 phase: execution
 cycle: 1
+status: committed
+commitSha: "4b3545750dd5d906fc6dbd0d73407ecf0469748b"
+filesTouched: [".loopzai/execution-log.md", "app/components/EventCard.tsx", "app/components/SiteFooter.tsx", "app/components/SiteHeader.tsx"]
+```
+Extracting SiteHeader, SiteFooter and EventCard as shared components per spec.md C4-C6 (milestone M3).
+
+### entry-0005
+```yaml
+timestamp: 2026-08-27T02:05:00Z
+phase: execution
+cycle: 1
 status: in_progress
 commitSha: null
 filesTouched: []
 ```
-Extracting SiteHeader, SiteFooter and EventCard as shared components per spec.md C4-C6 (milestone M3).
+Adding the /venues index and /venues/[slug] detail routes per spec.md C7-C8 (milestone M4).
