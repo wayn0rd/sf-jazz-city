@@ -72,7 +72,7 @@ timestamp: 2026-08-27T07:45:20Z
 phase: execution
 cycle: 2
 status: committed
-commitSha: "b477d944cbb876c3a6689ac8b103c0b163d3a69e"
+commitSha: "6492cc98e41e256c29a1a5ab172288afa19fcf45"
 filesTouched: [".loopzai/execution-log.md"]
 ```
-Running the scope-integrity sweep for spec.md C24-C26 and finalising the checkpoint log. The sweep changes no code; this entry's own status rewrite is committed by the trailing log-finalisation commit that follows it.
+Running the scope-integrity sweep for spec.md C24-C26 and finalising the checkpoint log. The sweep changed no code; commitSha above is the commit that carries this entry, and this entry's own sha correction is carried by the trailing commit that follows it.
