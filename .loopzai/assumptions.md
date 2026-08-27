@@ -1,1 +1,7 @@
 <!-- assumptions.md — provisional assumption record; never ground truth until reviewed. -->
+
+### assumption-0001
+**Undecided:** spec.md §5 names two Yoshi's HTML fixtures under `tests/fixtures/scraper/` and the live URL they come from, but does not say whether Execution or Verification captures them.
+**Chosen:** Execution captures both now, byte-verbatim from the live page (no trimming, no hand-editing), and derives `yoshis_detail_no_image.html` by the single mechanical deletion the spec describes (remove the `event-img` element, change nothing else). All assertions and test code are left entirely to Verification.
+**Why:** The source page is a *past* show (2026-08-26, i.e. yesterday); it still returns HTTP 200 today but is liable to 404 once Yoshi's prunes it, which would make the frozen T2 unimplementable in a later session. Capturing raw HTML preserves the artifact without authoring any test or shaping any expected value.
+**Wrong if:** the Loop protocol counts fixture data as part of the test artifact that a fresh Verification session must produce independently — in which case Verification should delete and re-capture these two files (they are inputs only, so nothing else depends on them). Also wrong if a reviewer wants the 166 KB pages trimmed before commit; spec §5 permits trimming but does not require it, and trimming is the step most likely to accidentally shape the fixture.
