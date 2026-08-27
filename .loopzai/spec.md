@@ -1,588 +1,581 @@
-<!-- spec.md — the frozen specification, once approved at the Specification gate. -->
+<!-- spec.md — Specification phase output for cycle 2. Frozen at spec-approval gate. -->
 
-# Cycle 1 Specification — Venues: Complete the Incomplete
+# Cycle 2 Specification — Scraper image extraction: Yoshi's + Mr. Tipple's
 
 **Status:** awaiting spec-approval gate
-**Input:** `.loopzai/ideation.md` (frozen, Option C approved by Wayne 2026-08-26)
-**Repo:** `sf-jazz-city` — Next.js 15.1.11 App Router, React 18, TypeScript, Tailwind 3
+**Input:** `.loopzai/ideation.md` (frozen)
+**Milestones:** 3 (M1, M2, M3) — below the split threshold; one cycle is appropriate.
 
 ---
 
-## 0. Read this first — one decision needs your veto or your nod
+## 0. Executive summary — read this before the estimate
 
-Ideation commits to two things that **cannot both be true**:
+The Specification phase ran the live probe that `ideation.md` (D-i2) required.
+It **falsified two of ideation's technical assumptions**, and the result makes
+this cycle materially cheaper and more certain than ideation projected:
 
-> "`/venues` — venue index page: one card per venue (**all 6 current venues**)"
-> "Slug map derived from the **live payload** (distinct venue names), NOT hardcoded."
+| | Ideation assumed | Probe found (2026-08-26) |
+|---|---|---|
+| **Yoshi's** | Detail pages carry `og:image`-style tags | **No `og:image`, no JSON-LD, no meta tags at all.** But every detail page carries `<img class="event-img" src="/userfiles/events/images/...">` — **70/70 = 100% yield** |
+| **Mr. Tipple's** | JSON-LD rarely carries images; detail-page fetching is "the likely fix" | **JSON-LD carries images on 73/83 events (88%).** The images are extracted correctly and then **destroyed by a last-wins dedup bug.** No detail fetching needed at all |
 
-`/api/events` filters `event.date >= today` before returning. Measured against the
-committed `data/events.json` on **2026-08-26**:
+Mr. Tipple's is therefore **not a scraping-capability problem — it is a
+data-loss bug in code that already works.** The adapter extracts 73 images and
+then throws away 70 of them. Evidence, reproduced live:
 
-| Venue | events in file | events in live payload | last event date |
+```
+SCHEMA path: 83 events, with image: 73     <- images extracted correctly
+DOM path:    83 events, with image:  0     <- selector matches, finds no <img>
+AFTER DEDUP: 45 events, with image:  3     <- 70 images destroyed here
+```
+
+Cause: `mrtipples_scraper.py:321` is
+`list({(e.title, e.date): e for e in events}.values())`, and `events` is
+`schema_events + calendar_events`. A dict comprehension is **last-wins**, so
+each DOM event (`image_url=None`) overwrites its schema twin (`image_url=<url>`).
+The only 3 survivors are events whose JSON-LD titles contain undecoded HTML
+entities (`&#8217;`), so their keys never collide.
+
+Applying the two fixes below and re-running live yields **14/14 = 100%** of
+Mr. Tipple's upcoming events with images.
+
+**Net effect on the plan:** ideation's D-i2 (per-event detail-page fetching)
+is exercised for **Yoshi's only**. Mr. Tipple's adds **zero** new HTTP
+requests. See D-s2.
+
+---
+
+## 1. Decisions made in this phase (each independently vetoable)
+
+- **D-s1 — Yoshi's uses the detail-page path, selector `img.event-img`.**
+  The calendar JSON exposes exactly six keys
+  (`className`, `end`, `eventOrder`, `start`, `title`, `url`) and no image
+  field, so the cheap path D-i2 asked us to prefer **does not exist**. The
+  detail-page path is taken, per D-i2's fallback. Extraction targets the
+  `<img>` whose class list contains `event-img` — *not* `og:image`, which the
+  pages do not serve.
+  *Measured cost:* 70 unique detail URLs for 118 events, fetched at
+  concurrency 4 in **8.7 s**, 100% hit rate, no rate-limiting observed.
+
+- **D-s2 — Mr. Tipple's does NOT fetch detail pages.** The cheap path already
+  works; the bug is downstream. This is a deliberate narrowing of D-i2 and the
+  single largest cost reduction in this spec. Vetoing this decision (i.e.
+  insisting on detail fetching for Mr. Tipple's) would add ~45 browser page
+  loads per run for no measured gain.
+
+- **D-s3 — HTML entities in titles are decoded (`html.unescape`).** This is
+  *required* for D-s2 to work: without it the schema row (`Patrick Wolff&#8217;s`)
+  and the DOM row (`Patrick Wolff's`) never collide, so the merge cannot pair
+  them and each event still emits one image-less duplicate card. This is
+  in-scope because it is load-bearing for the image outcome, not a general
+  data-quality excursion.
+
+- **D-s4 — A bounded, lossless cleanup of 13 stale duplicate rows.** This
+  *extends* D-i5 ("no backfill ceremony") and is called out separately so it
+  can be vetoed alone. Exactly 13 Mr. Tipple's rows carry entity titles, and
+  **all 13 already have a decoded twin row** in the DB. Once D-s3 lands, those
+  13 will never be updated again and will render as permanent duplicate cards.
+  The cleanup copies each entity row's `image_url` onto its twin when the twin
+  lacks one, then deletes the entity row. It touches 13 rows, no other venue,
+  and cannot lose an image. *If vetoed:* the site shows ~2 upcoming duplicate
+  cards and 11 past ones; nothing else in this spec is affected.
+
+- **D-s5 — Tests are pytest, sync, and pure.** All extraction and merge logic
+  is exposed as **synchronous, side-effect-free, importable functions** so
+  fixture tests need no browser, no network, and no `pytest-asyncio`.
+  `pytest 9.1.1` is present in `.venv`; `pytest>=8` is added to
+  `scraper/requirements.txt` to keep a rebuilt venv working.
+
+- **D-s6 — No new runtime dependencies.** Implementation uses only the stdlib
+  (`html`, `re`, `urllib.parse`, `asyncio`) plus the already-vendored `aiohttp`
+  and `playwright`. `bs4` is **not** available in the venv and must not be
+  introduced.
+
+---
+
+## 2. Ground truth measured this phase (2026-08-26)
+
+Baseline from committed `data/events.json`, cutoff `date >= 2026-08-26`:
+
+| Venue | total rows | upcoming | upcoming w/ image |
 |---|---|---|---|
-| Black Cat SF | 35 | **0** | 2026-08-07 |
-| Dawn Club | 154 | 4 | 2026-08-29 |
-| Keys Jazz Bistro | 135 | 13 | 2027-05-19 |
-| Mr. Tipple's | 140 | 10 | 2026-09-06 |
-| SFJAZZ Center | 81 | 3 | 2026-08-29 |
-| Yoshi's | 181 | 64 | 2026-10-30 |
+| Black Cat SF | 40 | 5 | 5 |
+| Dawn Club | 188 | 31 | 31 |
+| Keys Jazz Bistro | 171 | 46 | 46 |
+| SFJAZZ Center | 160 | 82 | 82 |
+| **Mr. Tipple's** | 146 | 16 | **2** |
+| **Yoshi's** | 205 | 88 | **0** |
 
-The live payload today contains **5 venues, not 6**. Black Cat SF has already aged
-out. Dawn Club and SFJAZZ Center age out on 2026-08-30. The number is a function of
-the wall clock and the staleness of the last scrape — it is not a fact about the
-product.
+Live probe results:
 
-**This spec resolves the conflict in favour of "derived from the live payload"** and
-**drops the "all 6" count as a commitment.** The index renders exactly the set of
-distinct venue names present in the payload, whatever that set is. See §C2.
-
-Consequence you are approving: after a stale scrape, `/venues` may show fewer than 6
-venues, or none. This is the same failure mode the homepage already has, made
-visible. The alternative — reading `data/events.json` directly to get all 6 — needs a
-new data path that ideation explicitly forbids ("no new endpoints… existing
-`/api/events` route only").
-
-**Veto target if you disagree:** §C2 and test T-C2-1. Everything else stands.
-
-Two smaller deviations, same treatment — flagged so a veto can be aimed:
-
-- **§C4 — brand links home.** Ideation didn't mention it. On a multi-page site the
-  "SF Jazz City" wordmark linking to `/` is expected. Added as a testable
-  commitment. Veto target: §C4, T-C4-4.
-- **§C6 — venue pages use the *compact* card, not the *featured* one.** Ideation
-  says "the homepage event-card markup"; the homepage has **two** card markups. The
-  compact (Browse) variant shows the event date, which venue pages need because they
-  span many dates. The featured (Tonight) variant omits the date. Veto target: §C6.
+- Yoshi's calendar feed: 118 raw items → 118 unique `(title, date, time)`
+  events → **70 unique detail URLs** (a show with 7:30 and 9:30 sets shares one
+  detail page, so caching by URL nearly halves fetches).
+- Yoshi's detail pages: **70/70** carry `img.event-img`. All `src` values are
+  **relative** (`/userfiles/events/images/...`). Extensions observed:
+  51 `.jpeg`, 11 `.jpg`, 8 `.png`. Zero `.svg`, zero data URIs.
+- Mr. Tipple's calendar: 2 JSON-LD blocks, 83 `Event` items, 73 with `image`.
+  DOM selector `.type-tribe_events` matches 166 elements containing **zero**
+  `<img>` elements.
+- Mr. Tipple's with both fixes applied, live: **42 events, 37 with images (88%);
+  14/14 upcoming (100%); 0 entity titles remaining.** Event count drops 45 → 42
+  because 3 duplicate pairs correctly merge — this is the intended behavior and
+  must not be scored as a count collapse (see T7).
 
 ---
 
-## 1. What ships
+## 3. Commitments
 
-Six new/changed surfaces, one shared library, one test toolchain. Nothing else.
+Each commitment is a falsifiable statement about the code after this cycle.
 
-```
-app/lib/venue-slug.ts        NEW   slug function
-app/lib/event-order.ts       NEW   time parse + event comparator
-app/lib/venues.ts            NEW   venue derivation from an event list
-app/lib/format.ts            NEW   date formatters (moved verbatim from page.tsx)
-app/components/SiteHeader.tsx NEW  shared header
-app/components/SiteFooter.tsx NEW  shared footer
-app/components/EventCard.tsx  NEW  shared event card, two variants
-app/venues/page.tsx          NEW   /venues index
-app/venues/[slug]/page.tsx   NEW   /venues/<slug> detail
-app/page.tsx                 EDIT  consumes the shared components
-package.json                 EDIT  test toolchain + "test" script
-vitest.config.ts             NEW   test config
-```
+### 3.1 Shared module
 
-Unchanged, and Execution must not touch: `app/types/event.ts`,
-`app/api/events/route.ts`, `data/`, `scraper/`, `app/layout.tsx`, `app/globals.css`,
-`next.config.js`, `tailwind.config.js`.
+- **C1.** A new module `scraper/image_utils.py` exists and exports a
+  synchronous, pure function:
+  `normalize_image_url(raw: Optional[str], base_url: str) -> Optional[str]`
+- **C2.** `normalize_image_url` returns `None` for every one of: `None`; the
+  empty string; a whitespace-only string; any value whose lowercased form
+  starts with `data:`; any value whose path component (query string and
+  fragment ignored) ends in `.svg` (case-insensitive).
+- **C3.** For any value it does not reject, `normalize_image_url` returns an
+  **absolute** URL: a relative path is joined to `base_url`; a
+  protocol-relative `//host/path` is given the `https:` scheme; an already
+  absolute `http://`/`https://` URL is returned unchanged. The returned string
+  always starts with `http://` or `https://`.
+- **C4.** No `image_url` written to the database by either adapter is ever the
+  empty string. It is either `None` or a value satisfying C3.
+
+### 3.2 Yoshi's (`scraper/yoshis_scraper.py`)
+
+- **C5.** A synchronous, pure function
+  `extract_image_url(html_text: str) -> Optional[str]` exists. It returns the
+  absolute URL (C3-normalized against `https://yoshis.com`) of the `<img>`
+  element whose **class list contains the token `event-img`**, or `None` if no
+  such element exists.
+- **C6.** `extract_image_url` is robust to the markup Yoshi's actually serves:
+  attributes in any order (`src` before or after `class`), arbitrary
+  whitespace **including newlines inside the tag** (the live pages break lines
+  mid-tag), and multi-token class attributes (`class="lazy event-img rounded"`).
+- **C7.** `extract_image_url` never returns the site logo
+  (`/images/yoshi-logo.png`) or the Facebook tracking pixel
+  (`facebook.com/tr?...`), both of which appear as `<img>` elements on every
+  detail page.
+- **C8.** A synchronous, pure function
+  `detail_url_from_item(item: dict) -> Optional[str]` exists, returning the
+  item's `url` field absolutized against `https://yoshis.com`, or `None` when
+  absent/empty.
+- **C9.** `scrape_events()` populates `Event.image_url` for Yoshi's events by
+  fetching each event's detail page.
+- **C10.** Detail pages are fetched **at most once per unique detail URL** per
+  run (results cached/keyed by URL), reusing a single `aiohttp.ClientSession`
+  with the module's existing `HEADERS`.
+- **C11.** Detail fetching is bounded by an `asyncio.Semaphore` with a limit of
+  **4 or fewer** concurrent requests, and each request carries a timeout of 30 s
+  or less.
+- **C12.** A failed, timed-out, non-200, or image-less detail fetch yields
+  `image_url = None` for the affected events, is logged, and **never raises out
+  of `scrape_events()`**. A detail-page outage degrades Yoshi's to today's
+  behavior; it must not fail the venue or the run.
+- **C13. `ticket_url` semantics are unchanged.** `_parse_event` continues to
+  prefer the embedded etix URL over the detail URL. Extracting the detail URL
+  for image fetching must not alter `ticket_url` for any event.
+- **C14.** Parsing of `title`, `date`, `time`, `artists`, `status`, and the
+  `(title, date, time)` dedup key is unchanged.
+
+### 3.3 Mr. Tipple's (`scraper/mrtipples_scraper.py`)
+
+- **C15.** A synchronous, pure function
+  `merge_events(events: list[Event]) -> list[Event]` exists. It collapses
+  events sharing a `(title, date)` key into one, and for each of
+  `image_url`, `time`, `price`, `ticket_url`, `description` takes the **first
+  non-empty** value across the group. `None` and `""` both count as empty.
+- **C16. Order independence.** `merge_events` produces the same field values
+  regardless of input order. Specifically, given an image-bearing event and an
+  image-less event with the same `(title, date)`, the merged result carries the
+  image **whether the image-bearing event appears first or last**. This is the
+  direct regression guard for the bug in §0.
+- **C17.** `scrape_events()` uses `merge_events` in place of the
+  `list({(e.title, e.date): e for e in events}.values())` last-wins
+  comprehension at `mrtipples_scraper.py:321`.
+- **C18.** Event titles from **both** the JSON-LD path and the DOM path are
+  HTML-unescaped (`html.unescape`) and stripped before being used as data or as
+  a merge key. No `Event.title` produced by this adapter contains a `&#NNNN;`
+  or `&amp;`-style entity.
+- **C19.** `_parse_schema_event` routes its `image` value (already handling the
+  `str` / `list` / `dict` shapes) through `normalize_image_url` with base
+  `https://mrtipplessf.com`, so C2–C4 hold for this venue.
+- **C20.** The Mr. Tipple's adapter issues **no additional network requests**:
+  no per-event detail-page fetches are added.
+
+### 3.4 Bounded cleanup (D-s4)
+
+- **C21.** A one-shot, idempotent maintenance routine is run against
+  `scraper/events.db` that, for every row with `venue = "Mr. Tipple's"` whose
+  `title` contains `&#`: copies its `image_url` onto the row whose
+  `(title, date)` equals `(html.unescape(title), date)` **if and only if** that
+  twin's `image_url` is null/empty, then deletes the entity row.
+- **C22.** The cleanup deletes a row **only when its decoded twin exists**. If
+  a twin is missing, the row is left untouched and the fact is logged.
+- **C23.** The cleanup touches no venue other than Mr. Tipple's and no rows
+  without `&#` in the title.
+
+### 3.5 Scope integrity
+
+- **C24.** No file under `app/` is modified. `transformEvent`, the
+  `FALLBACK_IMAGE` constant, `isValidImageUrl`, `/api/events`, and all
+  components are untouched (D-i3).
+- **C25.** `scraper/image_downloader.py`, the `--images` flag, and
+  `scraper/images/` are unmodified (D-i4).
+- **C26.** No new entry is added to `scraper/requirements.txt` other than
+  `pytest>=8` (D-s6).
 
 ---
 
-## 2. Commitments
+## 4. Out of scope — this cycle will NOT do these
 
-Each is falsifiable. Each has at least one test in §6.
+Explicitly deferred, including things `ideation.md` raises:
 
-### C1 — Slug function
+1. **No frontend change of any kind** — no local image serving, no
+   `next/image`, no placeholder redesign, no lazy-loading (D-i3, D-i4).
+2. **No general backfill of past rows.** Only the 13 rows in C21 are touched;
+   the other ~1,000 historical rows keep whatever `image_url` they have (D-i5).
+   Past Yoshi's events stay image-less forever.
+3. **No image download / local hosting / CDN.** `image_url` remains a hotlink.
+4. **No image validation by fetching.** The scraper never HEAD/GETs an
+   `image_url` to confirm it resolves; validity is structural only (C2/C3).
+   A URL that 404s at the CDN will still be written.
+5. **No changes to the other four venues'** adapters (SFJAZZ, Black Cat, Dawn
+   Club, Keys Jazz Bistro). They are at 100% image coverage; they are
+   regression surface only.
+6. **No repair of Mr. Tipple's dead DOM path.** The `.type-tribe_events`
+   selector currently yields 0 images; after C15–C17 it is harmless. Making it
+   productive again is not attempted.
+7. **No schema/migration work.** The `events` table is unchanged; `image_url`
+   already exists.
+8. **No scheduling/automation** of the scrape.
+9. **No `og:image` support for Yoshi's** — the pages do not serve it (D-s1).
+10. **No dedup-key change** for either adapter beyond the entity-decoding in
+    C18. Yoshi's stays `(title, date, time)`; Mr. Tipple's stays `(title, date)`.
 
-`app/lib/venue-slug.ts` exports:
+---
 
-```ts
-export function venueSlug(name: string): string
+## 5. Test plan (FROZEN at approval)
+
+Verification implements these from this document alone. Verification may **add**
+checks; it may never remove or weaken one below.
+
+**Toolchain.** Python tests live under `tests/scraper/` and run with:
+
+```
+cd /home/waynehoy/Projects/sf-jazz-city && .venv/bin/python -m pytest tests/scraper -q
 ```
 
-Algorithm, exactly and in this order:
+**Pass criterion for the whole unit layer: exit code 0, zero failures, zero
+errors.** Tests must be synchronous and must not open a browser or a socket.
+Vitest's default include glob does not match `.py`/`.html`, so these files
+cannot disturb `npm test`.
 
-1. `name.toLowerCase()`
-2. `.replace(/[^a-z0-9]+/g, '-')` — any run of one or more characters outside
-   `a-z0-9` collapses to a single `-`. This includes spaces, punctuation, and
-   non-ASCII letters (`é` → separator, not `e`).
-3. `.replace(/^-+|-+$/g, '')` — strip leading and trailing `-`.
+**Fixtures.** Committed under `tests/fixtures/scraper/`. The two Yoshi's HTML
+fixtures may be trimmed for size (the live page is 166 KB; CSS/JS blocks may be
+removed) but **must retain**: the `img.event-img` element, the
+`/images/yoshi-logo.png` logo `<img>`, the `facebook.com/tr` pixel `<img>`, and
+at least one tag with a newline inside it.
 
-Frozen input→output pairs (all verified against the live data on 2026-08-26):
+### Layer 1 — pure unit tests (deterministic, offline)
 
-| input | output |
-|---|---|
-| `"SFJAZZ Center"` | `"sfjazz-center"` |
-| `"Black Cat SF"` | `"black-cat-sf"` |
-| `"Dawn Club"` | `"dawn-club"` |
-| `"Keys Jazz Bistro"` | `"keys-jazz-bistro"` |
-| `"Mr. Tipple's"` | `"mr-tipple-s"` |
-| `"Yoshi's"` | `"yoshi-s"` |
-| `""` | `""` |
-| `"!!!"` | `""` |
-| `"---"` | `""` |
-| `"  SFJAZZ   Center  "` | `"sfjazz-center"` |
-| `"Café Du Nord"` | `"caf-du-nord"` |
-| `"A & B"` | `"a-b"` |
-| `"123"` | `"123"` |
+**T1 — `normalize_image_url` (C1–C3).** Table test; each row asserts exact
+equality.
 
-The function is pure: no I/O, no clock, no module-level state. No venue list is
-hardcoded anywhere in the codebase.
-
-### C2 — Venue derivation
-
-`app/lib/venues.ts` exports:
-
-```ts
-export interface VenueSummary { name: string; slug: string; eventCount: number }
-export function venuesFromEvents(events: DisplayEvent[]): VenueSummary[]
-export function eventsForSlug(events: DisplayEvent[], slug: string): DisplayEvent[]
-```
-
-- `venuesFromEvents` groups by the **exact** `event.venue` string. One entry per
-  distinct name. `slug` is `venueSlug(name)`. `eventCount` is the number of events
-  with that name. Result sorted ascending by `name.localeCompare(b.name, 'en')`.
-- `eventsForSlug` returns `events.filter(e => venueSlug(e.venue) === slug)` sorted
-  by the §C3 comparator.
-- **Slug collision** (two distinct names, same slug): they remain **separate**
-  entries in `venuesFromEvents` (keyed by name), and `eventsForSlug` returns the
-  union of their events. No collision exists in current data; this rule exists so
-  behavior is total rather than undefined.
-- Both are pure: no I/O, no clock, no module-level state.
-- **The venue set is whatever is in the passed `events` array.** No hardcoded list,
-  no minimum count, no "all 6".
-
-### C3 — Deterministic event ordering
-
-`app/lib/event-order.ts` exports:
-
-```ts
-export function timeToMinutes(time: string): number | null
-export function compareEvents(a: DisplayEvent, b: DisplayEvent): number
-```
-
-`timeToMinutes` matches `/^\s*(\d{1,2}):(\d{2})\s*(AM|PM)\s*$/i`. If no match →
-`null`. If matched but hour `< 1` or `> 12`, or minute `> 59` → `null`. Otherwise
-returns minutes since midnight: `12 AM` → `0`, `12 PM` → `720`, `PM` otherwise adds
-`720`. Case-insensitive.
-
-The `\s` class is load-bearing: **the real data contains U+202F NARROW NO-BREAK
-SPACE** between minutes and meridiem (154 of 726 events). JS `\s` matches U+202F,
-U+00A0 and U+0020, so `"8:00\u202fPM"`, `"8:00\u00a0PM"`, `"8:00 PM"` and
-`"8:00PM"` all return `1200`. `"TBA"` returns `null` — note `transformEvent` already
-maps a null DB time to the string `"TBA"`, so `DisplayEvent.time` is never null.
-
-`compareEvents(a, b)` returns, in order:
-
-1. `a.date.localeCompare(b.date)` if non-zero (`YYYY-MM-DD` sorts chronologically).
-2. Then by time: let `ta = timeToMinutes(a.time)`, `tb = timeToMinutes(b.time)`.
-   Both non-null → `ta - tb`. `ta` null and `tb` non-null → `1` (**unparseable time
-   sorts last**). `ta` non-null and `tb` null → `-1`. Both null → fall through.
-3. Then `a.id.localeCompare(b.id)`.
-
-Step 3 makes the order **total** — no ties, so a hostile grader and a hopeful
-implementer read the same expected array.
-
-### C4 — Shared header
-
-`app/components/SiteHeader.tsx` default-exports a component taking no required
-props, containing no React hooks (so it renders in any context). Visual markup is
-carried over from the current `app/page.tsx` header (lines 75–92): sticky, brand
-lockup with the `Music` icon, `<h1>SF Jazz City</h1>`, tagline, and a nav.
-
-Nav is three `next/link` `<Link>` elements, in this order, with these exact hrefs
-and visible texts:
-
-| testid | text | href |
+| input `raw` | `base_url` | expected |
 |---|---|---|
-| `nav-tonight` | `Tonight` | `/#tonight` |
-| `nav-upcoming` | `Upcoming` | `/#upcoming` |
-| `nav-venues` | `Venues` | `/venues` |
+| `/userfiles/events/images/2866/keikomatsui2-copy.jpeg` | `https://yoshis.com` | `https://yoshis.com/userfiles/events/images/2866/keikomatsui2-copy.jpeg` |
+| `https://mrtipplessf.com/wp-content/uploads/Sam-Bevin-.jpg` | `https://mrtipplessf.com` | unchanged (identical string) |
+| `//cdn.example.com/a.jpg` | `https://yoshis.com` | `https://cdn.example.com/a.jpg` |
+| `None` | any | `None` |
+| `""` | any | `None` |
+| `"   "` | any | `None` |
+| `data:image/svg+xml;base64,PHN2Zz4=` | any | `None` |
+| `data:image/png;base64,iVBORw0KGgo=` | any | `None` |
+| `/assets/placeholder.svg` | `https://yoshis.com` | `None` |
+| `/assets/placeholder.SVG?v=2` | `https://yoshis.com` | `None` |
 
-The brand lockup is wrapped in `<Link href="/" data-testid="brand-home">`.
-Root element carries `data-testid="site-header"`.
+Plus a property assertion: for every input in the table, the result is either
+`None` or a `str` starting with `http://` or `https://`.
 
-**No element anywhere in the app has `href="#venues"` after this cycle.**
+**T2 — Yoshi's `extract_image_url` (C5–C7).**
+1. Fixture `yoshis_detail_with_image.html` (captured from
+   `https://yoshis.com/events/sold-out/keiko-matsui-14/detail`) →
+   exactly `https://yoshis.com/userfiles/events/images/2866/keikomatsui2-copy.jpeg`.
+2. Fixture `yoshis_detail_no_image.html` (same page with the `event-img`
+   element removed) → `None`.
+3. The result for fixture 1 does **not** contain the substring `yoshi-logo`.
+4. The result for fixture 1 does **not** contain the substring `facebook.com/tr`.
+5. Inline string `<img src="/a/b.jpg" class="event-img" />` →
+   `https://yoshis.com/a/b.jpg`.
+6. Inline string `<img class="event-img" src="/a/b.jpg" />` →
+   `https://yoshis.com/a/b.jpg` (attribute order).
+7. Inline string `<img\n  src="/a/b.jpg"\n  class="event-img" />` →
+   `https://yoshis.com/a/b.jpg` (newline inside tag).
+8. Inline string `<img src="/a/b.jpg" class="lazy event-img rounded" />` →
+   `https://yoshis.com/a/b.jpg` (multi-token class).
+9. Inline string `<img src="/a/b.jpg" class="event-image-wrapper" />` →
+   `None` (substring `event-img` must not match the token test).
+10. Inline string `<img src="data:image/svg+xml;base64,PHN2Zz4=" class="event-img" />`
+    → `None` (C2 applies after extraction).
 
-### C5 — Shared footer
+**T3 — Yoshi's `detail_url_from_item` + `ticket_url` non-regression (C8, C13).**
+Using this exact item, which is verbatim live data:
 
-`app/components/SiteFooter.tsx` default-exports a hook-free component reproducing
-the current footer markup (`app/page.tsx` lines 238–245), including both existing
-paragraphs verbatim. Root element carries `data-testid="site-footer"`.
-
-### C6 — Shared event card, venue name linked
-
-`app/components/EventCard.tsx` default-exports:
-
-```ts
-export default function EventCard(props: {
-  event: DisplayEvent;
-  variant?: 'featured' | 'compact';
-}): JSX.Element
+```json
+{
+  "title": "7:30PM KEIKO MATSUI<br/><a href=\"https://www.etix.com/ticket/p/69261880/keiko-matsui-wed82626-oakland-yoshis\" target='_blank' class='calendarBuyTickets'>Buy Tickets</a>",
+  "start": "2026-08-26 19:30:00",
+  "end": "2026-08-26",
+  "eventOrder": 1,
+  "className": "Buy Tickets",
+  "url": "https://yoshis.com/events/sold-out/keiko-matsui-14/detail"
+}
 ```
 
-Default `variant` is `'compact'`.
+1. `detail_url_from_item(item)` == `https://yoshis.com/events/sold-out/keiko-matsui-14/detail`.
+2. `_parse_event(item).ticket_url` ==
+   `https://www.etix.com/ticket/p/69261880/keiko-matsui-wed82626-oakland-yoshis`
+   — i.e. still the etix URL, **not** the detail URL.
+3. `_parse_event(item).title` == `KEIKO MATSUI`.
+4. `_parse_event(item).date` == `2026-08-26`; `.time` == `7:30 PM`.
+5. `detail_url_from_item({})` is `None`; `detail_url_from_item({"url": ""})` is `None`.
+6. `detail_url_from_item({"url": "/events/x/detail"})` ==
+   `https://yoshis.com/events/x/detail`.
+7. An item with `className` containing `Sold Out` still yields
+   `.status == "Sold Out"`.
 
-- `'featured'` reproduces the Tonight card (`app/page.tsx` lines 119–148): `h-48`
-  image, `p-6` body, `<h4>` title, venue row, `{time} · {price}` row, optional
-  description, "Get Tickets" link.
-- `'compact'` reproduces the Browse card (`app/page.tsx` lines 197–226): `h-40`
-  image, `p-5` body, `<h4>` title, venue row, `{formatDate(date)} · {time}` row,
-  price row, "Get Tickets" link.
+**T4 — Mr. Tipple's `_parse_schema_event` (C18, C19).**
+1. `{"@type":"Event","name":"A","startDate":"2026-09-04T18:15:00-08:00","image":"https://mrtipplessf.com/wp-content/uploads/a.jpg"}`
+   → `image_url == "https://mrtipplessf.com/wp-content/uploads/a.jpg"`.
+2. `image` as a list `["https://mrtipplessf.com/a.jpg","https://mrtipplessf.com/b.jpg"]`
+   → `image_url` is the **first** element.
+3. `image` as a dict `{"url":"https://mrtipplessf.com/a.jpg"}` → that URL.
+4. `image` absent → `image_url is None`.
+5. `image` == `""` → `image_url is None` (**not** `""`).
+6. `image` == `"data:image/svg+xml;base64,PHN2Zz4="` → `image_url is None`.
+7. `image` == `"/wp-content/uploads/a.jpg"` →
+   `"https://mrtipplessf.com/wp-content/uploads/a.jpg"`.
+8. **Entity decoding:** `name` ==
+   `"Patrick Wolff&#8217;s &#8220;Swinging Organ&#8221; Quartet"` →
+   `.title` == `"Patrick Wolff’s “Swinging Organ” Quartet"`
+   (U+2019, U+201C, U+201D as literal characters).
+9. `name` == `"Carla Helmbrecht &#038; The Brad Leali Quartet"` →
+   `.title` == `"Carla Helmbrecht & The Brad Leali Quartet"`.
+10. For every case above, `"&#" not in event.title`.
 
-In **both** variants the venue name element carries
-`data-testid="event-card-venue"` and:
+**T5 — `merge_events` (C15, C16). The core regression test.**
+Let `A = Event(title="X", date="2026-09-04", image_url="https://h/a.jpg")` and
+`B = Event(title="X", date="2026-09-04", image_url=None)`.
+1. `merge_events([A, B])` has length 1 and `[0].image_url == "https://h/a.jpg"`.
+2. `merge_events([B, A])` has length 1 and `[0].image_url == "https://h/a.jpg"`
+   — **order independence; this fails against today's code.**
+3. `merge_events([A, Event(title="X", date="2026-09-04", image_url="")])`
+   → `image_url == "https://h/a.jpg"` (empty string counts as missing).
+4. Field fill-in: merging `Event(title="X",date="D",time=None,price="$20")`
+   with `Event(title="X",date="D",time="8:00 PM",price=None)` yields
+   `time == "8:00 PM"` **and** `price == "$20"`.
+5. Distinct keys are preserved: merging `(title="X",date="D1")` and
+   `(title="X",date="D2")` returns 2 events; `(title="Y",date="D1")` and
+   `(title="Z",date="D1")` returns 2 events.
+6. `merge_events([])` returns `[]`.
+7. Idempotence: `merge_events(merge_events(xs)) == merge_events(xs)` by
+   `(title, date, image_url)` for a mixed input list.
 
-- if `venueSlug(event.venue) !== ''` → it is a `<Link href={'/venues/' + venueSlug(event.venue)}>`
-  whose visible text is exactly `event.venue`;
-- if `venueSlug(event.venue) === ''` → it is a plain `<span>` with text
-  `event.venue` and **no** `href` (prevents a link to `/venues/`).
+**T6 — Cleanup routine (C21–C23), offline.** Build a temporary SQLite DB with
+the project schema containing at minimum: an entity row
+`("Richard Howell&#8217;s Sudden Changes", "2026-05-01", image_url="https://h/r.jpg")`
+and its decoded twin `("Richard Howell's Sudden Changes", "2026-05-01", image_url=NULL)`;
+an entity row with **no** twin; and a Dawn Club row containing `&#` in the title.
+After running the cleanup:
+1. The decoded twin's `image_url` == `https://h/r.jpg`.
+2. The entity row that had a twin is deleted.
+3. The entity row **without** a twin still exists (C22).
+4. The Dawn Club row is untouched (C23).
+5. Running the cleanup a second time changes nothing (idempotent).
+6. Total row count decreased by exactly the number of entity rows that had twins.
 
-Root element carries `data-testid="event-card"`. Title element carries
-`data-testid="event-card-title"`.
+### Layer 2 — live smoke (run once, at verification time)
 
-### C7 — `/venues` index
+These run against the moving live site. Thresholds below are the **binding**
+pass criteria carried over from ideation; the human gate is the final arbiter
+(ideation "Verification shape"). Measured spec-phase expectations are given for
+context — a result that clears the threshold but falls far short of the
+expectation should be flagged to the human, not silently passed.
 
-`app/venues/page.tsx` — a `"use client"` component that fetches `/api/events` in
-`useEffect`, reads `data.events || []`, and derives its list via `venuesFromEvents`.
-
-`SiteHeader` renders **immediately, before and during loading** (unlike the homepage,
-whose loading screen has no header). `SiteFooter` renders once loading completes.
-
-States, mutually exclusive:
-
-| condition | testid present | required content |
-|---|---|---|
-| fetch in flight | `venues-loading` | text `Loading venues...` |
-| fetch rejected or non-OK | `venues-error` | text `Could not load venues.` |
-| loaded, 0 venues | `venues-empty` | text `No venues found.` |
-| loaded, ≥1 venue | `venue-index` | one card per venue |
-
-Each card: `data-testid="venue-card"`, is (or contains) a `<Link>` to
-`/venues/<slug>`, and contains
-
-- `data-testid="venue-card-name"` — visible text exactly the venue name;
-- `data-testid="venue-card-count"` — visible text exactly `N upcoming event` when
-  `N === 1`, otherwise `N upcoming events`.
-
-Cards appear in DOM order matching `venuesFromEvents` order (alphabetical by name).
-Page has an `<h1>` with text `Venues`.
-
-### C8 — `/venues/[slug]` detail
-
-`app/venues/[slug]/page.tsx` — a `"use client"` component reading the slug from
-`useParams()` and fetching `/api/events` as in C7. `SiteHeader` renders immediately;
-`SiteFooter` renders once loading completes.
-
-- **Loading:** `data-testid="venue-loading"`, text `Loading events...`
-- **Error:** `data-testid="venues-error"`, text `Could not load venues.`
-- **Slug matches ≥1 event** (i.e. `eventsForSlug(events, slug).length > 0`):
-  - `<h1 data-testid="venue-name">` with text exactly the venue name — the **actual
-    name from the data**, not the slug. On collision, the alphabetically-first
-    (`localeCompare(…, 'en')`) matching name.
-  - `data-testid="venue-event-list"` containing one `EventCard` per event, `variant`
-    `'compact'`, in `eventsForSlug` order.
-  - A `<Link href="/venues" data-testid="venue-back-link">` with text `All venues`.
-  - **No date filtering.** Every event the payload has for that venue is rendered.
-- **Slug matches 0 events** (unknown, or a venue that aged out):
-  - `data-testid="venue-not-found"` present; `venue-name` and `venue-event-list`
-    absent.
-  - Visible text `Venue not found`.
-  - A `<Link href="/venues" data-testid="venue-not-found-back">` with text
-    `Back to all venues`.
-  - The page renders — no crash, no blank body, no Next.js error overlay.
-
-### C9 — Homepage refactor with no behavior change
-
-`app/page.tsx` renders `SiteHeader`, `SiteFooter`, and `EventCard`
-(`variant="featured"` in Tonight, `variant="compact"` in Browse) instead of inline
-markup. `formatDate` / `formatFullDate` move verbatim to `app/lib/format.ts` and are
-imported — including `formatDate('all') === 'All Dates'`.
-
-Preserved exactly:
-
-- `<section id="tonight">` and `<section id="upcoming">` keep those ids.
-- Search input filters on `artist` **or** `venue`, case-insensitive substring —
-  same predicate as today.
-- Date `<select>` options are `['all', ...sorted distinct dates]`, labelled by
-  `formatDate`; selecting a date filters to `event.date === selectedDate`.
-- Empty-results message `No shows found. Try adjusting your filters.`
-- Tonight empty message `No shows scheduled for tonight. Check out upcoming events below!`
-- The full-screen loading state (`Loading jazz events...`, no header) is
-  **unchanged** — do not add a header to it.
-- Headings `Playing Tonight` and `Browse All Shows`.
-
-Homepage must not import from `app/venues/**`.
-
-### C10 — Test toolchain exists and is Verification's to use
-
-**Execution installs the runner and writes zero tests.** Execution must:
-
-- add dev dependencies `vitest`, `@vitejs/plugin-react`, `jsdom`,
-  `@testing-library/react`, `@testing-library/jest-dom`, `@testing-library/user-event`;
-- add `"test": "vitest run"` to `package.json` scripts;
-- add `vitest.config.ts` with `environment: 'jsdom'`, the React plugin, `globals: true`,
-  a setup file importing `@testing-library/jest-dom`, and resolve alias `@` → repo
-  root (matching `tsconfig.json` `paths`);
-- ensure `npm test` exits **0** with no test files present (`vitest run
-  --passWithNoTests` semantics — set `passWithNoTests: true` in the config).
-
-Verification adds files under `tests/` and runs `npm test`.
-
-### C11 — Build and lint stay green
-
-`npm run build` exits 0. `npm run lint` exits 0. Build output lists routes `/`,
-`/venues`, and `/venues/[slug]`.
-
----
-
-## 3. Scope boundary — what this cycle will NOT do
-
-Carried from ideation:
-
-- **No editorial content** — no venue photos, addresses, neighborhood copy, vibe
-  notes, capacity, links to venue websites. Deferred (was Option D).
-- **No scraper changes.** `scraper/` is not read or written.
-- **No event data-shape changes.** `app/types/event.ts` is byte-identical after this
-  cycle. Slug is derived at usage time, never persisted.
-- **No new API routes, no Convex, no database.** `/venues` and `/venues/[slug]` read
-  `/api/events` and nothing else.
-
-Added by this spec:
-
-- **No change to `/api/events`** — the `date >= today` filter stays as-is, including
-  its consequence that venues age out of the index (see §0).
-- **No SSR/SSG for venue pages.** They are client components; no
-  `generateStaticParams`, no `generateMetadata`, no per-page `<title>`.
-- **No redirect or alias for the old `#venues` anchor.** The href simply changes.
-- **No mobile nav.** The nav keeps its existing `hidden md:flex` — it remains
-  invisible below the `md` breakpoint, exactly as today. Tests query the DOM, which
-  is unaffected by the Tailwind class.
-- **No visual redesign.** Tailwind classes are carried over; no new colors, no new
-  spacing scale, no dark/light toggle.
-- **No accessibility remediation** beyond what the extracted markup already has
-  (e.g. the existing raw `<img>` tags stay raw `<img>`; no `next/image` migration).
-- **No search or filtering on `/venues` or `/venues/[slug]`.**
-- **No pagination.** Yoshi's currently has 64 upcoming events; they all render.
-- **No E2E/browser tests.** Component-level (jsdom) only — see §6.0.
-
----
-
-## 4. Risks
-
-| # | Risk | Mitigation / accepted |
-|---|---|---|
-| R1 | Venue count is clock-dependent; a test asserting "6 venues" would rot within days. | Every test uses a fixed fixture and a mocked `fetch` (§6.0). No test reads `data/events.json` or the live route. |
-| R2 | Extracting header/footer/card from a 248-line file silently drops a Tailwind class or a string. | C9 freezes the strings and ids; T-C9-* asserts them. Visual fidelity beyond that is **not** tested — accepted risk. |
-| R3 | U+202F in times is invisible in diffs; a naive `\s`-free regex would return `null` for 154 events and sort them all last. | C3 makes the whitespace class explicit; T-C3-2 uses a `\u202f` escape in the fixture. |
-| R4 | Naive string sort on `"12:00 AM"` vs `"7:30 PM"` looks right for some inputs and is wrong for others. | C3 mandates minutes-since-midnight; T-C3-1 includes midnight and 11 AM. |
-| R5 | `node_modules` is not installed in the repo. First command must be `npm install` or everything fails confusingly. | Called out in §5 and §6.0. Registry reachability verified 2026-08-26. |
-| R6 | Next 15 `useParams()` in a client component under a dynamic route — if Execution reaches for the async `params` prop instead, it will fight the App Router. | C8 names `useParams()` explicitly. |
-| R7 | Verification could write tests that assert on Tailwind class strings, which Execution may legitimately vary. | §6.0 forbids asserting on `className`. |
-| R8 | A card rendered with `variant` defaulting differently than specified would silently pass venue-page tests while breaking the homepage. | C6 fixes the default to `'compact'`; T-C6-1 asserts it. |
-
----
-
-## 5. Rejected alternatives
-
-- **Hardcode the six venue names** so `/venues` always shows 6 — rejected: ideation
-  explicitly forbids a hardcoded slug map, and it would show venues with zero events
-  and no page content.
-- **Read `data/events.json` directly from the venue pages** (bypassing the date
-  filter, restoring all 6) — rejected: ideation restricts the data source to
-  `/api/events`. Worth a future cycle as an `?all=1` param on the route.
-- **Add an "upcoming only" filter on `/venues/[slug]`** — rejected in ideation: the
-  payload is already the scrape window, and a second cutoff would silently empty
-  pages after a stale scrape.
-- **Server components + `generateStaticParams`** for venue pages — rejected: the
-  homepage is a client component fetching `/api/events`; matching that pattern keeps
-  one data path and one mental model. Costs SEO, which is out of scope.
-- **Playwright E2E** instead of jsdom component tests — rejected: browser download
-  plus a dev server roughly doubles the verification cost for behavior that renders
-  fully in jsdom. Route existence is covered by the `npm run build` route listing.
-- **Persist `slug` onto `DisplayEvent`** — rejected: ideation freezes
-  `app/types/event.ts`.
-- **A single card component with no variants**, unifying the two homepage cards —
-  rejected: it changes homepage visuals, which C9 forbids.
-
----
-
-## 6. Test plan (freezes with this spec)
-
-Verification implements these from this document alone. Verification **may add**
-checks; it **may not remove or weaken** anything below.
-
-### 6.0 Ground rules
-
-1. `npm install` first — `node_modules` is absent from the repo.
-2. Runner: `npm test` (`vitest run`, jsdom). Tests live under `tests/`.
-3. **No test may read `data/events.json`, hit `/api/events`, or depend on the
-   current date.** Component tests mock `global.fetch` to resolve
-   `{ ok: true, json: async () => ({ events: FIXTURE }) }`.
-4. **No test may assert on `className` / Tailwind classes.** Query by
-   `data-testid`, role, text, `href`, or tag name only.
-5. Text assertions are exact-match on trimmed `textContent` unless stated otherwise.
-6. `next/link` renders an `<a>` in jsdom; assert `href` on the rendered anchor.
-7. Async component tests must `await` React Testing Library's `findBy*` /
-   `waitFor` — the fetch resolves on a microtask.
-
-### 6.1 The fixture — `FIXTURE`
-
-All component tests use exactly this array as the `events` payload. Note `e4`'s `time`
-contains a **U+202F narrow no-break space**, written here as the JS escape
-`\u202f`. Verification MUST write it as that escape in the test source — a literal
-pasted U+202F is invisible in review and silently degrades to a plain space when
-copied through some editors, which would defeat the entire purpose of T-C3-2.
-
-```js
-const FIXTURE = [
-  { id: "e1", artist: "Trio One",    venue: "Yoshi's",       date: "2026-09-02", time: "9:30 PM",      price: "$30",        description: "",       ticketUrl: "https://example.com/1", image: "https://example.com/1.jpg" },
-  { id: "e2", artist: "Quartet Two", venue: "SFJAZZ Center", date: "2026-09-01", time: "7:30 PM",      price: "$45",        description: "A show", ticketUrl: "https://example.com/2", image: "https://example.com/2.jpg" },
-  { id: "e3", artist: "Solo Three",  venue: "Yoshi's",       date: "2026-09-01", time: "TBA",          price: "See venue",  description: "",       ticketUrl: "#",                     image: "https://example.com/3.jpg" },
-  { id: "e4", artist: "Combo Four",  venue: "Yoshi's",       date: "2026-09-01", time: "8:00\u202fPM", price: "$25",        description: "",       ticketUrl: "https://example.com/4", image: "https://example.com/4.jpg" },
-  { id: "e5", artist: "Duo Five",    venue: "Mr. Tipple's",  date: "2026-09-03", time: "11:00 AM",     price: "$20",        description: "",       ticketUrl: "https://example.com/5", image: "https://example.com/5.jpg" },
-  { id: "e6", artist: "Big Six",     venue: "Yoshi's",       date: "2026-09-01", time: "12:00 AM",     price: "$15",        description: "",       ticketUrl: "https://example.com/6", image: "https://example.com/6.jpg" },
-  { id: "e0", artist: "Zero Seven",  venue: "Yoshi's",       date: "2026-09-01", time: "12:00 AM",     price: "$15",        description: "",       ticketUrl: "https://example.com/0", image: "https://example.com/0.jpg" }
-];
+**T7 — Full 6-venue regression scrape.**
 ```
+cd /home/waynehoy/Projects/sf-jazz-city && .venv/bin/python scraper/run_scraper.py --export
+```
+1. Exit code 0.
+2. `data/events.json` is valid JSON and is a non-empty array.
+3. Let `today` = the UTC date of the run. For each venue, compare the count of
+   events with `date >= today` in the new `data/events.json` against the same
+   count computed from `git show HEAD:data/events.json` **using the same
+   `today`** (so both sides shift together as the calendar moves).
+   Pass: every venue's new upcoming count is **>= 80%** of its baseline count,
+   **except Mr. Tipple's**, whose floor is **>= 70%** (its count legitimately
+   drops when entity duplicates merge — 45 → 42 observed).
+4. No venue's upcoming count is 0.
+5. The four healthy venues do not regress on images: for SFJAZZ Center, Dawn
+   Club, Black Cat SF, and Keys Jazz Bistro, **>= 95%** of upcoming events have
+   a non-empty `image_url`. (Baseline: all four at 100%.)
 
-Derived expectations, computed and verified 2026-08-26:
+**T8 — Yoshi's image yield (the D-i1 headline).** From the same
+`data/events.json` produced by T7 (or after
+`.venv/bin/python scraper/run_scraper.py --venue yoshis --export`):
+Among Yoshi's events with `date >= today`, the fraction whose `image_url`
+(a) is non-null and non-empty, (b) starts with `https://yoshis.com/`, and
+(c) does not start with `data:`, is **>= 70%**.
+*Spec-phase measurement: 70/70 detail pages carried an image (100%). Expect
+~100%; below ~90% warrants investigation.*
 
-- Distinct venues: `Mr. Tipple's` (1), `SFJAZZ Center` (1), `Yoshi's` (5).
-- `venuesFromEvents(FIXTURE)` ===
-  `[{name:"Mr. Tipple's",slug:"mr-tipple-s",eventCount:1},{name:"SFJAZZ Center",slug:"sfjazz-center",eventCount:1},{name:"Yoshi's",slug:"yoshi-s",eventCount:5}]`
-- `eventsForSlug(FIXTURE, "yoshi-s").map(e => e.id)` === `["e0","e6","e4","e3","e1"]`
-  — `e0`/`e6` both 12:00 AM (0 min), broken by id; then 8 PM (1200, narrow-nbsp);
-  then `TBA` last on 09-01; then 09-02.
-- `eventsForSlug(FIXTURE, "black-cat-sf")` === `[]`
+**T9 — Mr. Tipple's image yield.** Among Mr. Tipple's events with
+`date >= today`, the fraction whose `image_url` is non-null, non-empty, starts
+with `https://`, and does not start with `data:`, is **>= 50%**.
+*Spec-phase measurement with both fixes applied: 14/14 upcoming (100%),
+37/42 overall (88%).*
 
-### 6.2 Unit tests
+**T10 — Post-run data hygiene.** Against `data/events.json` from T7:
+1. No event of any venue has `image_url == ""` (C4).
+2. No event has an `image_url` starting with `data:`.
+3. No Yoshi's or Mr. Tipple's event has a **relative** `image_url` (every
+   non-null value starts with `http://` or `https://`) — a relative URL would
+   resolve against the Next.js host and 404, since the frontend hotlinks
+   `image_url` directly and `isValidImageUrl` would not reject it.
+4. No Mr. Tipple's event title contains `&#` (C18, C21).
 
-| ID | Target | Input → expected | Pass criteria |
-|---|---|---|---|
-| **T-C1-1** | `venueSlug` | All 13 rows of the §C1 table | Every row exact-equal. |
-| **T-C1-2** | `venueSlug` | `"Yoshi's"` called twice; `"SFJAZZ Center"` | Idempotent (`venueSlug(venueSlug(x)) === venueSlug(x)` for all 13 inputs). |
-| **T-C1-3** | codebase | `grep -rn "sfjazz-center\|black-cat-sf\|dawn-club\|keys-jazz-bistro\|mr-tipple-s\|yoshi-s" app/` | **0 matches** — no hardcoded slug list in `app/`. |
-| **T-C3-1** | `timeToMinutes` | `"12:00 AM"`→`0`; `"11:00 AM"`→`660`; `"12:00 PM"`→`720`; `"7:30 PM"`→`1170`; `"8:00 PM"`→`1200`; `"9:30 PM"`→`1290`; `"4:30 pm"`→`990` | All exact. |
-| **T-C3-2** | `timeToMinutes` | `"8:00\u202fPM"`→`1200`; `"8:00\u00a0PM"`→`1200`; `"8:00PM"`→`1200` | All `1200`. Narrow-nbsp case is mandatory. |
-| **T-C3-3** | `timeToMinutes` | `"TBA"`, `""`, `"25:00 PM"`, `"0:30 AM"`, `"7:70 PM"`, `"doors 8"` | All `null`. |
-| **T-C3-4** | `compareEvents` | `[...FIXTURE].sort(compareEvents).map(e=>e.id)` | `["e0","e6","e2","e4","e3","e1","e5"]` — 09-01 group is `e0`,`e6` (both 0 min, tie broken by id), `e2` (1170), `e4` (1200), `e3` (null, last); then 09-02 `e1`; then 09-03 `e5`. **Verification must recompute this array from the §C3 rules rather than trusting this cell**, and assert its computed value; the rules, not this string, are normative. |
-| **T-C3-5** | `compareEvents` | Two events, same date, one `"TBA"`, one `"9:30 PM"` | The `"TBA"` event sorts **after**, in both argument orders. |
-| **T-C2-1** | `venuesFromEvents` | `FIXTURE` | Deep-equals the §6.1 array — 3 entries, that order, those counts. **No assertion anywhere that the count is 6.** |
-| **T-C2-2** | `venuesFromEvents` | `[]` | `[]`. |
-| **T-C2-3** | `eventsForSlug` | `(FIXTURE, "yoshi-s")` | ids `["e0","e6","e4","e3","e1"]`. |
-| **T-C2-4** | `eventsForSlug` | `(FIXTURE, "black-cat-sf")`, `(FIXTURE, "")`, `(FIXTURE, "nope")` | `[]` each. |
-| **T-C2-5** | `venuesFromEvents` / `eventsForSlug` | Two distinct names slugging alike, e.g. `"The Spot"` and `"The  Spot!"` (both → `the-spot`) | `venuesFromEvents` yields **2** entries; `eventsForSlug(…, "the-spot")` returns **both** events. |
-| **T-C9-1** | `formatDate` | `'all'` | `'All Dates'`. |
+**T11 — Frontend untouched (C24, C25).**
+1. `cd /home/waynehoy/Projects/sf-jazz-city && npm test` exits 0.
+2. `git diff --name-only HEAD` lists **no** path starting with `app/`.
+3. `git diff --name-only HEAD` lists **no** path starting with `scraper/images/`
+   and does not include `scraper/image_downloader.py`.
 
-### 6.3 Component tests
+**T12 — Politeness (C10, C11).** Static check on `scraper/yoshis_scraper.py`:
+1. The source contains an `asyncio.Semaphore(n)` with `n <= 4` guarding detail
+   fetches.
+2. A single `aiohttp.ClientSession` is used for the calendar POST and all
+   detail GETs within a run.
+3. Instrumented check: during a Yoshi's-only run, the number of detail-page GETs
+   is **<= the number of unique detail URLs** (proving the per-URL cache of
+   C10). With today's feed that is <= 70 for 118 events.
 
-| ID | Target | Setup | Pass criteria |
-|---|---|---|---|
-| **T-C4-1** | `SiteHeader` | render bare | `nav-venues` anchor `href === "/venues"`, text `Venues`. |
-| **T-C4-2** | `SiteHeader` | render bare | `nav-tonight` href `/#tonight` text `Tonight`; `nav-upcoming` href `/#upcoming` text `Upcoming`. |
-| **T-C4-3** | app source | `grep -rn 'href="#venues"' app/` and `grep -rn '"#tonight"\|"#upcoming"' app/` | **0 matches for all three** — no bare-anchor navs remain. |
-| **T-C4-4** | `SiteHeader` | render bare | `brand-home` anchor `href === "/"`. |
-| **T-C4-5** | `SiteHeader` | render bare | Renders without throwing when no fetch is mocked (proves hook-free). |
-| **T-C5-1** | `SiteFooter` | render bare | `site-footer` present; contains the substring `SF Jazz City. Your guide to live jazz in San Francisco.` and `Always verify details with venues.` |
-| **T-C6-1** | `EventCard` | `<EventCard event={FIXTURE[0]} />`, no `variant` | Renders; `event-card-title` text `Trio One`. Also render with `variant="compact"` and assert the two outputs' `innerHTML` are identical (proves the default). |
-| **T-C6-2** | `EventCard` | `variant="compact"`, `event = FIXTURE[0]` (`Yoshi's`) | `event-card-venue` is an `<a>` (`tagName === 'A'`), `href === "/venues/yoshi-s"`, text `Yoshi's`. |
-| **T-C6-3** | `EventCard` | `variant="featured"`, same event | Same three assertions as T-C6-2. |
-| **T-C6-4** | `EventCard` | event with `venue: "!!!"` | `event-card-venue` `tagName === 'SPAN'`, has no `href` attribute, text `!!!`. |
-| **T-C6-5** | `EventCard` | `variant="featured"` vs `"compact"`, `FIXTURE[1]` (has a description) | Featured renders the description text `A show`; compact does not. |
-| **T-C7-1** | `/venues` page | fetch mocked → `FIXTURE` | Exactly **3** `venue-card` elements. |
-| **T-C7-2** | `/venues` page | same | `venue-card-name` texts, in DOM order: `["Mr. Tipple's","SFJAZZ Center","Yoshi's"]`. |
-| **T-C7-3** | `/venues` page | same | `venue-card-count` texts, in DOM order: `["1 upcoming event","1 upcoming event","5 upcoming events"]` — singular/plural exact. |
-| **T-C7-4** | `/venues` page | same | Each card contains an `<a>` whose `href` is `/venues/mr-tipple-s`, `/venues/sfjazz-center`, `/venues/yoshi-s` respectively. |
-| **T-C7-5** | `/venues` page | fetch never resolves | `venues-loading` present with text `Loading venues...`; `site-header` present **at the same time**. |
-| **T-C7-6** | `/venues` page | fetch rejects | `venues-error` present, text `Could not load venues.`; no unhandled rejection. |
-| **T-C7-7** | `/venues` page | fetch → `{ events: [] }` | `venues-empty` present, text `No venues found.`; **0** `venue-card` elements. |
-| **T-C7-8** | `/venues` page | fetch → `FIXTURE` | An `<h1>` with text `Venues` is present. |
-| **T-C8-1** | `/venues/[slug]` | `useParams` → `{slug:"yoshi-s"}`, fetch → `FIXTURE` | `venue-name` is an `<h1>` with text exactly `Yoshi's` (not `yoshi-s`). |
-| **T-C8-2** | same | same | `venue-event-list` contains exactly **5** `event-card` elements; their `event-card-title` texts in DOM order are `["Zero Seven","Big Six","Combo Four","Solo Three","Trio One"]` (= ids `e0,e6,e4,e3,e1`). |
-| **T-C8-3** | same | same | Every rendered `event-card-venue` is an `<a>` with `href === "/venues/yoshi-s"` — self-links present, 5 of them. |
-| **T-C8-4** | same | `slug:"sfjazz-center"` | Exactly **1** `event-card`; `venue-name` text `SFJAZZ Center`; the Yoshi's and Mr. Tipple's events are **absent** (assert no `event-card-title` with text `Trio One` or `Duo Five`). |
-| **T-C8-5** | same | `slug:"black-cat-sf"` (valid slug, zero events) | `venue-not-found` present; `venue-name` and `venue-event-list` **absent**; visible text `Venue not found`. |
-| **T-C8-6** | same | `slug:"totally-made-up"` | Same as T-C8-5, plus `venue-not-found-back` is an `<a>` with `href === "/venues"` and text `Back to all venues`. |
-| **T-C8-7** | same | `slug:"yoshi-s"` | `venue-back-link` is an `<a>`, `href === "/venues"`, text `All venues`. |
-| **T-C8-8** | same | fetch never resolves | `venue-loading` present, text `Loading events...`; `site-header` present simultaneously. |
-| **T-C8-9** | same | `slug:"yoshi-s"`, fetch → `FIXTURE` | Renders **all 5** Yoshi's events including `e1` on `2026-09-02` — proves no second date cutoff was applied. |
-| **T-C8-10** | same | `slug:"mr-tipple-s"` | Renders; `venue-name` text `Mr. Tipple's` — apostrophe round-trips through the slug lookup. |
-
-### 6.4 Homepage regression tests
-
-Fetch mocked → `FIXTURE` for all of these.
-
-| ID | Pass criteria |
-|---|---|
-| **T-C9-2** | After load, `site-header` and `site-footer` are both present. |
-| **T-C9-3** | `document.getElementById('tonight')` and `document.getElementById('upcoming')` are both non-null. |
-| **T-C9-4** | Headings `Playing Tonight` and `Browse All Shows` are present. |
-| **T-C9-5** | Browse section renders **7** `event-card` elements (whole fixture, no filter). |
-| **T-C9-6** | Typing `yoshi` into the search input (placeholder `Search artists or venues...`) narrows Browse to **5** cards — proves venue-name search still works. |
-| **T-C9-7** | Typing `trio` narrows Browse to **1** card, title `Trio One` — artist search still works. |
-| **T-C9-8** | Typing `zzzznomatch` shows text `No shows found. Try adjusting your filters.` |
-| **T-C9-9** | The date `<select>` has **4** options: `All Dates` plus one per distinct date (`2026-09-01`, `2026-09-02`, `2026-09-03`), first option value `all`. |
-| **T-C9-10** | Selecting the option with value `2026-09-03` narrows Browse to **1** card, title `Duo Five`. |
-| **T-C9-11** | Every Browse `event-card-venue` for a `Yoshi's` event is an `<a>` with `href === "/venues/yoshi-s"`. |
-| **T-C9-12** | With fetch pending, text `Loading jazz events...` is shown and `site-header` is **absent** (homepage loading state deliberately unchanged — C9). |
-| **T-C9-13** | Mock the system date to a fixture date so a Tonight event exists (e.g. `vi.setSystemTime(new Date('2026-09-01T12:00:00'))` before render); Tonight section renders `featured` cards for the 09-01 events (**5**) and each has a linked venue name. Restore real timers after. |
-| **T-C9-14** | `grep -rn "venues" app/page.tsx` shows no `import` from `app/venues/` — homepage does not import venue pages. |
-
-### 6.5 Build / integration gates
-
-| ID | Command | Pass criteria |
-|---|---|---|
-| **T-B-1** | `npm install` | Exit 0. |
-| **T-B-2** | `npm test` | Exit 0; **every** test above present and passing; 0 skipped, 0 todo. |
-| **T-B-3** | `npm run build` | Exit 0. |
-| **T-B-4** | `npm run build` output | Route table lists `/`, `/venues`, and `/venues/[slug]`. |
-| **T-B-5** | `npm run lint` | Exit 0. |
-| **T-B-6** | `git diff --stat app/types/event.ts app/api/events/route.ts app/layout.tsx app/globals.css next.config.js tailwind.config.js data/ scraper/` | **Empty** — none of these changed. |
-| **T-B-7** | `npx tsc --noEmit` | Exit 0. |
-
-### 6.6 Explicitly NOT tested
-
-Named so nobody scores their absence as a failure: visual/pixel fidelity, Tailwind
-class equivalence, responsive breakpoints, real-browser navigation, SEO/metadata,
-performance, `data/events.json` contents, scraper behavior, and the live venue count.
+**T13 — Failure degradation (C12).** With the detail-fetch helper monkeypatched
+to raise on every call, `scrape_events()` still returns the full set of Yoshi's
+events (same count as with fetching disabled), every `image_url` is `None`, and
+no exception propagates.
 
 ---
 
-## 7. Cost / time estimate — veto on sight
+## 6. Cost / time estimate
 
-**Expected total spend: US $24.** Breach threshold at 1.5× = **$36**.
-**Expected wall-clock: 3 hours.**
+Estimated for the remaining phases of this cycle (Execution + Verification).
+**The budget-breach threshold is 1.5× these figures.**
 
-| Phase | Driver | Est. |
+| Phase | Wall clock | Spend |
 |---|---|---|
-| Execution | `npm install`; 9 new files (~450 LOC) + a 248-line rewrite; build/lint loop | $11 · 1.3 h |
-| Verification | Toolchain wiring + ~60 assertions across ~8 test files; 2 full `npm test` + `npm run build` cycles | $9 · 1.2 h |
-| Retry buffer | One partial re-execution (assume ~1 of the 3 allowed verification attempts fails) | $4 · 0.5 h |
+| Execution (M1–M3 implementation) | 50–80 min | $7–12 |
+| Verification (write + run T1–T13) | 50–85 min | $7–13 |
+| **Total (point estimate)** | **~2.5 h** | **~$20** |
 
-**What drives the uncertainty, ranked:**
+**Breach threshold at 1.5×: ~3.75 h / ~$30.**
 
-1. **Verification attempts.** The estimate assumes **2** attempts. Each additional
-   full attempt adds roughly **$5 and 35 min**. Three attempts land near $29 —
-   inside the threshold; a third failure escalates on the attempt cap before it
-   escalates on budget.
-2. **`npm install` on a cold tree.** No `node_modules` today; the vitest + RTL set
-   is ~7 new dev deps. Registry reachability confirmed 2026-08-26 (PONG 119 ms). A
-   resolution conflict with `eslint-config-next@15.1.0` is the plausible snag —
-   ~$2 and 20 min if it bites.
-3. **The `page.tsx` extraction.** 248 lines, two near-duplicate card markups. If
-   Execution "improves" them into one shared markup, T-C6-5 and the homepage
-   regressions fail and force a retry. C6 and C9 are written to head this off.
-4. **jsdom + Next `useParams`/`<Link>` mocking.** Standard but fiddly; the first
-   test file usually costs more than the rest combined.
+Work being estimated:
+- `scraper/image_utils.py`: new, ~40 lines.
+- `scraper/yoshis_scraper.py`: ~55 lines added/changed (2 pure helpers +
+  bounded async fetch layer).
+- `scraper/mrtipples_scraper.py`: ~30 lines changed (`merge_events`,
+  `html.unescape`, `normalize_image_url` wiring).
+- Cleanup routine (C21): ~25 lines.
+- Fixture capture + trimming: 3 files.
+- Verification test files: ~250 lines across 4–5 files.
+- Live runs: at least one full 6-venue scrape.
 
-**Milestone count: 5** — under the "handful" line, so **no cycle split is
-proposed.**
+**What drives the uncertainty (in descending order):**
+1. **Full-venue scrape wall clock.** Four of six venues drive a headless Chrome
+   session. A full `--export` run is the single longest step and may be
+   repeated 2–3 times (regression, then post-fix, then a re-run if a venue
+   flakes). This is the largest variance term and is mostly *waiting*, not
+   spend.
+2. **Mr. Tipple's is Cloudflare-protected** — plain `curl` gets HTTP 403; only
+   the Playwright path works. A bot-check escalation on the day would stall T9
+   and T7 and could force a retry cycle.
+3. **Live sites are moving targets.** All yield figures here were measured on
+   2026-08-26. Yoshi's could re-skin its detail template (removing
+   `class="event-img"`) between approval and verification, which would fail T8
+   through no fault of the implementation.
+4. **Fixture trimming.** Reducing a 166 KB page while preserving the four
+   required elements (T2) can take a couple of iterations.
 
-| # | Milestone | Done when |
-|---|---|---|
-| M1 | Pure lib | `venue-slug.ts`, `event-order.ts`, `venues.ts`, `format.ts` exist with the C1–C3 signatures |
-| M2 | Toolchain | `npm test` exits 0 with no tests present (C10) |
-| M3 | Shared components | `SiteHeader`, `SiteFooter`, `EventCard` exist per C4–C6 |
-| M4 | Routes | `/venues` and `/venues/[slug]` exist per C7–C8 |
-| M5 | Homepage refactor green | C9 satisfied; `npm run build` and `npm run lint` exit 0 |
+**Why this is cheaper than ideation implied:** ideation budgeted detail-page
+fetching for both venues. The probe eliminated it for Mr. Tipple's entirely
+(D-s2) and measured it at 8.7 s / 70 requests for Yoshi's — so the "roughly
+doubles request counts for these venues" concern in ideation applies to one
+venue and costs under 10 seconds per run.
 
 ---
 
-## 8. Definition of done
+## 7. Risks
 
-Every commitment C1–C11 holds, every test in §6 is implemented and passing, §3 is
-respected, and T-B-6 shows the untouchable files untouched.
+| # | Risk | Mitigation / blast radius |
+|---|---|---|
+| R1 | Yoshi's changes its detail template and drops `class="event-img"` | T8 fails loudly. C12 guarantees graceful degradation to today's behavior (no images) rather than a crashed venue. Fix is a one-line selector change. |
+| R2 | Yoshi's rate-limits or blocks 70 sequential detail GETs | Probe saw 70/70 at concurrency 4 in 8.7 s with no throttling. C11 caps concurrency at 4; C12 makes any 429/403 degrade to `image_url=None`. |
+| R3 | Mr. Tipple's Cloudflare check hardens and blocks Playwright | Pre-existing risk for this venue, not introduced here. Blocks T9/T7 and would need a separate cycle. |
+| R4 | `html.unescape` changes the `(title, date)` DB unique key, orphaning existing rows | Quantified: exactly 13 rows, all with decoded twins. C21–C23 resolve them losslessly. If D-s4 is vetoed, blast radius is ~2 visible duplicate upcoming cards. |
+| R5 | `merge_events` merges two genuinely distinct same-night shows that share a title and date | Mr. Tipple's already dedups on `(title, date)`; this changes *which field values survive*, not *which events collapse*. Event count is unchanged except for the 3 intended entity merges. T5.5 guards distinct keys. |
+| R6 | Yoshi's detail-fetch layer accidentally overwrites `ticket_url` with the detail URL | Directly guarded by C13 and T3.2 — the most likely silent regression in this cycle. |
+| R7 | A committed 166 KB HTML fixture bloats the repo | Fixture trimming is explicitly permitted; required elements enumerated in §5. |
+| R8 | Live thresholds (70%/50%) are so far below measured yield (100%) that a real partial regression passes | Deliberate: the thresholds are Wayne-approved from ideation and are not raised unilaterally. §5 Layer 2 instructs flagging a large gap between threshold and expectation to the human gate. |
+
+---
+
+## 8. Alternatives rejected
+
+- **Fetch Yoshi's detail pages with Playwright** (as Mr. Tipple's does).
+  Rejected: the pages are plain server-rendered HTML — `curl` returns the full
+  markup with the image. `aiohttp` costs 8.7 s for 70 pages; a browser would
+  cost minutes.
+- **Use `og:image` / JSON-LD for Yoshi's** (ideation's stated assumption).
+  Rejected: the detail pages serve exactly three meta tags — `description`,
+  `google-site-verification`, `viewport` — and zero JSON-LD blocks. Measured.
+- **Fetch Mr. Tipple's detail pages** (ideation's D-i2 "likely fix").
+  Rejected: the JSON-LD already carries 73/83 images; the loss is a dedup bug.
+  Detail fetching would add ~45 browser navigations and mask the real defect.
+- **Repair the dead DOM path** so it also yields images. Rejected: it currently
+  contributes 0 images and 0 unique events; after C15–C17 it is inert. Out of
+  scope (§4.6).
+- **Change Mr. Tipple's dedup key to include `time`** (matching Yoshi's).
+  Rejected: would split legitimately-merged rows and change event counts,
+  breaking T7's count comparison for no image benefit.
+- **Drop the DOM path entirely** from Mr. Tipple's. Rejected: it is the
+  documented fallback if the JSON-LD block ever disappears; C15's merge makes
+  it harmless to retain.
+- **Backfill all historical rows** with images. Rejected by D-i5; only the 13
+  rows of C21 are touched, and only because D-s3 would otherwise strand them.
+- **Validate `image_url` by fetching it.** Rejected: doubles request volume,
+  introduces flakiness into unit tests, and the frontend already degrades to a
+  placeholder on a broken image.
+- **Write the tests as part of Execution.** Rejected: the Loop protocol
+  requires a fresh Verification session to implement them from this spec alone.
+- **Use BeautifulSoup for HTML extraction.** Rejected: `bs4` is not installed in
+  `.venv` and D-s6 forbids new runtime dependencies. Stdlib `re`/`html.parser`
+  suffices; T2.5–T2.9 pin the robustness requirements a regex must meet.
+
+---
+
+## 9. Milestones
+
+- **M1 — Shared + Yoshi's.** `scraper/image_utils.py` (C1–C4);
+  `extract_image_url`, `detail_url_from_item`, bounded detail-fetch layer
+  (C5–C14). Largest milestone.
+- **M2 — Mr. Tipple's + cleanup.** `merge_events`, entity decoding, image
+  normalization (C15–C20); one-shot cleanup (C21–C23).
+- **M3 — Live run + export.** Full 6-venue scrape, `data/events.json` refresh,
+  scope-integrity check (C24–C26).
+
+Three milestones is within the single-cycle threshold; no split is proposed.
