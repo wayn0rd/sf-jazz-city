@@ -27,8 +27,19 @@ Adding an ESLint config so `npm run lint` runs non-interactively and exits 0 per
 timestamp: 2026-08-27T01:45:00Z
 phase: execution
 cycle: 1
+status: committed
+commitSha: "c12f782963395310d7d30f650ee343456d77cead"
+filesTouched: [".loopzai/execution-log.md", "app/lib/event-order.ts", "app/lib/format.ts", "app/lib/venue-slug.ts", "app/lib/venues.ts"]
+```
+Adding the pure library modules venue-slug.ts, event-order.ts, venues.ts and format.ts per spec.md C1-C3 and C9 (milestone M1).
+
+### entry-0004
+```yaml
+timestamp: 2026-08-27T01:55:00Z
+phase: execution
+cycle: 1
 status: in_progress
 commitSha: null
 filesTouched: []
 ```
-Adding the pure library modules venue-slug.ts, event-order.ts, venues.ts and format.ts per spec.md C1-C3 and C9 (milestone M1).
+Extracting SiteHeader, SiteFooter and EventCard as shared components per spec.md C4-C6 (milestone M3).
