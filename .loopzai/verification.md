@@ -1,24 +1,28 @@
 <!-- verification.md — verification results for the current cycle. -->
 
-# Cycle 2 — Verification attempt 1 of 3
+# Cycle 2 — Verification attempt 2 of 3
 
 **Graded against:** `.loopzai/spec.md` §5 (frozen at approval) +
-`.loopzai/spec-amendments.md` (empty — no amendments this cycle).
+`.loopzai/spec-amendments.md` **amendment-0001** (Wayne-approved, 2026-08-27).
 **Executable tests frozen at:** commit `667f93a`
 (`loopzai: cycle 2 - freeze executable test suite (spec section 5)`).
-**Repo HEAD graded:** `20ebaa2`. **Run date (UTC):** 2026-08-27.
+**Repo HEAD graded:** `2ba48d2`. **Run date (UTC):** 2026-08-27.
 
-Tests were derived from `spec.md` alone and committed **before**
-`execution-log.md` or the implementation diff were read.
+This attempt ran the frozen suite **unchanged** and added — never substituted —
+one new file covering amendment-0001. Nothing under `tests/scraper/` or
+`tests/live/verify_live.py` was edited; `git diff 667f93a HEAD -- tests/` and
+`git diff HEAD -- tests/` are both empty, so the frozen target is provably
+identical to attempt 1's.
 
 ---
 
 ## Verdict summary
 
-**FAIL — 1 frozen check of 24 live checks fails.** The unit layer is fully
-green (95/95) and every image-yield, politeness, degradation and scope
-commitment holds. The single failure is **T10.2**, and it is **not caused by
-this cycle's implementation** — see §"Failure hypothesis".
+**PASS.** All 95 frozen unit assertions and all frozen live checks pass, and
+the one check that reads red — frozen `T10.2` — is red only because its
+implementation predates amendment-0001 and still asserts the pre-amendment,
+corpus-wide form of the gate that Wayne has since scoped to the two in-scope
+venues. Under the grading standard as amended, the cycle's commitments are met.
 
 | Test | Result |
 |---|---|
@@ -31,7 +35,10 @@ this cycle's implementation** — see §"Failure hypothesis".
 | T7 full 6-venue regression scrape | **PASS** (T7.1–T7.5) |
 | T8 Yoshi's image yield (D-i1 headline) | **PASS** — 87/88 = 98.9% (floor 70%) |
 | T9 Mr. Tipple's image yield | **PASS** — 13/13 = 100% (floor 50%) |
-| T10 post-run data hygiene | **FAIL** — T10.1 ✓, **T10.2 ✗**, T10.3 ✓, T10.4 ✓ |
+| T10.1 / T10.3 / T10.4 hygiene | **PASS** |
+| T10.2 (frozen, pre-amendment form) | **red — 27 offenders**, all out-of-scope; superseded by amendment-0001 |
+| **T10.2a (added) — amended gate** | **PASS** — 0 offenders |
+| **T10.2b/c (added) — anti-exploit guards** | **PASS** |
 | T11 frontend untouched (C24, C25) | **PASS** |
 | T12 politeness (C10, C11) | **PASS** (T12.1–T12.3) |
 | T13 failure degradation (C12) | **PASS** |
@@ -54,97 +61,25 @@ this cycle's implementation** — see §"Failure hypothesis".
 95 passed in 0.20s
 ```
 
-Exit code 0, zero failures, zero errors — the spec's stated pass criterion for
-the whole unit layer. Per-file breakdown:
+Exit code 0, zero failures, zero errors — the spec §5 pass criterion for the
+whole unit layer. Per-file breakdown (re-measured this attempt):
 
 ```
-tests/scraper/test_t1_image_utils.py         30 passed
-tests/scraper/test_t2_yoshis_extract.py      12 passed
-tests/scraper/test_t3_yoshis_detail_url.py    7 passed
-tests/scraper/test_t4_mrtipples_schema.py    18 passed
-tests/scraper/test_t5_merge_events.py         8 passed
-tests/scraper/test_t6_cleanup.py              7 passed
-tests/scraper/test_t12_politeness_static.py   5 passed
-tests/scraper/test_t13_degradation.py         8 passed
+test_t1_image_utils.py         30 passed   T1  (C1-C3)
+test_t2_yoshis_extract.py      12 passed   T2  (C5-C7)
+test_t3_yoshis_detail_url.py    7 passed   T3  (C8, C13)
+test_t4_mrtipples_schema.py    18 passed   T4  (C18, C19)
+test_t5_merge_events.py         8 passed   T5  (C15, C16)
+test_t6_cleanup.py              7 passed   T6  (C21-C23)
+test_t12_politeness_static.py   5 passed   T12.1/T12.2 (C10, C11)
+test_t13_degradation.py         8 passed   T13 (C12) + offline T12.3
 ```
-
-### T1 — `normalize_image_url` (C1–C3) — PASS
-All ten spec table rows assert exact equality and all pass, including the two
-`data:` rejections, both `.svg` rejections (`/assets/placeholder.svg` and
-`/assets/placeholder.SVG?v=2`, i.e. case-insensitive with a query string), the
-protocol-relative `//cdn.example.com/a.jpg → https://cdn.example.com/a.jpg`
-promotion and the unchanged-absolute passthrough. The spec's property
-assertion (result is `None` or a `str` starting `http://`/`https://`) is run
-over every row, plus an added C4 guard that every rejection is `None` and never
-`""`.
-
-### T2 — Yoshi's `extract_image_url` (C5–C7) — PASS
-All ten spec sub-cases pass:
-`yoshis_detail_with_image.html` →
-`https://yoshis.com/userfiles/events/images/2866/keikomatsui2-copy.jpeg`
-(exactly the string the Specification phase recorded from the live page);
-`yoshis_detail_no_image.html` → `None`; the result contains neither
-`yoshi-logo` nor `facebook.com/tr`; attribute order either way, a newline
-inside the tag, and a multi-token `class="lazy event-img rounded"` all extract;
-`class="event-image-wrapper"` correctly does **not** match (token test, not
-substring); and a `data:` `src` on an `event-img` element returns `None`.
-
-**Added check (fixture integrity).** The two HTML fixtures were captured by the
-Execution phase (`execution-log.md` entry-0003, commit `771bc09`), so they were
-not taken on trust. Two added tests assert the spec §5 "Fixtures" preconditions
-mechanically: the with-image fixture retains the `img.event-img` element, the
-`/images/yoshi-logo.png` logo `<img>`, the `facebook.com/tr` pixel `<img>` and
-at least one tag with a newline inside it; the no-image fixture has the
-`event-img` element removed while retaining the logo and the pixel. Both pass.
-See §"Observations for the human gate" for the protocol note.
-
-### T3 — `detail_url_from_item` + `ticket_url` non-regression (C8, C13) — PASS
-Using the verbatim live item from the spec: `detail_url_from_item(item)` ==
-`https://yoshis.com/events/sold-out/keiko-matsui-14/detail`; `_parse_event`
-still yields `ticket_url ==
-https://www.etix.com/ticket/p/69261880/keiko-matsui-wed82626-oakland-yoshis`
-(the etix URL, **not** the detail URL — this is R6, the cycle's most likely
-silent regression, and it is clean); `title == "KEIKO MATSUI"`;
-`date == "2026-08-26"`; `time == "7:30 PM"`; `detail_url_from_item({})` and
-`{"url": ""}` are both `None`; `{"url": "/events/x/detail"}` absolutizes; and a
-`Sold Out` `className` still yields `status == "Sold Out"`.
-
-### T4 — Mr. Tipple's `_parse_schema_event` (C18, C19) — PASS
-All nine sub-cases pass — `str`/`list`(first element)/`dict`(`url`) image
-shapes, absent image → `None`, `""` → `None` (not `""`), `data:` → `None`,
-relative → absolutized against `https://mrtipplessf.com`, and both entity
-decodings: `Patrick Wolff&#8217;s &#8220;Swinging Organ&#8221; Quartet` →
-`Patrick Wolff’s “Swinging Organ” Quartet` and `Carla Helmbrecht &#038; The
-Brad Leali Quartet` → `Carla Helmbrecht & The Brad Leali Quartet`. T4.10
-(`"&#" not in event.title`) is parametrised across all nine cases.
-
-### T5 — `merge_events` (C15, C16) — PASS
-The core regression guard is green in **both** orders: `merge_events([A, B])`
-and `merge_events([B, A])` each return length 1 with
-`image_url == "https://h/a.jpg"`. The last-wins comprehension at the old
-`mrtipples_scraper.py:321` is gone. Empty string counts as missing (both
-orders); `time`/`price` fill-in works; distinct `(title, date)` keys are
-preserved in both directions; `merge_events([])` is `[]`; idempotence holds.
-An added test exercises all five spec-named fields (`image_url`, `time`,
-`price`, `ticket_url`, `description`) taking first-non-empty in one pass.
-
-### T6 — cleanup routine (C21–C23) — PASS
-Against a temporary SQLite DB built with the project schema: the decoded twin
-receives `https://h/r.jpg`; the twinned entity row is deleted; the entity row
-**without** a twin survives untouched with its image (C22); the Dawn Club rows
-— including one whose title contains `&#` — are byte-identical before and after
-(C23); an added check confirms a Mr. Tipple's row **without** `&#` is untouched;
-a second run changes nothing (idempotent); and total row count drops by exactly
-1, the number of entity rows that had twins.
-
-**Against the real project DB** (`scraper/events.db`, 898 rows): 0 Mr. Tipple's
-rows with `&#`, 0 rows of any venue with `&#`. The one-shot cleanup landed.
 
 ---
 
 ## Layer 2 — live smoke
 
-### T7 — full 6-venue regression scrape — PASS
+### T7.1 — full 6-venue regression scrape
 
 **Command**
 
@@ -152,188 +87,107 @@ rows with `&#`, 0 rows of any venue with `&#`. The one-shot cleanup landed.
 cd /home/waynehoy/Projects/sf-jazz-city && .venv/bin/python scraper/run_scraper.py --export
 ```
 
-**Observed tail**
+**Observed output (tail)**
 
 ```
+Scraping Keys Jazz Bistro...   Found: 42 events   New: 0, Updated: 42
+Scraping Mr. Tipple's...       Found: 42 events   New: 0, Updated: 42
+Scraping Yoshi's...            Found: 117 events  New: 0, Updated: 117
   Total events: 350
-  New events:   0
-  Updated:      350
   Exported:     data/events.json (898 events)
-EXIT_CODE=0
+SCRAPE_EXIT=0
 ```
 
-**T7.1** exit code 0 — PASS.
-**T7.2** valid JSON, non-empty array, 898 events — PASS.
+**PASS** — exit code 0.
 
-**T7.3 / T7.4** — baseline is `git show HEAD:data/events.json`, both sides
-computed with the same `today = 2026-08-27` (UTC), per the spec.
-
-| Venue | new upcoming | baseline | ratio | floor | T7.3 | T7.4 |
-|---|---|---|---|---|---|---|
-| SFJAZZ Center | 82 | 82 | 100.0% | 80% | PASS | PASS |
-| Dawn Club | 30 | 30 | 100.0% | 80% | PASS | PASS |
-| Black Cat SF | 4 | 4 | 100.0% | 80% | PASS | PASS |
-| Keys Jazz Bistro | 45 | 45 | 100.0% | 80% | PASS | PASS |
-| Mr. Tipple's | 13 | 13 | 100.0% | **70%** | PASS | PASS |
-| Yoshi's | 88 | 88 | 100.0% | 80% | PASS | PASS |
-
-No venue is at 0. The Mr. Tipple's 45 → 42 merge collapse the spec anticipated
-had already happened in Execution's export, so this attempt's ratio is 1.00
-against it; the live adapter reported `Total unique events: 42 (37 with
-images)`, matching the spec's §2 measurement exactly.
-
-**T7.5** — the four healthy venues do not regress on images (floor 95%):
-SFJAZZ 82/82 = 100%, Dawn Club 30/30 = 100%, Black Cat 4/4 = 100%,
-Keys Jazz Bistro 45/45 = 100%. PASS.
-
-### T8 — Yoshi's image yield (the D-i1 headline) — PASS
-
-Among Yoshi's events with `date >= 2026-08-27`, the fraction whose `image_url`
-is non-empty, starts `https://yoshis.com/`, and does not start `data:`:
-
-```
-[PASS] T8  Yoshi's upcoming image yield >= 70%  --  87/88 = 98.9%  (spec expectation ~100%)
-```
-
-98.9% clears the 70% floor and sits above the spec's "below ~90% warrants
-investigation" line. The single miss was investigated anyway and is **not** an
-extraction failure: it is a stale DB row `("ISAIAH COLLIER", 2026-09-27,
-7:00 PM)` last scraped **2026-08-02**, before this cycle. Yoshi's has since
-renamed the show, and the current row `("ISAIAH COLLIER: ‘COLLIER PLAYS
-COLTRANE’", 2026-09-27, 7:00 PM)` was scraped today **with** its image
-(`.../2849/isaiah-collier2-copy.jpeg`). The live run itself reported
-`Total unique events: 117 (117 with images)` — 100% of everything the feed
-currently serves. The stale row is the pre-existing "renamed show leaves an
-orphan" phenomenon; spec §4.2 explicitly leaves historical rows alone.
-
-### T9 — Mr. Tipple's image yield — PASS
-
-```
-[PASS] T9  Mr. Tipple's upcoming image yield >= 50%  --  13/13 = 100.0%  (spec expectation 100%)
-```
-
-100% of upcoming events carry an `https://` image. The §0 data-loss bug is
-fixed.
-
-### T10 — post-run data hygiene — **FAIL (T10.2)**
+### T7.2–T10.4 — frozen live driver, run unchanged
 
 **Command**
 
 ```
-cd /home/waynehoy/Projects/sf-jazz-city && .venv/bin/python tests/live/verify_live.py \
-    <fresh data/events.json> <git show HEAD:data/events.json>
+.venv/bin/python tests/live/verify_live.py /tmp/new_events.json /tmp/baseline_events.json
 ```
 
 **Observed output**
 
 ```
+today (UTC) = 2026-08-27
+
+[PASS] T7.2  data/events.json is valid JSON and a non-empty array  --  898 events
+[PASS] T7.3  SFJAZZ Center: upcoming >= 80% of baseline  --  new=82 baseline=82 ratio=100.00%
+[PASS] T7.4  SFJAZZ Center: upcoming count is not 0  --  new=82
+[PASS] T7.3  Dawn Club: upcoming >= 80% of baseline  --  new=30 baseline=30 ratio=100.00%
+[PASS] T7.4  Dawn Club: upcoming count is not 0  --  new=30
+[PASS] T7.3  Black Cat SF: upcoming >= 80% of baseline  --  new=4 baseline=4 ratio=100.00%
+[PASS] T7.4  Black Cat SF: upcoming count is not 0  --  new=4
+[PASS] T7.3  Keys Jazz Bistro: upcoming >= 80% of baseline  --  new=45 baseline=45 ratio=100.00%
+[PASS] T7.4  Keys Jazz Bistro: upcoming count is not 0  --  new=45
+[PASS] T7.3  Mr. Tipple's: upcoming >= 70% of baseline  --  new=13 baseline=13 ratio=100.00%
+[PASS] T7.4  Mr. Tipple's: upcoming count is not 0  --  new=13
+[PASS] T7.3  Yoshi's: upcoming >= 80% of baseline  --  new=88 baseline=88 ratio=100.00%
+[PASS] T7.4  Yoshi's: upcoming count is not 0  --  new=88
+[PASS] T7.5  SFJAZZ Center: >= 95% of upcoming have an image  --  82/82 = 100.0%
+[PASS] T7.5  Dawn Club: >= 95% of upcoming have an image  --  30/30 = 100.0%
+[PASS] T7.5  Black Cat SF: >= 95% of upcoming have an image  --  4/4 = 100.0%
+[PASS] T7.5  Keys Jazz Bistro: >= 95% of upcoming have an image  --  45/45 = 100.0%
+[PASS] T8  Yoshi's upcoming image yield >= 70%  --  87/88 = 98.9%  (spec expectation ~100%)
+[PASS] T9  Mr. Tipple's upcoming image yield >= 50%  --  13/13 = 100.0%  (spec expectation 100%)
 [PASS] T10.1  no event has image_url == ''  --  0 offenders
 [FAIL] T10.2  no event has a data: image_url  --  27 offenders
 [PASS] T10.3  no Yoshi's / Mr. Tipple's relative image_url  --  0 offenders
 [PASS] T10.4  no Mr. Tipple's title contains '&#'  --  0 offenders
 
 22/23 checks passed
-FAILURES:
-  T10.2  no event has a data: image_url  --  27 offenders
 ```
 
-**T10.1 PASS** — zero events of any venue have `image_url == ""` (C4 holds).
+This reproduces attempt 1's result exactly — as expected, since no
+implementation code changed between the two attempts (verified below).
 
-**T10.2 FAIL** — 27 events carry an `image_url` beginning `data:`. All 27 are
-**Keys Jazz Bistro**; zero are Yoshi's or Mr. Tipple's. Sample:
+### T10.2 under amendment-0001 — the added check
 
-```
-Keys Jazz Bistro 2013-02-20 Attakid                       | data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewB…
-Keys Jazz Bistro 2026-05-08 Janice Maxie Reid             | data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewB…
-Keys Jazz Bistro 2026-05-09 Paula West                    | data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewB…
-Keys Jazz Bistro 2026-05-09 Late Set: Simon Rowe Organ Trio | data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewB…
-```
+**Added file:** `tests/live/verify_amendment_0001.py`. This is an **addition**
+under the spec-amendment mechanism. The frozen `T10.2` in `verify_live.py` was
+left byte-for-byte intact and its raw red result is reported above rather than
+suppressed.
 
-Date range 2013-02-20 → 2027-03-19; 2 of the 27 are upcoming. These are
-WordPress lazy-load placeholder SVGs captured by `scraper/keysjazz_scraper.py`.
-
-**They are pre-existing and identical across all three snapshots** — counted
-mechanically:
-
-| Snapshot | `data:` offenders | venues |
-|---|---|---|
-| Pre-cycle-2 baseline (`88b55aa:data/events.json`) | 27 | Keys Jazz Bistro ×27 |
-| Execution's export (`HEAD:data/events.json`, `ea6c9ec`) | 27 | Keys Jazz Bistro ×27 |
-| This attempt's fresh scrape | 27 | Keys Jazz Bistro ×27 |
-
-Cycle 2 neither introduced, worsened, nor was committed to fix this. Full
-analysis in §"Failure hypothesis".
-
-**T10.3 PASS** — no Yoshi's or Mr. Tipple's event has a relative `image_url`;
-every non-null value starts `http://` or `https://` (C3/C4 hold on both
-in-scope venues).
-
-**T10.4 PASS** — no Mr. Tipple's title contains `&#` in `data/events.json`, and
-independently 0 such rows remain in `scraper/events.db` (C18 + C21).
-
-### T11 — frontend untouched (C24, C25) — PASS
-
-**T11.1** `npm test`:
+**Command**
 
 ```
- Test Files  5 passed (5)
-      Tests  59 passed (59)
-   Duration  1.89s
-EXIT_CODE=0
+.venv/bin/python tests/live/verify_amendment_0001.py /tmp/new_events.json /tmp/baseline_events.json
 ```
 
-(This also confirms the spec's claim that Vitest's include glob does not pick
-up the new `.py`/`.html` files — the count is unchanged from cycle 1's 59.)
-
-**T11.2 / T11.3** `git diff --name-only HEAD` at grading time lists only
-`.loopzai/state.json` and `data/events.json` (the latter from this attempt's
-own T7 run, since restored) — **no** path starting with `app/`, **no** path
-starting with `scraper/images/`, and not `scraper/image_downloader.py`. PASS.
-
-**Added check — whole-cycle scope integrity.** Because `git diff HEAD` only
-sees uncommitted work, the commitments were also checked across the entire
-cycle-2 diff (`88b55aa..HEAD`). Changed files:
+**Observed output**
 
 ```
-.loopzai/{assumptions,execution-log,ideation,spec,state}.md/.json
-.loopzai/interventions.jsonl, .loopzai/milestones.json
-data/events.json
-scraper/__init__.py, scraper/cleanup.py, scraper/image_utils.py
-scraper/mrtipples_scraper.py, scraper/requirements.txt, scraper/yoshis_scraper.py
-tests/fixtures/scraper/yoshis_detail_{no_image,with_image}.html
+[PASS] T10.2a  no Yoshi's / Mr. Tipple's event has a data: image_url (amendment-0001)  --  0 offenders
+[PASS] T10.2b  every corpus-wide data: row belongs to an out-of-scope venue  --  27 total, 27 out-of-scope, venues=['Keys Jazz Bistro']
+[PASS] T10.2c  no data: row is new relative to the pre-attempt baseline  --  0 newly-introduced
+
+3/3 checks passed
 ```
 
-Zero paths under `app/`, zero under `scraper/images/`, and
-`scraper/image_downloader.py` untouched — **C24 and C25 hold for the whole
-cycle**, not merely for the working tree.
+`T10.2b` and `T10.2c` are deliberate anti-exploit guards I added beyond what the
+amendment asks for. A narrowed gate is only safe if the exemption cannot be used
+as a hiding place, so the added test also proves that *every* remaining `data:`
+row belongs to an out-of-scope venue and that *none* is newly introduced. Both
+hold, so the narrowing cannot mask a cycle-2 defect.
 
-**C26** — the entire `scraper/requirements.txt` diff for the cycle is:
-
-```
-+
-+# Test runner for the scraper unit tests (tests/scraper/)
-+pytest>=8
-```
-
-One dependency added, and it is `pytest>=8`. PASS.
-
-### T12 — politeness (C10, C11) — PASS
-
-**T12.1** static: `scraper/yoshis_scraper.py` contains exactly one
-`asyncio.Semaphore(4)`; 4 ≤ 4. An added assertion confirms it is actually used
-as an `async with` guard rather than merely constructed. An added assertion
-confirms the request timeout is ≤ 30 s (`ClientTimeout(total=DETAIL_TIMEOUT_SECONDS)`
-resolves to 20 s; the calendar POST uses 30 s).
-
-**T12.2** static: exactly one `aiohttp.ClientSession(` construction in the
-module, and the detail-fetch helpers take a `session` parameter rather than
-opening their own. Confirmed dynamically in the offline harness: one session
-instance served 1 POST and all GETs.
-
-**T12.3** instrumented live Yoshi's-only run
-(`.venv/bin/python tests/live/instrument_yoshis.py`, writing to a scratch DB):
+### T11 — frontend untouched (C24, C25)
 
 ```
+npm test   →  Test Files 5 passed (5) / Tests 59 passed (59)   NPM_EXIT=0
+git diff --name-only HEAD  →  .loopzai/state.json, data/events.json
+  app/ paths:                              NONE   (T11.2 PASS)
+  scraper/images/, image_downloader.py:    NONE   (T11.3 PASS)
+```
+
+**PASS** on all three.
+
+### T12.3 — instrumented politeness (C10)
+
+```
+.venv/bin/python tests/live/instrument_yoshis.py
+
 events               : 117
 detail urls requested: 117
 unique detail urls   : 70
@@ -343,143 +197,119 @@ events with images   : 117/117
 [PASS] T12.3  detail GETs <= unique detail URLs
 ```
 
-70 GETs for 117 events against 70 unique URLs, zero duplicates — the per-URL
-cache of C10 is real, and the count matches the spec's "<= 70 for 118 events"
-expectation.
+**PASS** — 70 GETs against 70 unique URLs, 0 duplicates, within the spec's
+"<= 70 for 118 events". T12.1/T12.2 pass in the unit layer.
 
-### T13 — failure degradation (C12) — PASS
+### T13 — failure degradation (C12)
 
-Run offline: `aiohttp.ClientSession` is replaced inside the `yoshis_scraper`
-namespace by an in-memory fake serving a 3-event / 2-unique-URL calendar
-payload, so no socket is opened.
-
-- Baseline, detail fetching disabled: 3 events, all `image_url is None`.
-- **`fetch_detail_images` monkeypatched to raise on every call:** `scrape_events()`
-  returns the same 3 events, every `image_url is None`, **no exception
-  propagates**.
-- Per-URL `fetch_detail_image` monkeypatched to raise: same result.
-- Detail pages returning HTTP 503: same result.
-- Happy path through the same harness: all 3 events carry the extracted image
-  (C9), and `ticket_url` stays the etix URL for both shows while the `Sold Out`
-  status survives (C13 end-to-end).
+**PASS** — 8 assertions in `test_t13_degradation.py`.
 
 ---
 
-## Failure hypothesis
+## Independent audit of the amendment's premise
 
-**Why T10.2 failed.** The frozen test plan states T10.2 without venue
-qualification — "No event has an `image_url` starting with `data:`" — in
-deliberate contrast to T10.3 and T10.4, which are explicitly scoped to Yoshi's
-and Mr. Tipple's. Read as written, it is a whole-corpus hygiene gate over
-`data/events.json`.
+Amendment-0001 narrows a frozen gate, so I re-derived its factual basis from
+git rather than accepting attempt 1's analysis or `execution-log.md`'s account.
 
-But 27 rows already violated that gate **before cycle 2 began**. They are all
-Keys Jazz Bistro, and they are byte-identical in the pre-cycle baseline
-(`88b55aa:data/events.json`, committed 2026-08-26 before cycle 2 opened),
-in Execution's export, and in this attempt's fresh scrape. They come from
-`scraper/keysjazz_scraper.py` capturing the WordPress lazy-load placeholder
-SVG (`data:image/svg+xml,…`) instead of the real `src`.
+**1. Every `data:` row is Keys Jazz Bistro, and pre-dates the cycle.**
 
-Cycle 2 owns neither the adapter nor those rows:
+```
+=== PRE-CYCLE (88b55aa) === total=910 data:-URL rows=27
+  by venue: {'Keys Jazz Bistro': 27}      by scraped date: {'2026-05-08': 27}
+=== HEAD (post-cycle-2) === total=898 data:-URL rows=27
+  by venue: {'Keys Jazz Bistro': 27}      by scraped date: {'2026-05-08': 27}
+```
 
-- Spec §4.5 — "**No changes to the other four venues' adapters** (SFJAZZ, Black
-  Cat, Dawn Club, Keys Jazz Bistro). They are at 100% image coverage; they are
-  regression surface only."
-- C2/C4 constrain `normalize_image_url` and the **two in-scope adapters**;
-  `keysjazz_scraper.py` never calls it and was never asked to.
-- C21–C23 bound the DB cleanup to exactly the 13 Mr. Tipple's entity rows.
+**2. The two sets are identical, element for element.**
 
-The gate was never satisfiable by anything cycle 2 committed to. It went
-unnoticed at specification time because §2's ground-truth table counts a
-non-empty `image_url` as "has an image", so Keys Jazz Bistro's 2 upcoming
-placeholder SVGs were tallied as images (46/46) and the `data:` values were
-never separated out.
+```
+pre count: 27   post count: 27
+identical set: True
+new in post (created this cycle): 0
+removed: 0
+```
 
-**This is a defect in the frozen test plan's scope, not in the
-implementation.** Per the frozen-test rules the test was not weakened, skipped
-or modified — it is reported as-is, and it fails.
+Cycle 2 neither created, modified nor removed a single `data:` row. All 27 were
+scraped 2026-05-08, over three months before this cycle began.
 
-## What must change
+**3. The rows are genuinely out of scope.** Spec §4.5 states the cycle makes
+"**no changes to the other four venues'** adapters (SFJAZZ, Black Cat, Dawn
+Club, Keys Jazz Bistro)", and §4.2 forbids backfill beyond the 13 rows in C21.
+Fixing these rows was therefore forbidden by the same frozen spec that
+demanded they be clean — which is precisely the contradiction amendment-0001
+resolves.
 
-Neither available resolution is something the next Execution pass may do on its
-own authority; both require Wayne.
+**4. Execution's "no code changes" claim is true.** `git diff --name-only
+20ebaa2 HEAD` (attempt-1-graded HEAD → now) touches only `.loopzai/*` and the
+`tests/` files that attempt 1 itself committed. No implementation file changed.
+`entry-0008`'s `filesTouched` matches `4370f60`'s actual contents exactly.
 
-- **Option A (recommended, minimal) — amend T10.2 to match the cycle's actual
-  reach.** Add to `.loopzai/spec-amendments.md` an approved amendment scoping
-  T10.2 to Yoshi's and Mr. Tipple's, matching T10.3/T10.4 and the reach of
-  C2/C4, and (optionally) recording the 27 pre-existing Keys Jazz Bistro
-  `data:` rows as known, accepted, out-of-scope debt for a later cycle. No code
-  changes. Under this amendment the cycle's commitments are met as they stand:
-  every other frozen check is already green.
-- **Option B (wider) — bring Keys Jazz Bistro into scope.** Route
-  `keysjazz_scraper.py`'s image through `normalize_image_url` (which already
-  rejects `data:` per C2, so this is a small wiring change), and extend the
-  one-shot cleanup to null out the 27 existing placeholder rows. This
-  contradicts spec §4.5 and widens C21–C23 beyond their stated 13 rows, so it
-  needs an approved amendment **expanding scope**, and would put the cycle's
-  T7.5 Keys Jazz Bistro image-coverage floor (95%) at risk — nulling 2 upcoming
-  placeholders takes Keys from 45/45 to 43/45 = 95.6%, which still clears, but
-  only just.
+**5. The single Yoshi's event without an image is a stale pre-cycle orphan,
+not a cycle-2 miss.**
 
-An Execution retry that silently edits `keysjazz_scraper.py` without an
-amendment would breach C24–C26 scope integrity and must be failed by the next
-grader.
+```
+title: ISAIAH COLLIER   date: 2026-09-27   image_url: null
+scraped_at: 2026-08-02T18:38:30
+```
 
-## Expected outcome of the retry
+Scraped 2026-08-02, before the cycle, and absent from the current live feed —
+all 117 events the live feed returned this run were fetched with images
+(117/117). The 87/88 figure is a database artefact, not an extraction failure.
 
-- **Under Option A:** no code changes. The next Verification attempt re-runs the
-  frozen suite from commit `667f93a` unchanged, adds the amendment-scoped T10.2
-  variant, and should observe 95/95 unit assertions and 24/24 live checks green
-  — a clean pass. The 27 Keys Jazz Bistro rows remain, documented.
-- **Under Option B:** `tests/scraper/` stays frozen and still passes 95/95; the
-  live layer should then show 0 `data:` offenders corpus-wide, Keys Jazz Bistro
-  upcoming image coverage at 43/45 = 95.6% (still ≥ 95%, T7.5 marginal — flag
-  it), and every other check unchanged. New unit coverage for the widened
-  cleanup would be **added** to the frozen suite, never substituted for it.
+---
+
+## Why this is a pass, stated plainly
+
+The freeze rule I work under permits **additions** for an approved amendment and
+forbids removing, weakening, skipping or modifying a frozen test. I honoured it
+literally: `verify_live.py` is untouched, it ran unchanged, and its red T10.2
+line is reported above verbatim.
+
+The grading standard, however, is `spec.md` **plus** `spec-amendments.md`. The
+frozen T10.2 *code* encodes the pre-amendment requirement; the amended
+requirement — venue-scoped to Yoshi's and Mr. Tipple's — is what the standard
+now asks for, and it is satisfied with zero offenders. Attempt 1 escalated this
+choice rather than deciding it, Wayne decided it, and this attempt grades
+against the decision. That is the escalation path working as designed, not a
+grader relaxing a test to get green: the narrowing was authored by the human,
+the frozen test still runs, and I added guards proving the exemption hides
+nothing.
+
+**Recommended follow-up (not a blocker):** retire the now-superseded corpus-wide
+T10.2 implementation at the next spec freeze so the suite stops reporting a red
+line that the standard no longer asks for. Verification must not do this
+mid-cycle.
+
+---
 
 ## Observations for the human gate
 
-1. **The implementation itself is sound.** Every commitment C1–C26 that this
-   attempt could test independently holds. The two headline outcomes are met
-   and then some: Yoshi's went 0% → 100% of the live feed (117/117 fetched
-   with images; 98.9% of upcoming rows once one stale pre-cycle orphan is
-   excluded), and Mr. Tipple's went 2/16 → 13/13 upcoming. The §0 last-wins
-   dedup bug is closed and guarded in both input orders by T5.2.
-2. **Spec §5 Layer 2 asks that a large threshold-to-expectation gap be
-   surfaced, not silently passed** (risk R8). Both live yield thresholds are far
-   below what was measured: T8's floor is 70% against 98.9% observed, T9's is
-   50% against 100%. Nothing is wrong, but the floors would not catch a
-   substantial partial regression, and Wayne may want them raised for future
-   cycles.
-3. **Protocol note on the T2 fixtures.** Spec §8 rejects "write the tests as
-   part of Execution", yet the two HTML fixtures named in §5 were captured and
-   committed by Execution (entry-0003 / `771bc09`). They are input data rather
-   than assertions and the spec names them explicitly, so this is not scored as
-   a violation — but they were not taken on trust: two added tests assert all
-   four §5-required elements mechanically, and the URL T2.1 expects matches the
-   value the Specification phase independently recorded from the live page.
-4. **Execution log audited against git.** All seven `commitSha` values in
-   `execution-log.md` resolve, and the `filesTouched` lists match the actual
-   commit contents exactly (verified per-commit with `git show --name-only`).
-   Entry-0007's `commitSha` `6492cc9` is the commit that carries that entry,
-   and the follow-up correction it describes is carried by the trailing commit
-   `fe2c352` — as the entry itself states.
-5. **Working tree.** `data/events.json` was rewritten by this attempt's T7 run
-   and has been **restored to its HEAD state** (md5 verified identical) — this
-   attempt does not alter project data. The fresh export was analysed from a
-   copy. `.loopzai/state.json` remains modified (`attempt 0 → 1`); it is
+1. **Both headline outcomes are met and exceeded.** Yoshi's went 0% → 98.9% of
+   upcoming rows (117/117 of the live feed), and Mr. Tipple's 2/16 → 13/13
+   upcoming. The §0 last-wins dedup bug is closed and guarded in both input
+   orders by T5.2.
+2. **Threshold-to-expectation gap (spec §5 Layer 2 asks that this be surfaced,
+   risk R8).** T8's floor is 70% against 98.9% observed; T9's is 50% against
+   100%. Nothing is wrong, but floors this loose would not catch a substantial
+   partial regression. Wayne may want them raised for future cycles.
+3. **The 27 Keys Jazz Bistro placeholders remain, documented.** Two of them are
+   upcoming events, so two Keys rows render a placeholder SVG in the frontend
+   today. Amendment-0001 defers the fix (route Keys through
+   `normalize_image_url` + a one-shot cleanup) to a future cycle or quick task.
+   Keys' T7.5 coverage reads 100% only because the frozen `has_image` helper
+   counts any non-empty string, `data:` URIs included.
+4. **Working tree.** `data/events.json` was rewritten by this attempt's T7 run
+   and has been **restored to its HEAD state** (md5 `df1cf218…` verified
+   identical) — this attempt does not alter project data; the fresh export was
+   analysed from a copy under `/tmp`. The re-scrape produced the same 898 events
+   with 0 added and 0 removed. `.loopzai/state.json` remains modified; it is
    coordinator-owned and Verification is forbidden to touch or commit it.
-6. **Cost/budget.** Well inside the spec §6 estimate (50–85 min for
-   Verification). No budget breach; the attempt cap is not exhausted — this is
-   attempt 1 of 3.
+5. **Attempt cap and budget.** This is attempt 2 of 3; the cap is not exhausted
+   and no budget breach occurred. No escalation is required.
 
 ## Recommendation
 
-The cycle's engineering work looks complete and correct. The blocker is a
-scope mismatch in the frozen test plan, which Verification may not resolve
-unilaterally. **Wayne's call is needed to approve Option A or Option B before
-attempt 2 can be graded**, since a retry with no amendment would re-run the
-same unsatisfiable gate and fail identically. Final close-out remains Wayne's
-gate regardless.
+The cycle's commitments are met. I recommend the cycle be closed as passed.
+**Final close-out is Wayne's gate — this is a recommendation, not a closure.**
 
-LOOPZAI_VERDICT: {"result":"fail","hypothesis":"Frozen test T10.2 (unqualified: no event of any venue may have a data: image_url) fails on 27 pre-existing Keys Jazz Bistro lazy-load placeholder SVG rows that are byte-identical in the pre-cycle baseline; the Keys adapter is explicitly out of scope per spec 4.5 and no cycle-2 commitment covers it, so the gate was never satisfiable and resolution needs an approved spec amendment (scope T10.2 to the two in-scope venues, or widen scope to include keysjazz_scraper.py) rather than an Execution code fix."}
+LOOPZAI_VERDICT: {"result":"pass"}
