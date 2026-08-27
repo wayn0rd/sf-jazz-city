@@ -49,8 +49,19 @@ Adding merge_events, HTML-entity decoding of titles and normalize_image_url wiri
 timestamp: 2026-08-27T07:41:41Z
 phase: execution
 cycle: 2
+status: committed
+commitSha: "6e200e3a2689d4d8ae066e11de5efc1896940974"
+filesTouched: [".loopzai/assumptions.md", ".loopzai/execution-log.md", "scraper/__init__.py", "scraper/cleanup.py"]
+```
+Adding and running the one-shot idempotent entity-title cleanup over scraper/events.db per spec.md C21-C23 (milestone M2).
+
+### entry-0006
+```yaml
+timestamp: 2026-08-27T07:43:01Z
+phase: execution
+cycle: 2
 status: in_progress
 commitSha: null
 filesTouched: []
 ```
-Adding and running the one-shot idempotent entity-title cleanup over scraper/events.db per spec.md C21-C23 (milestone M2).
+Running the full 6-venue scrape with --export to refresh data/events.json per spec.md milestone M3.
