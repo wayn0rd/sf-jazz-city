@@ -29,3 +29,9 @@
 **Chosen:** No re-scrape. `data/events.json` is left exactly as committed by entry-0006; this pass changes no project data.
 **Why:** amendment-0001 resolves a test-scope mismatch and states "no code changes required", so nothing this pass touches could change scraper output; re-scraping would churn ~900 rows of committed data and re-expose the run to the live-site and Cloudflare risks in spec §7 (R1-R3) for no commitment-related gain. Verification's own attempt-1 T7 run already produced a fresh export from this code and found it green before restoring HEAD.
 **Wrong if:** Verification attempt 2 re-runs T7 and finds a venue's upcoming count or image yield materially different from the committed export, indicating the committed data no longer reflects what this code produces — or if the close-out gate expects the shipped `data/events.json` to be dated at cycle close rather than at M3.
+
+<!-- loopzai-reviewed: assumption-0001 accepted 2026-08-27T16:19:36.529Z -->
+<!-- loopzai-reviewed: assumption-0002 accepted 2026-08-27T16:19:36.529Z -->
+<!-- loopzai-reviewed: assumption-0003 accepted 2026-08-27T16:19:36.529Z -->
+<!-- loopzai-reviewed: assumption-0004 accepted 2026-08-27T16:19:36.529Z -->
+<!-- loopzai-reviewed: assumption-0005 accepted 2026-08-27T16:19:36.529Z -->
