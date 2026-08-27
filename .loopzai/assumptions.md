@@ -53,3 +53,13 @@
 **Chosen:** implemented both as written — header `<h1>` plus page `<h1>` — rather than demoting either to `<h2>`.
 **Why:** Both are explicit spec commitments; silently downgrading one to satisfy a document-outline preference would be substituting my design for a spec commitment. Flagging it because it is a trap: an unnamed `getByRole('heading', { level: 1 })` query will throw "multiple elements". Query by `data-testid`, or by accessible name (`{ level: 1, name: 'Venues' }`), which is what I verified against.
 **Wrong if:** a single top-level heading per page is a hard requirement, in which case C4's header heading should become a `<p>` or `<h2>` via a spec amendment.
+
+<!-- loopzai-reviewed: assumption-0001 accepted 2026-08-27T03:41:40.125Z -->
+<!-- loopzai-reviewed: assumption-0002 accepted 2026-08-27T03:41:40.125Z -->
+<!-- loopzai-reviewed: assumption-0003 accepted 2026-08-27T03:41:40.125Z -->
+<!-- loopzai-reviewed: assumption-0004 accepted 2026-08-27T03:41:40.125Z -->
+<!-- loopzai-reviewed: assumption-0005 accepted 2026-08-27T03:41:40.125Z -->
+<!-- loopzai-reviewed: assumption-0006 accepted 2026-08-27T03:41:40.125Z -->
+<!-- loopzai-reviewed: assumption-0007 accepted 2026-08-27T03:41:40.125Z -->
+<!-- loopzai-reviewed: assumption-0008 accepted 2026-08-27T03:41:40.125Z -->
+<!-- loopzai-reviewed: assumption-0009 accepted 2026-08-27T03:41:40.125Z -->
