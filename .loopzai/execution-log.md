@@ -27,8 +27,19 @@ Adding the Yoshi's pure helpers extract_image_url and detail_url_from_item plus 
 timestamp: 2026-08-27T07:39:06Z
 phase: execution
 cycle: 2
+status: committed
+commitSha: "771bc09513a8a0e7b82b050f213bc05f093d3833"
+filesTouched: [".loopzai/assumptions.md", ".loopzai/execution-log.md", "tests/fixtures/scraper/yoshis_detail_no_image.html", "tests/fixtures/scraper/yoshis_detail_with_image.html"]
+```
+Capturing the two Yoshi's detail-page HTML fixtures named in spec.md section 5 into tests/fixtures/scraper/ before the live page ages out, so Verification has deterministic input for T2.
+
+### entry-0004
+```yaml
+timestamp: 2026-08-27T07:39:34Z
+phase: execution
+cycle: 2
 status: in_progress
 commitSha: null
 filesTouched: []
 ```
-Capturing the two Yoshi's detail-page HTML fixtures named in spec.md section 5 into tests/fixtures/scraper/ before the live page ages out, so Verification has deterministic input for T2.
+Adding merge_events, HTML-entity decoding of titles and normalize_image_url wiring to the Mr. Tipple's adapter per spec.md C15-C20 (milestone M2).

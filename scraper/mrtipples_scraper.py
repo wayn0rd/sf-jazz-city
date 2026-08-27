@@ -1,6 +1,7 @@
 """Mr. Tipple's Recording Studio event scraper - extracts from The Events Calendar plugin."""
 
 import asyncio
+import html
 import logging
 import re
 import json
@@ -12,6 +13,7 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 
 from .models import Event
 from .database import EventDatabase
+from .image_utils import normalize_image_url
 
 logging.basicConfig(
     level=logging.INFO,
@@ -21,6 +23,76 @@ logger = logging.getLogger(__name__)
 
 BASE_URL = "https://mrtipplessf.com"
 CALENDAR_URL = f"{BASE_URL}/calendar/"
+
+# Optional fields filled in across a merged group, first non-empty wins.
+# The first five are the set required by spec.md cycle 2, C15; the rest are
+# included so the merge is order-independent for every field, not just those.
+MERGEABLE_FIELDS = (
+    "image_url",
+    "time",
+    "price",
+    "ticket_url",
+    "description",
+    "status",
+    "series",
+    "artists",
+)
+
+
+def clean_title(raw: Optional[str]) -> str:
+    """Decode HTML entities in a scraped title and strip it.
+
+    The JSON-LD path serves titles like "Patrick Wolff&#8217;s Quartet" while
+    the DOM path serves the decoded form. Without this they never share a
+    (title, date) key, so the two rows can never merge and the image-bearing
+    one is lost.
+    """
+    if not raw:
+        return ""
+    return html.unescape(str(raw)).strip()
+
+
+def _is_empty(value) -> bool:
+    """None, "" and whitespace-only all count as missing."""
+    if value is None:
+        return True
+    if isinstance(value, str):
+        return not value.strip()
+    if isinstance(value, (list, tuple, dict, set)):
+        return len(value) == 0
+    return False
+
+
+def merge_events(events: list[Event]) -> list[Event]:
+    """Collapse events sharing a (title, date) key, keeping the best fields.
+
+    Pure and synchronous: inputs are not mutated. For each mergeable field the
+    first non-empty value across the group wins, so an image-bearing event and
+    an image-less twin produce the same result regardless of input order --
+    which the previous last-wins dict comprehension did not.
+
+    Output preserves first-appearance order of the keys.
+    """
+    merged: dict[tuple, Event] = {}
+    order: list[tuple] = []
+
+    for event in events:
+        key = (event.title, event.date)
+        existing = merged.get(key)
+
+        if existing is None:
+            # Copy so callers' inputs stay untouched.
+            merged[key] = Event(**event.to_dict())
+            order.append(key)
+            continue
+
+        for field_name in MERGEABLE_FIELDS:
+            if _is_empty(getattr(existing, field_name, None)):
+                candidate = getattr(event, field_name, None)
+                if not _is_empty(candidate):
+                    setattr(existing, field_name, candidate)
+
+    return [merged[key] for key in order]
 
 
 class MrTipplesScraper:
@@ -94,7 +166,8 @@ class MrTipplesScraper:
     def _parse_schema_event(self, data: dict) -> Optional[Event]:
         """Parse a Schema.org Event object into our Event model."""
         try:
-            title = data.get("name", "")
+            # C18: decode entities before the title is used as data or key.
+            title = clean_title(data.get("name", ""))
             if not title:
                 return None
 
@@ -127,14 +200,18 @@ class MrTipplesScraper:
             ticket_url = data.get("url", "")
 
             # Get image
-            image_url = None
+            raw_image = None
             image = data.get("image", "")
             if isinstance(image, str):
-                image_url = image
+                raw_image = image
             elif isinstance(image, list) and image:
-                image_url = image[0]
+                raw_image = image[0]
+                if isinstance(raw_image, dict):
+                    raw_image = raw_image.get("url", "")
             elif isinstance(image, dict):
-                image_url = image.get("url", "")
+                raw_image = image.get("url", "")
+            # C19: absolute, never "" and never a data:/svg URL.
+            image_url = normalize_image_url(raw_image, BASE_URL)
 
             # Get description
             description = data.get("description", "")
@@ -205,7 +282,9 @@ class MrTipplesScraper:
                 if title_el:
                     title = await title_el.inner_text()
                     if title:
-                        title = title.strip()
+                        # C18: same decoding as the JSON-LD path, so the two
+                        # paths produce colliding merge keys.
+                        title = clean_title(title)
                         break
 
             if not title:
@@ -266,7 +345,7 @@ class MrTipplesScraper:
             if img:
                 src = await img.get_attribute("src")
                 if src:
-                    image_url = urljoin(BASE_URL, src)
+                    image_url = normalize_image_url(src, BASE_URL)
 
             return Event(
                 title=title,
@@ -317,9 +396,14 @@ class MrTipplesScraper:
         finally:
             await self._close_browser()
 
-        # Deduplicate by title + date
-        unique_events = list({(e.title, e.date): e for e in events}.values())
-        logger.info(f"Total unique events: {len(unique_events)}")
+        # Merge by (title, date), keeping the first non-empty value of every
+        # optional field (C17). The previous dict comprehension was last-wins
+        # and silently destroyed the JSON-LD images.
+        unique_events = merge_events(events)
+        with_images = sum(1 for e in unique_events if e.image_url)
+        logger.info(
+            f"Total unique events: {len(unique_events)} ({with_images} with images)"
+        )
 
         return unique_events
 
