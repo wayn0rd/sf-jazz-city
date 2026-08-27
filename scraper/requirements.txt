@@ -11,3 +11,6 @@ aiohttp>=3.9.0
 
 # Async support
 asyncio-throttle>=1.0.0
+
+# Test runner for the scraper unit tests (tests/scraper/)
+pytest>=8
