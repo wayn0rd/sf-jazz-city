@@ -60,8 +60,19 @@ Adding and running the one-shot idempotent entity-title cleanup over scraper/eve
 timestamp: 2026-08-27T07:43:01Z
 phase: execution
 cycle: 2
-status: in_progress
-commitSha: null
-filesTouched: []
+status: committed
+commitSha: "ea6c9ec298b6593032b129057e76d48cff3d4555"
+filesTouched: [".loopzai/assumptions.md", ".loopzai/execution-log.md", "data/events.json"]
 ```
 Running the full 6-venue scrape with --export to refresh data/events.json per spec.md milestone M3.
+
+### entry-0007
+```yaml
+timestamp: 2026-08-27T07:45:20Z
+phase: execution
+cycle: 2
+status: committed
+commitSha: "b477d944cbb876c3a6689ac8b103c0b163d3a69e"
+filesTouched: [".loopzai/execution-log.md"]
+```
+Running the scope-integrity sweep for spec.md C24-C26 and finalising the checkpoint log. The sweep changes no code; this entry's own status rewrite is committed by the trailing log-finalisation commit that follows it.
