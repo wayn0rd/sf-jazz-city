@@ -16,8 +16,19 @@ Installing dependencies and wiring the vitest/jsdom/RTL test toolchain per spec.
 timestamp: 2026-08-27T01:35:00Z
 phase: execution
 cycle: 1
+status: committed
+commitSha: "dad373a3c65f5ce11e3107766ee648032ac2a426"
+filesTouched: [".eslintrc.json", ".loopzai/assumptions.md", ".loopzai/execution-log.md"]
+```
+Adding an ESLint config so `npm run lint` runs non-interactively and exits 0 per spec.md C11.
+
+### entry-0003
+```yaml
+timestamp: 2026-08-27T01:45:00Z
+phase: execution
+cycle: 1
 status: in_progress
 commitSha: null
 filesTouched: []
 ```
-Adding an ESLint config so `npm run lint` runs non-interactively and exits 0 per spec.md C11.
+Adding the pure library modules venue-slug.ts, event-order.ts, venues.ts and format.ts per spec.md C1-C3 and C9 (milestone M1).
