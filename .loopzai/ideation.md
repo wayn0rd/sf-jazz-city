@@ -30,10 +30,38 @@ close the "dead link" bug but leave the feature hollow. Option C uses data we al
 have (per-venue event lists via filter), is fully testable, and gives venue pages a
 real reason to exist. Wayne approved Option C in chat 2026-08-26.
 
+## Decisions already made in the ideation discussion (Wayne-approved)
+The Specification worker should treat these as fixed inputs, not open questions:
+- Real routes, no anchors: `/venues` index + `/venues/[slug]` detail; header
+  "Venues" href changes from `#venues` to `/venues`.
+- Data source: existing `/api/events` route only, filtered client-side. No new
+  endpoints, no Convex, no scraper/data changes.
+- Venue slug = pure deterministic function of the name: lowercase, any run of
+  non-alphanumeric chars → single `-`, strip leading/trailing `-`. Fixtures:
+  `SFJAZZ Center` → `sfjazz-center`; `Black Cat SF` → `black-cat-sf`;
+  `Dawn Club` → `dawn-club`; `Keys Jazz Bistro` → `keys-jazz-bistro`;
+  `Mr. Tipple's` → `mr-tipple-s`; `Yoshi's` → `yoshi-s`. Slug map derived
+  from the live payload (distinct venue names), NOT hardcoded.
+- `/venues` index: one card per venue, alphabetical by name, showing event
+  count, linking to `/venues/<slug>`; reuse existing card visual language.
+- `/venues/[slug]`: venue name h1 + that venue's events in the homepage
+  event-card markup, sorted date asc then time asc (null time last). NO
+  "upcoming only" date filter — the payload is already the scrape window,
+  and a today-cutoff would silently empty pages after a stale scrape.
+- Unknown slug → explicit not-found state with a link back to `/venues`
+  (no blank page, no crash).
+- Venue names on ALL event cards (homepage Tonight, homepage Browse, venue
+  pages) become `<Link>`s to the venue's page.
+- Header + footer extracted into shared components used by `/`, `/venues`,
+  `/venues/[slug]`; Tonight/Upcoming nav links become `/#tonight`,
+  `/#upcoming` so they work from any page.
+
 ## Testable surface area (input to Verification plan)
 - `/venues` renders all 6 venues, each linking to `/venues/<slug>`
-- `/venues/<slug>` renders venue name + its upcoming events (subset of `/api/events`)
+- `/venues/<slug>` renders venue name + its events (subset of `/api/events`),
+  sorted date/time ascending
 - Header "Venues" link resolves to `/venues`
-- Card venue names link to `/venues/<slug>`
-- Zero-event venue → page still renders with explicit empty state
-- Existing event list behavior unchanged (search/filter regressions)
+- Card venue names link to `/venues/<slug>` (incl. venue-page self-links)
+- Unknown slug → explicit not-found state
+- Existing homepage behavior unchanged (search/date-filter regressions)
+- Slug unit tests covering the six fixtures above + punctuation edge cases
