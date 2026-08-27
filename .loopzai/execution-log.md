@@ -38,8 +38,19 @@ Capturing the two Yoshi's detail-page HTML fixtures named in spec.md section 5 i
 timestamp: 2026-08-27T07:39:34Z
 phase: execution
 cycle: 2
+status: committed
+commitSha: "9e07b44e2b25890cb507611832b9bca484e12138"
+filesTouched: [".loopzai/execution-log.md", "scraper/mrtipples_scraper.py"]
+```
+Adding merge_events, HTML-entity decoding of titles and normalize_image_url wiring to the Mr. Tipple's adapter per spec.md C15-C20 (milestone M2).
+
+### entry-0005
+```yaml
+timestamp: 2026-08-27T07:41:41Z
+phase: execution
+cycle: 2
 status: in_progress
 commitSha: null
 filesTouched: []
 ```
-Adding merge_events, HTML-entity decoding of titles and normalize_image_url wiring to the Mr. Tipple's adapter per spec.md C15-C20 (milestone M2).
+Adding and running the one-shot idempotent entity-title cleanup over scraper/events.db per spec.md C21-C23 (milestone M2).
