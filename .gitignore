@@ -6,3 +6,4 @@ scraper/__pycache__/
 scraper/images/
 node_modules
 .next/
+*.tsbuildinfo
