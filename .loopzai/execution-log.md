@@ -49,8 +49,19 @@ Extracting SiteHeader, SiteFooter and EventCard as shared components per spec.md
 timestamp: 2026-08-27T02:05:00Z
 phase: execution
 cycle: 1
+status: committed
+commitSha: "00b26f6bc18dba7439c60d76f5b4bdb9f5ba3539"
+filesTouched: [".loopzai/assumptions.md", ".loopzai/execution-log.md", "app/venues/[slug]/page.tsx", "app/venues/page.tsx"]
+```
+Adding the /venues index and /venues/[slug] detail routes per spec.md C7-C8 (milestone M4).
+
+### entry-0006
+```yaml
+timestamp: 2026-08-27T02:20:00Z
+phase: execution
+cycle: 1
 status: in_progress
 commitSha: null
 filesTouched: []
 ```
-Adding the /venues index and /venues/[slug] detail routes per spec.md C7-C8 (milestone M4).
+Refactoring app/page.tsx to consume the shared components with no behavior change per spec.md C9 (milestone M5).

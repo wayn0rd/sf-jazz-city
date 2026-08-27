@@ -1,8 +1,12 @@
 "use client";
 
 import React, { useState, useMemo, useEffect } from 'react';
-import { Calendar, MapPin, Clock, Music, Search, ExternalLink } from 'lucide-react';
+import { Calendar, Clock, Music, Search } from 'lucide-react';
 import { DisplayEvent } from './types/event';
+import SiteHeader from './components/SiteHeader';
+import SiteFooter from './components/SiteFooter';
+import EventCard from './components/EventCard';
+import { formatDate, formatFullDate } from './lib/format';
 
 export default function SFJazzCity() {
   const [events, setEvents] = useState<DisplayEvent[]>([]);
@@ -43,21 +47,11 @@ export default function SFJazzCity() {
     return ['all', ...dates];
   }, [events]);
 
-  const formatDate = (dateStr: string) => {
-    if (dateStr === 'all') return 'All Dates';
-    const date = new Date(dateStr + 'T00:00:00');
-    return date.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
-  };
-
-  const formatFullDate = (dateStr: string) => {
-    const date = new Date(dateStr + 'T00:00:00');
-    return date.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
-  };
-
   const todayEvents = useMemo(() => {
     return events.filter(e => e.date === today);
   }, [events, today]);
 
+  // Full-screen loading state, deliberately unchanged: no site header here.
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
@@ -71,25 +65,7 @@ export default function SFJazzCity() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
-      {/* Header */}
-      <header className="bg-black/30 backdrop-blur-md border-b border-white/10 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <Music className="w-8 h-8 text-amber-400" />
-              <div>
-                <h1 className="text-2xl font-bold text-white">SF Jazz City</h1>
-                <p className="text-sm sm:text-base text-amber-400">Your Guide to San Francisco Jazz</p>
-              </div>
-            </div>
-            <nav className="hidden md:flex space-x-6 text-sm">
-              <a href="#tonight" className="text-white hover:text-amber-400 transition">Tonight</a>
-              <a href="#upcoming" className="text-white hover:text-amber-400 transition">Upcoming</a>
-              <a href="#venues" className="text-white hover:text-amber-400 transition">Venues</a>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <SiteHeader />
 
       {/* Hero Section */}
       <section className="relative py-20 px-4">
@@ -116,36 +92,7 @@ export default function SFJazzCity() {
         {todayEvents.length > 0 ? (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {todayEvents.map(event => (
-              <div key={event.id} className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden border border-white/20 hover:border-amber-400/50 transition-all hover:scale-105 hover:shadow-2xl hover:shadow-amber-500/20">
-                <img src={event.image} alt={event.artist} className="w-full h-48 object-cover" />
-                <div className="p-6">
-                  <div className="mb-3">
-                    <h4 className="text-xl font-bold text-white">{event.artist}</h4>
-                  </div>
-                  <div className="space-y-2 text-sm text-white/80 mb-4">
-                    <div className="flex items-center">
-                      <MapPin className="w-4 h-4 mr-2 text-amber-400" />
-                      {event.venue}
-                    </div>
-                    <div className="flex items-center">
-                      <Clock className="w-4 h-4 mr-2 text-amber-400" />
-                      {event.time} · {event.price}
-                    </div>
-                  </div>
-                  {event.description && (
-                    <p className="text-white/70 text-sm mb-4 line-clamp-3">{event.description}</p>
-                  )}
-                  <a
-                    href={event.ticketUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center w-full bg-amber-500 hover:bg-amber-400 text-black font-semibold py-2 px-4 rounded-lg transition"
-                  >
-                    Get Tickets
-                    <ExternalLink className="w-4 h-4 ml-2" />
-                  </a>
-                </div>
-              </div>
+              <EventCard key={event.id} event={event} variant="featured" />
             ))}
           </div>
         ) : (
@@ -194,36 +141,7 @@ export default function SFJazzCity() {
         {/* Filtered Results */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredEvents.map(event => (
-            <div key={event.id} className="bg-white/10 backdrop-blur-sm rounded-xl overflow-hidden border border-white/20 hover:border-amber-400/50 transition-all hover:scale-105">
-              <img src={event.image} alt={event.artist} className="w-full h-40 object-cover" />
-              <div className="p-5">
-                <div className="mb-2">
-                  <h4 className="text-lg font-bold text-white">{event.artist}</h4>
-                </div>
-                <div className="space-y-1 text-sm text-white/80 mb-3">
-                  <div className="flex items-center">
-                    <MapPin className="w-4 h-4 mr-2 text-amber-400" />
-                    {event.venue}
-                  </div>
-                  <div className="flex items-center">
-                    <Clock className="w-4 h-4 mr-2 text-amber-400" />
-                    {formatDate(event.date)} · {event.time}
-                  </div>
-                  <div className="text-amber-400 font-medium">
-                    {event.price}
-                  </div>
-                </div>
-                <a
-                  href={event.ticketUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-full bg-amber-500 hover:bg-amber-400 text-black font-semibold py-2 px-4 rounded-lg transition text-sm"
-                >
-                  Get Tickets
-                  <ExternalLink className="w-4 h-4 ml-2" />
-                </a>
-              </div>
-            </div>
+            <EventCard key={event.id} event={event} variant="compact" />
           ))}
         </div>
 
@@ -234,15 +152,7 @@ export default function SFJazzCity() {
         )}
       </section>
 
-      {/* Footer */}
-      <footer className="bg-black/30 backdrop-blur-md border-t border-white/10 mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="text-center text-white/60 text-sm">
-            <p className="mb-2">&copy; 2025 SF Jazz City. Your guide to live jazz in San Francisco.</p>
-            <p className="text-xs">Event data updated daily. Always verify details with venues.</p>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }
