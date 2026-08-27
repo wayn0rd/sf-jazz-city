@@ -60,8 +60,19 @@ Adding the /venues index and /venues/[slug] detail routes per spec.md C7-C8 (mil
 timestamp: 2026-08-27T02:20:00Z
 phase: execution
 cycle: 1
+status: committed
+commitSha: "711279e085943ced64fee740ba3f37f92e360718"
+filesTouched: [".loopzai/execution-log.md", "app/page.tsx"]
+```
+Refactoring app/page.tsx to consume the shared components with no behavior change per spec.md C9 (milestone M5).
+
+### entry-0007
+```yaml
+timestamp: 2026-08-27T02:35:00Z
+phase: execution
+cycle: 1
 status: in_progress
 commitSha: null
 filesTouched: []
 ```
-Refactoring app/page.tsx to consume the shared components with no behavior change per spec.md C9 (milestone M5).
+Running the full spec.md section 6.5 gate sweep on a clean dependency install and finalising the checkpoint log.
