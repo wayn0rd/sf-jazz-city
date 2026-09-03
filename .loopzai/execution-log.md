@@ -16,8 +16,19 @@ Adding the react-markdown dependency and creating app/history/page.tsx as a sync
 timestamp: 2026-09-03T22:45:00Z
 phase: execution
 cycle: 3
+status: committed
+commitSha: "dc685d84fd0b0cca661f4f99eb80381bd19379e9"
+filesTouched: ["app/components/SiteHeader.tsx", ".loopzai/assumptions.md", ".loopzai/execution-log.md"]
+```
+Adding the fourth "SF Jazz History" nav link to SiteHeader per spec.md M2/C4.
+
+### entry-0003
+```yaml
+timestamp: 2026-09-03T22:52:00Z
+phase: execution
+cycle: 3
 status: in_progress
 commitSha: null
 filesTouched: []
 ```
-Adding the fourth "SF Jazz History" nav link to SiteHeader per spec.md M2/C4.
+Running the full spec.md section 10 definition-of-done sweep against the finished diff — next build, vitest, pytest, essay sha256, and the file-boundary check — and recording the result; no application code changes expected.
