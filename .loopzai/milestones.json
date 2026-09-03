@@ -1,0 +1,21 @@
+{
+  "cycle": 3,
+  "createdAt": "2026-09-03T22:33:11.780Z",
+  "milestones": [
+    {
+      "id": "M1",
+      "title": "Add `react-markdown` dependency; create `app/history/page.tsx` rendering `essay.md` with the styled components map",
+      "status": "pending"
+    },
+    {
+      "id": "M2",
+      "title": "Add the \"SF Jazz History\" nav link to `SiteHeader`",
+      "status": "pending"
+    },
+    {
+      "id": "M3",
+      "title": "Page metadata title; full regression green (vitest + pytest + `next build`)",
+      "status": "pending"
+    }
+  ]
+}
