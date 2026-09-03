@@ -5,17 +5,17 @@
     {
       "id": "M1",
       "title": "Add `react-markdown` dependency; create `app/history/page.tsx` rendering `essay.md` with the styled components map",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "id": "M2",
       "title": "Add the \"SF Jazz History\" nav link to `SiteHeader`",
-      "status": "pending"
+      "status": "complete"
     },
     {
       "id": "M3",
       "title": "Page metadata title; full regression green (vitest + pytest + `next build`)",
-      "status": "pending"
+      "status": "complete"
     }
   ]
 }
