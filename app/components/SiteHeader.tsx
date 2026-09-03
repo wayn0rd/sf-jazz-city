@@ -36,6 +36,9 @@ export default function SiteHeader() {
             <Link href="/venues" data-testid="nav-venues" className="text-white hover:text-amber-400 transition">
               Venues
             </Link>
+            <Link href="/history" data-testid="nav-history" className="text-white hover:text-amber-400 transition">
+              SF Jazz History
+            </Link>
           </nav>
         </div>
       </div>

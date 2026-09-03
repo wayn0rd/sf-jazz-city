@@ -1,1 +1,7 @@
 <!-- assumptions.md — provisional assumption record; never ground truth until reviewed. -->
+
+### assumption-0001
+**Undecided:** The spec's T7-1 says `npx vitest run` must exit 0, but this machine's ambient shell exports `NODE_ENV=production`. Vitest keeps an already-set NODE_ENV, so React loads its production build and every render-based test fails with "act(...) is not supported in production builds of React" (plus `node:` builtins being externalized). The spec does not say how the suite is to be invoked.
+**Chosen:** Left the toolchain untouched and verified the suite with `NODE_ENV=test npx vitest run` (59 passed, 5 files) plus `.venv/bin/python -m pytest tests/scraper -q` (95 passed). No fix applied in-repo.
+**Why:** The failure is a pre-existing property of the shell environment, not of this cycle's diff — it reproduces on files this cycle never touches (`tests/lib.test.ts`, `tests/venue-detail.test.tsx`). The natural fix (pinning `env: { NODE_ENV: 'test' }` in `vitest.config.ts`) is forbidden: spec.md §5 limits Execution to `app/history/page.tsx`, `app/components/SiteHeader.tsx`, `package.json`, `package-lock.json`, and T7-6 would flag the extra file.
+**Wrong if:** Verification invokes `npx vitest run` in a shell that also has `NODE_ENV=production` and reports the whole suite red. The remedy is then an environment change (unset NODE_ENV) or a spec amendment permitting a `vitest.config.ts` edit — not a change to this cycle's application code.
