@@ -52,3 +52,7 @@ to each element type — no `@tailwindcss/typography` plugin needed.
 - No new Convex schema changes — this is a pure frontend addition
 - No new test fixtures required beyond a basic render smoke test confirming the
   page loads, the nav link appears, and the essay title renders
+
+## Specification gate feedback (cycle 3, rejected 2026-09-03T22:15:46.218Z)
+
+§5 states that no other file may be created or modified, but §6 requires creating tests/history.test.tsx. Amend §5 to explicitly allow tests/history.test.tsx. Make no other substantive changes to the specification.
