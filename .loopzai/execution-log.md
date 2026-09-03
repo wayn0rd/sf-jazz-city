@@ -1,1 +1,12 @@
 <!-- execution-log.md — checkpointed action entries for the current cycle; entry format per ARCHITECTURE.md §6. -->
+
+### entry-0001
+```yaml
+timestamp: 2026-09-03T22:34:00Z
+phase: execution
+cycle: 3
+status: in_progress
+commitSha: null
+filesTouched: []
+```
+Adding the react-markdown dependency and creating app/history/page.tsx as a synchronous server component rendering essay.md with the styled components map, per spec.md M1/C1-C3/C5/C7.

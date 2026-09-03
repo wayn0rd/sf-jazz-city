@@ -13,7 +13,8 @@
     "lucide-react": "^0.263.1",
     "next": "15.1.11",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-markdown": "^10.1.0"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.1",
