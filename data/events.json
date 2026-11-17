@@ -64,6 +64,22 @@
     "scraped_at": "2026-10-11T13:47:55.646809"
   },
   {
+    "title": "Marcus Shelby Quartet-A Keys Birthday Celebration!",
+    "date": "2012-03-20",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Marcus Shelby Quartet-A Keys Birthday Celebration!"
+    ],
+    "description": "Thursday, November 19, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/marcus-shelby-quartet-a-keys-birthday-celebration/",
+    "price": "$45",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/11/IMG_9912.jpg?resize=650%2C867&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.683505"
+  },
+  {
     "title": "Attakid",
     "date": "2013-02-20",
     "time": null,
@@ -110,6 +126,22 @@
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2022/10/event-kenny.jpg?resize=650%2C650&ssl=1",
     "scraped_at": "2026-10-11T13:47:55.372165"
+  },
+  {
+    "title": "Kenny Washington Quartet-A Keys Birthday Celebration!",
+    "date": "2013-03-20",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Kenny Washington Quartet-A Keys Birthday Celebration!"
+    ],
+    "description": null,
+    "ticket_url": "https://keysjazzbistro.com/event/kenny-washington-quartet-a-keys-birthday-celebration/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2022/10/event-kenny.jpg?resize=650%2C650&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.759079"
   },
   {
     "title": "Wil Blades Trio ft. Otis McDonald",
@@ -231,13 +263,13 @@
     "artists": [
       "Jules Broussard"
     ],
-    "description": "Thursday, November 5, 2026 @ 7pm",
+    "description": "Thursday, December 3, 2026 @ 7pm",
     "ticket_url": "https://keysjazzbistro.com/event/jules-broussard-7/",
     "price": "$35",
     "status": null,
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/Screenshot-2026-01-21-at-8.23.13-PM.png?resize=650%2C659&ssl=1",
-    "scraped_at": "2026-10-11T13:47:55.733225"
+    "scraped_at": "2026-11-16T20:18:30.089054"
   },
   {
     "title": "Noel Jewkes",
@@ -8055,13 +8087,13 @@
     "artists": [
       "Jules Broussard"
     ],
-    "description": "Thursday, November 5, 2026 @ 7pm",
+    "description": "Thursday, December 3, 2026 @ 7pm",
     "ticket_url": "https://keysjazzbistro.com/event/jules-broussard-7/",
     "price": "$35",
     "status": null,
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/Screenshot-2026-01-21-at-8.23.13-PM.png?resize=650%2C659&ssl=1",
-    "scraped_at": "2026-10-11T13:47:55.733223"
+    "scraped_at": "2026-11-16T20:18:30.089052"
   },
   {
     "title": "RICHIE RICH W/ LIVE BAND",
@@ -14573,7 +14605,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1710915755401-M13Y1HH6YXW87JO55DSJ/NTB+BSIDE+5.png",
-    "scraped_at": "2026-10-11T13:47:42.240861"
+    "scraped_at": "2026-11-16T20:18:20.877928"
   },
   {
     "title": "TWIN PEAKS: CONVERSATION WITH THE STARS",
@@ -14637,7 +14669,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1688151988670-GWZ3ZHMERPRUXE4POXGB/Smith+Dobson+Promo+pic.jpg",
-    "scraped_at": "2026-10-11T13:47:42.279072"
+    "scraped_at": "2026-11-16T20:18:20.842228"
   },
   {
     "title": "CLAY AIKEN",
@@ -14704,6 +14736,22 @@
     "scraped_at": "2026-10-11T13:48:07.367670"
   },
   {
+    "title": "BIG MOTION",
+    "date": "2026-10-21",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "BIG MOTION"
+    ],
+    "description": "Led by drummer and composer Kowan Turner, Big Motion brings deep pocket, soulful melodies, and fearless improvisation to a blend of jazz, funk, and R&B. Featuring members of Huney Knuckles, this Dawn Club lineup pairs Turner on drums with Kevin Wong on keys and key bass, Nico Colucci on sax, and Brian Sheu on guitar. Expect original music, spontaneous interplay, and heavy grooves with Bay Area flavor.",
+    "ticket_url": "https://www.dawnclub.com/music/big-motion",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1791926239569-6NIF7IU678HVUU2M9W8L/Big+Motion+Promo.png",
+    "scraped_at": "2026-11-16T20:18:20.805865"
+  },
+  {
     "title": "RAKIM",
     "date": "2026-10-22",
     "time": "9:30 PM",
@@ -14749,7 +14797,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1745545969809-7DUXQPYB4MOHXA2CHHYH/Adam+Klipple+Promo.JPG",
-    "scraped_at": "2026-10-11T13:47:42.355940"
+    "scraped_at": "2026-11-16T20:18:20.771480"
   },
   {
     "title": "Liz Kennedy",
@@ -14909,7 +14957,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1746395242400-1VSR2YA7MF7WL7FJBYBT/Max+Ehrhardt+Promo+%281%29.JPG",
-    "scraped_at": "2026-10-11T13:47:42.449413"
+    "scraped_at": "2026-11-16T20:18:20.701180"
   },
   {
     "title": "Kenny Washington Quartet",
@@ -14974,6 +15022,22 @@
     "series": null,
     "image_url": "https://mrtipplessf.com/wp-content/uploads/Brian-Andres-hi-res-Drum-set-studio.jpg",
     "scraped_at": "2026-10-11T13:48:07.367724"
+  },
+  {
+    "title": "VERVE QUINTET",
+    "date": "2026-10-23",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "VERVE QUINTET"
+    ],
+    "description": "Introducing The Verve Quintet, The Bay Area\u2019s hottest new jazz ensemble! Celebrating the effervescent sound of the 1960\u2019s hard bop era. In addition to performing their own original compositions they honor the great jazz artists like Horace Silver, Freddie Hubbard, Art Blakey, Miles Davis, John Coltrane, and Lee Morgan to name a few.\u00a0 The Verve Quintet is led by Trumpeter Daniel Herrera and saxophonist Andrew Dixon, who\u2019s dynamic pairing and complementary musical stylings create a unique and exci",
+    "ticket_url": "https://www.dawnclub.com/music/verve-quintet-eynb8-5cc77-4aetx-cbhwl-5cp62-nl7wa-6p5sl-wcj6l-am5xb-alf8l-gybpz-t6jcf-plj5c-e4l7r",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1711229128664-JMO49RTN3GFP53P5EC06/DSC_6238-1+%282%29.jpeg",
+    "scraped_at": "2026-11-16T20:18:20.736129"
   },
   {
     "title": "CHRISTIAN SANDS TRIO",
@@ -15069,7 +15133,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1708127155823-PAUUT8OOSPKVCJHQXAO7/Oaklando+Promo.JPG",
-    "scraped_at": "2026-10-11T13:47:42.512972"
+    "scraped_at": "2026-11-16T20:18:20.652870"
   },
   {
     "title": "LATE NIGHT SET: GAVIN HALORAN",
@@ -15085,7 +15149,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1790715465778-CBJEMTAUQ8P5SRGNGEHP/Gavin+Haloran+Promo.jpg",
-    "scraped_at": "2026-10-11T13:47:42.562897"
+    "scraped_at": "2026-11-16T20:18:20.616169"
   },
   {
     "title": "Lavay Smith & Her Red Hot Skillet Lickers",
@@ -15261,7 +15325,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1790100035453-AOUQEE7VX8NKW5MFBR14/Nick+Rossi.png",
-    "scraped_at": "2026-10-11T13:47:42.601515"
+    "scraped_at": "2026-11-16T20:18:20.570478"
   },
   {
     "title": "DIRECT FROM SWEDEN: THE MUSIC OF ABBA",
@@ -15293,7 +15357,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1747869473440-UBR9GPMXWXSN02M3QVQN/Luke+Westbrook+Promo.JPEG",
-    "scraped_at": "2026-10-11T13:47:42.641311"
+    "scraped_at": "2026-11-16T20:18:20.534629"
   },
   {
     "title": "DALEY",
@@ -15373,7 +15437,23 @@
     "status": null,
     "series": null,
     "image_url": "https://mrtipplessf.com/wp-content/uploads/matt-renzi-lg.jpg",
-    "scraped_at": "2026-10-11T13:48:07.367777"
+    "scraped_at": "2026-11-16T20:18:38.139304"
+  },
+  {
+    "title": "MIDNIGHT BLUE ORGAN TRIO",
+    "date": "2026-10-28",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "MIDNIGHT BLUE ORGAN TRIO"
+    ],
+    "description": "The Midnight Blue Organ Trio is a hard swinging group inspired by Jazz organ greats Jimmy Smith, Larry Young and Dr. Lonnie Smith. The trio's repertoire includes compositions by contemporary artists Larry Goldings, Peter Bernstein and John Scofield. All members of the group are veterans of the Bay Area Jazz scene and take joy in keeping the sound of the classic Jazz Organ Trio alive and well.",
+    "ticket_url": "https://www.dawnclub.com/music/gqr1vh0krxe39ixo2mhb11pee1ecvr-9se45",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1782330149508-LDWQRQF43VURESVU0XJ8/Midnight+Blue+3000X2400.jpg",
+    "scraped_at": "2026-11-16T20:18:20.498453"
   },
   {
     "title": "GRACE KELLY",
@@ -15437,7 +15517,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1771362425151-AIW1VGRACV36RSPR15FS/Chris+Gamnper+Promo.jpeg",
-    "scraped_at": "2026-10-11T13:47:42.717858"
+    "scraped_at": "2026-11-16T20:18:20.461864"
   },
   {
     "title": "Mads Tolling & Sam Reider",
@@ -15469,7 +15549,7 @@
     "status": null,
     "series": null,
     "image_url": "https://mrtipplessf.com/wp-content/uploads/9b5cf0_d67e8a5af35a4630a37d45dd81d8d7famv2.jpeg.avif",
-    "scraped_at": "2026-10-11T13:48:07.367795"
+    "scraped_at": "2026-11-16T20:18:38.139339"
   },
   {
     "title": "RICK BRAUN",
@@ -15549,7 +15629,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709252267393-G47OWRPKCJXTVAWDHO0V/DSC_5066-1+%281%29.jpg",
-    "scraped_at": "2026-10-11T13:47:42.764557"
+    "scraped_at": "2026-11-16T20:18:20.405850"
   },
   {
     "title": "The Ray Obiedo Group",
@@ -15597,7 +15677,7 @@
     "status": null,
     "series": null,
     "image_url": "https://mrtipplessf.com/wp-content/uploads/2019/06/Nickrossi-e1624168349575.jpg",
-    "scraped_at": "2026-10-11T13:48:07.367812"
+    "scraped_at": "2026-11-16T20:18:38.139371"
   },
   {
     "title": "Charles Unger Experience",
@@ -15613,7 +15693,7 @@
     "status": null,
     "series": null,
     "image_url": "https://mrtipplessf.com/wp-content/uploads/Charles-Unger-Flyer-3.png",
-    "scraped_at": "2026-10-11T13:48:07.367831"
+    "scraped_at": "2026-11-16T20:18:38.139396"
   },
   {
     "title": "HOUSE OF VELVET: HALLOWEEN (MUST BE 18+)",
@@ -15661,7 +15741,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709233568113-ELWATVCET2F8DQMAODO5/Sondango+promo+%281%29.jpg",
-    "scraped_at": "2026-10-11T13:47:42.800968"
+    "scraped_at": "2026-11-16T20:18:20.368685"
   },
   {
     "title": "LATE NIGHT: JC GRADY TRIO",
@@ -15677,7 +15757,7 @@
     "status": null,
     "series": null,
     "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1777749388473-DRHQ9DD8CO1UCBHB38GM/Screenshot+2026-05-02+at+12.16.13%E2%80%AFPM.png",
-    "scraped_at": "2026-10-11T13:47:42.849320"
+    "scraped_at": "2026-11-16T20:18:20.330941"
   },
   {
     "title": "Rhonda Sauce: \u201cThe Sauce Spooktacular\u201d",
@@ -15741,7 +15821,7 @@
     "status": null,
     "series": null,
     "image_url": "https://mrtipplessf.com/wp-content/uploads/IMG_6676.webp",
-    "scraped_at": "2026-10-11T13:48:07.367846"
+    "scraped_at": "2026-11-16T20:18:38.139415"
   },
   {
     "title": "JA RONN & FLOW: THAT 80s FLOW",
@@ -15824,6 +15904,22 @@
     "scraped_at": "2026-10-11T13:48:07.367870"
   },
   {
+    "title": "Something with Soul",
+    "date": "2026-11-01",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Something with Soul"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.119051"
+  },
+  {
     "title": "LEE RITENOUR",
     "date": "2026-11-02",
     "time": "7:30 PM",
@@ -15856,6 +15952,22 @@
     "scraped_at": "2026-10-11T13:48:11.394266"
   },
   {
+    "title": "FAULT LINE TRIO",
+    "date": "2026-11-03",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "FAULT LINE TRIO"
+    ],
+    "description": "Fault Line Trio is one of the Bay Area\u2019s most dynamic and innovative crossover jazz projects! Swing, R&B, and sophisticated grooves. Featuring Jay Sanders - piano and keys, Lukas Vesely - bass, and Brian Fishler - drums.",
+    "ticket_url": "https://www.dawnclub.com/music/fault-line-trio-2-6n78a-5ahn3-f9mtk-6j3g4-ffwlm-a44l6-82gjh-yj9t8-zea6k-w5ch2-ta6x8-36wkr-ys5kd-fmb6g-ml3rc-p7wjc-9hjmx-rg688-jb6t7-456lt",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1710915942612-QA3C5BPIYJRKZQTK0K22/Fault+Line+promo.JPEG",
+    "scraped_at": "2026-11-16T20:18:20.283811"
+  },
+  {
     "title": "CHERRONDA G I'M EVERY WOMAN SHOW",
     "date": "2026-11-04",
     "time": "8:00 PM",
@@ -15886,6 +15998,38 @@
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/10/Helen-Sung_209_Photo-Credit-Evelyn-Freja.jpeg?resize=650%2C473&ssl=1",
     "scraped_at": "2026-10-11T13:47:55.711809"
+  },
+  {
+    "title": "ANDRE SUMELIUS",
+    "date": "2026-11-04",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "ANDRE SUMELIUS"
+    ],
+    "description": "After studying drums with Tony Williams in San Francisco, Andr\u00e9 has performed around the world with various artists including Dayna Stephens, Ambrose Akinmusire, Mike Olmos, Stacy Dillard, Julian Lage, George Kontrafouris, Perico Sambeat and Albert Sanz. After a stint back in his native Finland and some years in Spain, Andr\u00e9 returned to the Bay Area in 2015.",
+    "ticket_url": "https://www.dawnclub.com/music/andre-sumelius-2-8mdxm",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1772751459236-KJU4HME18UFWRM6KPXRA/Andre+Sumelius+Promo.jpg",
+    "scraped_at": "2026-11-16T20:18:20.248789"
+  },
+  {
+    "title": "Nathan Nakadegawa-Lee Quartet",
+    "date": "2026-11-04",
+    "time": "7:00 PM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Nathan Nakadegawa-Lee Quartet"
+    ],
+    "description": "&lt;p&gt;Nathan Nakadegawa-Lee | Saxophone Henry Plotnick | Piano Essiet Essiet | Bass Miles Turk | Drums&lt;/p&gt;\\n",
+    "ticket_url": "https://mrtipplessf.com/calendar/nathan-nakadegawa-lee-quartet/",
+    "price": "$15 \u2013 30",
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/Nathan-Nakadegawa-Lee-Headshot-5.jpg",
+    "scraped_at": "2026-11-16T20:18:38.139439"
   },
   {
     "title": "DISCOVER JAZZ: IMPRESSIONS OF JOHN COLTRANE",
@@ -15950,6 +16094,38 @@
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3051/armando-cordoba-copy.jpeg",
     "scraped_at": "2026-10-11T13:48:11.394308"
+  },
+  {
+    "title": "HARD BOP QUINTET",
+    "date": "2026-11-05",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "HARD BOP QUINTET"
+    ],
+    "description": "The Hard Bop Quintet is a jazz group from the San Francisco Bay Area inspired by the fiery style of the early 1960s New York jazz scene.",
+    "ticket_url": "https://www.dawnclub.com/music/hard-bop-quintet-1-8wayg-z74k5-b44xz-f4pay-x4b3g-y6l6j-aab82-ajgzf-5s7g7-8f3yn-8nb4m-gbrzc",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1711230108009-51XF14GBW46ZMR16334E/image0.jpeg",
+    "scraped_at": "2026-11-16T20:18:20.210942"
+  },
+  {
+    "title": "Closed for Private Event",
+    "date": "2026-11-05",
+    "time": "7:00 PM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Closed for Private Event"
+    ],
+    "description": null,
+    "ticket_url": "https://mrtipplessf.com/calendar/closed-for-private-event-2/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/Closed-Sign-music-store.jpg",
+    "scraped_at": "2026-11-16T20:18:38.139457"
   },
   {
     "title": "DWELE",
@@ -16030,6 +16206,70 @@
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/Screenshot-2026-01-27-at-8.50.44-PM.png?resize=650%2C264&ssl=1",
     "scraped_at": "2026-10-11T13:47:55.760463"
+  },
+  {
+    "title": "MACY. \u201cWILD MAN\u201d RELEASE NIGHT",
+    "date": "2026-11-06",
+    "time": "10:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "MACY. \u201cWILD MAN\u201d RELEASE NIGHT"
+    ],
+    "description": "MACY. \u201cWild Man\u201d Release NightFriday, November 6",
+    "ticket_url": "https://www.dawnclub.com/music/album-release-macy",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1793296873092-48NH08TQSWD3VI8A803B/MACY.+-+Chainlink+Press+Photo.jpg",
+    "scraped_at": "2026-11-16T20:18:20.137874"
+  },
+  {
+    "title": "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY SWING",
+    "date": "2026-11-06",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY SWING"
+    ],
+    "description": "Fog City Swing was created by Trumpeter Daniel Herrera in 2023, the goal, to become the \u201cworld\u2019s smallest big band!\u201d Rapidly becoming one of the preeminent Jazz and Swing bands in the Bay Area, their ongoing Friday night residency at San Francisco\u2019s premier Jazz venue, the Dawn Club, features some of Northern California\u2019s top vocalists and instrumentalists to consistently sold out crowds. With a completely original sound and a song list ranging from classic Sinatra and Count Basie to Quincy Jone",
+    "ticket_url": "https://www.dawnclub.com/music/2ctyct385mnhy39-tg9wh-66t2b-5jsrn-ybz7p-btef8-l3cer-ynsl3-jjzrz-hp743-wybnk-z9nak-t6pph-eacgd-dsnc4-7azxb-p6za4-9hznt-scfhn-5xg5r-8423r-jtsln",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709252267393-G47OWRPKCJXTVAWDHO0V/DSC_5066-1+%281%29.jpg",
+    "scraped_at": "2026-11-16T20:18:20.175519"
+  },
+  {
+    "title": "ZHENIIA",
+    "date": "2026-11-06",
+    "time": "6:00 PM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "ZHENIIA"
+    ],
+    "description": "&lt;p&gt;Jonah Levine | Trombone Chili Corder | Oud Julian Lopez | Piano Leela Paymai | Bass Nick Aganad | Drums San Francisco-based bassist, trombonist, composer, and arranger Leela Paymai (ZHENIIA) grew up steeped in the sounds of Persian Pop music\u2014Googoosh, Marjan, Dariush\u2014before landing in the Bay Area and diving headfirst into the tangled, boundary-less world [&hellip;]&lt;/p&gt;\\n",
+    "ticket_url": "https://mrtipplessf.com/calendar/zheniia/",
+    "price": "$15 \u2013 30",
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/ZHENIIA-Leela-paymaiPS1-scaled.jpg",
+    "scraped_at": "2026-11-16T20:18:38.139467"
+  },
+  {
+    "title": "The Kuehn Tumalan Latin 5tet",
+    "date": "2026-11-06",
+    "time": "9:00 PM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "The Kuehn Tumalan Latin 5tet"
+    ],
+    "description": "&lt;p&gt;Steffen Kuehn | Trumpet Benny Torres | Saxophone Christian Tumalan | Piano Dan Parenti | Bass Brian Fishler | Drums&lt;/p&gt;\\n",
+    "ticket_url": "https://mrtipplessf.com/calendar/the-kuehn-tumalan-latin-5tet/",
+    "price": "$15 \u2013 30",
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/Steffen-Kuehn-2.jpg",
+    "scraped_at": "2026-11-16T20:18:38.139486"
   },
   {
     "title": "DEEP DIVE INTO ABLETON LIVE W/ JEF STOTT",
@@ -16128,6 +16368,70 @@
     "scraped_at": "2026-10-11T13:48:11.394372"
   },
   {
+    "title": "AZURE MCCALL",
+    "date": "2026-11-07",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "AZURE MCCALL"
+    ],
+    "description": "McCall, Hawaii\u2019s first lady of jazz is a multi-award winning vocalist. She is heir to the vocal tradition of Sarah Vaughan, Carmen McRae and Ella Fitzgerald. Her warmth and sense of humor fuel every interpretation. After releasing her first CD \u2018Body and Soul\u2019 she was asked by the great bassist Ray Brown to be his vocalist on tour. Of course, she accepted, beginning an incredible jazz journey \u2013 school was in! Soon after, Azure became the first singer to work with Freddie Hubbard\u2019s band. Additiona",
+    "ticket_url": "https://www.dawnclub.com/music/1onhhsjq53k5uofqbb1g8sslma85s8-2h3mk-rjgry-xaype-sww2t-tcmx3-74f4w-lcnsj-m8whx-az7gp-ya2m7-f9p73-ngxac-5bhzc-zd9be-knc3n",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1775072503309-YFLCDFYXT9JPSM9UI0LP/azure-mccall-copy-2.jpeg",
+    "scraped_at": "2026-11-16T20:18:20.053643"
+  },
+  {
+    "title": "LATE NIGHT SET: JACK RIORDAN",
+    "date": "2026-11-07",
+    "time": "11:59\u202fAM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT SET: JACK RIORDAN"
+    ],
+    "description": "Jack grew up in the small Northern California town of Sutter Creek. His dad got him started on the guitar around the age of 12 and as soon as he turned 16 began making the hour drive to Sacramento once a week to take lessons with jazz guitarist Henry Robinette. After graduating high school in 1999, Jack moved to San Francisco to attend SF State University where he studied under the late alto saxophonist Andrew Speight (Nat Adderley band) and artists in residence Branford Marsalis and John Handy.",
+    "ticket_url": "https://www.dawnclub.com/music/late-night-set-jack-riordan",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1794075212995-AER48KF3PTW39ULTQ9JP/Jack+Riordan+Promo.JPG",
+    "scraped_at": "2026-11-16T20:18:20.101913"
+  },
+  {
+    "title": "Martin Luther McCoy",
+    "date": "2026-11-07",
+    "time": "6:00 PM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Martin Luther McCoy"
+    ],
+    "description": "&lt;p&gt;Dave Council | Key Bass &amp; Piano Brian Braziel | Drums Wilton Rabb | Guitar Martin Luther McCoy | Vocals Martin Luther McCoy brings his voice and guitar to Mr. Tipple\\'s on November 7th for a night of classic soul and selections from his new album, Welcome Back Love. A San Francisco native and former [&hellip;]&lt;/p&gt;\\n",
+    "ticket_url": "https://mrtipplessf.com/calendar/martin-luther-mccoy/",
+    "price": "$15 \u2013 30",
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/Martin-Luther.jpg",
+    "scraped_at": "2026-11-16T20:18:38.139502"
+  },
+  {
+    "title": "Richard Howell\u2019s Sudden Changes",
+    "date": "2026-11-07",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Richard Howell\u2019s Sudden Changes"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.277650"
+  },
+  {
     "title": "RUBEN STUDDARD",
     "date": "2026-11-08",
     "time": "7:00 PM",
@@ -16192,6 +16496,22 @@
     "scraped_at": "2026-10-11T13:47:55.784931"
   },
   {
+    "title": "Benny Amon Trio",
+    "date": "2026-11-08",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Benny Amon Trio"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.306149"
+  },
+  {
     "title": "A TRIBUTE TO GROVER WASHINGTON JR. FEAT KEVIN MOORE, ANGELO LUSTER, ASHLEY JEMISON AND ELDON T. JONES",
     "date": "2026-11-09",
     "time": "8:00 PM",
@@ -16206,6 +16526,22 @@
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3007/grover-washington-copy.jpeg",
     "scraped_at": "2026-10-11T13:48:11.394415"
+  },
+  {
+    "title": "ARTHUR KHU QUINTET",
+    "date": "2026-11-09",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "ARTHUR KHU QUINTET"
+    ],
+    "description": "Arthur Khu is a world-renowned pianist whose remarkable virtuosity and artistry draws inspiration from Keith Jarrett, Herbie Hancock and Wayne Shorter as well composers such as Chopin and Debussy. Collaborating with some of California\u2019s finest musicians, his music is always intense, emotional, and driving.",
+    "ticket_url": "https://www.dawnclub.com/music/u6c5l171gjfotudx46qt09ro9d8bo1-mxrc8-nc83h-p9s86-46xh6",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1771362149528-DXAZJX5AB5Q4ONNJVB6K/Arthur+Khu+Promo.jpeg",
+    "scraped_at": "2026-11-16T20:18:20.017507"
   },
   {
     "title": "LAS LOMAS HIGH SCHOOL",
@@ -16224,6 +16560,22 @@
     "scraped_at": "2026-10-11T13:48:11.394437"
   },
   {
+    "title": "CLOSED FOR PRIVATE EVENT",
+    "date": "2026-11-10",
+    "time": "5:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CLOSED FOR PRIVATE EVENT"
+    ],
+    "description": null,
+    "ticket_url": "https://www.dawnclub.com/music/closed-for-a-private-event-35f2f-wzyan-s55l9-6p9xk-cegh4-akynk-yehpj-kdlha-l3sen-j7ew4-zzpc6",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1792704192615-I05S4VQN1FWGPUKBYXZW/230527-WJA-DawnClub-070.jpg",
+    "scraped_at": "2026-11-16T20:18:19.984311"
+  },
+  {
     "title": "HERLIN RILEY",
     "date": "2026-11-11",
     "time": "7:30 PM",
@@ -16238,6 +16590,38 @@
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2704/herlin-riley-copy.jpeg",
     "scraped_at": "2026-10-11T13:48:11.394457"
+  },
+  {
+    "title": "TOMOKO FUNAKI",
+    "date": "2026-11-11",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "TOMOKO FUNAKI"
+    ],
+    "description": "Tomoko Funaki was born in Japan into a musical family. Following in the footsteps of her parents, both musicians, she studied classical violin and flute. A move to New York exposed her to a broad range of musical genres but she found herself increasingly drawn towards jazz. After moving to San Francisco in 2002, she began studying upright bass and quickly immersed herself into the San Francisco jazz scene, studying and performing with luminaries including Ray Drummond, Rodney Whitaker, Rufus Rei",
+    "ticket_url": "https://www.dawnclub.com/music/tomoko-funaki-tfm3a-k6hec-ph4cy-st8jb-a7h55-fd235-xtmbz-4f9s7-t43y6-dzxcy-mjbhm-cxc7y-rhna8-2yghs-rk33y-z9w5r-jtmpx-as6g4-xxtcc",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1694150846728-TY0YHQCOLZ8U7H0K9V5A/Tomoko%2BFunaki%2B1%2B-%2Bbass.jpg",
+    "scraped_at": "2026-11-16T20:18:19.937588"
+  },
+  {
+    "title": "Closed for a Private Event",
+    "date": "2026-11-11",
+    "time": "7:00 PM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Closed for a Private Event"
+    ],
+    "description": null,
+    "ticket_url": "https://mrtipplessf.com/calendar/closed-for-a-private-event-2/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/Closed-Sign-music-store.jpg",
+    "scraped_at": "2026-11-16T20:18:38.139529"
   },
   {
     "title": "JACKIEM JOYNER",
@@ -16288,6 +16672,38 @@
     "scraped_at": "2026-10-11T13:47:13.122795"
   },
   {
+    "title": "BEN MISTERKA AND COLLECTIVITY",
+    "date": "2026-11-12",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "BEN MISTERKA AND COLLECTIVITY"
+    ],
+    "description": "Collectivity is a jazz/funk, psychedelic soul band originally formed in Shanghai, China and now based in the SF Bay Area. We're talking about blistering energy and genre blending from an ensemble of world class musicians with a focus on exploration through collective improvisation. Upbeat grooves, soulful guitar work and tight arrangements are things to expect from a collectivity show. They draw on influences from jazz/funk, gospel and psychedelic soul.",
+    "ticket_url": "https://www.dawnclub.com/music/ben-misterka-and-collectivity-4-h3dyl-92mfb-plbpr-4z97p-pt567-2y2e4-2xlg9",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1747869828200-3337SMX34GHF2Q6XGFOO/Collectivity+Promo+Shot+2019.jpg",
+    "scraped_at": "2026-11-16T20:18:19.899670"
+  },
+  {
+    "title": "Gabriel Schillinger-Hyman Trio Ft Tawanda",
+    "date": "2026-11-12",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Gabriel Schillinger-Hyman Trio Ft Tawanda"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.353053"
+  },
+  {
     "title": "KRS-ONE",
     "date": "2026-11-13",
     "time": "9:30 PM",
@@ -16334,6 +16750,70 @@
     "series": null,
     "image_url": "https://www.sfjazz.org/media/vzpjzvmy/s2627_hero_hollybowling.jpg?rxy=0.4503596506822952,0.30810277234669914&v=1dced2d8d58f1c0&width=720&height=405&mode=crop&quality=70",
     "scraped_at": "2026-10-11T13:47:13.162091"
+  },
+  {
+    "title": "LATE NIGHT: MATT KESECKER TRIO",
+    "date": "2026-11-13",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT: MATT KESECKER TRIO"
+    ],
+    "description": "Matthew Kesecker is a San Francisco born drummer who draws inspiration from jazz greats such as Philly Joe Jones, Art Taylor, Roy Haynes, and many others. He started out as a rock musician but got into jazz at the age of 18 after hearing a recording of Miles Davis\u2019 second great quintet. Since then, he has been on a journey to find his own voice on the instrument while upholding the tradition of jazz music.",
+    "ticket_url": "https://www.dawnclub.com/music/matt-kesecker-36l88-6s8me-znwze-nrj7x",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1781988824783-8OJWMYLJL25JWVXYQNEB/Matt+Kesecker+Promo.jpg",
+    "scraped_at": "2026-11-16T20:18:19.827789"
+  },
+  {
+    "title": "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY SWING",
+    "date": "2026-11-13",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY SWING"
+    ],
+    "description": "Fog City Swing was created by Trumpeter Daniel Herrera in 2023, the goal, to become the \u201cworld\u2019s smallest big band!\u201d Rapidly becoming one of the preeminent Jazz and Swing bands in the Bay Area, their ongoing Friday night residency at San Francisco\u2019s premier Jazz venue, the Dawn Club, features some of Northern California\u2019s top vocalists and instrumentalists to consistently sold out crowds. With a completely original sound and a song list ranging from classic Sinatra and Count Basie to Quincy Jone",
+    "ticket_url": "https://www.dawnclub.com/music/2ctyct385mnhy39-tg9wh-66t2b-5jsrn-ybz7p-btef8-l3cer-ynsl3-jjzrz-hp743-wybnk-z9nak-t6pph-eacgd-dsnc4-7azxb-p6za4-9hznt-scfhn-5xg5r-8423r-jtsln-gmlcg-2bxhc",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709252267393-G47OWRPKCJXTVAWDHO0V/DSC_5066-1+%281%29.jpg",
+    "scraped_at": "2026-11-16T20:18:19.864088"
+  },
+  {
+    "title": "Kerry Politzer Quartet",
+    "date": "2026-11-13",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Kerry Politzer Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.381342"
+  },
+  {
+    "title": "Tammy Hall Trio",
+    "date": "2026-11-13",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Tammy Hall Trio"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.410982"
   },
   {
     "title": "DAY26",
@@ -16416,6 +16896,70 @@
     "scraped_at": "2026-10-11T13:47:13.350227"
   },
   {
+    "title": "N.T.B. COLLECTIVE",
+    "date": "2026-11-14",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "N.T.B. COLLECTIVE"
+    ],
+    "description": "The N. T. B. Collective is a Bay Area based jazz fusion group merging sounds and styles from all over the world.",
+    "ticket_url": "https://www.dawnclub.com/music/ntb-2-tg8l8-8z5ns-x5cc8-hr275-w85cj-ka8fh-jglw9-me2wk-hen78-j35pb-tb2p9-6h6tn-chf7a-l83g5-s2wh9-dyt65",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1710915755401-M13Y1HH6YXW87JO55DSJ/NTB+BSIDE+5.png",
+    "scraped_at": "2026-11-16T20:18:19.730440"
+  },
+  {
+    "title": "LATE NIGHT SET: JACK RIORDAN (COPY)",
+    "date": "2026-11-14",
+    "time": "11:59\u202fAM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT SET: JACK RIORDAN (COPY)"
+    ],
+    "description": "Jack grew up in the small Northern California town of Sutter Creek. His dad got him started on the guitar around the age of 12 and as soon as he turned 16 began making the hour drive to Sacramento once a week to take lessons with jazz guitarist Henry Robinette. After graduating high school in 1999, Jack moved to San Francisco to attend SF State University where he studied under the late alto saxophonist Andrew Speight (Nat Adderley band) and artists in residence Branford Marsalis and John Handy.",
+    "ticket_url": "https://www.dawnclub.com/music/late-night-set-jack-riordan-x699h",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1794075212995-AER48KF3PTW39ULTQ9JP/Jack+Riordan+Promo.JPG",
+    "scraped_at": "2026-11-16T20:18:19.779277"
+  },
+  {
+    "title": "Giulio Xavier Cetto Quintet",
+    "date": "2026-11-14",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Giulio Xavier Cetto Quintet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.440331"
+  },
+  {
+    "title": "John Palowitch ft. Kool AD",
+    "date": "2026-11-14",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "John Palowitch ft. Kool AD"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.470954"
+  },
+  {
     "title": "BRIAN SIMPSON",
     "date": "2026-11-15",
     "time": "7:00 PM",
@@ -16464,6 +17008,54 @@
     "scraped_at": "2026-10-11T13:47:13.471324"
   },
   {
+    "title": "Marc Seales with Ernie Watts",
+    "date": "2026-11-15",
+    "time": "9:15 PM",
+    "venue": "Black Cat SF",
+    "artists": [
+      "Marc Seales with Ernie Watts"
+    ],
+    "description": "<p>Tickets: $20 , $30 , $40 , $50</p><p>(price includes $5.50 processing and ticketing fee)</p><p>\n</p><p>7:00 show: Doors @ 6:00</p><p>9:15 show: Bar @ 6:00, Doors @ 8:30</p><p>\n</p><p><em>Deeply swinging, modern jazz from two master improvisers with decades of chemistry and serious fire.</em></p><p>\n</p><p>Pianist and keyboardist Marc Seales brings his distinctive blend of post-bop language, rich harmony, and fearless spontaneity to Black Cat alongside legendary tenor saxophonist Ernie Watt...",
+    "ticket_url": "https://blackcatsf.turntabletickets.com/shows/13307/?date=2026-11-15",
+    "price": "$14.50 - $54.50",
+    "status": null,
+    "series": null,
+    "image_url": "https://assets-prod.turntabletickets.com/media/blackcatsf/show-13306/ChatGPT_Image_Sep_24%2C_2026%2C_12_09_12_PM.jpg-rectSm.webp?version=60e473c2",
+    "scraped_at": "2026-11-16T20:18:13.523914"
+  },
+  {
+    "title": "Will Bernard Trio",
+    "date": "2026-11-15",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Will Bernard Trio"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.499687"
+  },
+  {
+    "title": "The SticklerPhonics",
+    "date": "2026-11-15",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "The SticklerPhonics"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.513950"
+  },
+  {
     "title": "SFJAM: FREE COMMUNITY JAM SESSION: BLUES & RHYTHM CHANGES",
     "date": "2026-11-16",
     "time": "7:00 PM",
@@ -16477,7 +17069,23 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/lorfghpu/s12_edu_meganav_sfjam.jpg?v=1dc4f2407b21300&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:13.554379"
+    "scraped_at": "2026-11-16T20:17:51.598044"
+  },
+  {
+    "title": "ANDRE SUMELIUS",
+    "date": "2026-11-16",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "ANDRE SUMELIUS"
+    ],
+    "description": "After studying drums with Tony Williams in San Francisco, Andr\u00e9 has performed around the world with various artists including Dayna Stephens, Ambrose Akinmusire, Mike Olmos, Stacy Dillard, Julian Lage, George Kontrafouris, Perico Sambeat and Albert Sanz. After a stint back in his native Finland and some years in Spain, Andr\u00e9 returned to the Bay Area in 2015.",
+    "ticket_url": "https://www.dawnclub.com/music/andre-sumelius-2-8mdxm-swak6",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1772751459236-KJU4HME18UFWRM6KPXRA/Andre+Sumelius+Promo.jpg",
+    "scraped_at": "2026-11-16T20:18:18.772306"
   },
   {
     "title": "BRIAN CULBERTSON",
@@ -16493,7 +17101,39 @@
     "status": "Sold Out",
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2748/brianculbertson-oakland-4x5-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.394642"
+    "scraped_at": "2026-11-16T20:18:40.696237"
+  },
+  {
+    "title": "CLOSED FOR PRIVATE EVENT UNTIL 9:00PM",
+    "date": "2026-11-17",
+    "time": "5:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CLOSED FOR PRIVATE EVENT UNTIL 9:00PM"
+    ],
+    "description": null,
+    "ticket_url": "https://www.dawnclub.com/music/closed-for-a-private-event-35f2f-wzyan-s55l9-6p9xk-cegh4-akynk-yehpj-kdlha-l3sen",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1792704293609-KACX0ZH7V02K2M4LPX0O/230527-WJA-DawnClub-069.jpg",
+    "scraped_at": "2026-11-16T20:18:18.815840"
+  },
+  {
+    "title": "SMITH DOBSON QUARTET",
+    "date": "2026-11-17",
+    "time": "9:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "SMITH DOBSON QUARTET"
+    ],
+    "description": "Drummer/Vibraphonist/Saxophonist Smith Dobson V has been performing in the Bay Area for nearly twenty years. Originally from Santa Cruz, Ca., Dobson is a member of an important Jazz family. His father, the late Smith Dobson IV, was a world renown Pianist and director of the Jazz series at the Garden City in San Jose for over twenty years, where he accompanied artists\u2019 like Art Pepper, Stan Getz, Bobby Hutcherson, Harold Land, Chet Baker, Red Norvo, Tal Farlow, and Lee Konitz, to name a few.",
+    "ticket_url": "https://www.dawnclub.com/music/smith-dobson-quartet-1-3fh4k-8ld8n-tr9pa-snsnd-jg8w7-44zfe-et9aw-msy26-cn6nw-hjsp2-xfapm-lzk6r-mpptl-p9kk3-xmppt-f2cs5-pz49s-z2ht9-6296t-59hmt",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1688151988670-GWZ3ZHMERPRUXE4POXGB/Smith+Dobson+Promo+pic.jpg",
+    "scraped_at": "2026-11-16T20:18:18.862474"
   },
   {
     "title": "BRIAN CULBERTSON",
@@ -16509,7 +17149,71 @@
     "status": "Sold Out",
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2748/brianculbertson-oakland-4x5-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.394675"
+    "scraped_at": "2026-11-16T20:18:40.696271"
+  },
+  {
+    "title": "The Soul Sessions 11/18: Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey  PLUS Special Guests CHARLES MCNEAL & ANGELO LUSTER",
+    "date": "2026-11-18",
+    "time": "7:00 PM",
+    "venue": "Black Cat SF",
+    "artists": [
+      "The Soul Sessions 11/18: Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey  PLUS Special Guests CHARLES MCNEAL & ANGELO LUSTER"
+    ],
+    "description": "<p>Tickets: $15.50 - $25.50</p><p>7:00 show: Doors @ 6:00</p><p>\n</p><p><em>Where groove meets spirit\u2014an intimate Wednesday-night collision of jazz, soul, gospel, funk, and R&amp;B.</em></p><p>\n</p><p><strong>JaZzLine INSTITUTE Presents The Soul Sessions</strong></p><p>\n</p><p>The Soul Sessions bring some of the Bay Area\u2019s finest musicians to Black Cat for a weekly night built around deep groove, soulful improvisation, and the energy that happens when world-class players meet in an intimate r...",
+    "ticket_url": "https://blackcatsf.turntabletickets.com/shows/13269/?date=2026-11-18",
+    "price": "$9.50 - $44.50",
+    "status": null,
+    "series": null,
+    "image_url": "https://assets-prod.turntabletickets.com/media/blackcatsf/show-13269/The-Soul-Sessions-11-18.jpg-rectSm.webp?version=193c997e",
+    "scraped_at": "2026-11-16T20:18:13.523938"
+  },
+  {
+    "title": "JINX JONES",
+    "date": "2026-11-18",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "JINX JONES"
+    ],
+    "description": "\"Jinx is a guitar virtuoso who seamlessly moves from rockabilly to jazz to twang and back again, sometimes in the same song. Those with a liner note obsession will remember Jinx\u2019s playing on En Vogue\u2019s \u201cFree Your Mind.\u201d",
+    "ticket_url": "https://www.dawnclub.com/music/jinx-jones-nbljb-e66tl-c2r2h-pceah-p6mej-msdc8-9gsjz-zc7m8-75x7f-m3yej-wjfs5-8zl7w-nwjdf-apr99-h258b-wehpw-mgwsa-m76ts-mwhtn-nzpgb-3ekdm-t9mdz-ajjaj",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1695335564733-N26J7OMVTHLM1E0AOLB7/Jinx%2BJones%2BJazz%2BPromo%2B1.jpg",
+    "scraped_at": "2026-11-16T20:18:18.903125"
+  },
+  {
+    "title": "Pamela Rose & Wayne De La Cruz: Hammond Organ Party!",
+    "date": "2026-11-18",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Pamela Rose & Wayne De La Cruz: Hammond Organ Party!"
+    ],
+    "description": "Wednesday, November 18, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/pamela-rose-wayne-de-la-cruz-hammond-organ-party-4/",
+    "price": "$30",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/02/Screenshot-2026-02-28-at-11.09.09-AM.png?resize=650%2C701&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.656112"
+  },
+  {
+    "title": "Patrick Wolff Quartet featuring Matt Wilson",
+    "date": "2026-11-18",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Patrick Wolff Quartet featuring Matt Wilson"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.566391"
   },
   {
     "title": "BRIAN CULBERTSON",
@@ -16525,7 +17229,7 @@
     "status": "Sold Out",
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2748/brianculbertson-oakland-4x5-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.394696"
+    "scraped_at": "2026-11-16T20:18:40.696293"
   },
   {
     "title": "DISCOVER JAZZ: IMPRESSIONS OF JOHN COLTRANE",
@@ -16541,23 +17245,87 @@
     "status": "Member Discount",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/wmtmjf5p/s2627_discoverjazzseries_fy27_web.jpg?v=1dd5023cbcbee40&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:13.590892"
+    "scraped_at": "2026-11-16T20:17:51.640952"
+  },
+  {
+    "title": "Sami Stevens Band",
+    "date": "2026-11-19",
+    "time": "9:15 PM",
+    "venue": "Black Cat SF",
+    "artists": [
+      "Sami Stevens Band"
+    ],
+    "description": "<p>Tickets: $20 , $30 , $40 , $50</p><p>(price includes $5.50 processing and ticketing fee)</p><p>\n</p><p>7:00 show: Doors @ 6:00</p><p>9:15 show: Bar @ 6:00, Doors @ 8:30</p><p>\n</p><p><em>Intimate, voice-led songwriting where jazz, soul, and indie rock meet with warmth, depth, and serious musicality.</em></p><p>\n</p><p>Fresh off a two-year run touring with ten-time Grammy winner Norah Jones, singer-songwriter Sami Stevens brings her own band to Black Cat for a deeply personal set of origina...",
+    "ticket_url": "https://blackcatsf.turntabletickets.com/shows/13689/?date=2026-11-19",
+    "price": "$14.50 - $44.50",
+    "status": null,
+    "series": null,
+    "image_url": "https://assets-prod.turntabletickets.com/media/blackcatsf/show-13689/ss.jpg-rectSm.webp?version=b0fa7d69",
+    "scraped_at": "2026-11-16T20:18:13.523963"
+  },
+  {
+    "title": "CLOSED FOR PRIVATE EVENT",
+    "date": "2026-11-19",
+    "time": "5:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CLOSED FOR PRIVATE EVENT"
+    ],
+    "description": null,
+    "ticket_url": "https://www.dawnclub.com/music/closed-for-a-private-event-35f2f-wzyan-s55l9-6p9xk-cegh4-akynk-yehpj-kdlha-l3sen-j7ew4",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1792704356848-ERCBDV980318DYR0VADS/230527-WJA-DawnClub-068.jpg",
+    "scraped_at": "2026-11-16T20:18:18.940174"
+  },
+  {
+    "title": "Marcus Shelby Quartet-A Keys Birthday Celebration!",
+    "date": "2026-11-19",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Marcus Shelby Quartet-A Keys Birthday Celebration!"
+    ],
+    "description": "Thursday, November 19, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/marcus-shelby-quartet-a-keys-birthday-celebration/",
+    "price": "$45",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/11/IMG_9912.jpg?resize=650%2C867&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.683503"
+  },
+  {
+    "title": "Kurt Ribak Quartet",
+    "date": "2026-11-19",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Kurt Ribak Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.595051"
   },
   {
     "title": "GERALD ALBRIGHT",
     "date": "2026-11-20",
-    "time": "9:30 PM",
+    "time": "7:30 PM",
     "venue": "Yoshi's",
     "artists": [
       "GERALD ALBRIGHT"
     ],
     "description": null,
-    "ticket_url": "https://www.etix.com/ticket/p/73980499/gerald-albright-fri112026-oakland-yoshis",
+    "ticket_url": "https://www.etix.com/ticket/p/45160698/gerald-albright-fri112026-oakland-yoshis",
     "price": null,
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2918/gerald-albright-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.394739"
+    "scraped_at": "2026-11-16T20:18:40.696332"
   },
   {
     "title": "BRITTANY DAVIS",
@@ -16573,7 +17341,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/r3jilarb/s2627_hero_brittanydavis.jpg?rxy=0.42641142674245314,0.44913561171029515&v=1dced2d9b8506d0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:13.631002"
+    "scraped_at": "2026-11-16T20:17:51.727992"
   },
   {
     "title": "DJANGO FESTIVAL ALLSTARS",
@@ -16589,23 +17357,151 @@
     "status": "Live and Streaming",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/gskhjd45/s2627_hero_djangofestivalallstars.jpg?rxy=0.5012496265544596,0.20698488751996996&v=1dced244f2b8510&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:13.666850"
+    "scraped_at": "2026-11-16T20:17:51.766363"
+  },
+  {
+    "title": "OPEN SOUNDCHECK: DJANGO FESTIVAL ALLSTARS",
+    "date": "2026-11-20",
+    "time": "4:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "OPEN SOUNDCHECK: DJANGO FESTIVAL ALLSTARS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/open-soundcheck-django-festival-allstars/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/gskhjd45/s2627_hero_djangofestivalallstars.jpg?rxy=0.5012496265544596,0.20698488751996996&v=1dced244f2b8510&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:17:51.685242"
+  },
+  {
+    "title": "Europe\u2019s Herak/Bulatkin 'Elysium', ft/ Sax Visionary David Binney",
+    "date": "2026-11-20",
+    "time": "9:30 PM",
+    "venue": "Black Cat SF",
+    "artists": [
+      "Europe\u2019s Herak/Bulatkin 'Elysium', ft/ Sax Visionary David Binney"
+    ],
+    "description": "<p>Tickets: $20 , $30, $40 , $50 , $60</p><p>(price includes $5.50 processing and ticketing fee)</p><p>\n</p><p>7:00 show: Doors @ 6:00</p><p>9:30 show: Bar @ 6:00, Doors @ 8:45</p><p>\n</p><p><em>Cinematic European jazz where Slavic folk, Balkan rhythm, impressionist color, electronics, and modern improvisation meet.</em></p><p>\n</p><p>Vibraphonist Miro Herak and pianist Daniel Bulatkin bring their acclaimed <em>Elysium</em> project to Black Cat, joined by visionary saxophonist David Binney. B...",
+    "ticket_url": "https://blackcatsf.turntabletickets.com/shows/13490/?date=2026-11-20",
+    "price": "$19.50 - $54.50",
+    "status": null,
+    "series": null,
+    "image_url": "https://assets-prod.turntabletickets.com/media/blackcatsf/show-13490/Herak-Bulatkin-Elysium-crop.jpg-rectSm.webp?version=3e529d62",
+    "scraped_at": "2026-11-16T20:18:13.523984"
+  },
+  {
+    "title": "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY SWING",
+    "date": "2026-11-20",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "\u201cFOG CITY FRIDAYS\u201d FEAT. FOG CITY SWING"
+    ],
+    "description": "Fog City Swing was created by Trumpeter Daniel Herrera in 2023, the goal, to become the \u201cworld\u2019s smallest big band!\u201d Rapidly becoming one of the preeminent Jazz and Swing bands in the Bay Area, their ongoing Friday night residency at San Francisco\u2019s premier Jazz venue, the Dawn Club, features some of Northern California\u2019s top vocalists and instrumentalists to consistently sold out crowds. With a completely original sound and a song list ranging from classic Sinatra and Count Basie to Quincy Jone",
+    "ticket_url": "https://www.dawnclub.com/music/2ctyct385mnhy39-tg9wh-66t2b-5jsrn-ybz7p-btef8-l3cer-ynsl3-jjzrz-hp743-wybnk-z9nak-t6pph-eacgd-dsnc4-7azxb-p6za4-9hznt-scfhn-5xg5r-8423r-jtsln-gmlcg",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1709252267393-G47OWRPKCJXTVAWDHO0V/DSC_5066-1+%281%29.jpg",
+    "scraped_at": "2026-11-16T20:18:18.981338"
+  },
+  {
+    "title": "LATE NIGHT: LUKE WESTBROOK",
+    "date": "2026-11-20",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT: LUKE WESTBROOK"
+    ],
+    "description": "Early exposure to jazz through educational programs (b.1979 SF, CA) allowed Luke to participate in the Monterey Jazz Festival, and the Grammy in the Schools programs as part of the San Francisco Jazz Festival.",
+    "ticket_url": "https://www.dawnclub.com/music/luke-westbrook-b5ma2-tkz9h-yw7y8-5k6y8-gswyw-kynzk-2slmn-7tem2-h9bl2-7n9pr-ad7b8-tm96c-4wshz",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1747869473440-UBR9GPMXWXSN02M3QVQN/Luke+Westbrook+Promo.JPEG",
+    "scraped_at": "2026-11-16T20:18:19.032407"
+  },
+  {
+    "title": "Paula West-A Keys Birthday Celebration!",
+    "date": "2026-11-20",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Paula West-A Keys Birthday Celebration!"
+    ],
+    "description": "Friday, November 20, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/paula-west-a-keys-birthday-celebration/",
+    "price": "$45",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/02/PaulaWest.webp?resize=650%2C554&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.710976"
+  },
+  {
+    "title": "Cristian Eck",
+    "date": "2026-11-20",
+    "time": "10:30 PM",
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Cristian Eck"
+    ],
+    "description": "Friday, November 20, 2026 @ 10:30pm",
+    "ticket_url": "https://keysjazzbistro.com/event/cristian-eck-2/",
+    "price": "$20",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/10/IMG_2486.jpeg?resize=650%2C365&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.734272"
+  },
+  {
+    "title": "Nick Rossi Trio featuring Ray Jacildo",
+    "date": "2026-11-20",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Nick Rossi Trio featuring Ray Jacildo"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.625854"
+  },
+  {
+    "title": "Dann Zinn Organ Trio",
+    "date": "2026-11-20",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Dann Zinn Organ Trio"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.654215"
   },
   {
     "title": "GERALD ALBRIGHT",
     "date": "2026-11-21",
-    "time": "9:30 PM",
+    "time": "7:30 PM",
     "venue": "Yoshi's",
     "artists": [
       "GERALD ALBRIGHT"
     ],
     "description": null,
-    "ticket_url": "https://www.etix.com/ticket/p/80747280/gerald-albright-sat112126-oakland-yoshis",
+    "ticket_url": "https://yoshis.com/events/buy-tickets/gerald-albright-12/detail",
     "price": null,
-    "status": null,
+    "status": "Sold Out",
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2918/gerald-albright-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.394780"
+    "scraped_at": "2026-11-16T20:18:40.696366"
   },
   {
     "title": "FAMILY MATINEE W/ MARIACHI FLOR DE TOLOACHE",
@@ -16621,7 +17517,7 @@
     "status": "Family Matinee",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/1sinkikb/s2627_hero_fm_mariachiflordetoloache.jpg?rxy=0.5214804253369558,0.2401356231466832&v=1dcf800e72089b0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:13.780337"
+    "scraped_at": "2026-11-16T20:17:51.904692"
   },
   {
     "title": "DEEP DIVE INTO ABLETON LIVE W/ JEF STOTT",
@@ -16637,7 +17533,7 @@
     "status": "Member Discount",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/cubhx2js/s2627_edu_digilab_hero_ableton.jpg?rxy=0.5057894038629144,0.37699249512358307&v=1dcf8d4fec54a90&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:13.744131"
+    "scraped_at": "2026-11-16T20:17:51.864770"
   },
   {
     "title": "SARAH HANAHAN QUARTET",
@@ -16650,10 +17546,10 @@
     "description": null,
     "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/sarah-hanahan-quartet/",
     "price": null,
-    "status": "Almost Sold Out",
+    "status": "Sold Out",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/qsiikaj5/s2627_hero_sarahhanahanquartet.jpg?rxy=0.44586935869357486,0.2655268208407079&v=1dced2da8b75290&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:13.816003"
+    "scraped_at": "2026-11-16T20:17:51.944648"
   },
   {
     "title": "MIREYA RAMOS & FLOR DE TOLOACHE",
@@ -16668,8 +17564,136 @@
     "price": null,
     "status": null,
     "series": null,
-    "image_url": "https://www.sfjazz.org/media/w1igb1lf/s2627_hero_mireyaramos-flordetoloache.jpg?rxy=0.5012496265544596,0.26286582387158347&v=1dced245f72b1f0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:13.857393"
+    "image_url": "https://www.sfjazz.org/media/f33fv3dn/s2627_hero_flordetoloache_v2.jpg?rxy=0.4907722785807787,0.3267297511305703&v=1dd685ffc233310&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:17:51.982940"
+  },
+  {
+    "title": "Europe\u2019s Herak/Bulatkin 'Elysium', ft/ Sax Visionary David Binney",
+    "date": "2026-11-21",
+    "time": "9:30 PM",
+    "venue": "Black Cat SF",
+    "artists": [
+      "Europe\u2019s Herak/Bulatkin 'Elysium', ft/ Sax Visionary David Binney"
+    ],
+    "description": "<p>Tickets: $20 , $30, $40 , $50 , $60</p><p>(price includes $5.50 processing and ticketing fee)</p><p>\n</p><p>7:00 show: Doors @ 6:00</p><p>9:30 show: Bar @ 6:00, Doors @ 8:45</p><p>\n</p><p><em>Cinematic European jazz where Slavic folk, Balkan rhythm, impressionist color, electronics, and modern improvisation meet.</em></p><p>\n</p><p>Vibraphonist Miro Herak and pianist Daniel Bulatkin bring their acclaimed <em>Elysium</em> project to Black Cat, joined by visionary saxophonist David Binney. B...",
+    "ticket_url": "https://blackcatsf.turntabletickets.com/shows/13490/?date=2026-11-21",
+    "price": "$19.50 - $54.50",
+    "status": null,
+    "series": null,
+    "image_url": "https://assets-prod.turntabletickets.com/media/blackcatsf/show-13490/Herak-Bulatkin-Elysium-crop.jpg-rectSm.webp?version=3e529d62",
+    "scraped_at": "2026-11-16T20:18:13.524002"
+  },
+  {
+    "title": "BEN MISTERKA AND COLLECTIVITY",
+    "date": "2026-11-21",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "BEN MISTERKA AND COLLECTIVITY"
+    ],
+    "description": "Collectivity is a jazz/funk, psychedelic soul band originally formed in Shanghai, China and now based in the SF Bay Area. We're talking about blistering energy and genre blending from an ensemble of world class musicians with a focus on exploration through collective improvisation. Upbeat grooves, soulful guitar work and tight arrangements are things to expect from a collectivity show. They draw on influences from jazz/funk, gospel and psychedelic soul.",
+    "ticket_url": "https://www.dawnclub.com/music/ben-misterka-and-collectivity-4-h3dyl-92mfb-plbpr-4z97p-pt567-2y2e4-2xlg9-lwjw2",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1747869828200-3337SMX34GHF2Q6XGFOO/Collectivity+Promo+Shot+2019.jpg",
+    "scraped_at": "2026-11-16T20:18:19.076429"
+  },
+  {
+    "title": "LATE NIGHT SET: GAVIN HALORAN",
+    "date": "2026-11-21",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT SET: GAVIN HALORAN"
+    ],
+    "description": "Gavin Halloran is a Saxophonist born and raised in the East Bay. Halloran\u2019s inspiration comes from the tenormen of old growing up to the sounds of Coleman Hawkins, Ben Webster and Don Byas. Halloran has worked across the scene now for over a decade with the Bay Area\u2019s very best in Straight Ahead.",
+    "ticket_url": "https://www.dawnclub.com/music/late-night-set-gavin-haloran-lf74w-6rx46",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1790715465778-CBJEMTAUQ8P5SRGNGEHP/Gavin+Haloran+Promo.jpg",
+    "scraped_at": "2026-11-16T20:18:19.132652"
+  },
+  {
+    "title": "Kenny Washington Quartet-A Keys Birthday Celebration!",
+    "date": "2026-11-21",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Kenny Washington Quartet-A Keys Birthday Celebration!"
+    ],
+    "description": null,
+    "ticket_url": "https://keysjazzbistro.com/event/kenny-washington-quartet-a-keys-birthday-celebration/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2022/10/event-kenny.jpg?resize=650%2C650&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.759073"
+  },
+  {
+    "title": "Ritmo y Voz: Afro-Cuban Jazz Ignited- A Keys Birthday Celebration",
+    "date": "2026-11-21",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Ritmo y Voz: Afro-Cuban Jazz Ignited- A Keys Birthday Celebration"
+    ],
+    "description": "Saturday, November 21, 2026 @ 9pm",
+    "ticket_url": "https://keysjazzbistro.com/event/ritmo-y-voz-afro-cuban-jazz-ignited-a-keys-birthday-celebration/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/03/kai.jpg?resize=512%2C512&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.782072"
+  },
+  {
+    "title": "Late Set: Simon Rowe Organ Trio",
+    "date": "2026-11-21",
+    "time": "10:30 PM",
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Late Set: Simon Rowe Organ Trio"
+    ],
+    "description": "Saturday, November 21, 2026 @ 10:30pm",
+    "ticket_url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-74/",
+    "price": "$20",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2024/12/IMG_4773.jpeg?resize=650%2C978&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.806085"
+  },
+  {
+    "title": "Sundra Manning Organ Quartet",
+    "date": "2026-11-21",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Sundra Manning Organ Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.683008"
+  },
+  {
+    "title": "Steve Lucky\u2019s Hammond Cheese Combo",
+    "date": "2026-11-21",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Steve Lucky\u2019s Hammond Cheese Combo"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.713146"
   },
   {
     "title": "THE OZ NOY TRIO feat. DAVE WECKL",
@@ -16685,7 +17709,7 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2925/oz-noy-no-text-orange-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.394801"
+    "scraped_at": "2026-11-16T20:18:40.696382"
   },
   {
     "title": "BRIAN BLADE & THE FELLOWSHIP BAND",
@@ -16701,7 +17725,7 @@
     "status": "Almost Sold Out",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/1ujjzmqj/s2627_hero_brianbladethefellowshipband.jpg?rxy=0.5012496265544596,0.26286582387158347&v=1dced24e67b7b50&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:14.020078"
+    "scraped_at": "2026-11-16T20:17:52.098293"
   },
   {
     "title": "SARAH HANAHAN QUARTET",
@@ -16717,7 +17741,39 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/qsiikaj5/s2627_hero_sarahhanahanquartet.jpg?rxy=0.44586935869357486,0.2655268208407079&v=1dced2da8b75290&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:13.975202"
+    "scraped_at": "2026-11-16T20:17:52.062491"
+  },
+  {
+    "title": "Lara Louise-A Keys Birthday Celebration!",
+    "date": "2026-11-22",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Lara Louise-A Keys Birthday Celebration!"
+    ],
+    "description": "Sunday, November 22, 2026 @ 5pm",
+    "ticket_url": "https://keysjazzbistro.com/event/lara-louise-7/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/Screenshot-2026-01-21-at-8.03.09-PM.png?resize=650%2C824&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.829167"
+  },
+  {
+    "title": "Adam Theis\u2019s B3Bone",
+    "date": "2026-11-22",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Adam Theis\u2019s B3Bone"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.744073"
   },
   {
     "title": "BACK TO THE FUTURE THANKSGIVING CELEBRATION: FEAT LAWRENCE MATTHEWS AND DERRICK HALL & COMPANY",
@@ -16733,7 +17789,39 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3068/back-to-the-future-gospel-celebration-updated-copy.png",
-    "scraped_at": "2026-10-11T13:48:11.394822"
+    "scraped_at": "2026-11-16T20:18:40.696398"
+  },
+  {
+    "title": "SILVER BELL JAZZ BAND",
+    "date": "2026-11-23",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "SILVER BELL JAZZ BAND"
+    ],
+    "description": "Silver Bell Jazz Band inspires dancers and listeners all over the Bay Area. The band specializes in ragtime, blues, swing, and dixieland from the early 20th century. They\u2019re known for their authenticity and dedication to the craft as well as their foot-tapping energy.",
+    "ticket_url": "https://www.dawnclub.com/music/silver-bell-jazz-band-k238gj-49-rmt9a-62p4y-nxrh8-t5b22-b5jpk-84976-6yxz6",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1758594491014-PXK6P5I7XE40UEFJM7XN/Silver+Bell+Jazz+Band.jpg",
+    "scraped_at": "2026-11-16T20:18:19.175134"
+  },
+  {
+    "title": "GAVIN HALORAN BAND",
+    "date": "2026-11-24",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "GAVIN HALORAN BAND"
+    ],
+    "description": "Gavin Halloran is a Saxophonist born and raised in the East Bay. Halloran\u2019s inspiration comes from the tenormen of old growing up to the sounds of Coleman Hawkins, Ben Webster and Don Byas. Halloran has worked across the scene now for over a decade with the Bay Area\u2019s very best in Straight Ahead.",
+    "ticket_url": "https://www.dawnclub.com/music/gavin-haloran-1",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1792704018687-Z0P5OEYNKMQSWW7KCW9B/Gavin+Haloran+Promo.jpg",
+    "scraped_at": "2026-11-16T20:18:19.212895"
   },
   {
     "title": "IRISH CHRISTMAS IN AMERICA",
@@ -16749,7 +17837,87 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2959/irish-xmas.jpg",
-    "scraped_at": "2026-10-11T13:48:11.394842"
+    "scraped_at": "2026-11-16T20:18:40.696414"
+  },
+  {
+    "title": "CHARGED PARTICLES",
+    "date": "2026-11-25",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CHARGED PARTICLES"
+    ],
+    "description": "Bay Area-based Charged Particles (www.chargedparticles.com) features pianist Greg Sankovich, bassist Aaron Germain, and drummer Jon Krosnick, and is celebrating their 32nd year of playing funky Latin jazz.\u00a0 They have toured Indonesia, the U.K., Canada, Germany, Switzerland, and Italy, and have performed at famed jazz clubs including Ronnie Scott\u2019s, Birdland, Blues Alley, the Dakota, Yoshi\u2019s, the Deer Head Inn, the Falcon, Nighttown, as well as the Musical Instrument Museum, the Scarborough Jazz ",
+    "ticket_url": "https://www.dawnclub.com/music/charged-particles-1-7fmwa-gebg6-axkg8-3wegw-knpe9-nzhtt-z3cas-mfhpk-7bwf5",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1776377026559-3OSA5G78ERIP101LSEIA/Screenshot+2026-04-16+at+3.03.07%E2%80%AFPM.png",
+    "scraped_at": "2026-11-16T20:18:19.254433"
+  },
+  {
+    "title": "Patrick Wolff\u2019s \u201cSwinging Organ\u201d Quartet",
+    "date": "2026-11-25",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Patrick Wolff\u2019s \u201cSwinging Organ\u201d Quartet"
+    ],
+    "description": "Wednesday, November 25, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/patrick-wolffs-swinging-organ-quartet-2/",
+    "price": "$30",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2023/06/Screen-Shot-2023-06-22-at-3.51.51-PM.png?resize=650%2C621&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.850531"
+  },
+  {
+    "title": "Closed for the Holiday",
+    "date": "2026-11-25",
+    "time": "8:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Closed for the Holiday"
+    ],
+    "description": null,
+    "ticket_url": "https://mrtipplessf.com/calendar/closed-for-the-holiday/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/2018/12/closedholiday.jpg",
+    "scraped_at": "2026-11-16T20:18:38.139544"
+  },
+  {
+    "title": "CLOSED FOR THANKSGIVING",
+    "date": "2026-11-26",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "CLOSED FOR THANKSGIVING"
+    ],
+    "description": "Thursday, November 26, 2026 @ 5pm",
+    "ticket_url": "https://keysjazzbistro.com/event/closed-for-thanksgiving-2/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:29.866671"
+  },
+  {
+    "title": "Closed for the Holiday",
+    "date": "2026-11-26",
+    "time": "8:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Closed for the Holiday"
+    ],
+    "description": null,
+    "ticket_url": "https://mrtipplessf.com/calendar/closed-for-the-holiday-2/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/2018/12/closedholiday.jpg",
+    "scraped_at": "2026-11-16T20:18:38.139552"
   },
   {
     "title": "JASON MARSALIS QUARTET",
@@ -16765,7 +17933,7 @@
     "status": "Live and Streaming",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/1pweudai/s2627_hero_jasonmarsalisquartet.jpg?rxy=0.5072366825394201,0.2655268208407079&v=1dced24fe9dc3f0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:14.102974"
+    "scraped_at": "2026-11-16T20:17:52.178495"
   },
   {
     "title": "SHEILA E.",
@@ -16781,7 +17949,103 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3056/sheila-e.-approved-photo-2-4-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.394883"
+    "scraped_at": "2026-11-16T20:18:40.696445"
+  },
+  {
+    "title": "OAKLANDO",
+    "date": "2026-11-27",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "OAKLANDO"
+    ],
+    "description": "What do you get when you fuse the spicy grooves of Afro-Peru with that funky sound of Oaktown? A ground-breaking, new, energetic genre with distinctive rhythms and innovative melodies that will inspire you to hit the dance floor. Oaklando is the brainchild of SF native Patrick Morehead, the composer and keyboardist who\u2019s played with such talents as Karl Perazzo, Steve Turre, Jerry Gonzalez, and Benny Valarde. Conceived at the Patio de Ochun Studios, with drummer Josh Jones (of Omar Sosa) bassist",
+    "ticket_url": "https://www.dawnclub.com/music/oaklando-latin-wednesdays-6k4cm-dm8gp-e8kzc-slen5-w6zr9-zt9hj-nkzfm-8e3gw-65a6g-3thg3-dm8ef-wrjkx",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1708127155823-PAUUT8OOSPKVCJHQXAO7/Oaklando+Promo.JPG",
+    "scraped_at": "2026-11-16T20:18:19.332057"
+  },
+  {
+    "title": "LATE NIGHT SET: MAX EHRHARDT",
+    "date": "2026-11-27",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT SET: MAX EHRHARDT"
+    ],
+    "description": "Max Ehrhardt is a Oakland based trumpet player and educator dedicated to spreading music and creativity into the Bay-Area community. Growing up in programs like Oaktown Jazz Workshops and earning his undergraduate degree at the University of the Pacific under the instruction of Joe Mazzaferro, Max has accumulated a wealth of musical experience spanning multiple genres and styles.",
+    "ticket_url": "https://www.dawnclub.com/music/31p80rou0psrpeqnfyebdbqhxi5pur-nb2e7-lx5tp-95jp7-as53t-lyn2y-264yh-tkczb-2f68l-3l6pt-hl7el-j3wfp-cg6ay",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1746395242400-1VSR2YA7MF7WL7FJBYBT/Max+Ehrhardt+Promo+%281%29.JPG",
+    "scraped_at": "2026-11-16T20:18:19.389270"
+  },
+  {
+    "title": "\u201cEmily Day & Cosmo Alleycats\u201d",
+    "date": "2026-11-27",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "\u201cEmily Day & Cosmo Alleycats\u201d"
+    ],
+    "description": "Friday, November 27, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/emily-day-cosmo-alleycats-8/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/06/Promo-1-Emily-Day-DRC-2026-HIRES.jpeg?resize=650%2C910&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.888460"
+  },
+  {
+    "title": "Howard Wiley",
+    "date": "2026-11-27",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Howard Wiley"
+    ],
+    "description": "Friday, November 27, 2026 @ 9pm",
+    "ticket_url": "https://keysjazzbistro.com/event/howard-wiley-6/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/10/howard-wiley.jpg?resize=341%2C512&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.933085"
+  },
+  {
+    "title": "Cristian Eck",
+    "date": "2026-11-27",
+    "time": "10:30 PM",
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Cristian Eck"
+    ],
+    "description": "Friday, November 27, 2026 @ 10:30pm",
+    "ticket_url": "https://keysjazzbistro.com/event/cristian-eck-3/",
+    "price": "$20",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/10/IMG_2486.jpeg?resize=650%2C365&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.954570"
+  },
+  {
+    "title": "Adam Shulman Sexet",
+    "date": "2026-11-27",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Adam Shulman Sexet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.804038"
   },
   {
     "title": "KAZEMDE GEORGE TRIO",
@@ -16797,7 +18061,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/zihatqva/s2627_hero_kazemdegeorge.jpg?rxy=0.49526257056949907,0.27084881477895684&v=1dced2dba2991f0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:14.182904"
+    "scraped_at": "2026-11-16T20:17:52.256041"
   },
   {
     "title": "EDMAR CASTA\u00d1EDA / GERM\u00c1N L\u00d3PEZ",
@@ -16813,23 +18077,135 @@
     "status": "Member Discount",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/4steom0j/s2627_hero_edmarcasteneda-germa-nlo-pez.jpg?rxy=0.49376580657325897,0.14045996329185864&v=1dced2514fa67c0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:14.141446"
+    "scraped_at": "2026-11-16T20:17:52.213631"
   },
   {
     "title": "SHEILA E.",
     "date": "2026-11-28",
-    "time": "9:30 PM",
+    "time": "7:30 PM",
     "venue": "Yoshi's",
     "artists": [
       "SHEILA E."
     ],
     "description": null,
-    "ticket_url": "https://www.etix.com/ticket/p/65182363/sheila-esat112826-oakland-yoshis",
+    "ticket_url": "https://www.etix.com/ticket/p/75696839/sheila-esat112826-oakland-yoshis",
     "price": null,
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3056/sheila-e.-approved-photo-2-4-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.394923"
+    "scraped_at": "2026-11-16T20:18:40.696482"
+  },
+  {
+    "title": "ADAM KLIPPLE SOUL JAZZ QUINTET",
+    "date": "2026-11-28",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "ADAM KLIPPLE SOUL JAZZ QUINTET"
+    ],
+    "description": "Adam Klipple, who has been described as \"a standout pianist who has gone to school on McCoy Tyner and Cecil Taylor and earned his degree,\" plays piano, Hammond organ, sampler, and a variety of vintage keyboards. He currently is a member of the legendary jazz rock band Blood, Sweat & Tears. He also currently performs and records with jazz phenom Veronica Swift.",
+    "ticket_url": "https://www.dawnclub.com/music/adam-klipple-quartet-1-swwlf-2redx-gwtbp-9ak3n-p8442-jxlfs-nckgz-ykzks-tgb8m-rttcz-jbwpt-3bnnk-kw3np-mhbk9-2p9h4-ccrkp-tzpjk-cejr9-ln2wg-5pe6f-d22sw-whsmj-9rk74-663re-3pm9w-sral3-hw2tm-ygmxw",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1745545969809-7DUXQPYB4MOHXA2CHHYH/Adam+Klipple+Promo.JPG",
+    "scraped_at": "2026-11-16T20:18:19.434650"
+  },
+  {
+    "title": "LATE NIGHT: JC GRADY TRIO",
+    "date": "2026-11-28",
+    "time": "11:59\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "LATE NIGHT: JC GRADY TRIO"
+    ],
+    "description": "JC Grady is a Bay Area drummer with a broad orbit \u2014 bandleader, collaborator, composer, teacher. Her music finds the through-line between bebop's swing and the raw momentum of punk and dance, held together by an improviser's instinct and a deep respect for the rhythm beneath it all.",
+    "ticket_url": "https://www.dawnclub.com/music/late-night-jc-grady-trio-7jfds-mgjfz-eytdw-4afc6",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1777749388473-DRHQ9DD8CO1UCBHB38GM/Screenshot+2026-05-02+at+12.16.13%E2%80%AFPM.png",
+    "scraped_at": "2026-11-16T20:18:19.488157"
+  },
+  {
+    "title": "Lavay Smith & Her Red Hot Skillet Lickers",
+    "date": "2026-11-28",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Lavay Smith & Her Red Hot Skillet Lickers"
+    ],
+    "description": null,
+    "ticket_url": "https://keysjazzbistro.com/event/lavay-smith-her-red-hot-skillet-lickers-20/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/12/Lavay-2026.jpg?resize=512%2C324&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.977769"
+  },
+  {
+    "title": "Fog City Swing",
+    "date": "2026-11-28",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Fog City Swing"
+    ],
+    "description": "Saturday, November 28, 2026 @ 9pm",
+    "ticket_url": "https://keysjazzbistro.com/event/fog-city-swing-13/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/11/Screenshot-2025-12-02-at-3.17.01-PM.png?resize=650%2C428&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.999437"
+  },
+  {
+    "title": "Late Set: Simon Rowe Organ Trio",
+    "date": "2026-11-28",
+    "time": "10:30 PM",
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Late Set: Simon Rowe Organ Trio"
+    ],
+    "description": "Saturday, November 28, 2026 @ 10:30pm",
+    "ticket_url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-75/",
+    "price": "$20",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2024/12/IMG_4773.jpeg?resize=650%2C978&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.020399"
+  },
+  {
+    "title": "The Ayo Brame Experience",
+    "date": "2026-11-28",
+    "time": "9:00 PM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "The Ayo Brame Experience"
+    ],
+    "description": "&lt;p&gt;Ayo Brame | Ewi &amp; Tenor Clark Sims | Bass Sheldon Alexander | Drums Kevin Person | Keys Darryl Rowe | Vocals Champ Green | Vocals S\u014dLauren\u00a0 | Vocals Special Guest: Tiquan Spence | Tenor Ayo Brame is a 19-year-old EWI (Electronic Wind Instrument), tenor, and soprano saxophonist from Oakland, California. Known for his unique, [&hellip;]&lt;/p&gt;\\n",
+    "ticket_url": "https://mrtipplessf.com/calendar/ayo-brame-quintet/",
+    "price": "$15 \u2013 30",
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/Ayo-Brame-1000138998-scaled.jpg",
+    "scraped_at": "2026-11-16T20:18:38.139562"
+  },
+  {
+    "title": "DMN",
+    "date": "2026-11-28",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "DMN"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.848429"
   },
   {
     "title": "SWING INTO THE HOLIDAYS",
@@ -16845,7 +18221,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/trpd1ann/s2627_hero_caitygyorgy.jpg?rxy=0.5042431545469399,0.342695732945317&v=1dced25286e6a90&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:14.267716"
+    "scraped_at": "2026-11-16T20:17:52.342441"
   },
   {
     "title": "PAUL TAYLOR",
@@ -16861,7 +18237,55 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3016/paul-taylor2-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.394943"
+    "scraped_at": "2026-11-16T20:18:40.696498"
+  },
+  {
+    "title": "The Brad Leali Jazz Quartet ft. Carla Helmbrecht",
+    "date": "2026-11-29",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "The Brad Leali Jazz Quartet ft. Carla Helmbrecht"
+    ],
+    "description": "Sunday, November 29, 2026 @ 5pm",
+    "ticket_url": "https://keysjazzbistro.com/event/the-brad-leali-jazz-quartet-ft-carla-helmbrecht-8/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/03/b-and-c.jpg?resize=343%2C512&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.045152"
+  },
+  {
+    "title": "Stella Heath and her band",
+    "date": "2026-11-29",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Stella Heath and her band"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.906123"
+  },
+  {
+    "title": "JAMES GALLAGHER",
+    "date": "2026-11-30",
+    "time": "8:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "JAMES GALLAGHER"
+    ],
+    "description": "James Gallagher is an American jazz drummer and educator from Northern California, currently living in Manhattan. He is a resident performer at the prestigious SFJazz Center. \u200bAfter attending Berklee College of Music in Boston on a scholarship, James returned to the West Coast, where he quickly began performing regularly around San Francisco with the top Jazz talent, including Marcus Shelby, Larry Vuckovich, Andrew Speight, Eddie Duran, and Dean Reilly. His performances have been featured at wor",
+    "ticket_url": "https://www.dawnclub.com/music/james-gallagher-2",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1792711297124-LPSXWBBTFCQRRRT28G3D/James+Gallagher+Promo+pic.png",
+    "scraped_at": "2026-11-16T20:18:19.524453"
   },
   {
     "title": "Jazz Mafia: Cannonball Show",
@@ -16890,10 +18314,10 @@
     "description": null,
     "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/the-bad-plus/",
     "price": null,
-    "status": null,
+    "status": "Almost Sold Out",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/r0xh2h1p/s2627_hero_thebadplus.jpg?rxy=0.5207075585055813,0.1670699329831032&v=1dced25562af160&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.542046"
+    "scraped_at": "2026-11-16T20:17:58.885169"
   },
   {
     "title": "ISAIAH SHARKEY",
@@ -16909,7 +18333,39 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2960/isaiah-sharkey-copy.jpg",
-    "scraped_at": "2026-10-11T13:48:11.394963"
+    "scraped_at": "2026-11-16T20:18:40.696520"
+  },
+  {
+    "title": "The Nick Rossi Quartet",
+    "date": "2026-12-02",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "The Nick Rossi Quartet"
+    ],
+    "description": "Wednesday, December 2, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/the-nick-rossi-quartet-4/",
+    "price": "$30",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/nick-r.jpg?resize=365%2C512&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.067081"
+  },
+  {
+    "title": "Tomoko Funaki Hard Bop Collective",
+    "date": "2026-12-02",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Tomoko Funaki Hard Bop Collective"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.933571"
   },
   {
     "title": "JAKE SHIMABUKURO",
@@ -16925,7 +18381,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/oiel00yz/s2627_hero_jakeshimabukuro.jpg?rxy=0.5596234224078246,0.3160857632540725&v=1dced2567cc7e20&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.584588"
+    "scraped_at": "2026-11-16T20:17:58.981981"
   },
   {
     "title": "SYLVIA ANDERSON FEAT DARREL WALLS AND MUSIC DIRECTOR CARL WHEELER",
@@ -16941,7 +18397,55 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3041/sylvia--darrel-promo-pic-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.394983"
+    "scraped_at": "2026-11-16T20:18:40.696537"
+  },
+  {
+    "title": "LAU NOAH & ADAM NEELY",
+    "date": "2026-12-03",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "LAU NOAH & ADAM NEELY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/lau-noah-adam-neely/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/amybbnds/s2627_hero_jhl_launoahadamneely.jpg?rxy=0.5251978504943017,0.22028987236559222&v=1dd60980c1dfbd0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:17:58.938817"
+  },
+  {
+    "title": "Jules Broussard",
+    "date": "2026-12-03",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Jules Broussard"
+    ],
+    "description": "Thursday, December 3, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/jules-broussard-7/",
+    "price": "$35",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/Screenshot-2026-01-21-at-8.23.13-PM.png?resize=650%2C659&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.089045"
+  },
+  {
+    "title": "Philippe Vieux Quartet",
+    "date": "2026-12-03",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Philippe Vieux Quartet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.961418"
   },
   {
     "title": "Dani & Debora Gurgel Quarteto feat. Sandy Cressman & Natalie Cressman",
@@ -16973,23 +18477,103 @@
     "status": "Live and Streaming",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/oiel00yz/s2627_hero_jakeshimabukuro.jpg?rxy=0.5596234224078246,0.3160857632540725&v=1dced2567cc7e20&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.622945"
+    "scraped_at": "2026-11-16T20:17:59.121015"
   },
   {
     "title": "DEMOLA THE VIOLINIST",
     "date": "2026-12-04",
-    "time": "9:30 PM",
+    "time": "7:30 PM",
     "venue": "Yoshi's",
     "artists": [
       "DEMOLA THE VIOLINIST"
     ],
     "description": null,
-    "ticket_url": "https://www.etix.com/ticket/p/69474866/demola-the-violinist-fri12426-oakland-yoshis",
+    "ticket_url": "https://www.etix.com/ticket/p/32249244/demola-the-violinist-fri12426-oakland-yoshis",
     "price": null,
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2946/demola-promo-pic-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395024"
+    "scraped_at": "2026-11-16T20:18:40.696568"
+  },
+  {
+    "title": "KASSA OVERALL",
+    "date": "2026-12-04",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "KASSA OVERALL"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/kassa-overall/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/plfhvd3f/s2627_hero_edu_songwriting-kassaoverall.jpg?rxy=0.6524227901747126,0.3480177268835659&v=1dcf8272625d9a0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:17:59.081891"
+  },
+  {
+    "title": "Suzanna Smith",
+    "date": "2026-12-04",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Suzanna Smith"
+    ],
+    "description": "Friday, December 4, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/suzanna-smith-15/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/09/SuzannaSmith-16-hi-res.jpg?resize=650%2C975&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.112119"
+  },
+  {
+    "title": "AgapeSoul",
+    "date": "2026-12-04",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "AgapeSoul"
+    ],
+    "description": "Friday, December 4, 2026 @ 9pm",
+    "ticket_url": "https://keysjazzbistro.com/event/agapesoul-4/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/05/AgapeSoul.jpg?resize=342%2C512&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.133113"
+  },
+  {
+    "title": "Huney Knuckles!",
+    "date": "2026-12-04",
+    "time": "10:30 PM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Huney Knuckles!"
+    ],
+    "description": "&lt;p&gt;Kelyn Crapp | Guitar Tony Peebles | Sax Kevin Wong | Bass Keys Darian Gray | Drums&lt;/p&gt;\\n",
+    "ticket_url": "https://mrtipplessf.com/calendar/huney-knuckles-4/",
+    "price": "$15 \u2013 30",
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/huney-knuckles-2.jpg",
+    "scraped_at": "2026-11-16T20:18:38.139579"
+  },
+  {
+    "title": "Sami Stevens!",
+    "date": "2026-12-04",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Sami Stevens!"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:39.990266"
   },
   {
     "title": "\"KEEP THE MAIN THING THE MAIN THING\" W/ KASSA OVERALL",
@@ -17005,7 +18589,7 @@
     "status": "Member Discount",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/plfhvd3f/s2627_hero_edu_songwriting-kassaoverall.jpg?rxy=0.6524227901747126,0.3480177268835659&v=1dcf8272625d9a0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.659533"
+    "scraped_at": "2026-11-16T20:17:59.204672"
   },
   {
     "title": "JAKE SHIMABUKURO",
@@ -17021,7 +18605,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/oiel00yz/s2627_hero_jakeshimabukuro.jpg?rxy=0.5596234224078246,0.3160857632540725&v=1dced2567cc7e20&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.698274"
+    "scraped_at": "2026-11-16T20:17:59.326418"
   },
   {
     "title": "DEMOLA THE VIOLINIST",
@@ -17037,7 +18621,87 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2946/demola-promo-pic-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395067"
+    "scraped_at": "2026-11-16T20:18:40.696601"
+  },
+  {
+    "title": "LISTENING PARTY W/ JAKE SHIMABUKURO",
+    "date": "2026-12-05",
+    "time": "5:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "LISTENING PARTY W/ JAKE SHIMABUKURO"
+    ],
+    "description": "Discussion + Q&A Session",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/listening-party-jake-shimabukuro/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/oaunhmst/s2627_hero_lp_jakeshimabukuro.jpg?rxy=0.5984455107223058,0.1830442128942937&v=1dd65596647f730&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:17:59.244684"
+  },
+  {
+    "title": "KASSA OVERALL",
+    "date": "2026-12-05",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "KASSA OVERALL"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/kassa-overall/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/plfhvd3f/s2627_hero_edu_songwriting-kassaoverall.jpg?rxy=0.6524227901747126,0.3480177268835659&v=1dcf8272625d9a0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:17:59.285788"
+  },
+  {
+    "title": "A Soulful Christmas Album Release Party The Dynamic Miss Faye Carol",
+    "date": "2026-12-05",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "A Soulful Christmas Album Release Party The Dynamic Miss Faye Carol"
+    ],
+    "description": "Saturday, December 5, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/a-soulful-christmas-album-release-partythe-dynamic-miss-faye-carol/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/11/Keys-12-5-26-update.png?resize=650%2C813&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.153930"
+  },
+  {
+    "title": "Mikailo Kasha Trio",
+    "date": "2026-12-05",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Mikailo Kasha Trio"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:40.048020"
+  },
+  {
+    "title": "Dandha Da Hora Quintet",
+    "date": "2026-12-05",
+    "time": "12:00 AM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "Dandha Da Hora Quintet"
+    ],
+    "description": null,
+    "ticket_url": null,
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": null,
+    "scraped_at": "2026-11-16T20:18:40.077711"
   },
   {
     "title": "JAKE SHIMABUKURO",
@@ -17050,10 +18714,10 @@
     "description": null,
     "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/jake-shimabukuro/",
     "price": null,
-    "status": null,
+    "status": "Almost Sold Out",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/oiel00yz/s2627_hero_jakeshimabukuro.jpg?rxy=0.5596234224078246,0.3160857632540725&v=1dced2567cc7e20&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.736997"
+    "scraped_at": "2026-11-16T20:17:59.411018"
   },
   {
     "title": "DEMOLA THE VIOLINIST",
@@ -17069,7 +18733,55 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2946/demola-promo-pic-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395087"
+    "scraped_at": "2026-11-16T20:18:40.696619"
+  },
+  {
+    "title": "AARON SHAW",
+    "date": "2026-12-06",
+    "time": "6:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "AARON SHAW"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/aaron-shaw/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/iocg12sw/s2627_hero_aaronshaw.jpg?v=1dd5c9fa4e9e3d0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:17:59.451360"
+  },
+  {
+    "title": "Hella Fitzgerald feat.Lilan Kane",
+    "date": "2026-12-06",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Hella Fitzgerald feat.Lilan Kane"
+    ],
+    "description": "Sunday, December 6, 2026 @ 5pm",
+    "ticket_url": "https://keysjazzbistro.com/event/hella-fitzgerald-feat-lilan-kane-2/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/05/HF-Keys-Promo-photo.png?resize=650%2C507&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.176834"
+  },
+  {
+    "title": "The Heeters",
+    "date": "2026-12-06",
+    "time": "6:00 PM",
+    "venue": "Mr. Tipple's",
+    "artists": [
+      "The Heeters"
+    ],
+    "description": "&lt;p&gt;Tom Quell | Guitar Nadav Beary | Drums Lorenzo Loera | Keys Miles Blackwell | Bass Soul, R&amp;B and Funk from the Bay Area, California. Deep grooves, tight three-part harmonies, and songs that will uplift your spirit. The Heeters is comprised of Tom Quell (vocals/guitar), Nadav Beary (drums), and two members of The California Honeydrops [&hellip;]&lt;/p&gt;\\n",
+    "ticket_url": "https://mrtipplessf.com/calendar/the-heeters/2026-12-06/1/",
+    "price": "$15 \u2013 30",
+    "status": null,
+    "series": null,
+    "image_url": "https://mrtipplessf.com/wp-content/uploads/the-heeters-IMG_5256-scaled.jpg",
+    "scraped_at": "2026-11-16T20:18:38.139589"
   },
   {
     "title": "THE JAMES HUNTER SIX - OFF THE FENCE TOUR",
@@ -17088,6 +18800,22 @@
     "scraped_at": "2026-10-11T13:48:11.395108"
   },
   {
+    "title": "THE JAMES HUNTER SIX WITH SPECIAL GUEST OSCAR LADELL",
+    "date": "2026-12-07",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "THE JAMES HUNTER SIX WITH SPECIAL GUEST OSCAR LADELL"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/68156939/the-james-hunter-six-mon12726-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3037/jameshunterphotocreditjimherrington-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.696637"
+  },
+  {
     "title": "SPANISH HARLEM ORCHESTRA",
     "date": "2026-12-08",
     "time": "7:30 PM",
@@ -17101,7 +18829,7 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2888/spanish-harlem-orchestra.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395129"
+    "scraped_at": "2026-11-16T20:18:40.696651"
   },
   {
     "title": "SPANISH HARLEM ORCHESTRA",
@@ -17117,7 +18845,23 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2888/spanish-harlem-orchestra.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395172"
+    "scraped_at": "2026-11-16T20:18:40.696680"
+  },
+  {
+    "title": "Pamela Rose & Wayne De La Cruz: Hammond Organ Party!",
+    "date": "2026-12-09",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Pamela Rose & Wayne De La Cruz: Hammond Organ Party!"
+    ],
+    "description": "Wednesday, December 9, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/pamela-rose-wayne-de-la-cruz-hammond-organ-party-5/",
+    "price": "$30",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/02/Screenshot-2026-02-28-at-11.09.09-AM.png?resize=650%2C701&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.196899"
   },
   {
     "title": "DAVID BENOIT",
@@ -17133,7 +18877,39 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2930/david-benoit-christmas-tribute-to-charlie-brown.jpg",
-    "scraped_at": "2026-10-11T13:48:11.395195"
+    "scraped_at": "2026-11-16T20:18:40.696695"
+  },
+  {
+    "title": "CLOSED FOR PRIVATE EVENT",
+    "date": "2026-12-10",
+    "time": "5:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CLOSED FOR PRIVATE EVENT"
+    ],
+    "description": null,
+    "ticket_url": "https://www.dawnclub.com/music/closed-for-a-private-event-35f2f-wzyan-s55l9-6p9xk-cegh4-akynk-yehpj-kdlha-l3sen-j7ew4-zc7nw",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1792704703024-8ZI40K3QXLWGII9F1ECX/230527-WJA-DawnClub-024.jpg",
+    "scraped_at": "2026-11-16T20:18:19.558133"
+  },
+  {
+    "title": "The Quintet of the Hot Club of San Francisco- celebrating 39 years!",
+    "date": "2026-12-10",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "The Quintet of the Hot Club of San Francisco- celebrating 39 years!"
+    ],
+    "description": "Thursday, December 10, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/the-quintet-of-the-hot-club-of-san-francisco-celebrating-39-years/",
+    "price": "$30",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/11/Le-Jazz-Hot_150-JPG-Hi-Res.jpeg?resize=650%2C813&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.216490"
   },
   {
     "title": "KENNY GARRETT",
@@ -17149,23 +18925,71 @@
     "status": "Live and Streaming",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/gtclmckw/s2627_hero_kennygarrett.jpg?rxy=0.5326816704755023,0.22028987236559222&v=1dced25785d5e30&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.773736"
+    "scraped_at": "2026-11-16T20:17:59.571583"
   },
   {
     "title": "CON FUNK SHUN",
     "date": "2026-12-11",
-    "time": "10:00 PM",
+    "time": "8:00 PM",
     "venue": "Yoshi's",
     "artists": [
       "CON FUNK SHUN"
     ],
     "description": null,
-    "ticket_url": "https://www.etix.com/ticket/p/97204735/con-funk-shun-fri121126-oakland-yoshis",
+    "ticket_url": "https://www.etix.com/ticket/p/80947151/con-funk-shun-fri121126-oakland-yoshis",
     "price": null,
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2985/confunkshun-group-christmas-2-copy.png",
-    "scraped_at": "2026-10-11T13:48:11.395238"
+    "scraped_at": "2026-11-16T20:18:40.696733"
+  },
+  {
+    "title": "CHRISTIAN SANDS TRIO",
+    "date": "2026-12-11",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRISTIAN SANDS TRIO"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/christian-sands-trio/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/deoe1a1k/s2627_hero_jhl_christiansands.jpg?rxy=0.47141697712475306,0.18570103867825657&v=1dd620dd4b4d2a0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:17:59.531360"
+  },
+  {
+    "title": "CLOSED FOR PRIVATE EVENT",
+    "date": "2026-12-11",
+    "time": "5:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CLOSED FOR PRIVATE EVENT"
+    ],
+    "description": null,
+    "ticket_url": "https://www.dawnclub.com/music/closed-for-a-private-event-35f2f-wzyan-s55l9-6p9xk-cegh4-akynk-yehpj-kdlha-l3sen-j7ew4-sebzf",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1792704743721-8LTQU3O4188LRE1H9PV8/230527-WJA-DawnClub-048.jpg",
+    "scraped_at": "2026-11-16T20:18:19.591630"
+  },
+  {
+    "title": "Jazz Mafia\u2019s Holiday Heist",
+    "date": "2026-12-11",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Jazz Mafia\u2019s Holiday Heist"
+    ],
+    "description": "Friday, December 11, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/jazz-mafias-holiday-heist-2/",
+    "price": "$45",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/11/JM-xmas.png?resize=650%2C813&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.241050"
   },
   {
     "title": "ADAM SHULMAN TRIO PLAYS 'A CHARLIE BROWN CHRISTMAS'",
@@ -17181,7 +19005,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/2ouirkvq/s2627_hero_adamshulmantrio.jpg?rxy=0.35905704691164736,0.4225256420190506&v=1dced258c80dae0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.847975"
+    "scraped_at": "2026-11-16T20:17:59.728261"
   },
   {
     "title": "FAMILY MATINEE W/ ADAM SHULMAN TRIO & THE SAN FRANCISCO GIRLS CHORUS",
@@ -17197,23 +19021,87 @@
     "status": "Family Matinee",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/2ylagxvw/s2627_hero_fm_adamshulmantrio.jpg?rxy=0.5207075585055813,0.1990018966125966&v=1dcf8019193a3a0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.809637"
+    "scraped_at": "2026-11-16T20:17:59.648108"
   },
   {
     "title": "CON FUNK SHUN",
     "date": "2026-12-12",
-    "time": "9:30 PM",
+    "time": "7:30 PM",
     "venue": "Yoshi's",
     "artists": [
       "CON FUNK SHUN"
     ],
     "description": null,
-    "ticket_url": "https://www.etix.com/ticket/p/74086042/con-funk-shun-sat121226-oakland-yoshis",
+    "ticket_url": "https://yoshis.com/events/buy-tickets/con-funk-shun-30/detail",
+    "price": null,
+    "status": "Sold Out",
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/2985/confunkshun-group-christmas-2-copy.png",
+    "scraped_at": "2026-11-16T20:18:40.696761"
+  },
+  {
+    "title": "CHRISTIAN SANDS TRIO",
+    "date": "2026-12-12",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRISTIAN SANDS TRIO"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/christian-sands-trio/",
     "price": null,
     "status": null,
     "series": null,
-    "image_url": "https://yoshis.com/userfiles/events/images/2985/confunkshun-group-christmas-2-copy.png",
-    "scraped_at": "2026-10-11T13:48:11.395281"
+    "image_url": "https://www.sfjazz.org/media/deoe1a1k/s2627_hero_jhl_christiansands.jpg?rxy=0.47141697712475306,0.18570103867825657&v=1dd620dd4b4d2a0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:17:59.689352"
+  },
+  {
+    "title": "CLOSED FOR PRIVATE EVENT",
+    "date": "2026-12-12",
+    "time": "5:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CLOSED FOR PRIVATE EVENT"
+    ],
+    "description": null,
+    "ticket_url": "https://www.dawnclub.com/music/closed-for-a-private-event-35f2f-wzyan-s55l9-6p9xk-cegh4-akynk-yehpj-kdlha-l3sen-j7ew4-8dbz8",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1792704763997-K5HNJZD8Q64CSI7I6H04/230527-WJA-DawnClub-026.jpg",
+    "scraped_at": "2026-11-16T20:18:19.624252"
+  },
+  {
+    "title": "Jackie Gage: A Nat King Cole Christmas",
+    "date": "2026-12-12",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Jackie Gage: A Nat King Cole Christmas"
+    ],
+    "description": "Saturday, December 12, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/jackie-gage-merry-christmas-the-songs-of-natalie-cole-nat-king-cole-2/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2024/08/Screenshot-2024-08-19-at-5.35.54%E2%80%AFPM.png?resize=650%2C808&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.272798"
+  },
+  {
+    "title": "Ritmo y Voz: Afro-Cuban Jazz Ignited",
+    "date": "2026-12-12",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Ritmo y Voz: Afro-Cuban Jazz Ignited"
+    ],
+    "description": "Saturday, December 12, 2026 @ 9pm",
+    "ticket_url": "https://keysjazzbistro.com/event/ritmo-y-voz-afro-cuban-jazz-ignited-21/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/03/kai.jpg?resize=512%2C512&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.293816"
   },
   {
     "title": "SFJAZZ HIGH SCHOOL ALL-STARS WINTER CONCERT",
@@ -17228,8 +19116,8 @@
     "price": null,
     "status": "Student Discount",
     "series": null,
-    "image_url": "https://www.sfjazz.org/media/bp0lo3mv/s2627_edu_hero_hsas.jpg?rxy=0.4832884585995781,0.3054417753775747&v=1dcf81ce67d8230&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.884167"
+    "image_url": "https://www.sfjazz.org/media/bp0lo3mv/s2627_edu_hero_hsas.jpg?rxy=0.4832884585995781,0.3054417753775747&v=1dd5c872e8f5a70&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:17:59.805328"
   },
   {
     "title": "CON FUNK SHUN",
@@ -17245,7 +19133,23 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2985/confunkshun-group-christmas-2-copy.png",
-    "scraped_at": "2026-10-11T13:48:11.395322"
+    "scraped_at": "2026-11-16T20:18:40.696790"
+  },
+  {
+    "title": "Lara Louise",
+    "date": "2026-12-13",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "Lara Louise"
+    ],
+    "description": "Sunday, December 13, 2026 @ 5pm",
+    "ticket_url": "https://keysjazzbistro.com/event/lara-louise-8/",
+    "price": "$40",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/01/Screenshot-2026-01-21-at-8.03.09-PM.png?resize=650%2C824&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.316925"
   },
   {
     "title": "SFJAM: FREE COMMUNITY JAM SESSION: JAZZING UP THE HOLIDAYS",
@@ -17261,7 +19165,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/lorfghpu/s12_edu_meganav_sfjam.jpg?v=1dc4f2407b21300&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.950485"
+    "scraped_at": "2026-11-16T20:17:59.847796"
   },
   {
     "title": "MIKE STERN BAND",
@@ -17277,7 +19181,7 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3053/art7087-mike-stern---echoes-and-other-songs-cover-3000x3000-300dpi-rgb-copy.jpg",
-    "scraped_at": "2026-10-11T13:48:11.395344"
+    "scraped_at": "2026-11-16T20:18:40.696804"
   },
   {
     "title": "STELLA COLE",
@@ -17293,23 +19197,39 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/mabl5g13/s2627_hero_stellacole.jpg?rxy=0.5192107945093412,0.37462769657481043&v=1dced259cac9080&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:23.987418"
+    "scraped_at": "2026-11-16T20:17:59.928366"
   },
   {
     "title": "MIKE STERN BAND",
     "date": "2026-12-15",
-    "time": "9:30 PM",
+    "time": "7:30 PM",
     "venue": "Yoshi's",
     "artists": [
       "MIKE STERN BAND"
     ],
     "description": null,
-    "ticket_url": "https://www.etix.com/ticket/p/92707620/mike-stern-tue121526-oakland-yoshis",
+    "ticket_url": "https://www.etix.com/ticket/p/44965021/mike-stern-tue121526-oakland-yoshis",
     "price": null,
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3053/art7087-mike-stern---echoes-and-other-songs-cover-3000x3000-300dpi-rgb-copy.jpg",
-    "scraped_at": "2026-10-11T13:48:11.395386"
+    "scraped_at": "2026-11-16T20:18:40.696833"
+  },
+  {
+    "title": "DTF: DEITCH, TEITEL, FRIBUSH",
+    "date": "2026-12-15",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "DTF: DEITCH, TEITEL, FRIBUSH"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/dtf-deitch-teitel-fribush/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/xjsd24ko/s2627_hero_jhl_deitchteitelfribush.jpg?rxy=0.4802949306070978,0.2841537996245791&v=1dd5cc08f1afe10&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:17:59.889075"
   },
   {
     "title": "THE QUEEN'S CARTOONISTS",
@@ -17325,7 +19245,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/yftjess4/s2627_hero_queenscartonists.jpg?rxy=0.5416622544529431,0.371966699605686&v=1dced25b78594b0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:24.029104"
+    "scraped_at": "2026-11-16T20:18:00.051463"
   },
   {
     "title": "MELBA'S KITCHEN",
@@ -17341,7 +19261,39 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3065/melba-headshot-irene-young.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395407"
+    "scraped_at": "2026-11-16T20:18:40.696847"
+  },
+  {
+    "title": "DTF: DEITCH, TEITEL, FRIBUSH",
+    "date": "2026-12-16",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "DTF: DEITCH, TEITEL, FRIBUSH"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/dtf-deitch-teitel-fribush/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/xjsd24ko/s2627_hero_jhl_deitchteitelfribush.jpg?rxy=0.4802949306070978,0.2841537996245791&v=1dd5cc08f1afe10&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:00.009760"
+  },
+  {
+    "title": "CLOSED FOR PRIVATE EVENT",
+    "date": "2026-12-16",
+    "time": "5:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CLOSED FOR PRIVATE EVENT"
+    ],
+    "description": null,
+    "ticket_url": "https://www.dawnclub.com/music/closed-for-a-private-event-35f2f-wzyan-s55l9-6p9xk-cegh4-akynk-yehpj-kdlha-l3sen-j7ew4-bf3rd",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1792704847073-P6OFGFBJ4K0P502JAFX8/230527-WJA-DawnClub-009.jpg",
+    "scraped_at": "2026-11-16T20:18:19.658505"
   },
   {
     "title": "TRIBUTE TO EDDIE PALMIERI & LA PERFECTA",
@@ -17357,23 +19309,39 @@
     "status": "Dance Floor",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/b2tek2au/s2627_hero_tributetoeddiepalmieri.jpg?rxy=0.5087334465356602,0.35333972082181486&v=1dced25dff5c0f0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:24.073251"
+    "scraped_at": "2026-11-16T20:18:00.130552"
   },
   {
     "title": "ROBERT GLASPER",
     "date": "2026-12-17",
-    "time": "9:30 PM",
+    "time": "7:30 PM",
     "venue": "Yoshi's",
     "artists": [
       "ROBERT GLASPER"
     ],
     "description": null,
-    "ticket_url": "https://www.etix.com/ticket/p/79564460/robert-glasper-thu121726-oakland-yoshis",
+    "ticket_url": "https://www.etix.com/ticket/p/83415029/robert-glasper-thu121726-oakland-yoshis",
     "price": null,
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2905/robert-glasper-2024-credit-todd-cooper-4-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395448"
+    "scraped_at": "2026-11-16T20:18:40.696875"
+  },
+  {
+    "title": "CLOSED FOR PRIVATE EVENT",
+    "date": "2026-12-17",
+    "time": "5:00\u202fPM",
+    "venue": "Dawn Club",
+    "artists": [
+      "CLOSED FOR PRIVATE EVENT"
+    ],
+    "description": null,
+    "ticket_url": "https://www.dawnclub.com/music/closed-for-a-private-event-35f2f-wzyan-s55l9-6p9xk-cegh4-akynk-yehpj-kdlha-l3sen-j7ew4-9y9ly",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://images.squarespace-cdn.com/content/v1/63eebdb2b5694835bdac5b67/1792704895382-YCS0S9ENZD40XIWCTED7/230527-WJA-DawnClub-043.jpg",
+    "scraped_at": "2026-11-16T20:18:19.692379"
   },
   {
     "title": "CYRUS CHESTNUT PLAYS 'A CHARLIE BROWN CHRISTMAS'",
@@ -17389,7 +19357,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/udnecedl/s2627_hero_cyruschestnut.jpg?rxy=0.6325994724383458,0.4057934058483158&v=1dced26305b4420&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:24.114761"
+    "scraped_at": "2026-11-16T20:18:00.213903"
   },
   {
     "title": "BRIAN BLADE & THE FELLOWSHIP BAND",
@@ -17405,23 +19373,39 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/1ujjzmqj/s2627_hero_brianbladethefellowshipband.jpg?rxy=0.5012496265544596,0.26286582387158347&v=1dced24e67b7b50&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:24.150089"
+    "scraped_at": "2026-11-16T20:18:00.249204"
   },
   {
     "title": "ROBERT GLASPER",
     "date": "2026-12-18",
-    "time": "9:30 PM",
+    "time": "7:30 PM",
     "venue": "Yoshi's",
     "artists": [
       "ROBERT GLASPER"
     ],
     "description": null,
-    "ticket_url": "https://www.etix.com/ticket/p/41361052/robert-glasper-fri121826-oakland-yoshis",
+    "ticket_url": "https://www.etix.com/ticket/p/32833455/robert-glasper-fri121826-oakland-yoshis",
     "price": null,
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2905/robert-glasper-2024-credit-todd-cooper-4-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395489"
+    "scraped_at": "2026-11-16T20:18:40.696904"
+  },
+  {
+    "title": "SKYLAR TANG QUARTET",
+    "date": "2026-12-18",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "SKYLAR TANG QUARTET"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/skylar-tang-quartet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/fohh5fb0/s2627_hero_jhl_skylartang.jpg?v=1dd55b188fce3b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:00.173519"
   },
   {
     "title": "BRIAN BLADE & THE FELLOWSHIP BAND",
@@ -17437,7 +19421,7 @@
     "status": "Members Only",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/1ujjzmqj/s2627_hero_brianbladethefellowshipband.jpg?rxy=0.5012496265544596,0.26286582387158347&v=1dced24e67b7b50&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:24.185098"
+    "scraped_at": "2026-11-16T20:18:00.328058"
   },
   {
     "title": "CHRISTMAS WITH THE COUNT BASIE ORCHESTRA",
@@ -17450,10 +19434,10 @@
     "description": null,
     "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/christmas-with-the-count-basie-orchestra/",
     "price": null,
-    "status": null,
+    "status": "Almost Sold Out",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/5pslmio3/s2627_hero_countbasie.jpg?rxy=0.5132237385243806,0.289475793562828&v=1dced264ae67670&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:24.226434"
+    "scraped_at": "2026-11-16T20:18:00.402368"
   },
   {
     "title": "ROBERT GLASPER",
@@ -17469,7 +19453,23 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2905/robert-glasper-2024-credit-todd-cooper-4-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395543"
+    "scraped_at": "2026-11-16T20:18:40.696932"
+  },
+  {
+    "title": "DAVID MURRAY QUARTET",
+    "date": "2026-12-19",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "DAVID MURRAY QUARTET"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/david-murray-quartet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/w21bgykd/s2627_hero_jhl_davidmurrayquartet.jpg?rxy=0.5147205025206207,0.11651099056973858&v=1dd6086b5470ec0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:00.366575"
   },
   {
     "title": "CHRISTMAS WITH THE COUNT BASIE ORCHESTRA",
@@ -17485,7 +19485,7 @@
     "status": "Member Discount",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/5pslmio3/s2627_hero_countbasie.jpg?rxy=0.5132237385243806,0.289475793562828&v=1dced264ae67670&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:24.264130"
+    "scraped_at": "2026-11-16T20:18:00.477745"
   },
   {
     "title": "ROBERT GLASPER",
@@ -17501,7 +19501,39 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/2905/robert-glasper-2024-credit-todd-cooper-4-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395586"
+    "scraped_at": "2026-11-16T20:18:40.696959"
+  },
+  {
+    "title": "DAVID MURRAY QUARTET",
+    "date": "2026-12-20",
+    "time": "6:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "DAVID MURRAY QUARTET"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/david-murray-quartet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/w21bgykd/s2627_hero_jhl_davidmurrayquartet.jpg?rxy=0.5147205025206207,0.11651099056973858&v=1dd6086b5470ec0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:00.517938"
+  },
+  {
+    "title": "RAQUEL JET\u00c9",
+    "date": "2026-12-21",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "RAQUEL JET\u00c9"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/98582485/raquel-jet%C3%A9-mon122126-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3077/raquel-copy.png",
+    "scraped_at": "2026-11-16T20:18:40.696974"
   },
   {
     "title": "MAURICE MOBETTA BROWN HOLIDAY SPECTACULAR",
@@ -17517,23 +19549,23 @@
     "status": "Dance Floor",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/wiwaglqn/s2627_hero_mauricemobettabrown.jpg?v=1dce6d4ee9a7f30&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:24.300444"
+    "scraped_at": "2026-11-16T20:18:00.657326"
   },
   {
     "title": "MINDI ABAIR CHRISTMAS SHOW",
     "date": "2026-12-22",
-    "time": "9:30 PM",
+    "time": "7:30 PM",
     "venue": "Yoshi's",
     "artists": [
       "MINDI ABAIR CHRISTMAS SHOW"
     ],
     "description": null,
-    "ticket_url": "https://www.etix.com/ticket/p/94591307/mindi-abair-christmas-show-tue122226-oakland-yoshis",
+    "ticket_url": "https://www.etix.com/ticket/p/82462098/mindi-abair-christmas-show-tue122226-oakland-yoshis",
     "price": null,
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3017/mindi-abair-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395629"
+    "scraped_at": "2026-11-16T20:18:40.697017"
   },
   {
     "title": "PRE SHOW WINE TASTING + MUSIC EXPERIENCE W/ MINDI ABAIR (SHOW TICKET NOT INCLUDED)",
@@ -17549,7 +19581,23 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3019/mindy-wine-tasting-copy.jpeg",
-    "scraped_at": "2026-10-11T13:48:11.395650"
+    "scraped_at": "2026-11-16T20:18:40.697003"
+  },
+  {
+    "title": "COMBO TEZETA",
+    "date": "2026-12-22",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "COMBO TEZETA"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/combo-tezeta/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/kzolfjz5/s2627_hero_jhl_combotezeta.jpg?rxy=0.49675933456573923,0.1324769723844853&v=1dd6087526fe820&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:00.621637"
   },
   {
     "title": "MARCUS SHELBY NEW ORCHESTRA",
@@ -17565,7 +19613,7 @@
     "status": null,
     "series": null,
     "image_url": "https://www.sfjazz.org/media/trshw0cg/s2627_hero_marcusshelbyneworchestra.jpg?rxy=0.6985738842639061,0.20695564494995952&v=1dced20a978b9b0&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:24.342071"
+    "scraped_at": "2026-11-16T20:18:00.734061"
   },
   {
     "title": "NZURI SOUL: CHRISTMAS IN EGYPT IV - THE GIFT",
@@ -17581,7 +19629,71 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3039/nzuri-christmas-in-egypt-golden-night-gala-copy.png",
-    "scraped_at": "2026-10-11T13:48:11.395672"
+    "scraped_at": "2026-11-16T20:18:40.697030"
+  },
+  {
+    "title": "ALVON JOHNSON",
+    "date": "2026-12-24",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "ALVON JOHNSON"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/55828507/alvon-johnson-thu122426-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3073/alvon-johnson-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697044"
+  },
+  {
+    "title": "LARRY VUCKOVICH ALL-STARS",
+    "date": "2026-12-28",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "LARRY VUCKOVICH ALL-STARS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/83826247/larry-vuckovich-mon122826-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3076/larry-vuckovich-copy.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697057"
+  },
+  {
+    "title": "BONEY JAMES LIVE",
+    "date": "2026-12-29",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "BONEY JAMES LIVE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/53855107/boney-james-tue122926-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/2891/boneyjamesasmprfinal-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697073"
+  },
+  {
+    "title": "BONEY JAMES LIVE",
+    "date": "2026-12-30",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "BONEY JAMES LIVE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/73100265/boney-james-wed123026-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/2891/boneyjamesasmprfinal-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697102"
   },
   {
     "title": "CIMAFUNK",
@@ -17597,7 +19709,39 @@
     "status": "Dance Floor",
     "series": null,
     "image_url": "https://www.sfjazz.org/media/kueo0bws/s2627_hero_cimafunk.jpg?v=1dce6d56bae2670&width=720&height=405&mode=crop&quality=70",
-    "scraped_at": "2026-10-11T13:47:24.377619"
+    "scraped_at": "2026-11-16T20:18:00.771085"
+  },
+  {
+    "title": "New Year\u2019s Eve at \u201cEl Matador!\u201d with Lavay Smith and her Red Hot Skillet Lickers!",
+    "date": "2026-12-31",
+    "time": null,
+    "venue": "Keys Jazz Bistro",
+    "artists": [
+      "New Year\u2019s Eve at \u201cEl Matador!\u201d with Lavay Smith and her Red Hot Skillet Lickers!"
+    ],
+    "description": "6pm-Your VIP ticket includes a champagne reception and all three shows.(7pm, 9pm and 11pm)",
+    "ticket_url": "https://keysjazzbistro.com/event/new-years-eve-at-el-matador-with-lavay-smith-and-her-red-hot-skillet-lickers/",
+    "price": "$50",
+    "status": null,
+    "series": null,
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/03/l-smith-420.jpg?resize=512%2C394&ssl=1",
+    "scraped_at": "2026-11-16T20:18:30.344828"
+  },
+  {
+    "title": "BONEY JAMES LIVE",
+    "date": "2026-12-31",
+    "time": "11:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "BONEY JAMES LIVE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/62068126/boney-james-thu123126-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/2891/boneyjamesasmprfinal-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697131"
   },
   {
     "title": "Patrick Wolff\u2019s \u201cSwinging Organ\u201d Quartet",
@@ -17607,13 +19751,13 @@
     "artists": [
       "Patrick Wolff\u2019s \u201cSwinging Organ\u201d Quartet"
     ],
-    "description": "Wednesday, May 20, 2026 @ 7pm",
-    "ticket_url": "https://keysjazzbistro.com/event/patrick-wolffs-swinging-organ-quartet/",
+    "description": "Wednesday, November 25, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/patrick-wolffs-swinging-organ-quartet-2/",
     "price": "$30",
     "status": null,
     "series": null,
-    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20621'%3E%3C/svg%3E",
-    "scraped_at": "2026-05-08T16:51:08.242539"
+    "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2023/06/Screen-Shot-2023-06-22-at-3.51.51-PM.png?resize=650%2C621&ssl=1",
+    "scraped_at": "2026-11-16T20:18:29.850538"
   },
   {
     "title": "Sherri Roberts feat. Harvie S",
@@ -17632,6 +19776,38 @@
     "scraped_at": "2026-08-27T09:13:03.588494"
   },
   {
+    "title": "PACIFIC MAMBO ORCHESTRA",
+    "date": "2027-01-02",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "PACIFIC MAMBO ORCHESTRA"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/86859693/pacific-mambo-orchestra-sat1227-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3093/pacific-mambo-orchestra---profile-copy-2.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697163"
+  },
+  {
+    "title": "PACIFIC MAMBO ORCHESTRA",
+    "date": "2027-01-03",
+    "time": "7:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "PACIFIC MAMBO ORCHESTRA"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/89313603/pacific-mambo-orchestra-sun1327-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3093/pacific-mambo-orchestra---profile-copy-2.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697193"
+  },
+  {
     "title": "MUSIC MONDAY PRESENTS: SANG SIS!",
     "date": "2027-01-04",
     "time": "8:00 PM",
@@ -17644,8 +19820,8 @@
     "price": null,
     "status": null,
     "series": null,
-    "image_url": "https://yoshis.com/userfiles/events/images/3052/music-monday-1.4.27-copy.png",
-    "scraped_at": "2026-10-11T13:48:11.395694"
+    "image_url": "https://yoshis.com/userfiles/events/images/3052/music-monday-new-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697208"
   },
   {
     "title": "STEVE TURRE QUARTET",
@@ -17661,7 +19837,7 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3064/steveturre-6.jpg",
-    "scraped_at": "2026-10-11T13:48:11.395717"
+    "scraped_at": "2026-11-16T20:18:40.697222"
   },
   {
     "title": "COCO MONTOYA",
@@ -17677,7 +19853,567 @@
     "status": null,
     "series": null,
     "image_url": "https://yoshis.com/userfiles/events/images/3046/coco-2-copy.png",
-    "scraped_at": "2026-10-11T13:48:11.395738"
+    "scraped_at": "2026-11-16T20:18:40.697237"
+  },
+  {
+    "title": "JENNY SCHEINMAN QUINTET",
+    "date": "2027-01-07",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JENNY SCHEINMAN QUINTET"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/jenny-scheinman-quintet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/c10gajlw/s2627_hero_jenny_scheinman_2027.jpg?v=1dd614d76a65050&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.154134"
+  },
+  {
+    "title": "CHRIS BOTTI",
+    "date": "2027-01-07",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRIS BOTTI"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/chris-botti/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1q3bznzm/s2627_hero_chrisbotti.jpg?rxy=0.7212739340017585,0.2868147965937035&v=1dced26b6c360b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.197474"
+  },
+  {
+    "title": "CHRIS BOTTI",
+    "date": "2027-01-08",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRIS BOTTI"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/chris-botti/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1q3bznzm/s2627_hero_chrisbotti.jpg?rxy=0.7212739340017585,0.2868147965937035&v=1dced26b6c360b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.320057"
+  },
+  {
+    "title": "JENNY SCHEINMAN QUINTET",
+    "date": "2027-01-08",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "JENNY SCHEINMAN QUINTET"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/jenny-scheinman-quintet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/c10gajlw/s2627_hero_jenny_scheinman_2027.jpg?v=1dd614d76a65050&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.282877"
+  },
+  {
+    "title": "LALAH HATHAWAY",
+    "date": "2027-01-08",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "LALAH HATHAWAY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/33631077/lalah-hathaway-fri1827-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3078/lalah-photo-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697265"
+  },
+  {
+    "title": "KENDRICK SCOTT QUINTET",
+    "date": "2027-01-09",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "KENDRICK SCOTT QUINTET"
+    ],
+    "description": "with Walter Smith III, Gerald Clayton, Joe Sanders & Marquis Hill",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/kendrick-scott-quintet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/x0sp440i/s2627_hero_jhl_kendrickscottquintet.jpg?v=1dd55b25a4f50b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.433742"
+  },
+  {
+    "title": "CHRIS BOTTI",
+    "date": "2027-01-09",
+    "time": "3:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRIS BOTTI"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/chris-botti/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1q3bznzm/s2627_hero_chrisbotti.jpg?rxy=0.7212739340017585,0.2868147965937035&v=1dced26b6c360b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.396280"
+  },
+  {
+    "title": "LALAH HATHAWAY",
+    "date": "2027-01-09",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "LALAH HATHAWAY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/70102189/lalah-hathaway-sat1927-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3078/lalah-photo-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697293"
+  },
+  {
+    "title": "KENDRICK SCOTT QUINTET",
+    "date": "2027-01-10",
+    "time": "6:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "KENDRICK SCOTT QUINTET"
+    ],
+    "description": "with Walter Smith III, Gerald Clayton, Joe Sanders & Marquis Hill",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/kendrick-scott-quintet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/x0sp440i/s2627_hero_jhl_kendrickscottquintet.jpg?v=1dd55b25a4f50b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.605848"
+  },
+  {
+    "title": "CHRIS BOTTI",
+    "date": "2027-01-10",
+    "time": "3:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRIS BOTTI"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/chris-botti/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1q3bznzm/s2627_hero_chrisbotti.jpg?rxy=0.7212739340017585,0.2868147965937035&v=1dced26b6c360b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.547246"
+  },
+  {
+    "title": "LALAH HATHAWAY",
+    "date": "2027-01-10",
+    "time": "7:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "LALAH HATHAWAY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/70375560/lalah-hathaway-sun11027-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3078/lalah-photo-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697321"
+  },
+  {
+    "title": "CHRIS BOTTI",
+    "date": "2027-01-11",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRIS BOTTI"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/chris-botti/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1q3bznzm/s2627_hero_chrisbotti.jpg?rxy=0.7212739340017585,0.2868147965937035&v=1dced26b6c360b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.724472"
+  },
+  {
+    "title": "CHRIS BOTTI",
+    "date": "2027-01-12",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHRIS BOTTI"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/chris-botti/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/1q3bznzm/s2627_hero_chrisbotti.jpg?rxy=0.7212739340017585,0.2868147965937035&v=1dced26b6c360b0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.764242"
+  },
+  {
+    "title": "ANA POPOVIC",
+    "date": "2027-01-13",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "ANA POPOVIC"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/94926286/ana-popovic-wed11327-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3048/anapromophotob-1-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697336"
+  },
+  {
+    "title": "KURT ROSENWINKEL & GERALD CLAYTON",
+    "date": "2027-01-14",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "KURT ROSENWINKEL & GERALD CLAYTON"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/kurt-rosenwinkel-gerald-clayton/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/mw3nqz25/s2627_hero_kurtrosenwinkelgeraldclayton.jpg?rxy=0.517714030513101,0.2495608390259612&v=1dced26d95b9430&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.841646"
+  },
+  {
+    "title": "ARUN RAMAMURTHY TRIO",
+    "date": "2027-01-14",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "ARUN RAMAMURTHY TRIO"
+    ],
+    "description": "w/ Damon Banks and Sameer Gupta",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/arun-ramamurthy-trio/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/qywgrchh/s2627_hero_jhl_arunramamurthytrio.jpg?rxy=0.4759003371340785,0.11396674251125913&v=1dd620e018e9a90&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.803243"
+  },
+  {
+    "title": "EMMALINE: SINATRA, MY SWEETHEART",
+    "date": "2027-01-15",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "EMMALINE: SINATRA, MY SWEETHEART"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/emmaline-sinatra-my-sweetheart/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/svdeed0k/s2627_hero_emmaline.jpg?rxy=0.516217266516861,0.3666447056674371&v=1dced26e98eeaf0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.957356"
+  },
+  {
+    "title": "LARRY GOLDINGS, PETER BERNSTEIN, BILL STEWART",
+    "date": "2027-01-15",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "LARRY GOLDINGS, PETER BERNSTEIN, BILL STEWART"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/peter-bernstein-larry-goldings-bill-stewart/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/zoeln0lu/s2627_hero_jhl_goldingsbernsteinstewart.jpg?rxy=0.5222043225018214,0.1644089360139787&v=1dd60898d22b130&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:07.918091"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-01-15",
+    "time": "8:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/34931717/tower-of-power-residency-fri11527-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697350"
+  },
+  {
+    "title": "LARRY GOLDINGS, PETER BERNSTEIN, BILL STEWART",
+    "date": "2027-01-16",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "LARRY GOLDINGS, PETER BERNSTEIN, BILL STEWART"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/peter-bernstein-larry-goldings-bill-stewart/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/zoeln0lu/s2627_hero_jhl_goldingsbernsteinstewart.jpg?rxy=0.5222043225018214,0.1644089360139787&v=1dd60898d22b130&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.071024"
+  },
+  {
+    "title": "CHARLES ALTURA / JEREMY PELT ALL-STAR QUINTET",
+    "date": "2027-01-16",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CHARLES ALTURA / JEREMY PELT ALL-STAR QUINTET"
+    ],
+    "description": "w/ Orrin Evans, Buster Williams & Lenny White",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/jeremy-pelt-all-star-quintet-charles-altura/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/i1sbeqox/s2627_hero_jeremypelt-charlesaltura.jpg?rxy=0.5087334465356602,0.2389168511494634&v=1dced27068c2eb0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.031353"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-01-16",
+    "time": "8:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/42138037/tower-of-power-residency-sat11627-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697364"
+  },
+  {
+    "title": "LARRY GOLDINGS, PETER BERNSTEIN, BILL STEWART",
+    "date": "2027-01-17",
+    "time": "6:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "LARRY GOLDINGS, PETER BERNSTEIN, BILL STEWART"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/peter-bernstein-larry-goldings-bill-stewart/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/zoeln0lu/s2627_hero_jhl_goldingsbernsteinstewart.jpg?rxy=0.5222043225018214,0.1644089360139787&v=1dd60898d22b130&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.148346"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-01-17",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/36052526/tower-of-power-residency-sun11727-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697379"
+  },
+  {
+    "title": "ANDY MCKEE",
+    "date": "2027-01-20",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "ANDY MCKEE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/55891079/andy-mckee-wed12027-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/2978/andy-mckee-is-that-guy-awake-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697393"
+  },
+  {
+    "title": "VIJAY IYER & WADADA LEO SMITH",
+    "date": "2027-01-21",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "VIJAY IYER & WADADA LEO SMITH"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/vijay-iyer-wadada-leo-smith/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/hgxhswqb/s2627_hero_wadadaleosmithvijayiyer.jpg?rxy=0.5192107945093412,0.27350981174808126&v=1dced27218c69f0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.240773"
+  },
+  {
+    "title": "ELIANE ELIAS QUARTET",
+    "date": "2027-01-22",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "ELIANE ELIAS QUARTET"
+    ],
+    "description": "(JAN 22-23) Ant\u00f4nio Carlos Jobim Centennial Celebration\n(JAN 24) The Art of Bossa Nova",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/eliane-elias-quartet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/0wol2gp5/s2627_hero_elianeelias.jpg?rxy=0.4279081907386933,0.26789214245690934&v=1dced273f037190&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.315521"
+  },
+  {
+    "title": "MELODIOUS: MUSIC OF ESPERANZA SPALDING",
+    "date": "2027-01-22",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MELODIOUS: MUSIC OF ESPERANZA SPALDING"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/melodious-music-of-esperanza-spalding/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/r3aotcpz/s2627_hero_melodious_v2.jpg?rxy=0.49850356577988525,0.1461853642056428&v=1dd6556b4beaa10&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.278438"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-01-22",
+    "time": "8:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/68912486/tower-of-power-residency-fri12227-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697407"
+  },
+  {
+    "title": "CAITY GYORGY",
+    "date": "2027-01-23",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CAITY GYORGY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/caity-gyorgy/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/yoypzldm/s2627_hero_jhl_caitygyorgy.jpg?rxy=0.48628198659205835,0.2788318056863302&v=1dd608a6d3499a0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.388496"
+  },
+  {
+    "title": "ELIANE ELIAS QUARTET",
+    "date": "2027-01-23",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "ELIANE ELIAS QUARTET"
+    ],
+    "description": "(JAN 22-23) Ant\u00f4nio Carlos Jobim Centennial Celebration\n(JAN 24) The Art of Bossa Nova",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/eliane-elias-quartet/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/0wol2gp5/s2627_hero_elianeelias.jpg?rxy=0.4279081907386933,0.26789214245690934&v=1dced273f037190&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.426897"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-01-23",
+    "time": "8:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/90878116/tower-of-power-residency-sat12327-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697420"
+  },
+  {
+    "title": "ELIANE ELIAS QUARTET",
+    "date": "2027-01-24",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "ELIANE ELIAS QUARTET"
+    ],
+    "description": "(JAN 22-23) Ant\u00f4nio Carlos Jobim Centennial Celebration\n(JAN 24) The Art of Bossa Nova",
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/eliane-elias-quartet/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/0wol2gp5/s2627_hero_elianeelias.jpg?rxy=0.4279081907386933,0.26789214245690934&v=1dced273f037190&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.538440"
+  },
+  {
+    "title": "CAITY GYORGY",
+    "date": "2027-01-24",
+    "time": "6:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "CAITY GYORGY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/caity-gyorgy/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/yoypzldm/s2627_hero_jhl_caitygyorgy.jpg?rxy=0.48628198659205835,0.2788318056863302&v=1dd608a6d3499a0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.503778"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-01-24",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/62527135/tower-of-power-residency-sun12427-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697435"
   },
   {
     "title": "Marco de Carvalho Brazilian Trio ft. Neal Chin & Ami Molinelli",
@@ -17694,6 +20430,278 @@
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2025/04/Marco-de-Carvalho-Brazilian-trio.jpg?resize=512%2C445&ssl=1",
     "scraped_at": "2026-08-27T09:13:03.886339"
+  },
+  {
+    "title": "SFJAM: FREE COMMUNITY JAM SESSION: JOBIM CENTENNIAL",
+    "date": "2027-01-25",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "SFJAM: FREE COMMUNITY JAM SESSION: JOBIM CENTENNIAL"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/education/sfjam/jobim-centennial-kristen-strom/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/lorfghpu/s12_edu_meganav_sfjam.jpg?v=1dc4f2407b21300&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.626378"
+  },
+  {
+    "title": "JON B",
+    "date": "2027-01-25",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "JON B"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/45007296/jon-b-mon12527-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3087/jon-b2-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697448"
+  },
+  {
+    "title": "JON B",
+    "date": "2027-01-26",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "JON B"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/92971779/jon-b-tue12627-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3087/jon-b2-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697462"
+  },
+  {
+    "title": "JON B",
+    "date": "2027-01-27",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "JON B"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/35072197/jon-b-wed12727-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3087/jon-b2-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697489"
+  },
+  {
+    "title": "JON B",
+    "date": "2027-01-28",
+    "time": "9:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "JON B"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/40918823/jon-b-thu12827-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3087/jon-b2-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697528"
+  },
+  {
+    "title": "MASHA CAMPAGNE",
+    "date": "2027-01-29",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "MASHA CAMPAGNE"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/masha-campagne/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/voyg1yyu/s2627_hero_jhl_mashacampagne.jpg?rxy=0.5027463905506997,0.18835790873609878&v=1dd608b00473450&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.662153"
+  },
+  {
+    "title": "TERENCE BLANCHARD",
+    "date": "2027-01-29",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "TERENCE BLANCHARD"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/terence-blanchard/",
+    "price": null,
+    "status": "Member Discount",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/fe1lnumg/s2627_hero_terenceblanchard.jpg?rxy=0.4368887747161341,0.2814928026554546&v=1dced275c80e1d0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.696169"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-01-29",
+    "time": "8:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/84671693/tower-of-power-residency-fri12927-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697544"
+  },
+  {
+    "title": "TERENCE BLANCHARD",
+    "date": "2027-01-30",
+    "time": "7:30 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "TERENCE BLANCHARD"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/terence-blanchard/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/fe1lnumg/s2627_hero_terenceblanchard.jpg?rxy=0.4368887747161341,0.2814928026554546&v=1dced275c80e1d0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.806442"
+  },
+  {
+    "title": "ORCHESTRA GOLD",
+    "date": "2027-01-30",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "ORCHESTRA GOLD"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/orchestra-gold/",
+    "price": null,
+    "status": "Dance Floor",
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/icnpcoci/s2627_hero_jhl_orchestragold.jpg?rxy=0.50573991854318,0.148442954199232&v=1dd609b81704980&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.768319"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-01-30",
+    "time": "8:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/41830879/tower-of-power-residency-sat13027-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697558"
+  },
+  {
+    "title": "TERENCE BLANCHARD",
+    "date": "2027-01-31",
+    "time": "7:00 PM",
+    "venue": "SFJAZZ Center",
+    "artists": [
+      "TERENCE BLANCHARD"
+    ],
+    "description": null,
+    "ticket_url": "https://www.sfjazz.org/tickets/productions/26-27/terence-blanchard/",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://www.sfjazz.org/media/fe1lnumg/s2627_hero_terenceblanchard.jpg?rxy=0.4368887747161341,0.2814928026554546&v=1dced275c80e1d0&width=720&height=405&mode=crop&quality=70",
+    "scraped_at": "2026-11-16T20:18:08.887172"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-01-31",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/87490849/tower-of-power-residency-sun13127-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697572"
+  },
+  {
+    "title": "THE COOKERS",
+    "date": "2027-02-04",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "THE COOKERS"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/79957604/the-cookers-thu2427-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3075/the-cookers-promo-2025.-2-copy.jpeg",
+    "scraped_at": "2026-11-16T20:18:40.697586"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-02-05",
+    "time": "8:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/36462709/tower-of-power-residency-fri2527-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697601"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-02-06",
+    "time": "8:00 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/30720961/tower-of-power-residency-sat2627-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697614"
+  },
+  {
+    "title": "TOWER OF POWER RESIDENCY",
+    "date": "2027-02-07",
+    "time": "7:30 PM",
+    "venue": "Yoshi's",
+    "artists": [
+      "TOWER OF POWER RESIDENCY"
+    ],
+    "description": null,
+    "ticket_url": "https://www.etix.com/ticket/p/68545447/tower-of-power-residency-sun2727-oakland-yoshis",
+    "price": null,
+    "status": null,
+    "series": null,
+    "image_url": "https://yoshis.com/userfiles/events/images/3010/tower-of-power-2026-18x24.jpg",
+    "scraped_at": "2026-11-16T20:18:40.697628"
   },
   {
     "title": "SMOKEHOUSE",
@@ -17719,13 +20727,13 @@
     "artists": [
       "Pamela Rose & Wayne De La Cruz: Hammond Organ Party!"
     ],
-    "description": "Wednesday, July 29, 2026 @ 7pm",
-    "ticket_url": "https://keysjazzbistro.com/event/pamela-rose-wayne-de-la-cruz-hammond-organ-party-2/",
+    "description": "Wednesday, December 9, 2026 @ 7pm",
+    "ticket_url": "https://keysjazzbistro.com/event/pamela-rose-wayne-de-la-cruz-hammond-organ-party-5/",
     "price": "$30",
     "status": null,
     "series": null,
     "image_url": "https://i0.wp.com/keysjazzbistro.com/wp-content/uploads/2026/02/Screenshot-2026-02-28-at-11.09.09-AM.png?resize=650%2C701&ssl=1",
-    "scraped_at": "2026-07-04T02:30:19.088277"
+    "scraped_at": "2026-11-16T20:18:30.196905"
   },
   {
     "title": "DR. PROF. LEONARD KING & GERARD GIBBS \u2018Groovin\u2019 In From Detroit\u2019 feat.Howard Wiley",
